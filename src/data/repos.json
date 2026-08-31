@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-08-31T08:37:44.973Z",
+  "generatedAt": "2026-08-31T09:11:08.347Z",
   "repos": [
+    {
+      "fullName": "agents-universe/agents-universe",
+      "description": "让智能体像人一样学习和工作，共享智能体和项目记忆",
+      "stars": 199,
+      "language": "Python",
+      "url": "https://github.com/agents-universe/agents-universe",
+      "createdAt": "2026-08-18T12:49:42Z"
+    },
+    {
+      "fullName": "SeanEllyJames/deep-research-skill",
+      "description": "让AI Agent 做真正会思考，有判断的深度调研，而不是会摆信息的汇总报告。一个即插即用的 skill 文件。",
+      "stars": 195,
+      "language": "DOC",
+      "url": "https://github.com/SeanEllyJames/deep-research-skill",
+      "createdAt": "2026-08-18T07:04:01Z"
+    },
+    {
+      "fullName": "crunz-ai/nativePDF-structurer",
+      "description": "一个面向大体量数字原生 PDF 的、零 OCR、零模型依赖的文档结构化工具。  ",
+      "stars": 153,
+      "language": "Python",
+      "url": "https://github.com/crunz-ai/nativePDF-structurer",
+      "createdAt": "2026-08-21T02:41:01Z"
+    },
     {
       "fullName": "useagenthq/useagent",
       "description": "Hand off the work. Get back the result. The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work - websites, decks, spreadsheets, reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription.",
@@ -8,6 +32,54 @@
       "language": "TypeScript",
       "url": "https://github.com/useagenthq/useagent",
       "createdAt": "2026-08-29T21:14:31Z"
+    },
+    {
+      "fullName": "itshen/source-reading-methodology",
+      "description": "带 AI 精读大型开源仓库的方法论：四阶段流程、可复用模板、28 条踩坑清单，核心是让每个技术论断都可回溯到源码具体行",
+      "stars": 127,
+      "language": "Python",
+      "url": "https://github.com/itshen/source-reading-methodology",
+      "createdAt": "2026-08-23T02:51:45Z"
+    },
+    {
+      "fullName": "dengzehan666-png/Review-RAG",
+      "description": "面向 Java 面试和 LeetCode Hot100 学习场景，搭建集多格式文档入库、语义检索、知识问答、随机刷题及错题复习于一体的 RAG 系统。系统优先依据个人知识库生成答案，证据不足时调用通用大模型补充，并通过人工确认机制将优质回答沉淀回知识库。",
+      "stars": 120,
+      "language": "Python",
+      "url": "https://github.com/dengzehan666-png/Review-RAG",
+      "createdAt": "2026-08-21T10:33:56Z"
+    },
+    {
+      "fullName": "lxcshine/zilan",
+      "description": "知澜 — 知识汇聚成澜：RAG、Agent 推理与自动Wiki一体化的智能知识中枢",
+      "stars": 106,
+      "language": "Go",
+      "url": "https://github.com/lxcshine/zilan",
+      "createdAt": "2026-08-18T13:38:59Z"
+    },
+    {
+      "fullName": "liangdabiao/deepseek-v4-flash-vision-video-rag",
+      "description": "DeepSeek V4-Flash Vision Video RAG 让 AI 真正\"看懂\" 一段视频，然后你对它提问：它告诉你答案、答案发生在 第几分几秒，并切出那一段的可播放片段和关键帧给你核对。  基于 DeepSeek 视觉大模型 deepseek-v4-flash-vision-exp 的视频理解与问答 （video RAG）agent skill。先按时间轴抽帧阅读、建立索引（一次性），再对问题做 本地粗筛 → 视觉精排 → 深读回答；回答带 [MM:SS] 时间戳引用，自动生成 自包含 HTML 预览页（内嵌可播放片段 + 关键帧 + 答案），双击浏览器即看。",
+      "stars": 58,
+      "language": "Python",
+      "url": "https://github.com/liangdabiao/deepseek-v4-flash-vision-video-rag",
+      "createdAt": "2026-08-24T09:46:05Z"
+    },
+    {
+      "fullName": "liangdabiao/deepseek-v4-flash-vision-rag",
+      "description": "DeepSeek V4-Flash Vision RAG 让 AI 真正\"看懂\" 一份 PDF，然后你对它提问：它告诉你答案、答案在第几页， 并把那一页的原图展示出来给你核对。  基于 DeepSeek 视觉大模型 deepseek-v4-flash-vision-exp 的 PDF 深度问答与检索 （vision RAG）agent skill。支持文字版 PDF，也支持扫描版；能看懂 图表、表格、代码块、公式，而不只是认字。",
+      "stars": 57,
+      "language": "Python",
+      "url": "https://github.com/liangdabiao/deepseek-v4-flash-vision-rag",
+      "createdAt": "2026-08-24T06:22:33Z"
+    },
+    {
+      "fullName": "KinGao294/grok-bot-orange-book",
+      "description": "Grok Bot 橙皮书《把一支 AI 团队装进口袋》：从入门到进阶 · 多智能体协作 · Routine · 省钱与自动化",
+      "stars": 56,
+      "language": "DOC",
+      "url": "https://github.com/KinGao294/grok-bot-orange-book",
+      "createdAt": "2026-08-23T16:35:48Z"
     },
     {
       "fullName": "raamonp/rl-gym-orchestrator",

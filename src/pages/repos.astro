@@ -17,11 +17,11 @@ function ageDays(createdAt: string): number {
 
 <BaseLayout
   title="REPO_RADAR // AI 新锐榜"
-  description={`近 7 天创建、星数 ≥${MIN_STARS} 的 AI 新锐开源项目榜`}
+  description={`近 14 天创建、星数 ≥${MIN_STARS} 的 AI 新锐开源项目榜`}
 >
   <header class="hud-bar" role="status">
     <span class="hud-bar__status">RADAR_ACTIVE // 新锐扫描中</span>
-    <span>WINDOW: 近 7 天创建</span>
+    <span>WINDOW: 近 14 天创建</span>
     <span>THRESHOLD: ≥{MIN_STARS} 星</span>
     <span>DETECTED: {data.repos.length}</span>
     <span>LAST_SYNC: {lastSync}</span>
@@ -65,7 +65,7 @@ function ageDays(createdAt: string): number {
   </section>
 
   <p class="note mono">
-    // 榜单规则：GitHub Search API，topic:llm + topic:ai，近 7 天创建，按星数降序，上限 20。每日快照覆盖更新。
+    // 榜单规则：GitHub Search API，3 通道（topic:llm+topic:ai / 大模型 / 智能体），近 14 天创建，≥50 星，按星数降序，上限 20。每日快照覆盖更新。
   </p>
 </BaseLayout>
 
