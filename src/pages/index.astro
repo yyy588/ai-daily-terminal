@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { loadSiteData, SOURCE_NAMES } from '../lib/site';
+import { internalHref } from '../lib/href';
 
 const data = loadSiteData();
 const latest = data.digests[0];
@@ -62,7 +63,7 @@ function timeOf(pubDate: string): string {
 
   {latest && latest.entries.length > 10 && (
     <p class="more-link mono">
-      <a href={`/news/${latest.date}/`}>[ 查看当日全部 {latest.entries.length} 条 → ]</a>
+      <a href={internalHref(`/news/${latest.date}/`)}>[ 查看当日全部 {latest.entries.length} 条 → ]</a>
     </p>
   )}
 
@@ -72,14 +73,14 @@ function timeOf(pubDate: string): string {
       {
         data.digests.slice(0, 8).map((digest) => (
           <li>
-            <a href={`/news/${digest.date}/`}>
+            <a href={internalHref(`/news/${digest.date}/`)}>
               [ 核心文档 ] {digest.date} — {digest.entries.length} 条
             </a>
           </li>
         ))
       }
     </ul>
-    <p class="more-link mono"><a href="/news/">[ 进入日报流 → ]</a></p>
+    <p class="more-link mono"><a href={internalHref('/news/')}>[ 进入日报流 → ]</a></p>
   </section>
 </BaseLayout>
 

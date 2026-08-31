@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { loadSiteData } from '../../lib/site';
+import { internalHref } from '../../lib/href';
 
 const data = loadSiteData();
 
@@ -40,7 +41,7 @@ const months = [...new Set(data.digests.map((d) => d.date.slice(0, 7)))];
                   <span>{digest.entries.length} 条</span>
                 </div>
                 <h3 class="doc-card__title">
-                  <a href={`/news/${digest.date}/`}>
+                  <a href={internalHref(`/news/${digest.date}/`)}>
                     {digest.entries[0]?.title ?? '（空）'}
                   </a>
                 </h3>

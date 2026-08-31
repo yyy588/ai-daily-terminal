@@ -1,24 +1,28 @@
-/* ========== 设计令牌：赛博朋克 HUD ========== */
+/* ========== 设计令牌：实验室白（明亮主题） ========== */
 :root {
-  /* 底色系：hex2077 同款纯黑起点 */
-  --color-bg: #020202;
-  --color-surface: #0a0a0f;
-  --color-surface-raised: #101018;
-  --color-border: #1e1e2a;
-  --color-border-active: #2e2e44;
+  /* 底色系：纸感暖白 */
+  --color-bg: #f7f6f2;
+  --color-surface: #ffffff;
+  --color-surface-raised: #fdfcfa;
+  --color-border: #e4e1d8;
+  --color-border-active: #c9c4b4;
 
   /* 文字 */
-  --color-text: #d8d8e8;
-  --color-text-dim: #6a6a80;
-  --color-text-faint: #3d3d52;
+  --color-text: #23231f;
+  --color-text-dim: #6d6a5e;
+  --color-text-faint: #a8a496;
 
-  /* 语义色 */
-  --color-primary: #00f0c8;        /* 青绿主光 */
-  --color-primary-dim: #008a78;
-  --color-accent: #ff3b8d;         /* 品红强调 */
-  --color-warn: #ffb800;
+  /* 语义色：深青单色强调（替代霓虹） */
+  --color-primary: #0e7a6c;
+  --color-primary-dim: #b3d8d2;
+  --color-primary-soft: #e8f2f0;
+  --color-accent: #b3550e;
+  --color-warn: #9a6b00;
 
-  /* 字体：等宽贯穿 HUD 气质 */
+  /* 链接悬停光晕（浅色下收敛为底色） */
+  --link-hover-glow: var(--color-primary-soft);
+
+  /* 字体：等宽保留终端秩序感 */
   --font-mono: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas,
     'Courier New', monospace;
   --font-sans: 'IBM Plex Sans', 'Noto Sans SC', system-ui, sans-serif;
@@ -34,9 +38,28 @@
   --duration-fast: 150ms;
   --duration-normal: 300ms;
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
 
-  /* 扫描线强度 */
-  --scanline-opacity: 0.04;
+/* 深色模式自动跟随（保留原赛博风格的克制版） */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #17181c;
+    --color-surface: #1d1f24;
+    --color-surface-raised: #23252b;
+    --color-border: #2e3138;
+    --color-border-active: #43474f;
+
+    --color-text: #e2e2e8;
+    --color-text-dim: #9a9aa8;
+    --color-text-faint: #63636f;
+
+    --color-primary: #35c2ad;
+    --color-primary-dim: #1e5a51;
+    --color-primary-soft: #1a2e2b;
+    --color-accent: #e07840;
+
+    --link-hover-glow: rgba(53, 194, 173, 0.12);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -54,7 +77,6 @@
 
 html {
   background: var(--color-bg);
-  color-scheme: dark;
 }
 
 body {
@@ -64,42 +86,24 @@ body {
   line-height: 1.7;
   color: var(--color-text);
   background:
-    linear-gradient(transparent 0%, transparent 100%),
-    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(0, 240, 200, 0.06), transparent),
+    radial-gradient(ellipse 80% 40% at 50% -8%, var(--color-primary-soft), transparent),
     var(--color-bg);
   min-height: 100vh;
-}
-
-/* 全屏扫描线（纯装饰，覆盖层不拦截交互） */
-body::after {
-  content: '';
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  background: repeating-linear-gradient(
-    to bottom,
-    transparent 0,
-    transparent 2px,
-    rgba(255, 255, 255, var(--scanline-opacity)) 3px,
-    transparent 4px
-  );
-  z-index: 9999;
 }
 
 a {
   color: var(--color-primary);
   text-decoration: none;
-  transition: color var(--duration-fast) ease, text-shadow var(--duration-fast) ease;
+  transition: color var(--duration-fast) ease, background var(--duration-fast) ease;
 }
 
 a:hover {
-  color: #fff;
-  text-shadow: 0 0 12px rgba(0, 240, 200, 0.8);
+  color: var(--color-text);
 }
 
 ::selection {
   background: var(--color-primary);
-  color: var(--color-bg);
+  color: var(--color-surface);
 }
 
 /* ========== 布局骨架 ========== */
@@ -113,7 +117,7 @@ a:hover {
   font-family: var(--font-mono);
 }
 
-/* HUD 系统状态条 */
+/* HUD 系统状态条：明亮的仪器面板 */
 .hud-bar {
   display: flex;
   flex-wrap: wrap;
@@ -122,7 +126,8 @@ a:hover {
   justify-content: space-between;
   padding: var(--space-s) var(--space-m);
   border: 1px solid var(--color-border);
-  background: linear-gradient(180deg, rgba(0, 240, 200, 0.04), transparent);
+  border-radius: 2px;
+  background: var(--color-surface);
   font-family: var(--font-mono);
   font-size: 0.75rem;
   letter-spacing: 0.08em;
@@ -131,15 +136,16 @@ a:hover {
 
 .hud-bar__status {
   color: var(--color-primary);
+  font-weight: 600;
 }
 
 .hud-bar__status::before {
   content: '● ';
-  animation: blink 2s steps(1) infinite;
+  animation: pulse 2.4s ease-in-out infinite;
 }
 
-@keyframes blink {
-  50% { opacity: 0.2; }
+@keyframes pulse {
+  50% { opacity: 0.35; }
 }
 
 /* 导航 */
@@ -150,7 +156,7 @@ a:hover {
   font-family: var(--font-mono);
   font-size: 0.8rem;
   letter-spacing: 0.1em;
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 2px solid var(--color-text);
   margin-bottom: var(--space-l);
 }
 
@@ -163,7 +169,7 @@ a:hover {
   color: var(--color-primary);
 }
 
-/* 章节标题：// 前缀 + 发光 */
+/* 章节标题：// 前缀保留 */
 .section-title {
   font-family: var(--font-mono);
   font-size: 0.8rem;
@@ -186,17 +192,18 @@ a:hover {
   content: '';
   flex: 1;
   height: 1px;
-  background: linear-gradient(90deg, var(--color-border), transparent);
+  background: var(--color-border);
 }
 
-/* 核心文档卡片 */
+/* 核心文档卡片：白卡 + 左侧色轨 */
 .doc-card {
   position: relative;
   border: 1px solid var(--color-border);
+  border-radius: 2px;
   background: var(--color-surface);
   padding: var(--space-m) var(--space-m) var(--space-m) var(--space-l);
   transition: border-color var(--duration-fast) ease,
-    background var(--duration-fast) ease,
+    box-shadow var(--duration-fast) ease,
     transform var(--duration-normal) var(--ease-out-expo);
 }
 
@@ -206,21 +213,20 @@ a:hover {
   left: 0;
   top: 0;
   bottom: 0;
-  width: 2px;
+  width: 3px;
+  border-radius: 2px 0 0 2px;
   background: var(--color-primary-dim);
-  transition: background var(--duration-fast) ease,
-    box-shadow var(--duration-fast) ease;
+  transition: background var(--duration-fast) ease;
 }
 
 .doc-card:hover {
   border-color: var(--color-border-active);
-  background: var(--color-surface-raised);
-  transform: translateX(2px);
+  box-shadow: 0 4px 16px rgba(35, 35, 31, 0.08);
+  transform: translateY(-1px);
 }
 
 .doc-card:hover::before {
   background: var(--color-primary);
-  box-shadow: 0 0 16px var(--color-primary);
 }
 
 .doc-card__tag {
@@ -242,7 +248,8 @@ a:hover {
 }
 
 .doc-card__title a:hover {
-  color: #fff;
+  background: var(--link-hover-glow);
+  color: var(--color-primary);
 }
 
 .doc-card__meta {
@@ -265,6 +272,7 @@ a:hover {
   display: inline-block;
   padding: 0 0.4em;
   border: 1px solid var(--color-border-active);
+  border-radius: 2px;
   color: var(--color-text-dim);
   font-size: 0.65rem;
 }

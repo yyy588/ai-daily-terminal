@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { loadSiteData, SOURCE_NAMES } from '../../lib/site';
+import { internalHref } from '../../lib/href';
 
 // 静态生成：每个日期产出一页
 export function getStaticPaths() {
@@ -15,7 +16,7 @@ const data = loadSiteData();
 const digest = data.digests.find((d) => d.date === date);
 
 if (digest === undefined) {
-  return Astro.redirect('/news/');
+  return Astro.redirect(internalHref('/news/'));
 }
 
 function timeOf(pubDate: string): string {
@@ -39,9 +40,9 @@ const older = data.digests[idx + 1];
   </header>
 
   <nav class="day-nav mono" aria-label="前后日导航">
-    {older ? <a href={`/news/${older.date}/`}>[← {older.date}]</a> : <span class="day-nav__pad" />}
-    <a href="/news/">[ 存档索引 ]</a>
-    {newer ? <a href={`/news/${newer.date}/`}>[{newer.date} →]</a> : <span class="day-nav__pad" />}
+    {older ? <a href={internalHref(`/news/${older.date}/`)}>[← {older.date}]</a> : <span class="day-nav__pad" />}
+    <a href={internalHref('/news/')}>[ 存档索引 ]</a>
+    {newer ? <a href={internalHref(`/news/${newer.date}/`)}>[{newer.date} →]</a> : <span class="day-nav__pad" />}
   </nav>
 
   <section aria-label={`《${digest.date}》全部条目`}>

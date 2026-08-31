@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2026-08-31T03:14:09.576Z",
+  "generatedAt": "2026-08-31T07:26:17.930Z",
   "digests": [
+    {
+      "date": "2026-08-31",
+      "entries": [
+        {
+          "id": "https://www.qbitai.com/2026/08/481893.html",
+          "title": "「GPT-6」灰测demo刷屏！周四发布在即",
+          "link": "https://www.qbitai.com/2026/08/481893.html",
+          "pubDate": "Mon, 31 Aug 2026 04:47:26 +0000",
+          "summary": "核弹爆炸",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/08/481759.html",
+          "title": "OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了",
+          "link": "https://www.qbitai.com/2026/08/481759.html",
+          "pubDate": "Mon, 31 Aug 2026 03:24:34 +0000",
+          "summary": "什么样的AI业务，英伟达GPU和谷歌TPU搞不定，非得用Mac",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/08/481750.html",
+          "title": "全国第三，公司第二，“初创黑马”灵犀智涌用ROSS Harness把机器人送进工业具身智能第一梯队",
+          "link": "https://www.qbitai.com/2026/08/481750.html",
+          "pubDate": "Mon, 31 Aug 2026 03:11:46 +0000",
+          "summary": "灵犀智涌用一台由Demo级本体组装而成的机器人，成为工业场景赛除行业头部企业外唯一获奖的机器人公司。",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/08/481475.html",
+          "title": "AQuA：让量化研究 Agent 持续进化，也让回测结果经得起检验",
+          "link": "https://www.qbitai.com/2026/08/481475.html",
+          "pubDate": "Mon, 31 Aug 2026 03:01:29 +0000",
+          "summary": "自主研究系统的上限，不只取决于模型有多聪明，也取决于系统能否分辨什么是新证据，什么只是一次偶然的高分。",
+          "sources": [
+            "qbitai"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-29",
       "entries": [
