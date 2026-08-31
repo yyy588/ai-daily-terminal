@@ -1,0 +1,34 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = '每日 AI 要闻终端 // 信息降噪中' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#020202" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="layout">
+      <nav class="nav" aria-label="主导航">
+        <a href="/">AI_TERMINAL</a>
+        <a href="/news/">DAILY_FEED</a>
+      </nav>
+      <slot />
+      <footer class="footer">
+        LINK_STABLE // AI DAILY TERMINAL v0.1 // 数据源：量子位（RSS）
+      </footer>
+    </div>
+  </body>
+</html>

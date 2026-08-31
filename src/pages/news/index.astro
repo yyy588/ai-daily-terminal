@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { loadSiteData } from '../../lib/site';
+
+const data = loadSiteData();
+
+// 月份锚点：YYYY-MM 分组（倒序）
+const months = [...new Set(data.digests.map((d) => d.date.slice(0, 7)))];
+---
+
+<BaseLayout title="DAILY_FEED // AI 日报流" description="按日期倒序的 AI 要闻日报流">
+  <header class="hud-bar" role="status">
+    <span class="hud-bar__status">FEED_STREAM // 数据传输中</span>
+    <span>TOTAL_DAYS: {data.digests.length}</span>
+    <span>TOTAL_ITEMS: {data.digests.reduce((n, d) => n + d.entries.length, 0)}</span>
+  </header>
+
+  {
+    months.length > 1 && (
+      <nav class="month-jump mono" aria-label="按月跳转">
+        {months.map((m) => (
+          <a href={`#month-${m}`}>{m}</a>
+        ))}
+      </nav>
+    )
+  }
+
+  {
+    months.map((month) => {
+      const monthDigests = data.digests.filter((d) => d.date.startsWith(month));
+      return (
+        <section id={`month-${month}`} aria-label={`${month} 日报`}>
+          <h2 class="section-title">{month} // 检修日志</h2>
+          <div class="digest-grid">
+            {monthDigests.map((digest) => (
+              <article class="doc-card">
+                <div class="doc-card__meta">
+                  <span class="doc-card__tag">[ 核心文档 ]</span>
+                  <span>{digest.date}</span>
+                  <span>{digest.entries.length} 条</span>
+                </div>
+                <h3 class="doc-card__title">
+                  <a href={`/news/${digest.date}/`}>
+                    {digest.entries[0]?.title ?? '（空）'}
+                  </a>
+                </h3>
+                {digest.entries[1] && (
+                  <p class="doc-card__summary">{digest.entries[1].title}</p>
+                )}
+              </article>
+            ))}
+          </div>
+        </section>
+      );
+    })
+  }
+
+  {
+    data.digests.length === 0 && (
+      <div class="doc-card">
+        <p class="doc-card__summary">// 暂无存档。等待首次抓取。</p>
+      </div>
+    )
+  }
+</BaseLayout>
+
+<style>
+  .month-jump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-m);
+    font-size: 0.75rem;
+    padding: var(--space-m) 0;
+  }
+
+  .digest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    gap: var(--space-s);
+    margin-bottom: var(--space-l);
+  }
+</style>

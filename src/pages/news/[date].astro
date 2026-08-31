@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { loadSiteData, SOURCE_NAMES } from '../../lib/site';
+
+// 静态生成：每个日期产出一页
+export function getStaticPaths() {
+  const data = loadSiteData();
+  return data.digests.map((digest) => ({
+    params: { date: digest.date },
+  }));
+}
+
+const { date } = Astro.params;
+const data = loadSiteData();
+const digest = data.digests.find((d) => d.date === date);
+
+if (digest === undefined) {
+  return Astro.redirect('/news/');
+}
+
+function timeOf(pubDate: string): string {
+  const ts = Date.parse(pubDate);
+  return Number.isNaN(ts)
+    ? '--:--'
+    : new Date(ts + 8 * 3600_000).toISOString().slice(11, 16);
+}
+
+// 相邻日导航
+const idx = data.digests.indexOf(digest);
+const newer = data.digests[idx - 1];
+const older = data.digests[idx + 1];
+---
+
+<BaseLayout title={`AI 日报 // ${digest.date}`} description={`${digest.date} 的 AI 要闻存档，共 ${digest.entries.length} 条`}>
+  <header class="hud-bar" role="status">
+    <span class="hud-bar__status">DOC_RETRIEVED // 神经连接已建立</span>
+    <span>DATE: {digest.date}</span>
+    <span>ITEMS: {digest.entries.length}</span>
+  </header>
+
+  <nav class="day-nav mono" aria-label="前后日导航">
+    {older ? <a href={`/news/${older.date}/`}>[← {older.date}]</a> : <span class="day-nav__pad" />}
+    <a href="/news/">[ 存档索引 ]</a>
+    {newer ? <a href={`/news/${newer.date}/`}>[{newer.date} →]</a> : <span class="day-nav__pad" />}
+  </nav>
+
+  <section aria-label={`《${digest.date}》全部条目`}>
+    <h1 class="section-title">核心文档 // {digest.date}</h1>
+    <ol class="day-list">
+      {
+        digest.entries.map((entry, i) => (
+          <li class="doc-card">
+            <article>
+              <div class="doc-card__meta">
+                <span class="day-list__index mono">{String(i + 1).padStart(2, '0')}</span>
+                <span>{timeOf(entry.pubDate)}</span>
+                {entry.sources.map((s) => (
+                  <span class="source-chip">{SOURCE_NAMES[s] ?? s}</span>
+                ))}
+              </div>
+              <h2 class="doc-card__title">
+                <a href={entry.link} target="_blank" rel="noopener noreferrer">
+                  {entry.title} <span class="ext-link" aria-hidden="true">↗</span>
+                </a>
+              </h2>
+              {entry.summary && <p class="doc-card__summary">{entry.summary}</p>}
+            </article>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+</BaseLayout>
+
+<style>
+  .day-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-m);
+    padding: var(--space-m) 0;
+    font-size: 0.75rem;
+  }
+
+  .day-nav__pad {
+    visibility: hidden;
+  }
+
+  .day-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+  }
+
+  .day-list__index {
+    color: var(--color-accent);
+    font-size: 0.7rem;
+  }
+
+  .ext-link {
+    font-size: 0.75em;
+    opacity: 0;
+    transition: opacity var(--duration-fast) ease;
+  }
+
+  .doc-card__title a:hover .ext-link {
+    opacity: 1;
+  }
+</style>

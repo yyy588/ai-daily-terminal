@@ -1,0 +1,128 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { loadSiteData, SOURCE_NAMES } from '../lib/site';
+
+const data = loadSiteData();
+const latest = data.digests[0];
+const topEntries = latest ? latest.entries.slice(0, 10) : [];
+
+function timeOf(pubDate: string): string {
+  const ts = Date.parse(pubDate);
+  return Number.isNaN(ts)
+    ? '--:--'
+    : new Date(ts + 8 * 3600_000).toISOString().slice(11, 16);
+}
+---
+
+<BaseLayout title="AI_TERMINAL // 每日要闻">
+  <header class="hud-bar" role="status">
+    <span class="hud-bar__status">SYSTEM_ONLINE // 神经链路稳定</span>
+    <span>LAST_SYNC: {data.generatedAt ? new Date(data.generatedAt).toISOString().slice(0, 16).replace('T', ' ') + 'Z' : 'STANDBY'}</span>
+    <span>ARCHIVE_DAYS: {data.digests.length}</span>
+    <span>SIGNAL: {latest ? `${latest.entries.length} ITEMS` : 'NO_DATA'}</span>
+  </header>
+
+  <section aria-labelledby="today-heading">
+    <h1 class="section-title" id="today-heading">
+      {latest ? `今日要闻 // ${latest.date}` : '待机模式 // 等待首次同步'}
+    </h1>
+
+    {
+      topEntries.length === 0 ? (
+        <div class="doc-card">
+          <p class="doc-card__summary">
+            // 无数据。运行 <code class="mono">npm run fetch-news</code> 触发首次抓取，或等待 GitHub Actions 定时任务。
+          </p>
+        </div>
+      ) : (
+        <ol class="top-list">
+          {topEntries.map((entry, i) => (
+            <li class="doc-card top-list__item">
+              <article>
+                <div class="doc-card__meta">
+                  <span class="top-list__index mono">{String(i + 1).padStart(2, '0')}</span>
+                  <span>{timeOf(entry.pubDate)}</span>
+                  {entry.sources.map((s) => (
+                    <span class="source-chip">{SOURCE_NAMES[s] ?? s}</span>
+                  ))}
+                </div>
+                <h2 class="doc-card__title">
+                  <a href={entry.link} target="_blank" rel="noopener noreferrer">
+                    {entry.title}
+                  </a>
+                </h2>
+                {entry.summary && <p class="doc-card__summary">{entry.summary}</p>}
+              </article>
+            </li>
+          ))}
+        </ol>
+      )
+    }
+  </section>
+
+  {latest && latest.entries.length > 10 && (
+    <p class="more-link mono">
+      <a href={`/news/${latest.date}/`}>[ 查看当日全部 {latest.entries.length} 条 → ]</a>
+    </p>
+  )}
+
+  <section aria-labelledby="archive-heading">
+    <h2 class="section-title" id="archive-heading">检修日志存档</h2>
+    <ul class="archive-list mono">
+      {
+        data.digests.slice(0, 8).map((digest) => (
+          <li>
+            <a href={`/news/${digest.date}/`}>
+              [ 核心文档 ] {digest.date} — {digest.entries.length} 条
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="more-link mono"><a href="/news/">[ 进入日报流 → ]</a></p>
+  </section>
+</BaseLayout>
+
+<style>
+  .top-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+  }
+
+  .top-list__item {
+    counter-increment: top;
+  }
+
+  .top-list__index {
+    color: var(--color-accent);
+    font-size: 0.7rem;
+  }
+
+  .archive-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 var(--space-m);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+    font-size: 0.8rem;
+  }
+
+  .archive-list a {
+    color: var(--color-text-dim);
+  }
+
+  .archive-list a:hover {
+    color: var(--color-primary);
+  }
+
+  .more-link {
+    margin-top: var(--space-m);
+    font-size: 0.8rem;
+    text-align: right;
+  }
+</style>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>量子位</title>
+    <link>https://www.qbitai.com</link>
+    <description>追踪人工智能新趋势</description>
+    <item>
+      <title>OpenAI发布Windows安全沙盒 支持一键隔离运行</title>
+      <link>https://www.qbitai.com/2026/08/285001.html</link>
+      <pubDate>Mon, 31 Aug 2026 09:10:00 +0800</pubDate>
+      <description>OpenAI今日推出Windows平台安全沙盒功能，开发者可以隔离运行不可信代码，防止潜在安全风险。</description>
+    </item>
+    <item>
+      <title>DeepSeek V4 适配华为昇腾，实现算力反超</title>
+      <link>https://www.qbitai.com/2026/08/285002.html?utm_source=rss&amp;ref=home</link>
+      <pubDate>Mon, 31 Aug 2026 10:05:00 +0800</pubDate>
+      <description>DeepSeek 新模型完成昇腾适配，推理成本下降四成。</description>
+    </item>
+    <!-- 与机器之心同日的另一条 -->
+    <item>
+      <title>苹果将推出首款 AI 智能眼镜</title>
+      <link>https://www.qbitai.com/2026/08/285003.html</link>
+      <pubDate>Sun, 30 Aug 2026 22:00:00 +0800</pubDate>
+      <description>供应链消息称苹果 AI 眼镜已进入试产阶段。</description>
+    </item>
+  </channel>
+</rss>

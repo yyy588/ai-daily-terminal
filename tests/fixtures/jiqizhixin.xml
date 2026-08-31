@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>机器之心</title>
+    <link>https://www.jiqizhixin.com</link>
+    <description>专业的人工智能媒体和产业服务平台</description>
+    <item>
+      <title>OpenAI 发布 Windows 安全沙盒，支持一键隔离运行</title>
+      <link>https://www.jiqizhixin.com/articles/openai-windows-sandbox</link>
+      <pubDate>Mon, 31 Aug 2026 08:30:00 +0800</pubDate>
+      <description>&lt;p&gt;OpenAI 今日推出 Windows 平台安全沙盒，可隔离运行不可信代码。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>英伟达开源世界模型 SANA-WM，刷新生成效率纪录</title>
+      <link>https://www.jiqizhixin.com/articles/nvidia-sana-wm</link>
+      <pubDate>Mon, 31 Aug 2026 07:15:00 +0800</pubDate>
+      <description>英伟达实验室发布开源世界模型，生成效率提升 3 倍。</description>
+    </item>
+    <item>
+      <title>Anthropic 估值达九千亿美元</title>
+      <link>https://www.jiqizhixin.com/articles/anthropic-valuation</link>
+      <pubDate>Sun, 30 Aug 2026 23:45:00 +0800</pubDate>
+      <description><![CDATA[<p>Anthropic 完成 new 一轮融资，估值 <b>9000 亿美元</b>。</p>]]></description>
+    </item>
+    <!-- 缺 pubDate 的脏数据，应被丢弃 -->
+    <item>
+      <title>缺失时间的条目</title>
+      <link>https://www.jiqizhixin.com/articles/no-date</link>
+      <description>这条没有 pubDate。</description>
+    </item>
+    <!-- 缺标题的脏数据，应被丢弃 -->
+    <item>
+      <link>https://www.jiqizhixin.com/articles/no-title</link>
+      <pubDate>Mon, 31 Aug 2026 06:00:00 +0800</pubDate>
+    </item>
+  </channel>
+</rss>
