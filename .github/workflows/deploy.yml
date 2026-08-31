@@ -44,6 +44,9 @@ jobs:
       - name: Fetch news
         run: pnpm fetch-news
 
+      - name: Fetch repo radar
+        run: pnpm fetch-repos
+
       - name: Build site
         run: pnpm build
 

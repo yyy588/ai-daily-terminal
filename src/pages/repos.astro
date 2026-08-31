@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { loadReposData } from '../lib/site';
+import { internalHref } from '../lib/href';
+import { MIN_STARS } from '../lib/repos';
+
+const data = loadReposData();
+const lastSync = data.generatedAt
+  ? new Date(data.generatedAt).toISOString().slice(0, 16).replace('T', ' ') + 'Z'
+  : 'STANDBY';
+
+function ageDays(createdAt: string): number {
+  const days = Math.floor((Date.now() - Date.parse(createdAt)) / 86_400_000);
+  return Number.isNaN(days) ? 0 : days;
+}
+---
+
+<BaseLayout
+  title="REPO_RADAR // AI 新锐榜"
+  description={`近 7 天创建、星数 ≥${MIN_STARS} 的 AI 新锐开源项目榜`}
+>
+  <header class="hud-bar" role="status">
+    <span class="hud-bar__status">RADAR_ACTIVE // 新锐扫描中</span>
+    <span>WINDOW: 近 7 天创建</span>
+    <span>THRESHOLD: ≥{MIN_STARS} 星</span>
+    <span>DETECTED: {data.repos.length}</span>
+    <span>LAST_SYNC: {lastSync}</span>
+  </header>
+
+  <section aria-labelledby="radar-heading">
+    <h1 class="section-title" id="radar-heading">
+      {data.repos.length > 0 ? `新锐榜 // ${data.repos.length} 个目标锁定` : '雷达待机 // 暂无锁定目标'}
+    </h1>
+
+    {
+      data.repos.length === 0 ? (
+        <div class="doc-card">
+          <p class="doc-card__summary">
+            // 无数据。运行 <code class="mono">npm run fetch-repos</code> 触发抓取，或等待 GitHub Actions 定时任务。
+          </p>
+        </div>
+      ) : (
+        <ol class="repo-list">
+          {data.repos.map((repo, i) => (
+            <li class="doc-card repo-list__item">
+              <article>
+                <div class="doc-card__meta">
+                  <span class="repo-list__rank mono">{String(i + 1).padStart(2, '0')}</span>
+                  <span class="repo-list__stars mono" title="星数">★ {repo.stars.toLocaleString('en-US')}</span>
+                  <span class="source-chip" title="主语言">{repo.language}</span>
+                  <span title={`创建于 ${repo.createdAt.slice(0, 10)}`}>{ageDays(repo.createdAt)} 天前创建</span>
+                </div>
+                <h2 class="doc-card__title">
+                  <a href={repo.url} target="_blank" rel="noopener noreferrer">
+                    {repo.fullName} <span class="ext-link" aria-hidden="true">↗</span>
+                  </a>
+                </h2>
+                {repo.description && <p class="doc-card__summary">{repo.description}</p>}
+              </article>
+            </li>
+          ))}
+        </ol>
+      )
+    }
+  </section>
+
+  <p class="note mono">
+    // 榜单规则：GitHub Search API，topic:llm + topic:ai，近 7 天创建，按星数降序，上限 20。每日快照覆盖更新。
+  </p>
+</BaseLayout>
+
+<style>
+  .repo-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+  }
+
+  .repo-list__rank {
+    color: var(--color-accent);
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  .repo-list__stars {
+    color: var(--color-primary);
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  .ext-link {
+    font-size: 0.75em;
+    opacity: 0;
+    transition: opacity var(--duration-fast) ease;
+  }
+
+  .doc-card__title a:hover .ext-link {
+    opacity: 1;
+  }
+
+  .note {
+    margin-top: var(--space-l);
+    font-size: 0.7rem;
+    color: var(--color-text-faint);
+    letter-spacing: 0.05em;
+  }
+</style>

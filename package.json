@@ -9,6 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "fetch-news": "tsx scripts/fetch-news.ts",
+    "fetch-repos": "tsx scripts/fetch-repos.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },

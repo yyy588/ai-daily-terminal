@@ -25,10 +25,11 @@ const { title, description = '每日 AI 要闻终端 // 信息降噪中' } = Ast
       <nav class="nav" aria-label="主导航">
         <a href={internalHref('/')}>AI_TERMINAL</a>
         <a href={internalHref('/news/')}>DAILY_FEED</a>
+        <a href={internalHref('/repos/')}>REPO_RADAR</a>
       </nav>
       <slot />
       <footer class="footer">
-        LINK_STABLE // AI DAILY TERMINAL v0.1 // 数据源：量子位（RSS）
+        LINK_STABLE // AI DAILY TERMINAL v0.2 // 数据源：量子位（RSS）+ GitHub Search API
       </footer>
     </div>
   </body>

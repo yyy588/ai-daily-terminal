@@ -1,0 +1,70 @@
+{
+  "total_count": 5260,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 1,
+      "full_name": "Nanako0129/sepia",
+      "description": "可本地部署的 AI 照片风格迁移工具",
+      "html_url": "https://github.com/Nanako0129/sepia",
+      "stargazers_count": 1026,
+      "language": "Python",
+      "created_at": "2026-08-20T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "full_name": "rome-os/rome",
+      "description": "Agent-first operating system layer",
+      "html_url": "https://github.com/rome-os/rome",
+      "stargazers_count": 417,
+      "language": "TypeScript",
+      "created_at": "2026-08-22T08:30:00Z"
+    },
+    {
+      "id": 3,
+      "full_name": "SeanEllyJames/deep-research-skill",
+      "description": "让 AI Agent 做真正会思考的深度调研 skill",
+      "html_url": "https://github.com/SeanEllyJames/deep-research-skill",
+      "stargazers_count": 195,
+      "language": null,
+      "created_at": "2026-08-25T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "full_name": "useagenthq/useagent",
+      "description": "Open-source AI coworker with cloud computers",
+      "html_url": "https://github.com/useagenthq/useagent",
+      "stargazers_count": 129,
+      "language": "Rust",
+      "created_at": "2026-08-24T09:00:00Z"
+    },
+    {
+      "id": 5,
+      "full_name": "low-star/practice-repo",
+      "description": "练手项目，星数低于门槛应被过滤",
+      "html_url": "https://github.com/low-star/practice-repo",
+      "stargazers_count": 49,
+      "language": "HTML",
+      "created_at": "2026-08-26T00:00:00Z"
+    },
+    {
+      "id": 6,
+      "full_name": "no-desc/silent",
+      "description": null,
+      "html_url": "https://github.com/no-desc/silent",
+      "stargazers_count": 300,
+      "language": null,
+      "created_at": "2026-08-23T00:00:00Z"
+    },
+    {
+      "id": 7,
+      "full_name": "archived/legacy",
+      "description": "已归档项目应被过滤",
+      "html_url": "https://github.com/archived/legacy",
+      "stargazers_count": 800,
+      "language": "Python",
+      "created_at": "2026-08-21T00:00:00Z",
+      "archived": true
+    }
+  ]
+}

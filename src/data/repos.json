@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-08-31T08:37:44.973Z",
+  "repos": [
+    {
+      "fullName": "useagenthq/useagent",
+      "description": "Hand off the work. Get back the result. The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work - websites, decks, spreadsheets, reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription.",
+      "stars": 129,
+      "language": "TypeScript",
+      "url": "https://github.com/useagenthq/useagent",
+      "createdAt": "2026-08-29T21:14:31Z"
+    },
+    {
+      "fullName": "raamonp/rl-gym-orchestrator",
+      "description": "Ultimate LLM Gym Trainer Guide 2026: Reinforcement Learning Fine-Tuning Framework",
+      "stars": 55,
+      "language": "HTML",
+      "url": "https://github.com/raamonp/rl-gym-orchestrator",
+      "createdAt": "2026-08-25T09:56:41Z"
+    },
+    {
+      "fullName": "genoskietv/AdalFlow-Optimizer",
+      "description": "Build & Auto-Optimize LLM Apps in 2026: The Ultimate AdalFlow Guide",
+      "stars": 55,
+      "language": "HTML",
+      "url": "https://github.com/genoskietv/AdalFlow-Optimizer",
+      "createdAt": "2026-08-25T08:57:31Z"
+    }
+  ]
+}

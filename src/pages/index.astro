@@ -1,11 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { loadSiteData, SOURCE_NAMES } from '../lib/site';
+import { loadSiteData, loadReposData, SOURCE_NAMES } from '../lib/site';
 import { internalHref } from '../lib/href';
 
 const data = loadSiteData();
 const latest = data.digests[0];
 const topEntries = latest ? latest.entries.slice(0, 10) : [];
+const reposData = loadReposData();
+const topRepos = reposData.repos.slice(0, 5);
 
 function timeOf(pubDate: string): string {
   const ts = Date.parse(pubDate);
@@ -67,6 +69,36 @@ function timeOf(pubDate: string): string {
     </p>
   )}
 
+  <section aria-labelledby="radar-heading">
+    <h2 class="section-title" id="radar-heading">新锐雷达 // GitHub AI 开源项目</h2>
+    {topRepos.length === 0 ? (
+      <div class="doc-card">
+        <p class="doc-card__summary">// 雷达待机。等待 <code class="mono">fetch-repos</code> 首次扫描。</p>
+      </div>
+    ) : (
+      <ol class="repo-brief">
+        {topRepos.map((repo, i) => (
+          <li class="doc-card repo-brief__item">
+            <article>
+              <div class="doc-card__meta">
+                <span class="repo-brief__rank mono">{String(i + 1).padStart(2, '0')}</span>
+                <span class="repo-brief__stars mono">★ {repo.stars.toLocaleString('en-US')}</span>
+                <span class="source-chip">{repo.language}</span>
+              </div>
+              <h3 class="doc-card__title">
+                <a href={repo.url} target="_blank" rel="noopener noreferrer">{repo.fullName} ↗</a>
+              </h3>
+              {repo.description && <p class="doc-card__summary">{repo.description}</p>}
+            </article>
+          </li>
+        ))}
+      </ol>
+    )}
+    <p class="more-link mono">
+      <a href={internalHref('/repos/')}>[ 完整新锐榜（{reposData.repos.length} 个） → ]</a>
+    </p>
+  </section>
+
   <section aria-labelledby="archive-heading">
     <h2 class="section-title" id="archive-heading">检修日志存档</h2>
     <ul class="archive-list mono">
@@ -119,6 +151,27 @@ function timeOf(pubDate: string): string {
 
   .archive-list a:hover {
     color: var(--color-primary);
+  }
+
+  .repo-brief {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+  }
+
+  .repo-brief__rank {
+    color: var(--color-accent);
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  .repo-brief__stars {
+    color: var(--color-primary);
+    font-size: 0.75rem;
+    font-weight: 600;
   }
 
   .more-link {
