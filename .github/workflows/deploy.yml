@@ -25,10 +25,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10
+      # corepack 按 package.json 的 packageManager 字段装 pnpm，替代 pnpm/action-setup
+      - name: Enable pnpm
+        run: corepack enable
 
       - name: Setup Node
         uses: actions/setup-node@v4
