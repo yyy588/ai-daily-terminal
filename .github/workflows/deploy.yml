@@ -1,15 +1,17 @@
 name: Fetch & Deploy
 
-# 每日北京时间 08:00（UTC 00:00）抓取新数据并部署；push 主分支也触发
+# 每天两次抓取（北京 08:23 / 20:41，错峰分钟降低 GitHub cron 高峰延迟）；
+# 早上那次可能赶不上当天早间发文，晚间那次兜底收录全天。
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '23 0 * * *'
+    - cron: '41 12 * * *'
   push:
     branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -46,6 +48,16 @@ jobs:
 
       - name: Fetch repo radar
         run: pnpm fetch-repos
+
+      # 数据提交回仓库：定时抓取的增量持久化，否则文章滚出 RSS 10 条窗口即永久丢失。
+      # [skip ci] 防止此提交再触发 push 工作流（无限循环）。
+      - name: Commit fetched data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/
+          git diff --staged --quiet || git commit -m "chore(data): scheduled refresh [skip ci]"
+          git push
 
       - name: Build site
         run: pnpm build

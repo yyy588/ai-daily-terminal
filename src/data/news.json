@@ -1,9 +1,119 @@
 {
-  "generatedAt": "2026-08-31T07:26:17.930Z",
+  "generatedAt": "2026-09-02T02:37:13.137Z",
   "digests": [
+    {
+      "date": "2026-09-02",
+      "entries": [
+        {
+          "id": "https://www.qbitai.com/2026/09/482699.html",
+          "title": "巨简单，更懂家！海信JUOS正式发布：行业首个家庭智能伴侣级AIOS",
+          "link": "https://www.qbitai.com/2026/09/482699.html",
+          "pubDate": "Wed, 02 Sep 2026 01:44:24 +0000",
+          "summary": "8月31日，海信正式发布行业首个家庭智能伴侣级AIOS——海信JUOS。",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/482586.html",
+          "title": "李飞飞发布：全球首个多模态世界模型",
+          "link": "https://www.qbitai.com/2026/09/482586.html",
+          "pubDate": "Wed, 02 Sep 2026 01:07:13 +0000",
+          "summary": "一张图补全3D世界，还能给机器人造训练场",
+          "sources": [
+            "qbitai"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "entries": [
+        {
+          "id": "https://www.qbitai.com/2026/09/482512.html",
+          "title": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径",
+          "link": "https://www.qbitai.com/2026/09/482512.html",
+          "pubDate": "Tue, 01 Sep 2026 12:02:39 +0000",
+          "summary": "",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/482469.html",
+          "title": "GitHub最热架构图Agent，开发者故事看哭了",
+          "link": "https://www.qbitai.com/2026/09/482469.html",
+          "pubDate": "Tue, 01 Sep 2026 08:26:54 +0000",
+          "summary": "美观且支持实时更新的架构图，也能用AI一键生成了！",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/482451.html",
+          "title": "急急急用电！马斯克开造燃气轮机叶片",
+          "link": "https://www.qbitai.com/2026/09/482451.html",
+          "pubDate": "Tue, 01 Sep 2026 08:24:12 +0000",
+          "summary": "SpaceX正在德克萨斯州筹备燃气轮机叶片铸造工厂",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/482406.html",
+          "title": "A社化身A割！Claude官宣永久提额25%，结果到手反而少17%",
+          "link": "https://www.qbitai.com/2026/09/482406.html",
+          "pubDate": "Tue, 01 Sep 2026 08:15:40 +0000",
+          "summary": "主打一个明升暗降，理直气壮",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/482337.html",
+          "title": "自进化WAM来了！清华AIR联手域变换提出具身In-Context Causal Learning",
+          "link": "https://www.qbitai.com/2026/09/482337.html",
+          "pubDate": "Tue, 01 Sep 2026 05:12:30 +0000",
+          "summary": "参数冻结，能力暴涨",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/482300.html",
+          "title": "AIVC只是前菜！复旦提出生命算子，统一生命建模",
+          "link": "https://www.qbitai.com/2026/09/482300.html",
+          "pubDate": "Tue, 01 Sep 2026 04:12:49 +0000",
+          "summary": "连发六篇Nature期刊，复旦Neolab打通全尺度生命推演",
+          "sources": [
+            "qbitai"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-31",
       "entries": [
+        {
+          "id": "https://www.qbitai.com/2026/08/481928.html",
+          "title": "VC疯了！200万现金冠军奖，又花4000万造了一座AI「创业乌托邦」",
+          "link": "https://www.qbitai.com/2026/08/481928.html",
+          "pubDate": "Mon, 31 Aug 2026 13:20:29 +0000",
+          "summary": "划重点：这次不是你挨家敲门，是VC排队来看你。",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/08/481923.html",
+          "title": "滴滴自动驾驶新一代车型开启载客测试服务",
+          "link": "https://www.qbitai.com/2026/08/481923.html",
+          "pubDate": "Mon, 31 Aug 2026 07:53:12 +0000",
+          "summary": "近期，滴滴自动驾驶新一代 Robotaxi R2正式开启无人载客测试服务",
+          "sources": [
+            "qbitai"
+          ]
+        },
         {
           "id": "https://www.qbitai.com/2026/08/481893.html",
           "title": "「GPT-6」灰测demo刷屏！周四发布在即",
