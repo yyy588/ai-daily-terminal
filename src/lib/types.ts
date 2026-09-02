@@ -13,6 +13,10 @@ export interface FeedSource {
   readonly id: string;
   /** false 时跳过抓取（源失效留档观察） */
   readonly enabled?: boolean;
+  /** 首页热度分的来源权重；垂直 AI 源高、泛科技源低 */
+  readonly weight?: number;
+  /** true：标题须命中 AI 词表才入库（泛科技源防噪音）；false：豁免（垂直 AI 源） */
+  readonly filterByKeywords?: boolean;
 }
 
 /** RSS 解析后的原始条目（未清洗） */

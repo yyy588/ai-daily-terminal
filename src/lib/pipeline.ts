@@ -5,6 +5,7 @@ import { FEED_SOURCES } from './feeds.config';
 import { parseRss } from './parse-rss';
 import { dedupeEntries } from './digest';
 import { buildDailyDigests } from './build-digest';
+import { filterEntries } from './filter';
 
 /** 历史保留天数：rolling window，控制 news.json 体量 */
 export const RETENTION_DAYS = 30;
@@ -30,7 +31,8 @@ async function fetchFeed(url: string, sourceId: string): Promise<FeedResult> {
       return { ok: false, sourceId, error: `HTTP ${res.status}` };
     }
     const xml = await res.text();
-    return { ok: true, sourceId, entries: parseRss(xml, sourceId) };
+    // 关键词闸门在抓取层执行：噪音不占滚动窗口体积
+    return { ok: true, sourceId, entries: filterEntries(parseRss(xml, sourceId)) };
   } catch (err) {
     return { ok: false, sourceId, error: err instanceof Error ? err.message : String(err) };
   }

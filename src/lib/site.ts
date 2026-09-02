@@ -20,5 +20,7 @@ export function loadReposData(): ReposData {
 /** 站点展示名映射：sourceId → 中文名 */
 export const SOURCE_NAMES: Record<string, string> = {
   qbitai: '量子位',
+  ifanr: '爱范儿',
+  ithome: 'IT之家',
   jiqizhixin: '机器之心',
 };

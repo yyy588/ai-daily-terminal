@@ -2,10 +2,17 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { loadSiteData, loadReposData, SOURCE_NAMES } from '../lib/site';
 import { internalHref } from '../lib/href';
+import { sortByScore } from '../lib/scoring';
 
 const data = loadSiteData();
 const latest = data.digests[0];
-const topEntries = latest ? latest.entries.slice(0, 10) : [];
+
+// 今日要闻：多源加权混排（权重×时间衰减+共报加成），只作用于首页；详情页保持时间序
+const todayEntries = latest ? latest.entries : [];
+const topEntries = todayEntries.length
+  ? sortByScore(todayEntries, Date.now()).slice(0, 10)
+  : [];
+
 const reposData = loadReposData();
 const topRepos = reposData.repos.slice(0, 5);
 

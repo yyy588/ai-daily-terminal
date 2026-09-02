@@ -1,9 +1,179 @@
 {
-  "generatedAt": "2026-09-02T05:39:32.993Z",
+  "generatedAt": "2026-09-02T08:25:11.393Z",
   "digests": [
     {
       "date": "2026-09-02",
       "entries": [
+        {
+          "id": "https://www.ithome.com/0/997/513.htm",
+          "title": "魅族 AI 小方块有望回归，概念机亮相腾讯 WorkBuddy 生态发布会",
+          "link": "https://www.ithome.com/0/997/513.htm",
+          "pubDate": "Wed, 02 Sep 2026 08:15:16 GMT",
+          "summary": "IT之家 9 月 2 日消息，在今日的腾讯 WorkBuddy 生态发布会上，魅族 AI 小方块概念机亮相。魅族 AI 小方块概念机搭载基于原生 AI 的 Flyme AIOS，通过深度融合智能交互与 WorkBuddy 云端 AI 工作台…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/506.htm",
+          "title": "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑",
+          "link": "https://www.ithome.com/0/997/506.htm",
+          "pubDate": "Wed, 02 Sep 2026 07:52:58 GMT",
+          "summary": "IT之家 9 月 2 日消息，豆包工作新增两项新功能：“多 Agents 并行”和 Mac 系统下的“操作电脑”。据介绍，多 Agents 并行功能，能让豆包召唤不同的子 Agent，在一个任务下分别执行不同的模块，既成倍节省时间，又能同时…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/501.htm",
+          "title": "谷歌副总裁 Amin Vahdat 谈 AI 泡沫：技术变革和市场需求确实存在",
+          "link": "https://www.ithome.com/0/997/501.htm",
+          "pubDate": "Wed, 02 Sep 2026 07:44:53 GMT",
+          "summary": "IT之家 9 月 2 日消息，据中国台湾地区媒体《经济日报》今天报道，谷歌 AI 与基础设施高级副总裁、首席技术专家 Amin Vahdat 日前谈到 AI 泡沫时表示，AI 带来的技术变革和市场需求都是确实存在的，因此公司持续投资 AI …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/480.htm",
+          "title": "OpenAI 奥尔特曼谈数据中心“费水”：没有数据支撑，人们的担忧被放大了",
+          "link": "https://www.ithome.com/0/997/480.htm",
+          "pubDate": "Wed, 02 Sep 2026 07:26:32 GMT",
+          "summary": "IT之家 9 月 2 日消息，据《商业内幕》今天（2 日）报道，OpenAI CEO 萨姆 · 奥尔特曼认为，外界对 AI 耗水量的担忧已经变成一个流传甚广的“梗”，但真正拿数据检验后并不成立。奥尔特曼指出，数据中心虽然常被视为“耗水大户”…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/474.htm",
+          "title": "美国呼吁 G20 成员国对 AI 监管采取克制态度，避免制定过多新规则",
+          "link": "https://www.ithome.com/0/997/474.htm",
+          "pubDate": "Wed, 02 Sep 2026 07:22:33 GMT",
+          "summary": "IT之家 9 月 2 日消息，据路透社报道，美国当地时间周二呼吁二十国集团（G20）成员国对人工智能监管采取更为谨慎、克制的态度，避免针对 AI 制定过多新规则。这一主张是在美国北卡罗来纳州举行的一场会议上提出的，参加会议的包括多家科技巨头…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/435.htm",
+          "title": "腾讯 WorkBuddy 开放平台上线，将全面开放 Agent 基座能力",
+          "link": "https://www.ithome.com/0/997/435.htm",
+          "pubDate": "Wed, 02 Sep 2026 06:55:47 GMT",
+          "summary": "IT之家 9 月 2 日消息，腾讯 WorkBuddy 开放平台今日上线，首批入驻共创伙伴超百家，面向智能硬件、行业应用与开发者等开放底层 Agent 基座能力。IT之家了解到，开放平台是面向 WorkBuddy 生态业务的一站式工作台。开…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/434.htm",
+          "title": "阿里云企业级 Agent 协作平台“万有无界”开启公测",
+          "link": "https://www.ithome.com/0/997/434.htm",
+          "pubDate": "Wed, 02 Sep 2026 06:45:24 GMT",
+          "summary": "IT之家 9 月 2 日消息，据阿里云官方消息，今日，阿里云旗下企业级人与 Agent 协作平台“万有无界”开启公测。企业用户和个人用户均可通过官网 (https://www.qianwenai.com/agents/wanyou) 注册体…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/432.htm",
+          "title": "AI 大模型周榜：国产 GLM-5.3-Flash 首秀杀进代码榜前十，千问 3.8-Max 登顶前端榜",
+          "link": "https://www.ithome.com/0/997/432.htm",
+          "pubDate": "Wed, 02 Sep 2026 06:40:31 GMT",
+          "summary": "IT之家 9 月 2 日消息，Arena（arena.ai）平台发布 2026 年第 35 周（8 月 24 日 ~8 月 30 日）AI 大模型盲测排行榜，本期有多款国产新模型亮相，且取得亮眼排名。国产 GLM-5.3-Flash 首次进…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/431.htm",
+          "title": "消息称腾讯在开发全新 AI 输入法助手“ChatterFly”，中文名可能叫元宝输入法",
+          "link": "https://www.ithome.com/0/997/431.htm",
+          "pubDate": "Wed, 02 Sep 2026 06:40:19 GMT",
+          "summary": "IT之家 9 月 2 日消息，据读佳消息，腾讯在开发全新 AI 输入法助手 App “ChatterFly”（中文名可能叫：元宝输入法），除移动端 App 之外，这款产品或计划推出 Windows、macOS 桌面客户端，打通多端输入场景。…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/429.htm",
+          "title": "英伟达官方证实：开启 DLSS 5 将使游戏帧率下降 50%-60%",
+          "link": "https://www.ithome.com/0/997/429.htm",
+          "pubDate": "Wed, 02 Sep 2026 06:39:51 GMT",
+          "summary": "IT之家 9 月 2 日消息，英伟达昨天发布了 DLSS 5 技术，首发支持游戏有《NBA 2K27》，支持所有 RTX 50 系显卡的笔记本和台式电脑，以及 GeForce NOW 云游戏平台。据 PC Gamer 报道，在真正的游戏开发…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/426.htm",
+          "title": "雷军：小米 18 Fold“中折叠”旗舰手机搭载 Xiaomi MiMo 端侧大模型",
+          "link": "https://www.ithome.com/0/997/426.htm",
+          "pubDate": "Wed, 02 Sep 2026 06:35:36 GMT",
+          "summary": "IT之家 9 月 2 日消息，小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰今日发文，正式官宣 Xiaomi 18 Fold “中折叠”手机。他表示：Xiaomi 18 Fold 不仅是数字系列的形态补充，更是整个系列中定位最高…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/483104.html",
+          "title": "还在为大模型洗数据熬夜？蚂蚁拿下VLDB工业最佳论文，一套宽表搞定35PB语料，效率狂飙5.6倍",
+          "link": "https://www.qbitai.com/2026/09/483104.html",
+          "pubDate": "Wed, 02 Sep 2026 06:20:17 +0000",
+          "summary": "蚂蚁集团推出统一宽表系统OmniTable，论文获评VLDB 2026工业赛道最佳论文",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/483101.html",
+          "title": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一",
+          "link": "https://www.qbitai.com/2026/09/483101.html",
+          "pubDate": "Wed, 02 Sep 2026 06:10:26 +0000",
+          "summary": "",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/483097.html",
+          "title": "前字节强化学习专家孙鹏博士加盟星尘智能，完善Physical AI全栈技术布局",
+          "link": "https://www.qbitai.com/2026/09/483097.html",
+          "pubDate": "Wed, 02 Sep 2026 06:06:50 +0000",
+          "summary": "9月2日，前字节跳动强化学习专家、前腾讯Robotics X智能体中⼼负责⼈孙鹏博⼠正式加入星尘智能",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/409.htm",
+          "title": "努比亚倪飞：豆包手机计划 9 月开售",
+          "link": "https://www.ithome.com/0/997/409.htm",
+          "pubDate": "Wed, 02 Sep 2026 06:04:24 GMT",
+          "summary": "IT之家 9 月 2 日消息，中兴通讯终端事业部总裁、努比亚技术有限公司总裁倪飞今日发文称，从去年 12 月的 M153，到昨天努比亚 NaviX Ultra 正式拿到入网许可，AI 智能体手机从概念到量产的“最后一公里”，努比亚走到了最关…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/408.htm",
+          "title": "谷歌 Pixel 10 等手机推送电池使用概览，AI 直观标出耗电应用",
+          "link": "https://www.ithome.com/0/997/408.htm",
+          "pubDate": "Wed, 02 Sep 2026 06:00:24 GMT",
+          "summary": "IT之家 9 月 2 日消息，科技媒体 Android Authority 昨日（9 月 1 日）发布博文，报道称谷歌已开始向 Pixel 10、Pixel 11 系列手机推送“电池使用情况概览”（Battery Usage Summary…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/401.htm",
+          "title": "马斯克预告 Grok 4.7 十天后上线：参数量增 40%，性能表现有望超越所有 AI 竞品",
+          "link": "https://www.ithome.com/0/997/401.htm",
+          "pubDate": "Wed, 02 Sep 2026 05:47:02 GMT",
+          "summary": "IT之家 9 月 2 日消息，全球首富埃隆 · 马斯克（Elon Musk）今天（9 月 2 日）在 X 平台发布推文，预告将会在未来 10 天后发布 Grok 4.7 模型，预计上线时间为 2026 年 9 月 12 日。在参数规模方面，…",
+          "sources": [
+            "ithome"
+          ]
+        },
         {
           "id": "https://www.qbitai.com/2026/09/482967.html",
           "title": "企业级Agent落地样板间！百融硅基员工批量上岗，按结果领工资",
@@ -53,12 +223,32 @@
           "sources": [
             "qbitai"
           ]
+        },
+        {
+          "id": "https://www.ifanr.com/1678080",
+          "title": "早报｜戴森发布499美元AI牙刷,带摄像头/华为、小米、荣耀手机集体涨价/最强模型Fable 5.1发布",
+          "link": "https://www.ifanr.com/1678080?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Wed, 02 Sep 2026 00:18:23 +0000",
+          "summary": "苹果新任 CEO 特努斯 2027 财年目标薪酬为 5800 万美元 苹果向美国证券交易委员会提交的 8-K/A 文件显示，新任 CEO 约翰 · 特努斯的 2027 财年薪酬由固定薪资和股权奖励组成。股权奖励是主要部分，特努斯在 2026…",
+          "sources": [
+            "ifanr"
+          ]
         }
       ]
     },
     {
       "date": "2026-09-01",
       "entries": [
+        {
+          "id": "https://www.ifanr.com/1678053",
+          "title": "3899 元！戴森发布 AI 牙刷：有水牙线不够，还要塞个摄像头",
+          "link": "https://www.ifanr.com/1678053?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Tue, 01 Sep 2026 15:44:53 +0000",
+          "summary": "电动牙刷，还能有什么新花样？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
+          ]
+        },
         {
           "id": "https://www.qbitai.com/2026/09/482512.html",
           "title": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径",
@@ -67,6 +257,26 @@
           "summary": "",
           "sources": [
             "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ifanr.com/1677574",
+          "title": "Lovart 悄悄大更新，这一次轮到 AI 适应设计师了",
+          "link": "https://www.ifanr.com/1677574?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Tue, 01 Sep 2026 10:28:15 +0000",
+          "summary": "Just Design#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
+          ]
+        },
+        {
+          "id": "https://www.ifanr.com/1677890",
+          "title": "苹果被骂惨的设计，在 AI 时代迎来高光时刻",
+          "link": "https://www.ifanr.com/1677890?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Tue, 01 Sep 2026 10:04:57 +0000",
+          "summary": "被骂惨的 Touch Bar，怎么突然火了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
           ]
         },
         {
@@ -132,6 +342,16 @@
           "summary": "划重点：这次不是你挨家敲门，是VC排队来看你。",
           "sources": [
             "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ifanr.com/1677378",
+          "title": "500 万人围观，AI 终于造出了「无限泔水机」",
+          "link": "https://www.ifanr.com/1677378?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Mon, 31 Aug 2026 09:14:50 +0000",
+          "summary": "内容无限，但精力有限#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
           ]
         },
         {
