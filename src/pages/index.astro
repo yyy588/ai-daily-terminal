@@ -110,7 +110,7 @@ function timeOf(pubDate: string): string {
 
   {arenaTop.length > 0 && (
     <section aria-labelledby="arena-brief-heading">
-      <h2 class="section-title" id="arena-brief-heading">竞技场速览 // 大模型双榜 Top 3</h2>
+      <h2 class="section-title" id="arena-brief-heading">竞技场速览 // 大模型多榜 Top 3</h2>
       <div class="arena-brief">
         {arenaTop.map((board) => (
           <div class="doc-card arena-brief__board">
@@ -123,7 +123,9 @@ function timeOf(pubDate: string): string {
                 <li class="arena-brief__row">
                   <span class="mono arena-brief__rank">{row.rank}</span>
                   <span class="arena-brief__name">{row.modelName}</span>
-                  <span class="mono arena-brief__score">{row.score}</span>
+                  <span class="mono arena-brief__score">
+                    {row.netImprovement !== undefined ? `${row.netImprovement.toFixed(1)}%` : row.score}
+                  </span>
                 </li>
               ))}
             </ol>

@@ -30,6 +30,11 @@ function fmtVotes(votes: number): string {
     <span>SOURCE: LMArena (arena.ai)</span>
   </header>
 
+  <nav class="view-tabs mono" aria-label="榜单视图切换">
+    <a href={internalHref('/arena/')} aria-current="page">[ Chat·WebDev 对照 ]</a>
+    <a href={internalHref('/arena/agent/')}>[ Agent 能力 ]</a>
+  </nav>
+
   <section aria-labelledby="arena-heading">
     <h1 class="section-title" id="arena-heading">
       {data.boards.length > 0 ? `大模型竞技场 // 双榜对照` : '竞技场待机 // 等待首次抓取'}
@@ -102,6 +107,23 @@ function fmtVotes(votes: number): string {
 </BaseLayout>
 
 <style>
+  .view-tabs {
+    display: flex;
+    gap: var(--space-m);
+    padding: var(--space-m) 0;
+    font-size: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .view-tabs a {
+    color: var(--color-text-dim);
+  }
+
+  .view-tabs a:hover,
+  .view-tabs a[aria-current='page'] {
+    color: var(--color-primary);
+  }
+
   .boards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));

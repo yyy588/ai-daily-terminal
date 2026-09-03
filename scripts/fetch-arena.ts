@@ -11,7 +11,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 // Node 全局 fetch 不认 ProxyAgent dispatcher；代理模式必须用 undici 自己的 fetch
 import { ProxyAgent, fetch as undiciFetch } from 'undici';
-import { parseArenaTable } from '../src/lib/parse-arena';
+import { parseArenaTable, parseArenaAgent } from '../src/lib/parse-arena';
 import type { ArenaBoard, ArenaData } from '../src/lib/arena';
 
 const DATA_FILE = path.resolve(import.meta.dirname, '../src/data/arena.json');
@@ -31,21 +31,32 @@ const doFetch: typeof fetch = (url, init) =>
     ? (undiciFetch(url, { ...init, dispatcher: proxyAgent }) as unknown as Promise<Response>)
     : fetch(url, init);
 
-/** 榜单配置：加第三张榜只需加一行 */
-const BOARDS: readonly { id: string; title: string; url: string }[] = [
+/** 榜单配置：加榜只需加一行。kind 决定解析器（elo 表格 / agent 多指标） */
+const BOARDS: readonly { id: string; title: string; url: string; kind: 'elo' | 'agent' }[] = [
   {
     id: 'webdev',
     title: 'Code · WebDev',
     url: 'https://arena.ai/leaderboard/code/webdev/overall',
+    kind: 'elo',
   },
   {
     id: 'chat',
     title: 'Chat · Overall',
     url: 'https://arena.ai/leaderboard/text/overall',
+    kind: 'elo',
+  },
+  {
+    id: 'agent',
+    title: 'Agent · 能力',
+    url: 'https://arena.ai/leaderboard/agent',
+    kind: 'agent',
   },
 ];
 
-async function fetchBoard(url: string): Promise<ArenaBoard | null> {
+async function fetchBoard(
+  url: string,
+  kind: 'elo' | 'agent',
+): Promise<ArenaBoard | null> {
   try {
     const res = await doFetch(url, {
       signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
@@ -62,7 +73,7 @@ async function fetchBoard(url: string): Promise<ArenaBoard | null> {
     }
 
     const html = await res.text();
-    const rows = parseArenaTable(html);
+    const rows = kind === 'agent' ? parseArenaAgent(html) : parseArenaTable(html);
     if (rows.length === 0) {
       console.warn(`// ARENA ${url} 解析到 0 行（页面结构变化或拦截页）`);
       return null;
@@ -99,7 +110,7 @@ async function main(): Promise<void> {
 
   const results: ArenaBoard[] = [];
   for (const board of BOARDS) {
-    const fetched = await fetchBoard(board.url);
+    const fetched = await fetchBoard(board.url, board.kind);
     if (fetched !== null) {
       results.push({ ...fetched, id: board.id, title: board.title });
       console.log(`// ARENA ${board.id}: ${fetched.rows.length} 行 ✓`);
