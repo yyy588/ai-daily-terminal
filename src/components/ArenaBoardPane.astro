@@ -33,7 +33,7 @@ const { board, maxRows = 20 } = Astro.props;
             </span>
             <span class="wrow__score mono">
               {row.score}
-              {row.ci && <span class="wrow__ci"> {row.ci}</span>}
+              {row.ci && <span class="wrow__ci">{row.ci}</span>}
             </span>
             <span class="wrow__price mono" title="API 价格 输入/输出 $/M tokens">
               {row.price ?? '--'}

@@ -29,52 +29,55 @@ const lastSync = agent?.fetchedAt.slice(0, 10) ?? data.boards[0]?.fetchedAt.slic
   <section aria-labelledby="dev-heading">
     <h1 class="section-title" id="dev-heading">开发选型 // 写代码 × 干活</h1>
 
-    <div class="dev-boards">
-      <!-- 左列：WebDev 五维筛选 -->
-      <div class="board">
-        <nav class="filter-tabs mono" aria-label="WebDev 维度筛选">
-          {
-            ARENA_FILTERS.map((f) => (
-              <a
-                href={f.slug === '' ? internalHref('/arena/') : internalHref(`/arena/${f.slug}/`)}
-                aria-current={f.slug === '' ? 'page' : undefined}
-              >
-                {f.label}
-              </a>
-            ))
-          }
-        </nav>
+    <!-- 筛选条独占一行（不挤占左列，两榜列结构完全同构起头对齐） -->
+    <nav class="filter-tabs mono" aria-label="WebDev 维度筛选">
+      {
+        ARENA_FILTERS.map((f) => (
+          <a
+            href={f.slug === '' ? internalHref('/arena/') : internalHref(`/arena/${f.slug}/`)}
+            aria-current={f.slug === '' ? 'page' : undefined}
+          >
+            {f.label}
+          </a>
+        ))
+      }
+    </nav>
 
+    <div class="dev-boards">
+      <!-- 左列：当前 WebDev 维度 -->
+      <div class="board">
         <ArenaBoardPane board={board} maxRows={MAX_ROWS} />
       </div>
 
-      <!-- 右列：Agent 综合榜常驻 -->
+      <!-- 右列：Agent 综合榜常驻（与左列同构：pane 内 title + list） -->
       {
         agent && agent.rows.length > 0 && (
           <div class="board">
-            <h2 class="board__title mono">
-              Agent · 能力
-              <span class="board__meta">{agent.rows.length} 模型 · 多指标</span>
-            </h2>
-            <ol class="board__list">
-              {agent.rows.slice(0, MAX_ROWS).map((row) => (
-                <li class="wrow">
-                  <span class="wrow__rank mono">{String(row.rank).padStart(2, '0')}</span>
-                  <span class="wrow__model">
-                    <span class="wrow__name">{row.modelName}</span>
-                    <span class="board__badges">
-                      {row.isOpenSource ? <span class="chip chip--open">开源</span> : <span class="chip">闭源</span>}
-                      <span class="chip chip--org">{row.organization}</span>
+            <div class="board__pane">
+              <h2 class="board__title mono">
+                Agent · 能力
+                <span class="board__meta">{agent.rows.length} 模型 · 多指标</span>
+              </h2>
+              <ol class="board__list">
+                {agent.rows.slice(0, MAX_ROWS).map((row) => (
+                  <li class="wrow">
+                    <span class="wrow__rank mono">{String(row.rank).padStart(2, '0')}</span>
+                    <span class="wrow__model">
+                      <span class="wrow__name">{row.modelName}</span>
+                      <span class="board__badges">
+                        {row.isOpenSource ? <span class="chip chip--open">开源</span> : <span class="chip">闭源</span>}
+                        <span class="chip chip--org">{row.organization}</span>
+                      </span>
                     </span>
-                  </span>
-                  <span class="wrow__score mono">
-                    {row.netImprovement !== undefined ? `${row.netImprovement.toFixed(1)}%` : '--'}
-                    {row.netImprovementCi && <span class="wrow__ci"> {row.netImprovementCi}</span>}
-                  </span>
-                  <span class="wrow__price mono" title="每任务成本">{row.costPerTask ?? '--'}</span>
-                </li>
-              ))}
-            </ol>
+                    <span class="wrow__score mono">
+                      {row.netImprovement !== undefined ? `${row.netImprovement.toFixed(1)}%` : '--'}
+                      {row.netImprovementCi && <span class="wrow__ci">{row.netImprovementCi}</span>}
+                    </span>
+                    <span class="wrow__price mono" title="每任务成本">{row.costPerTask ?? '--'}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
           </div>
         )
       }

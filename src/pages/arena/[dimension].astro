@@ -39,49 +39,52 @@ const lastSync = board?.fetchedAt.slice(0, 10) ?? 'STANDBY';
   <section aria-labelledby="dev-heading">
     <h1 class="section-title" id="dev-heading">开发选型 // {current.label}</h1>
 
+    <nav class="filter-tabs mono" aria-label="WebDev 维度筛选">
+      {
+        ARENA_FILTERS.map((f) => (
+          <a
+            href={f.slug === '' ? internalHref('/arena/') : internalHref(`/arena/${f.slug}/`)}
+            aria-current={f.slug === dimension ? 'page' : undefined}
+          >
+            {f.label}
+          </a>
+        ))
+      }
+    </nav>
+
     <div class="dev-boards">
       <div class="board">
-        <nav class="filter-tabs mono" aria-label="WebDev 维度筛选">
-          {
-            ARENA_FILTERS.map((f) => (
-              <a
-                href={f.slug === '' ? internalHref('/arena/') : internalHref(`/arena/${f.slug}/`)}
-                aria-current={f.slug === dimension ? 'page' : undefined}
-              >
-                {f.label}
-              </a>
-            ))
-          }
-        </nav>
         <ArenaBoardPane board={board} />
       </div>
 
       {
         agent && agent.rows.length > 0 && (
           <div class="board">
-            <h2 class="board__title mono">
-              Agent · 能力
-              <span class="board__meta">{agent.rows.length} 模型 · 多指标</span>
-            </h2>
-            <ol class="board__list">
-              {agent.rows.slice(0, 20).map((row) => (
-                <li class="wrow">
-                  <span class="wrow__rank mono">{String(row.rank).padStart(2, '0')}</span>
-                  <span class="wrow__model">
-                    <span class="wrow__name">{row.modelName}</span>
-                    <span class="board__badges">
-                      {row.isOpenSource ? <span class="chip chip--open">开源</span> : <span class="chip">闭源</span>}
-                      <span class="chip chip--org">{row.organization}</span>
+            <div class="board__pane">
+              <h2 class="board__title mono">
+                Agent · 能力
+                <span class="board__meta">{agent.rows.length} 模型 · 多指标</span>
+              </h2>
+              <ol class="board__list">
+                {agent.rows.slice(0, 20).map((row) => (
+                  <li class="wrow">
+                    <span class="wrow__rank mono">{String(row.rank).padStart(2, '0')}</span>
+                    <span class="wrow__model">
+                      <span class="wrow__name">{row.modelName}</span>
+                      <span class="board__badges">
+                        {row.isOpenSource ? <span class="chip chip--open">开源</span> : <span class="chip">闭源</span>}
+                        <span class="chip chip--org">{row.organization}</span>
+                      </span>
                     </span>
-                  </span>
-                  <span class="wrow__score mono">
-                    {row.netImprovement !== undefined ? `${row.netImprovement.toFixed(1)}%` : '--'}
-                    {row.netImprovementCi && <span class="wrow__ci"> {row.netImprovementCi}</span>}
-                  </span>
-                  <span class="wrow__price mono" title="每任务成本">{row.costPerTask ?? '--'}</span>
-                </li>
-              ))}
-            </ol>
+                    <span class="wrow__score mono">
+                      {row.netImprovement !== undefined ? `${row.netImprovement.toFixed(1)}%` : '--'}
+                      {row.netImprovementCi && <span class="wrow__ci">{row.netImprovementCi}</span>}
+                    </span>
+                    <span class="wrow__price mono" title="每任务成本">{row.costPerTask ?? '--'}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
           </div>
         )
       }
