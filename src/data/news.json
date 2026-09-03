@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-09-03T04:38:46.587Z",
+  "generatedAt": "2026-09-03T05:32:00.296Z",
   "digests": [
     {
       "date": "2026-09-03",
       "entries": [
+        {
+          "id": "https://pubmed.ncbi.nlm.nih.gov/40560616",
+          "title": "Generative AI without guardrails can harm learning",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/40560616/",
+          "pubDate": "Thu, 03 Sep 2026 05:10:23 +0000",
+          "summary": "Article URL: https://pubmed.ncbi.nlm.nih.gov/40560616/ Comments URL: https://news.ycombinator.com/item?id=49546175 Point…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://bartholomew.info",
+          "title": "What happens when your AI agent edits its own tests to pass?",
+          "link": "https://bartholomew.info/",
+          "pubDate": "Thu, 03 Sep 2026 04:29:52 +0000",
+          "summary": "Article URL: https://bartholomew.info/ Comments URL: https://news.ycombinator.com/item?id=49545935 Points: 2 # Comments:…",
+          "sources": [
+            "hackernews"
+          ]
+        },
         {
           "id": "https://secondthoughts.ai/p/ai-can-help-plan-a-bioweapon-building",
           "title": "AI Can Help Plan a Bioweapon",
@@ -382,26 +402,6 @@
           "summary": "Gemini 圣质如初#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
           "sources": [
             "ifanr"
-          ]
-        },
-        {
-          "id": "https://theyfell.com",
-          "title": "Show HN: Every AI agrees with you. This writes your startup's obituary instead",
-          "link": "https://theyfell.com/",
-          "pubDate": "Wed, 02 Sep 2026 22:45:39 +0000",
-          "summary": "Article URL: https://theyfell.com/ Comments URL: https://news.ycombinator.com/item?id=49543617 Points: 9 # Comments: 7",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://appleinsider.com/articles/26/09/02/us-government-worried-that-ai-companies-cant-innovate-without-legal-theft",
-          "title": "US Government worried that AI companies can't innovate without legal theft",
-          "link": "https://appleinsider.com/articles/26/09/02/us-government-worried-that-ai-companies-cant-innovate-without-legal-theft",
-          "pubDate": "Wed, 02 Sep 2026 22:22:45 +0000",
-          "summary": "Article URL: https://appleinsider.com/articles/26/09/02/us-government-worried-that-ai-companies-cant-innovate-without-le…",
-          "sources": [
-            "hackernews"
           ]
         }
       ]
