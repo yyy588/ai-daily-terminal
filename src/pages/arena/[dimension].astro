@@ -66,6 +66,12 @@ const lastSync = board?.fetchedAt.slice(0, 10) ?? 'STANDBY';
                 <span class="board__meta">{agent.rows.length} 模型 · 多指标</span>
               </h2>
               <ol class="board__list">
+                <li class="wrow wrow--head mono" aria-hidden="true">
+                  <span class="wrow__rank">#</span>
+                  <span class="wrow__model">模型</span>
+                  <span class="wrow__score">净改进率</span>
+                  <span class="wrow__price">每任务成本</span>
+                </li>
                 {agent.rows.slice(0, 20).map((row) => (
                   <li class="wrow">
                     <span class="wrow__rank mono">{String(row.rank).padStart(2, '0')}</span>
@@ -243,6 +249,27 @@ const lastSync = board?.fetchedAt.slice(0, 10) ?? 'STANDBY';
     font-size: 0.6rem;
     color: var(--color-text-faint);
     font-weight: 400;
+  }
+
+  .wrow--head {
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    color: var(--color-text-faint);
+    background: var(--color-surface-raised);
+    padding: 0.3rem var(--space-m);
+  }
+
+  .wrow--head .wrow__model,
+  .wrow--head .wrow__rank,
+  .wrow--head .wrow__score,
+  .wrow--head .wrow__price {
+    font-size: 0.62rem;
+    font-weight: 400;
+    color: var(--color-text-faint);
+  }
+
+  .wrow--head:hover {
+    background: var(--color-surface-raised);
   }
 
   .wrow__price {

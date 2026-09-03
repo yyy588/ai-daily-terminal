@@ -62,6 +62,38 @@ describe.runIf(hasBuild)('arena 页面布局对齐', () => {
     }
   });
 
+  it('两榜都有表头行：与数据行同列结构，列名对应数据语义', () => {
+    const lists = Array.from(doc.querySelectorAll('.board__list'));
+    expect(lists).toHaveLength(2);
+
+    const expected = [
+      ['rank', 'model', 'score', 'price'], // WebDev（Elo）
+      ['rank', 'model', 'score', 'price'], // Agent（净改进率）
+    ];
+
+    lists.forEach((ol, i) => {
+      const head = ol.querySelector('.wrow--head');
+      expect(head, `榜${i} 缺表头行`).not.toBeNull();
+
+      const cols = Array.from(head!.children).map((c) =>
+        (c as Element).className.split(' ')[0].replace('wrow__', ''),
+      );
+      expect(cols).toEqual(expected[i]);
+
+      // 表头文字语义：WebDev 与 Agent 的第 3/4 列名不同
+      const texts = Array.from(head!.children).map((c) => (c.textContent ?? '').trim());
+      expect(texts[0]).toBe('#');
+      expect(texts[1]).toBe('模型');
+      if (i === 0) {
+        expect(texts[2]).toContain('Elo');
+        expect(texts[3]).toContain('价格');
+      } else {
+        expect(texts[2]).toContain('改进');
+        expect(texts[3]).toContain('成本');
+      }
+    });
+  });
+
   it('score 列两行结构：CI 是块级行（样式表声明 display:block，数字/CI 垂直堆叠）', () => {
     const scores = Array.from(doc.querySelectorAll('.wrow__score'));
     expect(scores.length).toBeGreaterThanOrEqual(40);
@@ -84,7 +116,8 @@ describe.runIf(hasBuild)('arena 页面布局对齐', () => {
   });
 
   it('两榜 score 数字部分宽度规范：Agent 百分比与 Elo 分数都为紧凑数字（无多余字符）', () => {
-    const scores = Array.from(doc.querySelectorAll('.wrow__score'));
+    // 排除表头行（表头的 score 单元格是列名不是数字）
+    const scores = Array.from(doc.querySelectorAll('.wrow:not(.wrow--head) .wrow__score'));
     const numbers = scores
       .map((s) =>
         Array.from(s.childNodes)

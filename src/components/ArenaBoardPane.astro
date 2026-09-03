@@ -21,6 +21,12 @@ const { board, maxRows = 20 } = Astro.props;
         <span class="board__meta">{board.rows.length} 模型 · Elo</span>
       </h2>
       <ol class="board__list">
+        <li class="wrow wrow--head mono" aria-hidden="true">
+          <span class="wrow__rank">#</span>
+          <span class="wrow__model">模型</span>
+          <span class="wrow__score">Elo 分数</span>
+          <span class="wrow__price">API 价格</span>
+        </li>
         {board.rows.slice(0, maxRows).map((row) => (
           <li class="wrow">
             <span class="wrow__rank mono">{String(row.rank).padStart(2, '0')}</span>
@@ -168,5 +174,28 @@ const { board, maxRows = 20 } = Astro.props;
     font-size: 0.65rem;
     color: var(--color-text-faint);
     text-align: right;
+  }
+
+  /* 表头行：与数据行同 grid 列，弱化视觉 */
+  .wrow--head {
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-faint);
+    background: var(--color-surface-raised);
+    padding: 0.3rem var(--space-m);
+  }
+
+  .wrow--head .wrow__model,
+  .wrow--head .wrow__rank,
+  .wrow--head .wrow__score,
+  .wrow--head .wrow__price {
+    font-size: 0.62rem;
+    font-weight: 400;
+    color: var(--color-text-faint);
+  }
+
+  .wrow--head:hover {
+    background: var(--color-surface-raised);
   }
 </style>
