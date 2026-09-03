@@ -49,6 +49,10 @@ jobs:
       - name: Fetch repo radar
         run: pnpm fetch-repos
 
+      # arena.ai 有 Cloudflare：CI 直连可能 403，脚本内降级沿用快照
+      - name: Fetch arena boards
+        run: pnpm fetch-arena
+
       # 数据提交回仓库：定时抓取的增量持久化，否则文章滚出 RSS 10 条窗口即永久丢失。
       # [skip ci] 防止此提交再触发 push 工作流（无限循环）。
       - name: Commit fetched data

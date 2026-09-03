@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { loadSiteData, loadReposData, SOURCE_NAMES } from '../lib/site';
+import { loadSiteData, loadReposData, loadArenaData, SOURCE_NAMES } from '../lib/site';
 import { internalHref } from '../lib/href';
 import { sortByScore } from '../lib/scoring';
 
@@ -15,6 +15,8 @@ const topEntries = todayEntries.length
 
 const reposData = loadReposData();
 const topRepos = reposData.repos.slice(0, 5);
+const arenaData = loadArenaData();
+const arenaTop = arenaData.boards.map((b) => ({ title: b.title, snapshot: b.fetchedAt.slice(0, 10), top3: b.rows.slice(0, 3) }));
 
 function timeOf(pubDate: string): string {
   const ts = Date.parse(pubDate);
@@ -106,6 +108,34 @@ function timeOf(pubDate: string): string {
     </p>
   </section>
 
+  {arenaTop.length > 0 && (
+    <section aria-labelledby="arena-brief-heading">
+      <h2 class="section-title" id="arena-brief-heading">竞技场速览 // 大模型双榜 Top 3</h2>
+      <div class="arena-brief">
+        {arenaTop.map((board) => (
+          <div class="doc-card arena-brief__board">
+            <div class="doc-card__meta">
+              <span class="doc-card__tag">[ {board.title} ]</span>
+              <span>快照 {board.snapshot}</span>
+            </div>
+            <ol class="arena-brief__list">
+              {board.top3.map((row) => (
+                <li class="arena-brief__row">
+                  <span class="mono arena-brief__rank">{row.rank}</span>
+                  <span class="arena-brief__name">{row.modelName}</span>
+                  <span class="mono arena-brief__score">{row.score}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        ))}
+      </div>
+      <p class="more-link mono">
+        <a href={internalHref('/arena/')}>[ 完整双榜对照（Top 20） → ]</a>
+      </p>
+    </section>
+  )}
+
   <section aria-labelledby="archive-heading">
     <h2 class="section-title" id="archive-heading">检修日志存档</h2>
     <ul class="archive-list mono">
@@ -179,6 +209,49 @@ function timeOf(pubDate: string): string {
     color: var(--color-primary);
     font-size: 0.75rem;
     font-weight: 600;
+  }
+
+  .arena-brief {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: var(--space-s);
+  }
+
+  .arena-brief__list {
+    list-style: none;
+    margin: var(--space-s) 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  .arena-brief__row {
+    display: grid;
+    grid-template-columns: 1.4rem 1fr 3rem;
+    align-items: center;
+    gap: var(--space-s);
+  }
+
+  .arena-brief__rank {
+    font-size: 0.7rem;
+    color: var(--color-accent);
+    font-weight: 700;
+  }
+
+  .arena-brief__name {
+    font-size: 0.85rem;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .arena-brief__score {
+    font-size: 0.8rem;
+    color: var(--color-primary);
+    font-weight: 600;
+    text-align: right;
   }
 
   .more-link {
