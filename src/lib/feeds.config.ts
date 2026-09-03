@@ -33,10 +33,11 @@ export const FEED_SOURCES: readonly FeedSource[] = [
   {
     id: 'hackernews',
     name: 'HackerNews',
-    // 双查询 feed：q=AI 与 q=LLM 各 20 条，实测重叠仅 1 条（靠链接归一化去重）
+    // 2026-09-03 停用：英文标题阅读门槛高，聚焦中文源（配置留档，恢复=删 enabled 行）
     urls: ['https://hnrss.org/newest?q=AI', 'https://hnrss.org/newest?q=LLM'],
     weight: 2.5,
     filterByKeywords: true,
+    enabled: false,
   },
   {
     id: 'ifanr',
