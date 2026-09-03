@@ -1,9 +1,19 @@
 {
-  "generatedAt": "2026-09-03T10:13:06.362Z",
+  "generatedAt": "2026-09-03T10:29:43.111Z",
   "digests": [
     {
       "date": "2026-09-03",
       "entries": [
+        {
+          "id": "https://www.gov.uk/government/news/100-million-competition-to-back-british-ai-companies-to-fix-public-services",
+          "title": "£100M competition to back British AI companies to fix public services",
+          "link": "https://www.gov.uk/government/news/100-million-competition-to-back-british-ai-companies-to-fix-public-services",
+          "pubDate": "Thu, 03 Sep 2026 10:19:45 +0000",
+          "summary": "Article URL: https://www.gov.uk/government/news/100-million-competition-to-back-british-ai-companies-to-fix-public-servi…",
+          "sources": [
+            "hackernews"
+          ]
+        },
         {
           "id": "https://www.storagereview.com/news/lto-tape-shipments-up-57-in-q1-2026-as-ai-and-archive-demand-accelerate",
           "title": "LTO Tape Shipments Up 57% in Q1 2026 as AI and Archive Demand Accelerate",
@@ -390,16 +400,6 @@
           "link": "https://secondthoughts.ai/p/ai-can-help-plan-a-bioweapon-building",
           "pubDate": "Thu, 03 Sep 2026 04:26:29 +0000",
           "summary": "Article URL: https://secondthoughts.ai/p/ai-can-help-plan-a-bioweapon-building Comments URL: https://news.ycombinator.co…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://twitter.com/louszbd/status/2093047548550525165",
-          "title": "How viable is LLM-assisted 3D modeling in Blender?",
-          "link": "https://twitter.com/louszbd/status/2093047548550525165",
-          "pubDate": "Thu, 03 Sep 2026 04:19:38 +0000",
-          "summary": "Article URL: https://twitter.com/louszbd/status/2093047548550525165 Comments URL: https://news.ycombinator.com/item?id=4…",
           "sources": [
             "hackernews"
           ]
