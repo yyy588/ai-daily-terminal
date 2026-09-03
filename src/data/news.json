@@ -1,9 +1,79 @@
 {
-  "generatedAt": "2026-09-03T03:34:36.060Z",
+  "generatedAt": "2026-09-03T04:38:46.587Z",
   "digests": [
     {
       "date": "2026-09-03",
       "entries": [
+        {
+          "id": "https://secondthoughts.ai/p/ai-can-help-plan-a-bioweapon-building",
+          "title": "AI Can Help Plan a Bioweapon",
+          "link": "https://secondthoughts.ai/p/ai-can-help-plan-a-bioweapon-building",
+          "pubDate": "Thu, 03 Sep 2026 04:26:29 +0000",
+          "summary": "Article URL: https://secondthoughts.ai/p/ai-can-help-plan-a-bioweapon-building Comments URL: https://news.ycombinator.co…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://twitter.com/louszbd/status/2093047548550525165",
+          "title": "How viable is LLM-assisted 3D modeling in Blender?",
+          "link": "https://twitter.com/louszbd/status/2093047548550525165",
+          "pubDate": "Thu, 03 Sep 2026 04:19:38 +0000",
+          "summary": "Article URL: https://twitter.com/louszbd/status/2093047548550525165 Comments URL: https://news.ycombinator.com/item?id=4…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://gizmodo.com/new-york-city-bans-ai-from-elementary-schools-2000806172",
+          "title": "New York City Bans AI from Elementary Schools",
+          "link": "https://gizmodo.com/new-york-city-bans-ai-from-elementary-schools-2000806172",
+          "pubDate": "Thu, 03 Sep 2026 04:19:05 +0000",
+          "summary": "Article URL: https://gizmodo.com/new-york-city-bans-ai-from-elementary-schools-2000806172 Comments URL: https://news.yco…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://github.com/meghal86/promptsonar",
+          "title": "PromptSonar – Execution path analyzer for AI agents and MCP servers",
+          "link": "https://github.com/meghal86/promptsonar",
+          "pubDate": "Thu, 03 Sep 2026 03:59:19 +0000",
+          "summary": "Article URL: https://github.com/meghal86/promptsonar Comments URL: https://news.ycombinator.com/item?id=49545780 Points:…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/852.htm",
+          "title": "Anthropic 升级 Claude Code / Cowork，可后台操控用户 Mac",
+          "link": "https://www.ithome.com/0/997/852.htm",
+          "pubDate": "Thu, 03 Sep 2026 03:49:55 GMT",
+          "summary": "IT之家 9 月 3 日消息，Anthropic 今天（9 月 3 日）在 X 平台发布推文，宣布升级 Claude Cowork 和 Claude Code 的电脑控制功能，可以在后台操控用户 Mac。在适配要求方面，官方要求使用 mac…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://opsera.ai/blog/frontier-ai-software-readiness-benchmark",
+          "title": "We analyzed the code published by 29 frontier AI labs. Here's the data",
+          "link": "https://opsera.ai/blog/frontier-ai-software-readiness-benchmark/",
+          "pubDate": "Thu, 03 Sep 2026 03:42:28 +0000",
+          "summary": "Article URL: https://opsera.ai/blog/frontier-ai-software-readiness-benchmark/ Comments URL: https://news.ycombinator.com…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://www.congress.gov/bill/119th-congress/house-bill/9925/text",
+          "title": "Frontier Act – Federal oversight of the development of frontier AI",
+          "link": "https://www.congress.gov/bill/119th-congress/house-bill/9925/text",
+          "pubDate": "Thu, 03 Sep 2026 03:24:42 +0000",
+          "summary": "Article URL: https://www.congress.gov/bill/119th-congress/house-bill/9925/text Comments URL: https://news.ycombinator.co…",
+          "sources": [
+            "hackernews"
+          ]
+        },
         {
           "id": "https://www.qbitai.com/2026/09/483565.html",
           "title": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
@@ -333,76 +403,6 @@
           "sources": [
             "hackernews"
           ]
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49543253",
-          "title": "Ask HN: How to get taken seriously while using AI?",
-          "link": "https://news.ycombinator.com/item?id=49543253",
-          "pubDate": "Wed, 02 Sep 2026 22:08:18 +0000",
-          "summary": "I have been reading lobste.rs on and off for a few months, and the anti-AI vibes have always stood out. I don’t jump in …",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference",
-          "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
-          "link": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
-          "pubDate": "Wed, 02 Sep 2026 22:05:40 +0000",
-          "summary": "Article URL: https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inferenc…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
-          "title": "NYC Announced Nation's Broadest Generative AI Moratorium in Schools",
-          "link": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
-          "pubDate": "Wed, 02 Sep 2026 21:45:48 +0000",
-          "summary": "Article URL: https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://developer.apple.com/documentation/safari-developer-tools/connecting-an-ai-agent-to-safari",
-          "title": "Inspect, test, and debug your website with an AI agent connected to Safari",
-          "link": "https://developer.apple.com/documentation/safari-developer-tools/connecting-an-ai-agent-to-safari",
-          "pubDate": "Wed, 02 Sep 2026 21:25:28 +0000",
-          "summary": "Article URL: https://developer.apple.com/documentation/safari-developer-tools/connecting-an-ai-agent-to-safari Comments …",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://theconversation.com/will-ai-save-or-ruin-democracy-it-depends-on-whether-we-allow-computers-to-stand-in-for-people-289369",
-          "title": "Will AI save or ruin democracy?",
-          "link": "https://theconversation.com/will-ai-save-or-ruin-democracy-it-depends-on-whether-we-allow-computers-to-stand-in-for-people-289369",
-          "pubDate": "Wed, 02 Sep 2026 21:23:35 +0000",
-          "summary": "Article URL: https://theconversation.com/will-ai-save-or-ruin-democracy-it-depends-on-whether-we-allow-computers-to-stan…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.brightworkresearch.com/how-accurate-was-dr-hubert-dreyfus-on-ai-predictions-in-his-book-what-computers-cant-do",
-          "title": "How Accurate Was Hubert Dreyfus on AI Predictions in \"What Computers Can't Do\"? (2024)",
-          "link": "https://www.brightworkresearch.com/how-accurate-was-dr-hubert-dreyfus-on-ai-predictions-in-his-book-what-computers-cant-do/",
-          "pubDate": "Wed, 02 Sep 2026 21:16:20 +0000",
-          "summary": "Article URL: https://www.brightworkresearch.com/how-accurate-was-dr-hubert-dreyfus-on-ai-predictions-in-his-book-what-co…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://room.pluralmatter.com/e/how-will-the-world-change-when-ai-smarter-than-humans",
-          "title": "Show HN: I put four persistent AI minds in a room and let them change each other",
-          "link": "https://room.pluralmatter.com/e/how-will-the-world-change-when-ai-smarter-than-humans",
-          "pubDate": "Wed, 02 Sep 2026 21:10:27 +0000",
-          "summary": "Article URL: https://room.pluralmatter.com/e/how-will-the-world-change-when-ai-smarter-than-humans Comments URL: https:/…",
-          "sources": [
-            "hackernews"
-          ]
         }
       ]
     },
@@ -474,7 +474,7 @@
           "title": "WebLLM: high-performance in-browser LLM inference engine",
           "link": "https://github.com/mlc-ai/web-llm",
           "pubDate": "Wed, 02 Sep 2026 14:02:35 +0000",
-          "summary": "Article URL: https://github.com/mlc-ai/web-llm Comments URL: https://news.ycombinator.com/item?id=49536411 Points: 92 # …",
+          "summary": "Article URL: https://github.com/mlc-ai/web-llm Comments URL: https://news.ycombinator.com/item?id=49536411 Points: 95 # …",
           "sources": [
             "hackernews"
           ]
