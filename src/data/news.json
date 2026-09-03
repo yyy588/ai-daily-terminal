@@ -5,6 +5,7 @@
       "date": "2026-09-03",
       "entries": [
         {
+<<<<<<< HEAD
           "id": "https://www.gov.uk/government/news/100-million-competition-to-back-british-ai-companies-to-fix-public-services",
           "title": "£100M competition to back British AI companies to fix public services",
           "link": "https://www.gov.uk/government/news/100-million-competition-to-back-british-ai-companies-to-fix-public-services",
@@ -55,6 +56,8 @@
           ]
         },
         {
+=======
+>>>>>>> 5f97530 (chore(data): purge HN entries again — bot cron raced with disable commit)
           "id": "https://www.ithome.com/0/998/066.htm",
           "title": "奥尔特曼：OpenAI Astra 模型参与了美政府自愿审查",
           "link": "https://www.ithome.com/0/998/066.htm",
@@ -62,96 +65,6 @@
           "summary": "IT之家 9 月 3 日消息，据 Axios 报道，OpenAI 首席执行官萨姆 · 奥尔特曼表示，特朗普政府对公司即将推出的 Astra 模型进行的自愿审查是一个“富有成效的过程”。他同时指出，随着 AI 能力不断提升，与世界各国政府官员…",
           "sources": [
             "ithome"
-          ]
-        },
-        {
-          "id": "https://github.com/RobertIlisei/MARVIN",
-          "title": "Marvin – Open-source macOS AI coding IDE that learns from its own sessions",
-          "link": "https://github.com/RobertIlisei/MARVIN",
-          "pubDate": "Thu, 03 Sep 2026 09:50:05 +0000",
-          "summary": "Article URL: https://github.com/RobertIlisei/MARVIN Comments URL: https://news.ycombinator.com/item?id=49547951 Points: …",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.pbs.org/newshour/science/ai-agents-are-hacking-systems-without-any-input-from-humans-how-did-we-get-here",
-          "title": "AI agents are hacking systems without any input from humans",
-          "link": "https://www.pbs.org/newshour/science/ai-agents-are-hacking-systems-without-any-input-from-humans-how-did-we-get-here",
-          "pubDate": "Thu, 03 Sep 2026 09:46:49 +0000",
-          "summary": "Article URL: https://www.pbs.org/newshour/science/ai-agents-are-hacking-systems-without-any-input-from-humans-how-did-we…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://github.com/shutter-network/concorde",
-          "title": "Show HN: Concorde, one AI agent shared by an organization",
-          "link": "https://github.com/shutter-network/concorde",
-          "pubDate": "Thu, 03 Sep 2026 09:13:41 +0000",
-          "summary": "We built Concorde, an open-source framework giving an organization one shared agent that's controlled by a group, rather…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://itdaily.com/news/software/aaltra-and-ghent-university-develop-semek-a-local-ai-hub-for-digital-content",
-          "title": "Semek: Local AI hub for labelling/filtering digital content",
-          "link": "https://itdaily.com/news/software/aaltra-and-ghent-university-develop-semek-a-local-ai-hub-for-digital-content/",
-          "pubDate": "Thu, 03 Sep 2026 09:00:37 +0000",
-          "summary": "Article URL: https://itdaily.com/news/software/aaltra-and-ghent-university-develop-semek-a-local-ai-hub-for-digital-cont…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=oFtjKbXKqbg",
-          "title": "Pieter Levels: Programming, Viral AI Startups, and Digital Nomad Life [video]",
-          "link": "https://www.youtube.com/watch?v=oFtjKbXKqbg",
-          "pubDate": "Thu, 03 Sep 2026 08:46:24 +0000",
-          "summary": "Article URL: https://www.youtube.com/watch?v=oFtjKbXKqbg Comments URL: https://news.ycombinator.com/item?id=49547513 Poi…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.cs.columbia.edu/~johnhew/lab/ai-policy.html",
-          "title": "Lab Policy on AI in Writing and Communication",
-          "link": "https://www.cs.columbia.edu/~johnhew/lab/ai-policy.html",
-          "pubDate": "Thu, 03 Sep 2026 08:33:34 +0000",
-          "summary": "Article URL: https://www.cs.columbia.edu/~johnhew/lab/ai-policy.html Comments URL: https://news.ycombinator.com/item?id=…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://medium.com/@salari-dev/35-people-i-know-lost-their-tech-jobs-ai-was-part-of-the-reason-the-layoff-wasnt-the-worst-part-787a4ee4a5e2",
-          "title": "35 people I know lost their tech jobs. AI was part of the reason.",
-          "link": "https://medium.com/@salari-dev/35-people-i-know-lost-their-tech-jobs-ai-was-part-of-the-reason-the-layoff-wasnt-the-worst-part-787a4ee4a5e2",
-          "pubDate": "Thu, 03 Sep 2026 08:30:57 +0000",
-          "summary": "Article URL: https://medium.com/@salari-dev/35-people-i-know-lost-their-tech-jobs-ai-was-part-of-the-reason-the-layoff-w…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.politico.com/news/2026/09/02/how-silicon-valley-lost-its-war-against-state-ai-laws-01054133",
-          "title": "States defy the tech lobby on AI rules",
-          "link": "https://www.politico.com/news/2026/09/02/how-silicon-valley-lost-its-war-against-state-ai-laws-01054133",
-          "pubDate": "Thu, 03 Sep 2026 08:27:57 +0000",
-          "summary": "Article URL: https://www.politico.com/news/2026/09/02/how-silicon-valley-lost-its-war-against-state-ai-laws-01054133 Com…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://brain-tube.com",
-          "title": "BrainTube – Your personal AI powered knowledge base",
-          "link": "https://brain-tube.com/",
-          "pubDate": "Thu, 03 Sep 2026 08:26:12 +0000",
-          "summary": "Article URL: https://brain-tube.com/ Comments URL: https://news.ycombinator.com/item?id=49547378 Points: 1 # Comments: 0",
-          "sources": [
-            "hackernews"
           ]
         },
         {
@@ -165,56 +78,6 @@
           ]
         },
         {
-          "id": "https://www.geekwire.com/2026/kids-go-from-curious-to-frustrated-playing-with-ai-stuffed-toys-uw-study-finds",
-          "title": "Kids go from curious to frustrated playing with AI-stuffed toys, UW study finds",
-          "link": "https://www.geekwire.com/2026/kids-go-from-curious-to-frustrated-playing-with-ai-stuffed-toys-uw-study-finds/",
-          "pubDate": "Thu, 03 Sep 2026 08:20:51 +0000",
-          "summary": "Article URL: https://www.geekwire.com/2026/kids-go-from-curious-to-frustrated-playing-with-ai-stuffed-toys-uw-study-find…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://multitasked.net/2026/09/03/ai-as-a-stress-releiver.html",
-          "title": "AI as a Stress Reliever",
-          "link": "https://multitasked.net/2026/09/03/ai-as-a-stress-releiver.html",
-          "pubDate": "Thu, 03 Sep 2026 08:16:08 +0000",
-          "summary": "Article URL: https://multitasked.net/2026/09/03/ai-as-a-stress-releiver.html Comments URL: https://news.ycombinator.com/…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.phoronix.com/news/Open-Secure-AI-Alliance-LF",
-          "title": "Nvidia-Started Open Secure AI Alliance Moves to the Linux Foundation",
-          "link": "https://www.phoronix.com/news/Open-Secure-AI-Alliance-LF",
-          "pubDate": "Thu, 03 Sep 2026 08:14:13 +0000",
-          "summary": "Article URL: https://www.phoronix.com/news/Open-Secure-AI-Alliance-LF Comments URL: https://news.ycombinator.com/item?id…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://techambient.github.io/HybridAI",
-          "title": "Show HN: OpenHelper AI Chatbot – The Free and Open Source AI Chatbot",
-          "link": "https://techambient.github.io/HybridAI/",
-          "pubDate": "Thu, 03 Sep 2026 08:07:08 +0000",
-          "summary": "Article URL: https://techambient.github.io/HybridAI/ Comments URL: https://news.ycombinator.com/item?id=49547229 Points:…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.theverge.com/tech/987936/anker-eufy-mindbase-ai-security-camera-system-matter",
-          "title": "Anker's new MindBase is an AI-powered brain for your smart home",
-          "link": "https://www.theverge.com/tech/987936/anker-eufy-mindbase-ai-security-camera-system-matter",
-          "pubDate": "Thu, 03 Sep 2026 07:52:45 +0000",
-          "summary": "Article URL: https://www.theverge.com/tech/987936/anker-eufy-mindbase-ai-security-camera-system-matter Comments URL: htt…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
           "id": "https://www.ithome.com/0/997/976.htm",
           "title": "阿里智能体编程平台 Qoder 上线“眼镜版”，将接入千问和乐奇 AI 眼镜",
           "link": "https://www.ithome.com/0/997/976.htm",
@@ -222,16 +85,6 @@
           "summary": "IT之家 9 月 3 日消息，据阿里云消息，今天，阿里智能体编程平台 Qoder 上线“Qoder 眼镜版”，将首批接入千问 AI 眼镜和乐奇 AI 眼镜。未来，用户无需打开手机、触碰屏幕，戴上眼镜就能随时随地通过语音交互让 Agent 执…",
           "sources": [
             "ithome"
-          ]
-        },
-        {
-          "id": "https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret",
-          "title": "No–AI Agents Did Not Build Secret Civilizations Stop Anthropomorphizing Malware",
-          "link": "https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret",
-          "pubDate": "Thu, 03 Sep 2026 07:45:10 +0000",
-          "summary": "Article URL: https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret Comments URL: https://news.ycombinat…",
-          "sources": [
-            "hackernews"
           ]
         },
         {
@@ -245,26 +98,6 @@
           ]
         },
         {
-          "id": "https://www.a1ho.com/2026/08/corporate-data-privacy-uae-why-on.html",
-          "title": "Corporate Data Privacy UAE: Why On-Device AI Is the Real Moat for Dubai Startups",
-          "link": "https://www.a1ho.com/2026/08/corporate-data-privacy-uae-why-on.html",
-          "pubDate": "Thu, 03 Sep 2026 07:36:28 +0000",
-          "summary": "Article URL: https://www.a1ho.com/2026/08/corporate-data-privacy-uae-why-on.html Comments URL: https://news.ycombinator.…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.war.gov/News/News-Stories/Article/Article/4588244/chatgpt-grok-added-to-war-departments-ai-system-options",
-          "title": "ChatGPT, Grok Added to War Department's AI System Options",
-          "link": "https://www.war.gov/News/News-Stories/Article/Article/4588244/chatgpt-grok-added-to-war-departments-ai-system-options/",
-          "pubDate": "Thu, 03 Sep 2026 07:35:43 +0000",
-          "summary": "Article URL: https://www.war.gov/News/News-Stories/Article/Article/4588244/chatgpt-grok-added-to-war-departments-ai-syst…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
           "id": "https://www.ithome.com/0/997/952.htm",
           "title": "微软商业经典版 Outlook 强化 AI 入口，本月功能区将新增 Copilot 专属按钮",
           "link": "https://www.ithome.com/0/997/952.htm",
@@ -272,26 +105,6 @@
           "summary": "IT之家 9 月 3 日消息，科技媒体 NeoWin 昨日（9 月 2 日）发布博文，报道称微软计划本月开始，面向所有经典版 Outlook 商业用户部署调整，在功能区安置 Copilot 专属按钮。根据微软消息中心公告 MC1441784…",
           "sources": [
             "ithome"
-          ]
-        },
-        {
-          "id": "https://mattbruenig.com/2026/08/31/more-thoughts-on-ai",
-          "title": "AI and the collapse of the intelligence-based hierarchy of merit",
-          "link": "https://mattbruenig.com/2026/08/31/more-thoughts-on-ai/",
-          "pubDate": "Thu, 03 Sep 2026 07:14:09 +0000",
-          "summary": "Article URL: https://mattbruenig.com/2026/08/31/more-thoughts-on-ai/ Comments URL: https://news.ycombinator.com/item?id=…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-security-audit/5294009",
-          "title": "AI agents carried out every step of this ransomware attack – then left",
-          "link": "https://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-security-audit/5294009",
-          "pubDate": "Thu, 03 Sep 2026 07:07:08 +0000",
-          "summary": "Article URL: https://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-…",
-          "sources": [
-            "hackernews"
           ]
         },
         {
@@ -305,26 +118,6 @@
           ]
         },
         {
-          "id": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission",
-          "title": "The Download: AI puzzles and a path to our nearest star system",
-          "link": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
-          "pubDate": "Thu, 03 Sep 2026 07:02:25 +0000",
-          "summary": "Article URL: https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/ Comment…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://chatbotscompared.com",
-          "title": "Chat Bots Compared: An interactive quiz to find AI companions",
-          "link": "https://chatbotscompared.com/",
-          "pubDate": "Thu, 03 Sep 2026 07:02:06 +0000",
-          "summary": "Article URL: https://chatbotscompared.com/ Comments URL: https://news.ycombinator.com/item?id=49546783 Points: 1 # Comme…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
           "id": "https://www.ithome.com/0/997/918.htm",
           "title": "奥尔特曼：OpenAI 肯定会研发人形机器人",
           "link": "https://www.ithome.com/0/997/918.htm",
@@ -332,16 +125,6 @@
           "summary": "IT之家 9 月 3 日消息，美国人工智能初创企业 OpenAI 今年创立机器人部门。招聘信息显示，该公司正在定制机电执行器、仿真流程和机器人数据采集等具身智能领域探索。OpenAI 首席执行官萨姆 · 奥尔特曼（IT之家注：Sam Alt…",
           "sources": [
             "ithome"
-          ]
-        },
-        {
-          "id": "https://github.com/MickeyAlton33/web-designer-plugin",
-          "title": "An open-source design plugin that helps your AI build less generic websites",
-          "link": "https://github.com/MickeyAlton33/web-designer-plugin",
-          "pubDate": "Thu, 03 Sep 2026 06:52:26 +0000",
-          "summary": "Article URL: https://github.com/MickeyAlton33/web-designer-plugin Comments URL: https://news.ycombinator.com/item?id=495…",
-          "sources": [
-            "hackernews"
           ]
         },
         {
@@ -365,26 +148,6 @@
           ]
         },
         {
-          "id": "https://www.forescout.com/blog/can-ai-create-plc-attacks-yes-but-it%E2%80%99s-not-that-easy-yet",
-          "title": "Can AI Create PLC Attacks? Yes, but It's Not That Easy Yet",
-          "link": "https://www.forescout.com/blog/can-ai-create-plc-attacks-yes-but-it%E2%80%99s-not-that-easy-yet/",
-          "pubDate": "Thu, 03 Sep 2026 06:19:37 +0000",
-          "summary": "Article URL: https://www.forescout.com/blog/can-ai-create-plc-attacks-yes-but-it%E2%80%99s-not-that-easy-yet/ Comments U…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://gkoreli.com/which-ai-fetchers-send-which-headers",
-          "title": "Which AI Fetchers Send Which Headers, Measured on a Live Site",
-          "link": "https://gkoreli.com/which-ai-fetchers-send-which-headers",
-          "pubDate": "Thu, 03 Sep 2026 06:15:14 +0000",
-          "summary": "Article URL: https://gkoreli.com/which-ai-fetchers-send-which-headers Comments URL: https://news.ycombinator.com/item?id…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
           "id": "https://www.ithome.com/0/997/866.htm",
           "title": "OpenAI 首席科学家回应“AI 推理不透明”争议：复杂度未跳跃增长",
           "link": "https://www.ithome.com/0/997/866.htm",
@@ -393,6 +156,7 @@
           "sources": [
             "ithome"
           ]
+<<<<<<< HEAD
         },
         {
           "id": "https://pubmed.ncbi.nlm.nih.gov/40560616",
@@ -403,22 +167,14 @@
           "sources": [
             "hackernews"
           ]
+=======
+>>>>>>> 5f97530 (chore(data): purge HN entries again — bot cron raced with disable commit)
         }
       ]
     },
     {
       "date": "2026-09-02",
       "entries": [
-        {
-          "id": "https://openrouter.ai/inception/mercury-2.5-preview",
-          "title": "Ultra Fast LLM's Are Interesting (Mercury 2.5 Preview Release)",
-          "link": "https://openrouter.ai/inception/mercury-2.5-preview",
-          "pubDate": "Wed, 02 Sep 2026 15:31:24 +0000",
-          "summary": "Article URL: https://openrouter.ai/inception/mercury-2.5-preview Comments URL: https://news.ycombinator.com/item?id=4953…",
-          "sources": [
-            "hackernews"
-          ]
-        },
         {
           "id": "https://www.ithome.com/0/997/702.htm",
           "title": "谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景",
@@ -450,16 +206,6 @@
           ]
         },
         {
-          "id": "https://github.com/aryanyaksh-art/did-it-even-learn",
-          "title": "Fine-tuning your LLM might be making it dumber",
-          "link": "https://github.com/aryanyaksh-art/did-it-even-learn",
-          "pubDate": "Wed, 02 Sep 2026 14:49:39 +0000",
-          "summary": "Article URL: https://github.com/aryanyaksh-art/did-it-even-learn Comments URL: https://news.ycombinator.com/item?id=4953…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
           "id": "https://www.ithome.com/0/997/684.htm",
           "title": "全美最严格课堂 AI 禁令落地纽约，学生上高中之前不得在课上使用",
           "link": "https://www.ithome.com/0/997/684.htm",
@@ -467,26 +213,6 @@
           "summary": "IT之家 9 月 2 日消息，据外媒 The Verge 报道，纽约市市长佐赫兰 · 马姆达尼当地时间 2 日宣布，将在公立学校课堂限制年龄较小的学生使用 AI。禁令为期一年，从 2026-2027 学年开始实施，覆盖约 60 万名 2-K…",
           "sources": [
             "ithome"
-          ]
-        },
-        {
-          "id": "https://github.com/mlc-ai/web-llm",
-          "title": "WebLLM: high-performance in-browser LLM inference engine",
-          "link": "https://github.com/mlc-ai/web-llm",
-          "pubDate": "Wed, 02 Sep 2026 14:02:35 +0000",
-          "summary": "Article URL: https://github.com/mlc-ai/web-llm Comments URL: https://news.ycombinator.com/item?id=49536411 Points: 119 #…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.searchplex.net/blog/llm-judge-search-relevance",
-          "title": "What Is Your LLM Judge Measuring?",
-          "link": "https://www.searchplex.net/blog/llm-judge-search-relevance",
-          "pubDate": "Wed, 02 Sep 2026 13:51:19 +0000",
-          "summary": "Article URL: https://www.searchplex.net/blog/llm-judge-search-relevance Comments URL: https://news.ycombinator.com/item?…",
-          "sources": [
-            "hackernews"
           ]
         },
         {
@@ -550,16 +276,6 @@
           ]
         },
         {
-          "id": "https://crazysteve.bearblog.dev/why-i-prefer-using-llm-api-aggregators-over-subscription-services",
-          "title": "Why I prefer using LLM API aggregators over subscription services",
-          "link": "https://crazysteve.bearblog.dev/why-i-prefer-using-llm-api-aggregators-over-subscription-services/",
-          "pubDate": "Wed, 02 Sep 2026 12:24:08 +0000",
-          "summary": "Article URL: https://crazysteve.bearblog.dev/why-i-prefer-using-llm-api-aggregators-over-subscription-services/ Comments…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
           "id": "https://www.ithome.com/0/997/642.htm",
           "title": "Kimi API 已原生支持 Codex 和 Claude Code",
           "link": "https://www.ithome.com/0/997/642.htm",
@@ -580,16 +296,6 @@
           ]
         },
         {
-          "id": "https://arxiv.org/abs/2608.31016",
-          "title": "LLM Judges Verify Presence, Not Absence: Omission Blindness in AI Clinical Notes",
-          "link": "https://arxiv.org/abs/2608.31016",
-          "pubDate": "Wed, 02 Sep 2026 11:07:07 +0000",
-          "summary": "Article URL: https://arxiv.org/abs/2608.31016 Comments URL: https://news.ycombinator.com/item?id=49534583 Points: 20 # C…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
           "id": "https://www.ithome.com/0/997/633.htm",
           "title": "联想预热来酷 GT 16 AI 全能本，英伟达 RTX 3050 显卡",
           "link": "https://www.ithome.com/0/997/633.htm",
@@ -597,16 +303,6 @@
           "summary": "IT之家 9 月 2 日消息，联想来酷 Lecoo 今日在B站公布 GT 16 AI 全能本。据官方介绍，这款笔记本为 AI 全场景办公 & 游戏而生，搭载英伟达 RTX 3050 显卡，将在后续上市。从预热图片来看，这款笔记本的屏幕尺寸应…",
           "sources": [
             "ithome"
-          ]
-        },
-        {
-          "id": "https://github.com/RAJUSHANIGARAPU/agent-lens/releases/tag/v0.3.0",
-          "title": "My LLM tracer had 93% test coverage and coul",
-          "link": "https://github.com/RAJUSHANIGARAPU/agent-lens/releases/tag/v0.3.0",
-          "pubDate": "Wed, 02 Sep 2026 09:41:06 +0000",
-          "summary": "Article URL: https://github.com/RAJUSHANIGARAPU/agent-lens/releases/tag/v0.3.0 Comments URL: https://news.ycombinator.co…",
-          "sources": [
-            "hackernews"
           ]
         },
         {
@@ -637,16 +333,6 @@
           "summary": "IT之家 9 月 2 日消息，豆包工作新增两项新功能：“多 Agents 并行”和 Mac 系统下的“操作电脑”。据介绍，多 Agents 并行功能，能让豆包召唤不同的子 Agent，在一个任务下分别执行不同的模块，既成倍节省时间，又能同时…",
           "sources": [
             "ithome"
-          ]
-        },
-        {
-          "id": "https://www.painauchoc.com",
-          "title": "Show HN: I ranked every Paris bakery's pain au chocolat using an LLM",
-          "link": "https://www.painauchoc.com/",
-          "pubDate": "Wed, 02 Sep 2026 07:52:38 +0000",
-          "summary": "Article URL: https://www.painauchoc.com/ Comments URL: https://news.ycombinator.com/item?id=49533149 Points: 5 # Comment…",
-          "sources": [
-            "hackernews"
           ]
         },
         {
@@ -687,26 +373,6 @@
           "summary": "IT之家 9 月 2 日消息，腾讯 WorkBuddy 开放平台今日上线，首批入驻共创伙伴超百家，面向智能硬件、行业应用与开发者等开放底层 Agent 基座能力。IT之家了解到，开放平台是面向 WorkBuddy 生态业务的一站式工作台。开…",
           "sources": [
             "ithome"
-          ]
-        },
-        {
-          "id": "https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching",
-          "title": "Cutting LLM inference costs by 36% with prompt caching",
-          "link": "https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching",
-          "pubDate": "Wed, 02 Sep 2026 06:46:47 +0000",
-          "summary": "Article URL: https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching Comments URL: https://ne…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://link.springer.com/article/10.1007/s10993-026-09798-2",
-          "title": "Stewardship not ownership: AI and LLM-generated written English",
-          "link": "https://link.springer.com/article/10.1007/s10993-026-09798-2",
-          "pubDate": "Wed, 02 Sep 2026 06:45:38 +0000",
-          "summary": "Article URL: https://link.springer.com/article/10.1007/s10993-026-09798-2 Comments URL: https://news.ycombinator.com/ite…",
-          "sources": [
-            "hackernews"
           ]
         },
         {
