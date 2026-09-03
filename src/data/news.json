@@ -1,9 +1,159 @@
 {
-  "generatedAt": "2026-09-03T01:06:23.086Z",
+  "generatedAt": "2026-09-03T03:34:36.060Z",
   "digests": [
     {
       "date": "2026-09-03",
       "entries": [
+        {
+          "id": "https://www.qbitai.com/2026/09/483565.html",
+          "title": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
+          "link": "https://www.qbitai.com/2026/09/483565.html",
+          "pubDate": "Thu, 03 Sep 2026 03:16:43 +0000",
+          "summary": "从工厂一路干到家庭",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://thenewstack.io/tide-raziel-emergent-authority",
+          "title": "AI security that assumes the attacker has root",
+          "link": "https://thenewstack.io/tide-raziel-emergent-authority/",
+          "pubDate": "Thu, 03 Sep 2026 03:07:02 +0000",
+          "summary": "Article URL: https://thenewstack.io/tide-raziel-emergent-authority/ Comments URL: https://news.ycombinator.com/item?id=4…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/823.htm",
+          "title": "消息称 MagicOS 11 迭代后，苹果 iPhone 来电可在荣耀 Magic9 上调用 AI 通话接听",
+          "link": "https://www.ithome.com/0/997/823.htm",
+          "pubDate": "Thu, 03 Sep 2026 03:01:50 GMT",
+          "summary": "IT之家 9 月 3 日消息，据博主 @旺仔百事通 爆料，MagicOS 11 系统迭代后，苹果 iPhone 来电可以直接在荣耀 Magic9 上调用 AI 通话接听。博主透露，接通之后还能继续用通话录音、AI 转写，甚至可以直接接入 Y…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/813.htm",
+          "title": "PS3 模拟器 RPCS3 拒绝跟进英伟达 DLSS 5，早期测试表明影响性能",
+          "link": "https://www.ithome.com/0/997/813.htm",
+          "pubDate": "Thu, 03 Sep 2026 02:43:58 GMT",
+          "summary": "IT之家 9 月 3 日消息，科技媒体 TechPowerUp 昨日（9 月 2 日）发布博文，报道称 PS3 游戏模拟器 RPCS3 团队宣布，不会接入英伟达的 DLSS 5。RPCS3 团队称已有用户测试泄露的 DLSS 5 DLL 文…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://plugos.net/plugclaw",
+          "title": "An embodied, privacy-first AI agent that can control mobile apps via GUI",
+          "link": "https://plugos.net/plugclaw/",
+          "pubDate": "Thu, 03 Sep 2026 02:35:59 +0000",
+          "summary": "Article URL: https://plugos.net/plugclaw/ Comments URL: https://news.ycombinator.com/item?id=49545292 Points: 1 # Commen…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://digitalmedusa.org/protocols-for-people-ai-the-internet-and-the-ietf",
+          "title": "Protocols for People: AI, the Internet and the IETF",
+          "link": "https://digitalmedusa.org/protocols-for-people-ai-the-internet-and-the-ietf/",
+          "pubDate": "Thu, 03 Sep 2026 02:34:12 +0000",
+          "summary": "Article URL: https://digitalmedusa.org/protocols-for-people-ai-the-internet-and-the-ietf/ Comments URL: https://news.yco…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://github.com/awslabs/aidlc-workflows/tree/main",
+          "title": "AI-DLC – one core, many harnesses",
+          "link": "https://github.com/awslabs/aidlc-workflows/tree/main",
+          "pubDate": "Thu, 03 Sep 2026 02:04:59 +0000",
+          "summary": "Article URL: https://github.com/awslabs/aidlc-workflows/tree/main Comments URL: https://news.ycombinator.com/item?id=495…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://memhub.simplex.lat",
+          "title": "MemHub – Persistent shared memory for AI coding agents",
+          "link": "https://memhub.simplex.lat",
+          "pubDate": "Thu, 03 Sep 2026 01:43:31 +0000",
+          "summary": "Article URL: https://memhub.simplex.lat Comments URL: https://news.ycombinator.com/item?id=49544996 Points: 2 # Comments…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/756.htm",
+          "title": "AI 让“赛博蟑螂”学会自主避险，识别危险环境准确率达 93%",
+          "link": "https://www.ithome.com/0/997/756.htm",
+          "pubDate": "Thu, 03 Sep 2026 01:36:45 GMT",
+          "summary": "9 月 3 日，据《日经亚洲》报道，研究人员正尝试将人工智能、传感器和通信设备安装在昆虫身上，利用昆虫体型小、感知灵敏和能耗低等特点，执行灾区搜救任务。一套最新系统可分析蟑螂的心跳、神经信号和身体动作，识别周围环境并引导其逃离危险区域，最高…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/483552.html",
+          "title": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光",
+          "link": "https://www.qbitai.com/2026/09/483552.html",
+          "pubDate": "Thu, 03 Sep 2026 01:31:45 +0000",
+          "summary": "",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/755.htm",
+          "title": "遏制智能体失控，消息称 OpenAI 正开发 AI 自动终止功能",
+          "link": "https://www.ithome.com/0/997/755.htm",
+          "pubDate": "Thu, 03 Sep 2026 01:28:40 GMT",
+          "summary": "IT之家 9 月 3 日消息，路透社昨日（9 月 2 日）发布博文，披露一份来自 OpenAI 的内部信件，透露该公司正在为 AI 系统开发“自动终止功能”。消息称 OpenAI 开发该功能的目的，是为了遏制 AI 智能体的失控情况，该公司…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/483462.html",
+          "title": "50万！李想宣布MPV进入iPhone时刻！外观没改配置拉满",
+          "link": "https://www.qbitai.com/2026/09/483462.html",
+          "pubDate": "Thu, 03 Sep 2026 01:27:05 +0000",
+          "summary": "4激光雷达+双M100上车",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/754.htm",
+          "title": "ACEMAGIC 将推升级款 F9A 迷你主机，换装 AMD 锐龙 AI Max+ PRO 495",
+          "link": "https://www.ithome.com/0/997/754.htm",
+          "pubDate": "Thu, 03 Sep 2026 01:24:57 GMT",
+          "summary": "IT之家 9 月 3 日消息，根据 ACEMAGIC（阿迈奇）在品牌官网公开的新闻稿，这家企业将推出升级至 AMD 锐龙 AI Max+ PRO 495 处理器的 F9A 迷你主机，内存支持也随之提升到 128GB LPDDR5X-8533…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/753.htm",
+          "title": "AI 会消灭所有工作？英伟达黄仁勋称这是无稽之谈",
+          "link": "https://www.ithome.com/0/997/753.htm",
+          "pubDate": "Thu, 03 Sep 2026 01:19:48 GMT",
+          "summary": "IT之家 9 月 3 日消息，媒体 CNBC 昨日（9 月 2 日）发布博文，报道称在 G20 创新部长级会议上，英伟达首席执行官黄仁勋表示 AI 正推动多个行业扩大就业规模，尤其是与基础设施建设相关的行业。IT之家翻译黄仁勋演讲内容如下：…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+          "title": "Go grandmaster Shin defeats AI KataGo in historic human victory",
+          "link": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+          "pubDate": "Thu, 03 Sep 2026 01:11:22 +0000",
+          "summary": "Article URL: https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007 Comments URL: https://news.ycomb…",
+          "sources": [
+            "hackernews"
+          ]
+        },
         {
           "id": "https://www.ithome.com/0/997/749.htm",
           "title": "Anthropic、OpenAI 将超越谷歌成为博通 AI ASIC 业务前两大客户",
@@ -32,6 +182,16 @@
           "summary": "IT之家 9 月 3 日消息，歌手、演员戚薇 8 月 6 日通过社交平台宣布推出个人官方数字分身，开放自身形象的规范化 AI 授权。此外，戚薇的数字分身将主演末世 AI 漫剧《末日盛夏》，主角名为“韩清夏”。据《中国新闻周刊》9 月 2 日…",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/483351.html",
+          "title": "今年最难的机器人Demo，“机器人含量”为0",
+          "link": "https://www.qbitai.com/2026/09/483351.html",
+          "pubDate": "Thu, 03 Sep 2026 00:51:16 +0000",
+          "summary": "遥操，可能真的危险了",
+          "sources": [
+            "qbitai"
           ]
         },
         {
@@ -243,146 +403,6 @@
           "sources": [
             "hackernews"
           ]
-        },
-        {
-          "id": "https://theainewsreport.com",
-          "title": "Show HN: The Drudge Report, but for AI",
-          "link": "https://theainewsreport.com/",
-          "pubDate": "Wed, 02 Sep 2026 21:06:17 +0000",
-          "summary": "Article URL: https://theainewsreport.com/ Comments URL: https://news.ycombinator.com/item?id=49542561 Points: 1 # Commen…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-change-ai",
-          "title": "AI is changing religion and religions are trying to change AI",
-          "link": "https://www.economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-change-ai",
-          "pubDate": "Wed, 02 Sep 2026 20:58:45 +0000",
-          "summary": "Article URL: https://www.economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-chan…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
-          "title": "Mamdani Bans AI in NYC Schools",
-          "link": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
-          "pubDate": "Wed, 02 Sep 2026 20:57:04 +0000",
-          "summary": "Article URL: https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html Comments URL: https://news.ycombinator.…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://dehurdle.com/register",
-          "title": "Show HN: Dehurdle – Real-Time AI Voice Simulations for High-Stakes Conversations",
-          "link": "https://dehurdle.com/register/",
-          "pubDate": "Wed, 02 Sep 2026 20:56:11 +0000",
-          "summary": "Article URL: https://dehurdle.com/register/ Comments URL: https://news.ycombinator.com/item?id=49542430 Points: 1 # Comm…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://github.com/0xhsn/proxy-llms",
-          "title": "Run any LLM in t3's Codex and Claude tabs through a local gateway",
-          "link": "https://github.com/0xhsn/proxy-llms",
-          "pubDate": "Wed, 02 Sep 2026 20:47:12 +0000",
-          "summary": "Article URL: https://github.com/0xhsn/proxy-llms Comments URL: https://news.ycombinator.com/item?id=49542315 Points: 2 #…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49542310",
-          "title": "Should every web page expose an AI-friendly JSON representation?",
-          "link": "https://news.ycombinator.com/item?id=49542310",
-          "pubDate": "Wed, 02 Sep 2026 20:46:57 +0000",
-          "summary": "My website already includes AI-related files such as llms.txt.I'm considering creating a separate JSON file for every pa…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://rizin.app",
-          "title": "Show HN: AI coach that adapts workouts and meals to your injuries and",
-          "link": "https://rizin.app/",
-          "pubDate": "Wed, 02 Sep 2026 20:33:58 +0000",
-          "summary": "Article URL: https://rizin.app/ Comments URL: https://news.ycombinator.com/item?id=49542113 Points: 1 # Comments: 0",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://github.com/p-dirac/disclosure-pilot-ai",
-          "title": "Disclosure Pilot AI",
-          "link": "https://github.com/p-dirac/disclosure-pilot-ai",
-          "pubDate": "Wed, 02 Sep 2026 20:25:11 +0000",
-          "summary": "Article URL: https://github.com/p-dirac/disclosure-pilot-ai Comments URL: https://news.ycombinator.com/item?id=49541981 …",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://arxiv.org/abs/2608.28482",
-          "title": "Proper Scoring Rules Shape LLM Forecasting",
-          "link": "https://arxiv.org/abs/2608.28482",
-          "pubDate": "Wed, 02 Sep 2026 18:59:47 +0000",
-          "summary": "Article URL: https://arxiv.org/abs/2608.28482 Comments URL: https://news.ycombinator.com/item?id=49540787 Points: 3 # Co…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://writethatblog.substack.com/p/rubber-ducking-your-blog-post-with-llms",
-          "title": "Rubber ducking your blog post with an LLM",
-          "link": "https://writethatblog.substack.com/p/rubber-ducking-your-blog-post-with-llms",
-          "pubDate": "Wed, 02 Sep 2026 18:45:10 +0000",
-          "summary": "Article URL: https://writethatblog.substack.com/p/rubber-ducking-your-blog-post-with-llms Comments URL: https://news.yco…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://github.com/asalsali/codeknow",
-          "title": "Show HN: Codeknow – Architecture health scores for any codebase, no LLM needed",
-          "link": "https://github.com/asalsali/codeknow",
-          "pubDate": "Wed, 02 Sep 2026 18:21:21 +0000",
-          "summary": "Article URL: https://github.com/asalsali/codeknow Comments URL: https://news.ycombinator.com/item?id=49540277 Points: 4 …",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://healeycodes.com/what-makes-llm-tokenization-slow",
-          "title": "What Makes LLM Tokenization Slow?",
-          "link": "https://healeycodes.com/what-makes-llm-tokenization-slow",
-          "pubDate": "Wed, 02 Sep 2026 18:18:17 +0000",
-          "summary": "Article URL: https://healeycodes.com/what-makes-llm-tokenization-slow Comments URL: https://news.ycombinator.com/item?id…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://github.com/tokencanopy/price",
-          "title": "Show HN: Price Dashboard for LLM Inference",
-          "link": "https://github.com/tokencanopy/price",
-          "pubDate": "Wed, 02 Sep 2026 17:46:53 +0000",
-          "summary": "I created a lightweight price history tracker for LLM inference across 100+ platforms.Every time I run out of quota on m…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/0/997/708.htm",
-          "title": "谷歌推出 Gemini 3.8 Flash Cyber 模型，内部已全面部署用于代码安全防护",
-          "link": "https://www.ithome.com/0/997/708.htm",
-          "pubDate": "Wed, 02 Sep 2026 16:09:52 GMT",
-          "summary": "IT之家 9 月 3 日消息，当地时间 9 月 2 日，谷歌宣布推出 Gemini 3.8 Flash Cyber 模型，通过 Fairwind 计划面向首批受信任的安全防护团队开放。官方表示，在针对漏洞挖掘的行业权威基准测试 CyberG…",
-          "sources": [
-            "ithome"
-          ]
         }
       ]
     },
@@ -454,7 +474,7 @@
           "title": "WebLLM: high-performance in-browser LLM inference engine",
           "link": "https://github.com/mlc-ai/web-llm",
           "pubDate": "Wed, 02 Sep 2026 14:02:35 +0000",
-          "summary": "Article URL: https://github.com/mlc-ai/web-llm Comments URL: https://news.ycombinator.com/item?id=49536411 Points: 86 # …",
+          "summary": "Article URL: https://github.com/mlc-ai/web-llm Comments URL: https://news.ycombinator.com/item?id=49536411 Points: 92 # …",
           "sources": [
             "hackernews"
           ]
