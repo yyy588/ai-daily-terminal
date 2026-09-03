@@ -1,9 +1,159 @@
 {
-  "generatedAt": "2026-09-02T16:50:55.718Z",
+  "generatedAt": "2026-09-03T01:05:01.721Z",
   "digests": [
     {
       "date": "2026-09-03",
       "entries": [
+        {
+          "id": "https://redactle.net/llm-leaderboard",
+          "title": "Show HN: Redactle LLM Leaderboard",
+          "link": "https://redactle.net/llm-leaderboard",
+          "pubDate": "Thu, 03 Sep 2026 00:11:55 +0000",
+          "summary": "I got nerd sniped and ran a bunch of evaluations to see how well models could play Redactle. It turns out Gemini flash i…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/737.htm",
+          "title": "探索太阳风暴早期预警：AI 提前 9.24 小时捕捉太阳活动区信号",
+          "link": "https://www.ithome.com/0/997/737.htm",
+          "pubDate": "Thu, 03 Sep 2026 00:08:09 GMT",
+          "summary": "IT之家 9 月 3 日消息，科技媒体 SciTech 昨日（9 月 2 日）发布博文，报道称由美国新泽西理工学院（NJIT）牵头的科研团队发布最新研究，成功打造出机器学习模型 EarlyDetect，可从太阳声学活动和磁场变化中识别活动区…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/735.htm",
+          "title": "IT早报 0903：上市两周宇树科技股价腰斩；星宇股份董事长就劝退应届生事件致歉；小米 18 Fold 中折叠手机官宣；豆包手机二代计划 9 月开售...",
+          "link": "https://www.ithome.com/0/997/735.htm",
+          "pubDate": "Wed, 02 Sep 2026 23:57:20 GMT",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 9 月 3 日星期四，今天的重要科技资讯有：1. A 股“人形机器人第一股”宇树科技股价腰斩A 股“人形机器人第一股”宇树科技 9 月 2 日股价跌超 4%，截至IT之家发文，宇树科技每股已跌…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/732.htm",
+          "title": "纽约时报诉 OpenAI 案升级：美国司法部首次就 AI 版权问题公开表态，主张 AI 训练属“合理使用”",
+          "link": "https://www.ithome.com/0/997/732.htm",
+          "pubDate": "Wed, 02 Sep 2026 23:50:05 GMT",
+          "summary": "IT之家 9 月 3 日消息，美国司法部（DOJ）当地时间 9 月 1 日向曼哈顿联邦法院提交了一份“利益声明”，正式介入《纽约时报》诉 OpenAI 版权侵权案。美国司法部明确支持 OpenAI 的立场，主张 AI 公司使用受版权保护的材…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/728.htm",
+          "title": "Meta 发布最强 AI 模型 Muse Spark 1.3，编码能力超 GPT-5.6 Sol",
+          "link": "https://www.ithome.com/0/997/728.htm",
+          "pubDate": "Wed, 02 Sep 2026 23:29:36 GMT",
+          "summary": "IT之家 9 月 3 日消息，Meta Platforms 于 2026 年 9 月 2 日发布迄今最强大 AI 模型 Muse Spark 1.3，专为延长智能体工作流与增强编码能力设计。Meta 首席 AI 官 Alexandr Wan…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/726.htm",
+          "title": "欧洲最强 AI：西班牙公司推出 Quasar 438B 模型，1M 词元上下文",
+          "link": "https://www.ithome.com/0/997/726.htm",
+          "pubDate": "Wed, 02 Sep 2026 23:16:25 GMT",
+          "summary": "IT之家 9 月 3 日消息，西班牙 AI 公司 Multiverse Computing 最新推出 Quasar 438B 模型，根据 Artificial Analysis 得分，该模型 Intelligence Index v4.1.…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://antithetical-labs.com/blog/the-judge-liked-it-better",
+          "title": "Ontologies catch untrustworthy LLM claims",
+          "link": "https://antithetical-labs.com/blog/the-judge-liked-it-better/",
+          "pubDate": "Wed, 02 Sep 2026 23:01:19 +0000",
+          "summary": "Article URL: https://antithetical-labs.com/blog/the-judge-liked-it-better/ Comments URL: https://news.ycombinator.com/it…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://www.ifanr.com/1678197",
+          "title": "Gemini 3.8 Flash 光速发布：干活挺勤快，就是没开窍",
+          "link": "https://www.ifanr.com/1678197?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Wed, 02 Sep 2026 22:52:37 +0000",
+          "summary": "Gemini 圣质如初#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
+          ]
+        },
+        {
+          "id": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference",
+          "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
+          "link": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
+          "pubDate": "Wed, 02 Sep 2026 22:05:40 +0000",
+          "summary": "Article URL: https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inferenc…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://github.com/0xhsn/proxy-llms",
+          "title": "Run any LLM in t3's Codex and Claude tabs through a local gateway",
+          "link": "https://github.com/0xhsn/proxy-llms",
+          "pubDate": "Wed, 02 Sep 2026 20:47:12 +0000",
+          "summary": "Article URL: https://github.com/0xhsn/proxy-llms Comments URL: https://news.ycombinator.com/item?id=49542315 Points: 2 #…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://arxiv.org/abs/2608.28482",
+          "title": "Proper Scoring Rules Shape LLM Forecasting",
+          "link": "https://arxiv.org/abs/2608.28482",
+          "pubDate": "Wed, 02 Sep 2026 18:59:47 +0000",
+          "summary": "Article URL: https://arxiv.org/abs/2608.28482 Comments URL: https://news.ycombinator.com/item?id=49540787 Points: 3 # Co…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://writethatblog.substack.com/p/rubber-ducking-your-blog-post-with-llms",
+          "title": "Rubber ducking your blog post with an LLM",
+          "link": "https://writethatblog.substack.com/p/rubber-ducking-your-blog-post-with-llms",
+          "pubDate": "Wed, 02 Sep 2026 18:45:10 +0000",
+          "summary": "Article URL: https://writethatblog.substack.com/p/rubber-ducking-your-blog-post-with-llms Comments URL: https://news.yco…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://github.com/asalsali/codeknow",
+          "title": "Show HN: Codeknow – Architecture health scores for any codebase, no LLM needed",
+          "link": "https://github.com/asalsali/codeknow",
+          "pubDate": "Wed, 02 Sep 2026 18:21:21 +0000",
+          "summary": "Article URL: https://github.com/asalsali/codeknow Comments URL: https://news.ycombinator.com/item?id=49540277 Points: 4 …",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://healeycodes.com/what-makes-llm-tokenization-slow",
+          "title": "What Makes LLM Tokenization Slow?",
+          "link": "https://healeycodes.com/what-makes-llm-tokenization-slow",
+          "pubDate": "Wed, 02 Sep 2026 18:18:17 +0000",
+          "summary": "Article URL: https://healeycodes.com/what-makes-llm-tokenization-slow Comments URL: https://news.ycombinator.com/item?id…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://github.com/tokencanopy/price",
+          "title": "Show HN: Price Dashboard for LLM Inference",
+          "link": "https://github.com/tokencanopy/price",
+          "pubDate": "Wed, 02 Sep 2026 17:46:53 +0000",
+          "summary": "I created a lightweight price history tracker for LLM inference across 100+ platforms.Every time I run out of quota on m…",
+          "sources": [
+            "hackernews"
+          ]
+        },
         {
           "id": "https://www.ithome.com/0/997/708.htm",
           "title": "谷歌推出 Gemini 3.8 Flash Cyber 模型，内部已全面部署用于代码安全防护",
@@ -19,6 +169,16 @@
     {
       "date": "2026-09-02",
       "entries": [
+        {
+          "id": "https://openrouter.ai/inception/mercury-2.5-preview",
+          "title": "Ultra Fast LLM's Are Interesting (Mercury 2.5 Preview Release)",
+          "link": "https://openrouter.ai/inception/mercury-2.5-preview",
+          "pubDate": "Wed, 02 Sep 2026 15:31:24 +0000",
+          "summary": "Article URL: https://openrouter.ai/inception/mercury-2.5-preview Comments URL: https://news.ycombinator.com/item?id=4953…",
+          "sources": [
+            "hackernews"
+          ]
+        },
         {
           "id": "https://www.ithome.com/0/997/702.htm",
           "title": "谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景",
@@ -50,6 +210,16 @@
           ]
         },
         {
+          "id": "https://github.com/aryanyaksh-art/did-it-even-learn",
+          "title": "Fine-tuning your LLM might be making it dumber",
+          "link": "https://github.com/aryanyaksh-art/did-it-even-learn",
+          "pubDate": "Wed, 02 Sep 2026 14:49:39 +0000",
+          "summary": "Article URL: https://github.com/aryanyaksh-art/did-it-even-learn Comments URL: https://news.ycombinator.com/item?id=4953…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
           "id": "https://www.ithome.com/0/997/684.htm",
           "title": "全美最严格课堂 AI 禁令落地纽约，学生上高中之前不得在课上使用",
           "link": "https://www.ithome.com/0/997/684.htm",
@@ -57,6 +227,26 @@
           "summary": "IT之家 9 月 2 日消息，据外媒 The Verge 报道，纽约市市长佐赫兰 · 马姆达尼当地时间 2 日宣布，将在公立学校课堂限制年龄较小的学生使用 AI。禁令为期一年，从 2026-2027 学年开始实施，覆盖约 60 万名 2-K…",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://github.com/mlc-ai/web-llm",
+          "title": "WebLLM: high-performance in-browser LLM inference engine",
+          "link": "https://github.com/mlc-ai/web-llm",
+          "pubDate": "Wed, 02 Sep 2026 14:02:35 +0000",
+          "summary": "Article URL: https://github.com/mlc-ai/web-llm Comments URL: https://news.ycombinator.com/item?id=49536411 Points: 86 # …",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://www.searchplex.net/blog/llm-judge-search-relevance",
+          "title": "What Is Your LLM Judge Measuring?",
+          "link": "https://www.searchplex.net/blog/llm-judge-search-relevance",
+          "pubDate": "Wed, 02 Sep 2026 13:51:19 +0000",
+          "summary": "Article URL: https://www.searchplex.net/blog/llm-judge-search-relevance Comments URL: https://news.ycombinator.com/item?…",
+          "sources": [
+            "hackernews"
           ]
         },
         {
@@ -120,6 +310,16 @@
           ]
         },
         {
+          "id": "https://crazysteve.bearblog.dev/why-i-prefer-using-llm-api-aggregators-over-subscription-services",
+          "title": "Why I prefer using LLM API aggregators over subscription services",
+          "link": "https://crazysteve.bearblog.dev/why-i-prefer-using-llm-api-aggregators-over-subscription-services/",
+          "pubDate": "Wed, 02 Sep 2026 12:24:08 +0000",
+          "summary": "Article URL: https://crazysteve.bearblog.dev/why-i-prefer-using-llm-api-aggregators-over-subscription-services/ Comments…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
           "id": "https://www.ithome.com/0/997/642.htm",
           "title": "Kimi API 已原生支持 Codex 和 Claude Code",
           "link": "https://www.ithome.com/0/997/642.htm",
@@ -140,6 +340,16 @@
           ]
         },
         {
+          "id": "https://arxiv.org/abs/2608.31016",
+          "title": "LLM Judges Verify Presence, Not Absence: Omission Blindness in AI Clinical Notes",
+          "link": "https://arxiv.org/abs/2608.31016",
+          "pubDate": "Wed, 02 Sep 2026 11:07:07 +0000",
+          "summary": "Article URL: https://arxiv.org/abs/2608.31016 Comments URL: https://news.ycombinator.com/item?id=49534583 Points: 20 # C…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
           "id": "https://www.ithome.com/0/997/633.htm",
           "title": "联想预热来酷 GT 16 AI 全能本，英伟达 RTX 3050 显卡",
           "link": "https://www.ithome.com/0/997/633.htm",
@@ -147,6 +357,16 @@
           "summary": "IT之家 9 月 2 日消息，联想来酷 Lecoo 今日在B站公布 GT 16 AI 全能本。据官方介绍，这款笔记本为 AI 全场景办公 & 游戏而生，搭载英伟达 RTX 3050 显卡，将在后续上市。从预热图片来看，这款笔记本的屏幕尺寸应…",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://github.com/RAJUSHANIGARAPU/agent-lens/releases/tag/v0.3.0",
+          "title": "My LLM tracer had 93% test coverage and coul",
+          "link": "https://github.com/RAJUSHANIGARAPU/agent-lens/releases/tag/v0.3.0",
+          "pubDate": "Wed, 02 Sep 2026 09:41:06 +0000",
+          "summary": "Article URL: https://github.com/RAJUSHANIGARAPU/agent-lens/releases/tag/v0.3.0 Comments URL: https://news.ycombinator.co…",
+          "sources": [
+            "hackernews"
           ]
         },
         {
@@ -177,6 +397,16 @@
           "summary": "IT之家 9 月 2 日消息，豆包工作新增两项新功能：“多 Agents 并行”和 Mac 系统下的“操作电脑”。据介绍，多 Agents 并行功能，能让豆包召唤不同的子 Agent，在一个任务下分别执行不同的模块，既成倍节省时间，又能同时…",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://www.painauchoc.com",
+          "title": "Show HN: I ranked every Paris bakery's pain au chocolat using an LLM",
+          "link": "https://www.painauchoc.com/",
+          "pubDate": "Wed, 02 Sep 2026 07:52:38 +0000",
+          "summary": "Article URL: https://www.painauchoc.com/ Comments URL: https://news.ycombinator.com/item?id=49533149 Points: 5 # Comment…",
+          "sources": [
+            "hackernews"
           ]
         },
         {
@@ -217,6 +447,26 @@
           "summary": "IT之家 9 月 2 日消息，腾讯 WorkBuddy 开放平台今日上线，首批入驻共创伙伴超百家，面向智能硬件、行业应用与开发者等开放底层 Agent 基座能力。IT之家了解到，开放平台是面向 WorkBuddy 生态业务的一站式工作台。开…",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching",
+          "title": "Cutting LLM inference costs by 36% with prompt caching",
+          "link": "https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching",
+          "pubDate": "Wed, 02 Sep 2026 06:46:47 +0000",
+          "summary": "Article URL: https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching Comments URL: https://ne…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://link.springer.com/article/10.1007/s10993-026-09798-2",
+          "title": "Stewardship not ownership: AI and LLM-generated written English",
+          "link": "https://link.springer.com/article/10.1007/s10993-026-09798-2",
+          "pubDate": "Wed, 02 Sep 2026 06:45:38 +0000",
+          "summary": "Article URL: https://link.springer.com/article/10.1007/s10993-026-09798-2 Comments URL: https://news.ycombinator.com/ite…",
+          "sources": [
+            "hackernews"
           ]
         },
         {
@@ -317,76 +567,6 @@
           "summary": "IT之家 9 月 2 日消息，科技媒体 Android Authority 昨日（9 月 1 日）发布博文，报道称谷歌已开始向 Pixel 10、Pixel 11 系列手机推送“电池使用情况概览”（Battery Usage Summary…",
           "sources": [
             "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/0/997/401.htm",
-          "title": "马斯克预告 Grok 4.7 十天后上线：参数量增 40%，性能表现有望超越所有 AI 竞品",
-          "link": "https://www.ithome.com/0/997/401.htm",
-          "pubDate": "Wed, 02 Sep 2026 05:47:02 GMT",
-          "summary": "IT之家 9 月 2 日消息，全球首富埃隆 · 马斯克（Elon Musk）今天（9 月 2 日）在 X 平台发布推文，预告将会在未来 10 天后发布 Grok 4.7 模型，预计上线时间为 2026 年 9 月 12 日。在参数规模方面，…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.qbitai.com/2026/09/482967.html",
-          "title": "企业级Agent落地样板间！百融硅基员工批量上岗，按结果领工资",
-          "link": "https://www.qbitai.com/2026/09/482967.html",
-          "pubDate": "Wed, 02 Sep 2026 02:48:06 +0000",
-          "summary": "AI客服日扛1.5万通电话",
-          "sources": [
-            "qbitai"
-          ]
-        },
-        {
-          "id": "https://www.qbitai.com/2026/09/482652.html",
-          "title": "Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线",
-          "link": "https://www.qbitai.com/2026/09/482652.html",
-          "pubDate": "Wed, 02 Sep 2026 02:18:12 +0000",
-          "summary": "无论你此前让Claude处理什么任务，Fable 5.1都能做更多，并且把最难的部分完成得更出色",
-          "sources": [
-            "qbitai"
-          ]
-        },
-        {
-          "id": "https://www.qbitai.com/2026/09/482855.html",
-          "title": "香港首个真实开放场景服务机器人落地兰桂坊",
-          "link": "https://www.qbitai.com/2026/09/482855.html",
-          "pubDate": "Wed, 02 Sep 2026 02:06:08 +0000",
-          "summary": "在香港兰桂坊，一位特殊的“酒保”正式上岗",
-          "sources": [
-            "qbitai"
-          ]
-        },
-        {
-          "id": "https://www.qbitai.com/2026/09/482699.html",
-          "title": "巨简单，更懂家！海信JUOS正式发布：行业首个家庭智能伴侣级AIOS",
-          "link": "https://www.qbitai.com/2026/09/482699.html",
-          "pubDate": "Wed, 02 Sep 2026 01:44:24 +0000",
-          "summary": "8月31日，海信正式发布行业首个家庭智能伴侣级AIOS——海信JUOS。",
-          "sources": [
-            "qbitai"
-          ]
-        },
-        {
-          "id": "https://www.qbitai.com/2026/09/482586.html",
-          "title": "李飞飞发布：全球首个多模态世界模型",
-          "link": "https://www.qbitai.com/2026/09/482586.html",
-          "pubDate": "Wed, 02 Sep 2026 01:07:13 +0000",
-          "summary": "一张图补全3D世界，还能给机器人造训练场",
-          "sources": [
-            "qbitai"
-          ]
-        },
-        {
-          "id": "https://www.ifanr.com/1678080",
-          "title": "早报｜戴森发布499美元AI牙刷,带摄像头/华为、小米、荣耀手机集体涨价/最强模型Fable 5.1发布",
-          "link": "https://www.ifanr.com/1678080?utm_source=rss&utm_medium=rss&utm_campaign=",
-          "pubDate": "Wed, 02 Sep 2026 00:18:23 +0000",
-          "summary": "苹果新任 CEO 特努斯 2027 财年目标薪酬为 5800 万美元 苹果向美国证券交易委员会提交的 8-K/A 文件显示，新任 CEO 约翰 · 特努斯的 2027 财年薪酬由固定薪资和股权奖励组成。股权奖励是主要部分，特努斯在 2026…",
-          "sources": [
-            "ifanr"
           ]
         }
       ]

@@ -1,5 +1,11 @@
 import type { FeedSource } from './types';
 
+/** 源的抓取地址列表：urls 数组优先，回退单 url，都缺返回空数组 */
+export function sourceUrls(source: FeedSource): string[] {
+  if (source.urls !== undefined && source.urls.length > 0) return [...source.urls];
+  return source.url !== undefined && source.url !== '' ? [source.url] : [];
+}
+
 /**
  * RSS 源列表。新增源：加一项 + 在 tests/fixtures 补样本。
  *
@@ -23,6 +29,14 @@ export const FEED_SOURCES: readonly FeedSource[] = [
     url: 'https://www.qbitai.com/feed',
     weight: 3,
     filterByKeywords: false,
+  },
+  {
+    id: 'hackernews',
+    name: 'HackerNews',
+    // 双查询 feed：q=AI 与 q=LLM 各 20 条，实测重叠仅 1 条（靠链接归一化去重）
+    urls: ['https://hnrss.org/newest?q=AI', 'https://hnrss.org/newest?q=LLM'],
+    weight: 2.5,
+    filterByKeywords: true,
   },
   {
     id: 'ifanr',

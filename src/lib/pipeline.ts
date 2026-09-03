@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import type { DailyDigest, FeedResult, NewsData, RawEntry } from './types';
-import { FEED_SOURCES } from './feeds.config';
+import { FEED_SOURCES, sourceUrls } from './feeds.config';
 import { parseRss } from './parse-rss';
 import { dedupeEntries } from './digest';
 import { buildDailyDigests } from './build-digest';
@@ -14,28 +14,52 @@ export const RETENTION_DAYS = 30;
 const FETCH_TIMEOUT_MS = 20_000;
 
 /**
- * 抓取全部启用源（并发）。单源失败不中断整体，返回 FeedResult 由调用方决定告警策略。
+ * 抓取全部启用源（源间并发）。多 URL 源（如 HN 双查询）内部再并发、条目合并、
+ * 任一 URL 失败仅记录告警不影响同源其余 URL。单源整体失败不中断其他源。
  */
 export async function fetchAllFeeds(): Promise<FeedResult[]> {
   const active = FEED_SOURCES.filter((s) => s.enabled !== false);
-  return Promise.all(active.map((source) => fetchFeed(source.url, source.id)));
+  return Promise.all(active.map((source) => fetchFeed(sourceUrls(source), source.id)));
 }
 
-async function fetchFeed(url: string, sourceId: string): Promise<FeedResult> {
-  try {
-    const res = await fetch(url, {
-      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-      headers: { 'User-Agent': 'ai-daily-terminal/0.1 (+https://github.com)' },
-    });
-    if (!res.ok) {
-      return { ok: false, sourceId, error: `HTTP ${res.status}` };
-    }
-    const xml = await res.text();
-    // 关键词闸门在抓取层执行：噪音不占滚动窗口体积
-    return { ok: true, sourceId, entries: filterEntries(parseRss(xml, sourceId)) };
-  } catch (err) {
-    return { ok: false, sourceId, error: err instanceof Error ? err.message : String(err) };
+async function fetchFeed(urls: readonly string[], sourceId: string): Promise<FeedResult> {
+  if (urls.length === 0) {
+    return { ok: false, sourceId, error: 'no url configured' };
   }
+
+  const results = await Promise.all(
+    urls.map(async (url) => {
+      try {
+        const res = await fetch(url, {
+          signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+          headers: { 'User-Agent': 'ai-daily-terminal/0.1 (+https://github.com)' },
+        });
+        if (!res.ok) {
+          return { ok: false as const, error: `HTTP ${res.status} (${url})` };
+        }
+        const xml = await res.text();
+        return { ok: true as const, xml };
+      } catch (err) {
+        return { ok: false as const, error: `${err instanceof Error ? err.message : String(err)} (${url})` };
+      }
+    }),
+  );
+
+  const okResults = results.filter((r): r is { ok: true; xml: string } => r.ok);
+  if (okResults.length === 0) {
+    return { ok: false, sourceId, error: results.map((r) => !r.ok && r.error).join('; ') };
+  }
+
+  // 关键词闸门在抓取层执行：噪音不占滚动窗口体积
+  const entries = filterEntries(okResults.flatMap((r) => parseRss(r.xml, sourceId)));
+
+  const failures = results.filter((r) => !r.ok).map((r) => !r.ok && r.error);
+  return {
+    ok: true,
+    sourceId,
+    entries,
+    ...(failures.length > 0 ? { partialErrors: failures } : {}),
+  };
 }
 
 /**

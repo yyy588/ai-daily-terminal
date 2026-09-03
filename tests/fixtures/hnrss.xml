@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacker News - Newest: "AI"</title>
+    <link>https://news.ycombinator.com/newest</link>
+    <description>RSS feed for Hacker News posts matching your query.</description>
+    <item>
+      <title><![CDATA[Pacman AI for controlling fusion systems makes key decision]]></title>
+      <link>https://example.com/pacman-fusion</link>
+      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49543786</guid>
+      <pubDate>Wed, 02 Sep 2026 23:28:56 +0000</pubDate>
+      <description><![CDATA[<p>Article URL: <a href="https://example.com/pacman-fusion">https://example.com/pacman-fusion</a></p><p>Comments URL: <a href="https://news.ycombinator.com/item?id=49543786">https://news.ycombinator.com/item?id=49543786</a></p>]]></description>
+    </item>
+    <item>
+      <title><![CDATA[AI-Memory 2.0 – The Best Memory System for Agents and Teams]]></title>
+      <link>https://akitaonrails.com/en/2026/09/02/ai-memory-2-0-best-memory-system-for-agents-and-teams/</link>
+      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49544022</guid>
+      <pubDate>Wed, 02 Sep 2026 23:39:26 +0000</pubDate>
+      <description><![CDATA[<p>Article URL: <a href="https://akitaonrails.com/2026/09/02/ai-memory-2-0">https://akitaonrails.com/2026/09/02/ai-memory-2-0</a></p>]]></description>
+    </item>
+    <!-- 标题不含词表词（surveillance 不在表内，AI 大小写不敏感会命中——此条故意含 AI 验证命中） -->
+    <item>
+      <title><![CDATA[Workplace surveillance is on the rise, spurred by AI]]></title>
+      <link>https://knowablemagazine.org/content/article/society/2026/surveillance-at-work</link>
+      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49544093</guid>
+      <pubDate>Wed, 02 Sep 2026 22:10:00 +0000</pubDate>
+      <description><![CDATA[<p>Article URL: <a href="https://knowablemagazine.org/surveillance-at-work">https://knowablemagazine.org/surveillance-at-work</a></p>]]></description>
+    </item>
+    <!-- 无 AI 词的纯创业稿：应被闸门拦下 -->
+    <item>
+      <title><![CDATA[Show HN: I built a pomodoro timer with Rust]]></title>
+      <link>https://example.com/pomodoro-rust</link>
+      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49543000</guid>
+      <pubDate>Wed, 02 Sep 2026 21:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Article URL: <a href="https://example.com/pomodoro-rust">https://example.com/pomodoro-rust</a></p>]]></description>
+    </item>
+  </channel>
+</rss>

@@ -17,9 +17,10 @@ export function loadReposData(): ReposData {
   return emptyReposData();
 }
 
-/** 站点展示名映射：sourceId → 中文名 */
+/** 站点展示名映射：sourceId → 展示名 */
 export const SOURCE_NAMES: Record<string, string> = {
   qbitai: '量子位',
+  hackernews: 'HackerNews',
   ifanr: '爱范儿',
   ithome: 'IT之家',
   jiqizhixin: '机器之心',

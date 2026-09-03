@@ -7,8 +7,10 @@
 export interface FeedSource {
   /** 站点名，展示用（如 "机器之心"） */
   readonly name: string;
-  /** RSS 地址 */
-  readonly url: string;
+  /** RSS 地址（单 feed 源用） */
+  readonly url?: string;
+  /** 多 feed 源（如 HN 双查询）：并发抓取、条目合并、sourceId 统一 */
+  readonly urls?: readonly string[];
   /** 站点标识，用于来源标记与去重合并 */
   readonly id: string;
   /** false 时跳过抓取（源失效留档观察） */
@@ -59,7 +61,13 @@ export interface NewsData {
   readonly digests: readonly DailyDigest[];
 }
 
-/** 单源抓取结果：源挂掉返回 error，不中断其他源 */
+/** 单源抓取结果：源挂掉返回 error，不中断其他源。多 URL 源部分失败时 ok=true 并带 partialErrors */
 export type FeedResult =
-  | { readonly ok: true; readonly sourceId: string; readonly entries: readonly RawEntry[] }
+  | {
+      readonly ok: true;
+      readonly sourceId: string;
+      readonly entries: readonly RawEntry[];
+      /** 多 URL 源中部分 URL 失败的告警信息（不影响整体 ok） */
+      readonly partialErrors?: readonly string[];
+    }
   | { readonly ok: false; readonly sourceId: string; readonly error: string };
