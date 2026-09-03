@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T06:49:23.305Z",
+  "generatedAt": "2026-09-03T06:52:35.407Z",
   "digests": [
     {
       "date": "2026-09-03",
@@ -474,7 +474,7 @@
           "title": "WebLLM: high-performance in-browser LLM inference engine",
           "link": "https://github.com/mlc-ai/web-llm",
           "pubDate": "Wed, 02 Sep 2026 14:02:35 +0000",
-          "summary": "Article URL: https://github.com/mlc-ai/web-llm Comments URL: https://news.ycombinator.com/item?id=49536411 Points: 105 #…",
+          "summary": "Article URL: https://github.com/mlc-ai/web-llm Comments URL: https://news.ycombinator.com/item?id=49536411 Points: 106 #…",
           "sources": [
             "hackernews"
           ]

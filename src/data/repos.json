@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T06:49:24.435Z",
+  "generatedAt": "2026-09-03T06:52:36.522Z",
   "repos": [
     {
       "fullName": "useagenthq/useagent",
@@ -42,20 +42,20 @@
       "createdAt": "2026-08-21T10:33:56Z"
     },
     {
+      "fullName": "peter123023/awesome-free-llm-api",
+      "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
+      "stars": 74,
+      "language": "DOC",
+      "url": "https://github.com/peter123023/awesome-free-llm-api",
+      "createdAt": "2026-09-01T17:49:12Z"
+    },
+    {
       "fullName": "KinGao294/grok-bot-orange-book",
       "description": "Grok Bot 橙皮书《把一支 AI 团队装进口袋》：从入门到进阶 · 多智能体协作 · Routine · 省钱与自动化",
       "stars": 74,
       "language": "DOC",
       "url": "https://github.com/KinGao294/grok-bot-orange-book",
       "createdAt": "2026-08-23T16:35:48Z"
-    },
-    {
-      "fullName": "peter123023/awesome-free-llm-api",
-      "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
-      "stars": 73,
-      "language": "DOC",
-      "url": "https://github.com/peter123023/awesome-free-llm-api",
-      "createdAt": "2026-09-01T17:49:12Z"
     },
     {
       "fullName": "liangdabiao/deepseek-v4-flash-vision-rag",
@@ -74,20 +74,20 @@
       "createdAt": "2026-08-24T09:46:05Z"
     },
     {
-      "fullName": "raamonp/rl-gym-orchestrator",
-      "description": "Ultimate LLM Gym Trainer Guide 2026: Reinforcement Learning Fine-Tuning Framework",
-      "stars": 55,
-      "language": "HTML",
-      "url": "https://github.com/raamonp/rl-gym-orchestrator",
-      "createdAt": "2026-08-25T09:56:41Z"
-    },
-    {
       "fullName": "genoskietv/AdalFlow-Optimizer",
       "description": "Build & Auto-Optimize LLM Apps in 2026: The Ultimate AdalFlow Guide",
       "stars": 55,
       "language": "HTML",
       "url": "https://github.com/genoskietv/AdalFlow-Optimizer",
       "createdAt": "2026-08-25T08:57:31Z"
+    },
+    {
+      "fullName": "raamonp/rl-gym-orchestrator",
+      "description": "Ultimate LLM Gym Trainer Guide 2026: Reinforcement Learning Fine-Tuning Framework",
+      "stars": 55,
+      "language": "HTML",
+      "url": "https://github.com/raamonp/rl-gym-orchestrator",
+      "createdAt": "2026-08-25T09:56:41Z"
     },
     {
       "fullName": "coderdailyone/llm-basics-speedrun",
