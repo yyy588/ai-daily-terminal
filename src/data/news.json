@@ -1,9 +1,39 @@
 {
-  "generatedAt": "2026-09-03T01:05:01.721Z",
+  "generatedAt": "2026-09-03T01:06:23.086Z",
   "digests": [
     {
       "date": "2026-09-03",
       "entries": [
+        {
+          "id": "https://www.ithome.com/0/997/749.htm",
+          "title": "Anthropic、OpenAI 将超越谷歌成为博通 AI ASIC 业务前两大客户",
+          "link": "https://www.ithome.com/0/997/749.htm",
+          "pubDate": "Thu, 03 Sep 2026 01:04:49 GMT",
+          "summary": "IT之家 9 月 3 日消息，Broadcom（博通）总裁兼首席执行官陈福阳 (Hock Tan) 在公司 FY2026Q3 财报电话会议上预测称，两大人工智能初创企业 Anthropic、OpenAI 将超越 Google（谷歌）成为其 …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/748.htm",
+          "title": "曲线陡峭：Linux 7.3 预估修复漏洞数逼近 2000 个，AI“除虫”让维护者不堪重负",
+          "link": "https://www.ithome.com/0/997/748.htm",
+          "pubDate": "Thu, 03 Sep 2026 01:01:33 GMT",
+          "summary": "IT之家 9 月 3 日消息，科技媒体 securityboulevard 于 9 月 1 日发布博文，报道称 Linux 内核每个版本修复的漏洞数量正快速逼近 2,000 个。IT之家援引博文介绍，Linux 内核每个版本修复的 CVE（…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/747.htm",
+          "title": "戚薇回应 AI 授权“卖脸”争议：与其被别人“拿走”，更愿意“主动出击”",
+          "link": "https://www.ithome.com/0/997/747.htm",
+          "pubDate": "Thu, 03 Sep 2026 01:00:19 GMT",
+          "summary": "IT之家 9 月 3 日消息，歌手、演员戚薇 8 月 6 日通过社交平台宣布推出个人官方数字分身，开放自身形象的规范化 AI 授权。此外，戚薇的数字分身将主演末世 AI 漫剧《末日盛夏》，主角名为“韩清夏”。据《中国新闻周刊》9 月 2 日…",
+          "sources": [
+            "ithome"
+          ]
+        },
         {
           "id": "https://redactle.net/llm-leaderboard",
           "title": "Show HN: Redactle LLM Leaderboard",
@@ -45,6 +75,16 @@
           ]
         },
         {
+          "id": "https://knowablemagazine.org/content/article/society/2026/surveillance-at-work-is-increasing",
+          "title": "Workplace surveillance is on the rise, spurred by AI",
+          "link": "https://knowablemagazine.org/content/article/society/2026/surveillance-at-work-is-increasing",
+          "pubDate": "Wed, 02 Sep 2026 23:39:26 +0000",
+          "summary": "Article URL: https://knowablemagazine.org/content/article/society/2026/surveillance-at-work-is-increasing Comments URL: …",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
           "id": "https://www.ithome.com/0/997/728.htm",
           "title": "Meta 发布最强 AI 模型 Muse Spark 1.3，编码能力超 GPT-5.6 Sol",
           "link": "https://www.ithome.com/0/997/728.htm",
@@ -52,6 +92,16 @@
           "summary": "IT之家 9 月 3 日消息，Meta Platforms 于 2026 年 9 月 2 日发布迄今最强大 AI 模型 Muse Spark 1.3，专为延长智能体工作流与增强编码能力设计。Meta 首席 AI 官 Alexandr Wan…",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://paulkedrosky.com/why-software-developers-are-hiunrepresentative-of-broader-ai-use",
+          "title": "Why Software Developers Are Highly Unrepresentative of Broader AI Use",
+          "link": "https://paulkedrosky.com/why-software-developers-are-hiunrepresentative-of-broader-ai-use/",
+          "pubDate": "Wed, 02 Sep 2026 23:28:56 +0000",
+          "summary": "Article URL: https://paulkedrosky.com/why-software-developers-are-hiunrepresentative-of-broader-ai-use/ Comments URL: ht…",
+          "sources": [
+            "hackernews"
           ]
         },
         {
@@ -65,11 +115,31 @@
           ]
         },
         {
+          "id": "https://akitaonrails.com/en/2026/09/02/ai-memory-2-0-best-memory-system-for-agents-and-teams",
+          "title": "AI-Memory 2.0 – The Best Memory System for Agents and Teams",
+          "link": "https://akitaonrails.com/en/2026/09/02/ai-memory-2-0-best-memory-system-for-agents-and-teams/",
+          "pubDate": "Wed, 02 Sep 2026 23:03:38 +0000",
+          "summary": "Article URL: https://akitaonrails.com/en/2026/09/02/ai-memory-2-0-best-memory-system-for-agents-and-teams/ Comments URL:…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
           "id": "https://antithetical-labs.com/blog/the-judge-liked-it-better",
           "title": "Ontologies catch untrustworthy LLM claims",
           "link": "https://antithetical-labs.com/blog/the-judge-liked-it-better/",
           "pubDate": "Wed, 02 Sep 2026 23:01:19 +0000",
           "summary": "Article URL: https://antithetical-labs.com/blog/the-judge-liked-it-better/ Comments URL: https://news.ycombinator.com/it…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://phys.org/news/2026-09-pacman-ai-framework-fusion-safely.html",
+          "title": "Pacman AI for controlling fusion systems makes key decisions in milliseconds",
+          "link": "https://phys.org/news/2026-09-pacman-ai-framework-fusion-safely.html",
+          "pubDate": "Wed, 02 Sep 2026 22:57:11 +0000",
+          "summary": "Article URL: https://phys.org/news/2026-09-pacman-ai-framework-fusion-safely.html Comments URL: https://news.ycombinator…",
           "sources": [
             "hackernews"
           ]
@@ -85,6 +155,36 @@
           ]
         },
         {
+          "id": "https://theyfell.com",
+          "title": "Show HN: Every AI agrees with you. This writes your startup's obituary instead",
+          "link": "https://theyfell.com/",
+          "pubDate": "Wed, 02 Sep 2026 22:45:39 +0000",
+          "summary": "Article URL: https://theyfell.com/ Comments URL: https://news.ycombinator.com/item?id=49543617 Points: 9 # Comments: 7",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://appleinsider.com/articles/26/09/02/us-government-worried-that-ai-companies-cant-innovate-without-legal-theft",
+          "title": "US Government worried that AI companies can't innovate without legal theft",
+          "link": "https://appleinsider.com/articles/26/09/02/us-government-worried-that-ai-companies-cant-innovate-without-legal-theft",
+          "pubDate": "Wed, 02 Sep 2026 22:22:45 +0000",
+          "summary": "Article URL: https://appleinsider.com/articles/26/09/02/us-government-worried-that-ai-companies-cant-innovate-without-le…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49543253",
+          "title": "Ask HN: How to get taken seriously while using AI?",
+          "link": "https://news.ycombinator.com/item?id=49543253",
+          "pubDate": "Wed, 02 Sep 2026 22:08:18 +0000",
+          "summary": "I have been reading lobste.rs on and off for a few months, and the anti-AI vibes have always stood out. I don’t jump in …",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
           "id": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference",
           "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
           "link": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
@@ -95,11 +195,131 @@
           ]
         },
         {
+          "id": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+          "title": "NYC Announced Nation's Broadest Generative AI Moratorium in Schools",
+          "link": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+          "pubDate": "Wed, 02 Sep 2026 21:45:48 +0000",
+          "summary": "Article URL: https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://developer.apple.com/documentation/safari-developer-tools/connecting-an-ai-agent-to-safari",
+          "title": "Inspect, test, and debug your website with an AI agent connected to Safari",
+          "link": "https://developer.apple.com/documentation/safari-developer-tools/connecting-an-ai-agent-to-safari",
+          "pubDate": "Wed, 02 Sep 2026 21:25:28 +0000",
+          "summary": "Article URL: https://developer.apple.com/documentation/safari-developer-tools/connecting-an-ai-agent-to-safari Comments …",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://theconversation.com/will-ai-save-or-ruin-democracy-it-depends-on-whether-we-allow-computers-to-stand-in-for-people-289369",
+          "title": "Will AI save or ruin democracy?",
+          "link": "https://theconversation.com/will-ai-save-or-ruin-democracy-it-depends-on-whether-we-allow-computers-to-stand-in-for-people-289369",
+          "pubDate": "Wed, 02 Sep 2026 21:23:35 +0000",
+          "summary": "Article URL: https://theconversation.com/will-ai-save-or-ruin-democracy-it-depends-on-whether-we-allow-computers-to-stan…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://www.brightworkresearch.com/how-accurate-was-dr-hubert-dreyfus-on-ai-predictions-in-his-book-what-computers-cant-do",
+          "title": "How Accurate Was Hubert Dreyfus on AI Predictions in \"What Computers Can't Do\"? (2024)",
+          "link": "https://www.brightworkresearch.com/how-accurate-was-dr-hubert-dreyfus-on-ai-predictions-in-his-book-what-computers-cant-do/",
+          "pubDate": "Wed, 02 Sep 2026 21:16:20 +0000",
+          "summary": "Article URL: https://www.brightworkresearch.com/how-accurate-was-dr-hubert-dreyfus-on-ai-predictions-in-his-book-what-co…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://room.pluralmatter.com/e/how-will-the-world-change-when-ai-smarter-than-humans",
+          "title": "Show HN: I put four persistent AI minds in a room and let them change each other",
+          "link": "https://room.pluralmatter.com/e/how-will-the-world-change-when-ai-smarter-than-humans",
+          "pubDate": "Wed, 02 Sep 2026 21:10:27 +0000",
+          "summary": "Article URL: https://room.pluralmatter.com/e/how-will-the-world-change-when-ai-smarter-than-humans Comments URL: https:/…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://theainewsreport.com",
+          "title": "Show HN: The Drudge Report, but for AI",
+          "link": "https://theainewsreport.com/",
+          "pubDate": "Wed, 02 Sep 2026 21:06:17 +0000",
+          "summary": "Article URL: https://theainewsreport.com/ Comments URL: https://news.ycombinator.com/item?id=49542561 Points: 1 # Commen…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://www.economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-change-ai",
+          "title": "AI is changing religion and religions are trying to change AI",
+          "link": "https://www.economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-change-ai",
+          "pubDate": "Wed, 02 Sep 2026 20:58:45 +0000",
+          "summary": "Article URL: https://www.economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-chan…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
+          "title": "Mamdani Bans AI in NYC Schools",
+          "link": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
+          "pubDate": "Wed, 02 Sep 2026 20:57:04 +0000",
+          "summary": "Article URL: https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html Comments URL: https://news.ycombinator.…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://dehurdle.com/register",
+          "title": "Show HN: Dehurdle – Real-Time AI Voice Simulations for High-Stakes Conversations",
+          "link": "https://dehurdle.com/register/",
+          "pubDate": "Wed, 02 Sep 2026 20:56:11 +0000",
+          "summary": "Article URL: https://dehurdle.com/register/ Comments URL: https://news.ycombinator.com/item?id=49542430 Points: 1 # Comm…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
           "id": "https://github.com/0xhsn/proxy-llms",
           "title": "Run any LLM in t3's Codex and Claude tabs through a local gateway",
           "link": "https://github.com/0xhsn/proxy-llms",
           "pubDate": "Wed, 02 Sep 2026 20:47:12 +0000",
           "summary": "Article URL: https://github.com/0xhsn/proxy-llms Comments URL: https://news.ycombinator.com/item?id=49542315 Points: 2 #…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49542310",
+          "title": "Should every web page expose an AI-friendly JSON representation?",
+          "link": "https://news.ycombinator.com/item?id=49542310",
+          "pubDate": "Wed, 02 Sep 2026 20:46:57 +0000",
+          "summary": "My website already includes AI-related files such as llms.txt.I'm considering creating a separate JSON file for every pa…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://rizin.app",
+          "title": "Show HN: AI coach that adapts workouts and meals to your injuries and",
+          "link": "https://rizin.app/",
+          "pubDate": "Wed, 02 Sep 2026 20:33:58 +0000",
+          "summary": "Article URL: https://rizin.app/ Comments URL: https://news.ycombinator.com/item?id=49542113 Points: 1 # Comments: 0",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://github.com/p-dirac/disclosure-pilot-ai",
+          "title": "Disclosure Pilot AI",
+          "link": "https://github.com/p-dirac/disclosure-pilot-ai",
+          "pubDate": "Wed, 02 Sep 2026 20:25:11 +0000",
+          "summary": "Article URL: https://github.com/p-dirac/disclosure-pilot-ai Comments URL: https://news.ycombinator.com/item?id=49541981 …",
           "sources": [
             "hackernews"
           ]

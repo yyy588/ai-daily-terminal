@@ -1,18 +1,26 @@
 {
-  "generatedAt": "2026-09-02T09:12:37.438Z",
+  "generatedAt": "2026-09-03T01:06:24.131Z",
   "repos": [
     {
       "fullName": "useagenthq/useagent",
       "description": "The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription.",
-      "stars": 272,
+      "stars": 274,
       "language": "TypeScript",
       "url": "https://github.com/useagenthq/useagent",
       "createdAt": "2026-08-29T21:14:31Z"
     },
     {
+      "fullName": "ZJU-REAL/Easel",
+      "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
+      "stars": 220,
+      "language": "Python",
+      "url": "https://github.com/ZJU-REAL/Easel",
+      "createdAt": "2026-08-28T02:22:27Z"
+    },
+    {
       "fullName": "crunz-ai/nativePDF-structurer",
       "description": "一个面向大体量数字原生 PDF 的、零 OCR、零模型依赖的文档结构化工具。  ",
-      "stars": 157,
+      "stars": 162,
       "language": "Python",
       "url": "https://github.com/crunz-ai/nativePDF-structurer",
       "createdAt": "2026-08-21T02:41:01Z"
@@ -20,7 +28,7 @@
     {
       "fullName": "itshen/source-reading-methodology",
       "description": "带 AI 精读大型开源仓库的方法论：四阶段流程、可复用模板、28 条踩坑清单，核心是让每个技术论断都可回溯到源码具体行",
-      "stars": 128,
+      "stars": 129,
       "language": "Python",
       "url": "https://github.com/itshen/source-reading-methodology",
       "createdAt": "2026-08-23T02:51:45Z"
@@ -36,18 +44,26 @@
     {
       "fullName": "KinGao294/grok-bot-orange-book",
       "description": "Grok Bot 橙皮书《把一支 AI 团队装进口袋》：从入门到进阶 · 多智能体协作 · Routine · 省钱与自动化",
-      "stars": 68,
+      "stars": 73,
       "language": "DOC",
       "url": "https://github.com/KinGao294/grok-bot-orange-book",
       "createdAt": "2026-08-23T16:35:48Z"
     },
     {
-      "fullName": "yuyuanweb/ai-ppt-generator",
-      "description": "2026 年编程导航 AI 编程实战新项目，基于 Python FastAPI + LangChain + LangGraph + React 的 AI PPT 生成器，支持主题 / 长文本 / 文档多入口生成、可编辑大纲、异步并发页面生成、在线编辑器、多主题切换、原生可编辑 PPTX 导出。覆盖 LangChain 框架实战、LangGraph 自纠环工作流、ARQ + Redis 异步任务编排、SSE 实时进度推送、PPTX 原生渲染、FontTools 溢出检测。用一套教程掌握 AI 编程全流程，从模型调用到产品交付，不到一周学完，给你的简历增加竞争力",
+      "fullName": "peter123023/awesome-free-llm-api",
+      "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
+      "stars": 63,
+      "language": "DOC",
+      "url": "https://github.com/peter123023/awesome-free-llm-api",
+      "createdAt": "2026-09-01T17:49:12Z"
+    },
+    {
+      "fullName": "liangdabiao/deepseek-v4-flash-vision-rag",
+      "description": "DeepSeek V4-Flash Vision RAG 让 AI 真正\"看懂\" 一份 PDF，然后你对它提问：它告诉你答案、答案在第几页， 并把那一页的原图展示出来给你核对。  基于 DeepSeek 视觉大模型 deepseek-v4-flash-vision-exp 的 PDF 深度问答与检索 （vision RAG）agent skill。支持文字版 PDF，也支持扫描版；能看懂 图表、表格、代码块、公式，而不只是认字。",
       "stars": 61,
       "language": "Python",
-      "url": "https://github.com/yuyuanweb/ai-ppt-generator",
-      "createdAt": "2026-08-20T07:02:42Z"
+      "url": "https://github.com/liangdabiao/deepseek-v4-flash-vision-rag",
+      "createdAt": "2026-08-24T06:22:33Z"
     },
     {
       "fullName": "liangdabiao/deepseek-v4-flash-vision-video-rag",
@@ -58,12 +74,12 @@
       "createdAt": "2026-08-24T09:46:05Z"
     },
     {
-      "fullName": "liangdabiao/deepseek-v4-flash-vision-rag",
-      "description": "DeepSeek V4-Flash Vision RAG 让 AI 真正\"看懂\" 一份 PDF，然后你对它提问：它告诉你答案、答案在第几页， 并把那一页的原图展示出来给你核对。  基于 DeepSeek 视觉大模型 deepseek-v4-flash-vision-exp 的 PDF 深度问答与检索 （vision RAG）agent skill。支持文字版 PDF，也支持扫描版；能看懂 图表、表格、代码块、公式，而不只是认字。",
-      "stars": 60,
-      "language": "Python",
-      "url": "https://github.com/liangdabiao/deepseek-v4-flash-vision-rag",
-      "createdAt": "2026-08-24T06:22:33Z"
+      "fullName": "raamonp/rl-gym-orchestrator",
+      "description": "Ultimate LLM Gym Trainer Guide 2026: Reinforcement Learning Fine-Tuning Framework",
+      "stars": 55,
+      "language": "HTML",
+      "url": "https://github.com/raamonp/rl-gym-orchestrator",
+      "createdAt": "2026-08-25T09:56:41Z"
     },
     {
       "fullName": "genoskietv/AdalFlow-Optimizer",
@@ -74,28 +90,12 @@
       "createdAt": "2026-08-25T08:57:31Z"
     },
     {
-      "fullName": "raamonp/rl-gym-orchestrator",
-      "description": "Ultimate LLM Gym Trainer Guide 2026: Reinforcement Learning Fine-Tuning Framework",
-      "stars": 55,
-      "language": "HTML",
-      "url": "https://github.com/raamonp/rl-gym-orchestrator",
-      "createdAt": "2026-08-25T09:56:41Z"
-    },
-    {
       "fullName": "coderdailyone/llm-basics-speedrun",
       "description": "大模型基础知识速通",
       "stars": 53,
       "language": "DOC",
       "url": "https://github.com/coderdailyone/llm-basics-speedrun",
       "createdAt": "2026-08-27T13:30:05Z"
-    },
-    {
-      "fullName": "peter123023/awesome-free-llm-api",
-      "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
-      "stars": 52,
-      "language": "DOC",
-      "url": "https://github.com/peter123023/awesome-free-llm-api",
-      "createdAt": "2026-09-01T17:49:12Z"
     }
   ]
 }
