@@ -1,9 +1,174 @@
 {
-  "generatedAt": "2026-09-03T10:50:13.089Z",
+  "generatedAt": "2026-09-03T16:40:27.967Z",
   "digests": [
+    {
+      "date": "2026-09-04",
+      "entries": [
+        {
+          "id": "https://www.ithome.com/0/998/202.htm",
+          "title": "英伟达 RTX Spark 紧凑型 Win PC 主机下月上市，含宏碁、联想等 6 家 OEM 厂商产品",
+          "link": "https://www.ithome.com/0/998/202.htm",
+          "pubDate": "Thu, 03 Sep 2026 16:00:06 GMT",
+          "summary": "IT之家 9 月 4 日消息，英伟达今天宣布，全新 RTX Spark Windows PC 将于 10 月上市，为 AI 发烧友、开发者提供更多创作方式。据介绍，英伟达合作伙伴已在 IFA 2026 大会上展示相关硬件。全新发布的产品设计…",
+          "sources": [
+            "ithome"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-03",
       "entries": [
+        {
+          "id": "https://www.ithome.com/0/998/198.htm",
+          "title": "谷歌 DeepMind 发布 WeatherNext 3：分辨率最高 5 公里，号称全球最先进、精准 AI 天气预报模型",
+          "link": "https://www.ithome.com/0/998/198.htm",
+          "pubDate": "Thu, 03 Sep 2026 15:15:52 GMT",
+          "summary": "IT之家 9 月 3 日消息，谷歌 DeepMind 和 Google Research 今天宣布推出 WeatherNext 3 ，号称是目前最先进、最准确的全球气象模型。该模型可直接从实时观测中学习，能够为影响人类的天气事件提供更及时、…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/195.htm",
+          "title": "ChatGPT、Grok、Claude、Cursor 集体突发故障",
+          "link": "https://www.ithome.com/0/998/195.htm",
+          "pubDate": "Thu, 03 Sep 2026 15:07:21 GMT",
+          "summary": "IT之家 9 月 3 日消息，据IT之家网友投稿反馈，ChatGPT、Grok、Claude、Cursor 等多款 AI 模型今晚突发故障。此外，用户请求 Codex 会出现“404 Not Found”错误。IT之家查询 Downdete…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/189.htm",
+          "title": "沙特 HUMAIN 公布前沿阿语模型 humain-m3，由 MiniMax 受托开发",
+          "link": "https://www.ithome.com/0/998/189.htm",
+          "pubDate": "Thu, 03 Sep 2026 14:57:50 GMT",
+          "summary": "IT之家 9 月 3 日消息，沙特阿拉伯主权财富基金 PIF 旗下人工智能企业 HUMAIN 当地时间今日公布了前沿阿拉伯语模型 humain-m3。该模型由 MiniMax 受托开发。humain-m3 基于 MiniMax 自家 Min…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/188.htm",
+          "title": "HTC 推出 AI 智能眼镜 VIVE Eagle：主打隐私保护，499 美元起",
+          "link": "https://www.ithome.com/0/998/188.htm",
+          "pubDate": "Thu, 03 Sep 2026 14:56:59 GMT",
+          "summary": "IT之家 9 月 3 日消息，HTC 今天（3 日）通过官方新闻稿宣布，最新 AI 智能眼镜 VIVE Eagle 正式登陆欧洲、北美和澳大利亚市场，主打时尚设计、AI 功能和隐私保护。VIVE AI 不仅支持语音和文字实时翻译，还能连接智…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/187.htm",
+          "title": "消息称苹果计划推出全新 MacBook 机型：13.8 寸单层 OLED 面板，定位介于 Air 和 Pro 之间",
+          "link": "https://www.ithome.com/0/998/187.htm",
+          "pubDate": "Thu, 03 Sep 2026 14:41:29 GMT",
+          "summary": "IT之家 9 月 3 日消息，研究机构 Omdia 近日发文称，苹果可能会在将来推出一款全新 MacBook 机型，定位介于 LCD 面板的 MacBook Air 和 OLED 的 MacBook Pro 之间。Omdia 最新公布的产品…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/161.htm",
+          "title": "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告",
+          "link": "https://www.ithome.com/0/998/161.htm",
+          "pubDate": "Thu, 03 Sep 2026 13:54:58 GMT",
+          "summary": "IT之家 9 月 3 日消息，据美媒 Axios 今天（3 日）晚间援引 OpenAI 一名发言人消息称，OpenAI 总裁格雷格 · 布罗克曼预计即将宣布扩大关键基础设施，以及公共部门机构对 OpenAI 工具的使用权限。此前，OpenA…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/157.htm",
+          "title": "小红书治理 AI 制作虚假探店、民宿内容，今年 6-8 月清理相关内容近 12 万条",
+          "link": "https://www.ithome.com/0/998/157.htm",
+          "pubDate": "Thu, 03 Sep 2026 13:31:51 GMT",
+          "summary": "IT之家 9 月 3 日消息，小红书官方账号“薯管家”今日发布《关于 AI 制作医美、民宿等虚假内容治理公告》，宣布将 AI 制作发布虚假内容纳入常态化治理。IT之家从公告获悉，小红书近期发现部分账号利用 AI 生成虚假体验笔记，用 AI …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/138.htm",
+          "title": "官方确认：《战锤 40K：星际战士 3》开发完全不使用生成式 AI",
+          "link": "https://www.ithome.com/0/998/138.htm",
+          "pubDate": "Thu, 03 Sep 2026 12:15:01 GMT",
+          "summary": "IT之家 9 月 3 日消息，在《拼车模拟器》（Rideshare Stimulator）因使用生成式 AI 引发争议后，开发商 Saber Interactive 向《战锤 40K》粉丝保证，正在开发的《星际战士 3》（Space Mar…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/136.htm",
+          "title": "近 130 亿美元喜提“AI 界 GitHub”，英伟达宣布将正式收购 Hugging Face",
+          "link": "https://www.ithome.com/0/998/136.htm",
+          "pubDate": "Thu, 03 Sep 2026 12:01:41 GMT",
+          "summary": "IT之家 9 月 3 日消息，北京时间今天（3 日）晚间，英伟达 CEO 黄仁勋通过新闻稿宣布，公司同意以 129.303 亿美元（IT之家注：现汇率约合 871.05 亿元人民币）收购 Hugging Face。双方将共同扩大 Huggi…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/122.htm",
+          "title": "美国达拉斯用垃圾车内置 AI 摄像头为建筑打“破败评分”，民众担忧隐私问题",
+          "link": "https://www.ithome.com/0/998/122.htm",
+          "pubDate": "Thu, 03 Sep 2026 11:38:35 GMT",
+          "summary": "IT之家 9 月 3 日消息，据外媒 TechSpot 今天（3 日）报道，达拉斯市启动了一项新政：利用安装在垃圾清运车上的 AI 摄像头检查沿途房产，并根据系统发现的市政法规违规情况给房产打出“破败评分”。市政府记录显示，达拉斯市 4 月…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/121.htm",
+          "title": "OpenAI、Anthropic 等科技公司安保人员获准罢工，要求提高薪资待遇",
+          "link": "https://www.ithome.com/0/998/121.htm",
+          "pubDate": "Thu, 03 Sep 2026 11:33:52 GMT",
+          "summary": "IT之家 9 月 3 日消息，美国加州 OpenAI、Anthropic 等科技公司的工会安保人员当地时间周三宣布，已经授权举行罢工。代表这些安保人员的 SEIU-United Service Workers West 工会表示，他们主要由…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/483839.html",
+          "title": "“没有Token的CS学生，应立即退学”",
+          "link": "https://www.qbitai.com/2026/09/483839.html",
+          "pubDate": "Thu, 03 Sep 2026 11:32:08 +0000",
+          "summary": "禁止古法编程、Token自费",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/483786.html",
+          "title": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
+          "link": "https://www.qbitai.com/2026/09/483786.html",
+          "pubDate": "Thu, 03 Sep 2026 11:25:29 +0000",
+          "summary": "眼镜、耳机、麦克风都来了",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/483189.html",
+          "title": "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！",
+          "link": "https://www.qbitai.com/2026/09/483189.html",
+          "pubDate": "Thu, 03 Sep 2026 10:18:36 +0000",
+          "summary": "单图直出场景，顶会最佳论文落地",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/483600.html",
+          "title": "陈大年复出，入局大模型",
+          "link": "https://www.qbitai.com/2026/09/483600.html",
+          "pubDate": "Thu, 03 Sep 2026 10:13:24 +0000",
+          "summary": "首秀逼近DeepSeek万亿旗舰",
+          "sources": [
+            "qbitai"
+          ]
+        },
         {
           "id": "https://www.ithome.com/0/998/066.htm",
           "title": "奥尔特曼：OpenAI Astra 模型参与了美政府自愿审查",

@@ -1,10 +1,18 @@
 {
-  "generatedAt": "2026-09-03T10:50:14.162Z",
+  "generatedAt": "2026-09-03T16:40:29.140Z",
   "repos": [
+    {
+      "fullName": "2akouwu/reverify",
+      "description": "AI makes things up when it reads a binary. Reverify checks its every claim against the real bytes, so you see what's actually true — AI-assisted reverse engineering you can trust. LLM proposes, deterministic tools verify. MCP server + CLI.",
+      "stars": 717,
+      "language": "Python",
+      "url": "https://github.com/2akouwu/reverify",
+      "createdAt": "2026-08-31T01:02:18Z"
+    },
     {
       "fullName": "ZJU-REAL/Easel",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "stars": 283,
+      "stars": 302,
       "language": "Python",
       "url": "https://github.com/ZJU-REAL/Easel",
       "createdAt": "2026-08-28T02:22:27Z"
@@ -12,7 +20,7 @@
     {
       "fullName": "useagenthq/useagent",
       "description": "The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription.",
-      "stars": 277,
+      "stars": 278,
       "language": "TypeScript",
       "url": "https://github.com/useagenthq/useagent",
       "createdAt": "2026-08-29T21:14:31Z"
@@ -20,7 +28,7 @@
     {
       "fullName": "crunz-ai/nativePDF-structurer",
       "description": "一个面向大体量数字原生 PDF 的、零 OCR、零模型依赖的文档结构化工具。  ",
-      "stars": 170,
+      "stars": 172,
       "language": "Python",
       "url": "https://github.com/crunz-ai/nativePDF-structurer",
       "createdAt": "2026-08-21T02:41:01Z"
@@ -42,20 +50,20 @@
       "createdAt": "2026-08-21T10:33:56Z"
     },
     {
-      "fullName": "peter123023/awesome-free-llm-api",
-      "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
-      "stars": 76,
-      "language": "DOC",
-      "url": "https://github.com/peter123023/awesome-free-llm-api",
-      "createdAt": "2026-09-01T17:49:12Z"
-    },
-    {
       "fullName": "KinGao294/grok-bot-orange-book",
       "description": "Grok Bot 橙皮书《把一支 AI 团队装进口袋》：从入门到进阶 · 多智能体协作 · Routine · 省钱与自动化",
-      "stars": 74,
+      "stars": 87,
       "language": "DOC",
       "url": "https://github.com/KinGao294/grok-bot-orange-book",
       "createdAt": "2026-08-23T16:35:48Z"
+    },
+    {
+      "fullName": "peter123023/awesome-free-llm-api",
+      "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
+      "stars": 78,
+      "language": "DOC",
+      "url": "https://github.com/peter123023/awesome-free-llm-api",
+      "createdAt": "2026-09-01T17:49:12Z"
     },
     {
       "fullName": "liangdabiao/deepseek-v4-flash-vision-rag",
@@ -74,14 +82,6 @@
       "createdAt": "2026-08-24T09:46:05Z"
     },
     {
-      "fullName": "genoskietv/AdalFlow-Optimizer",
-      "description": "Build & Auto-Optimize LLM Apps in 2026: The Ultimate AdalFlow Guide",
-      "stars": 55,
-      "language": "HTML",
-      "url": "https://github.com/genoskietv/AdalFlow-Optimizer",
-      "createdAt": "2026-08-25T08:57:31Z"
-    },
-    {
       "fullName": "raamonp/rl-gym-orchestrator",
       "description": "Ultimate LLM Gym Trainer Guide 2026: Reinforcement Learning Fine-Tuning Framework",
       "stars": 55,
@@ -90,20 +90,28 @@
       "createdAt": "2026-08-25T09:56:41Z"
     },
     {
+      "fullName": "genoskietv/AdalFlow-Optimizer",
+      "description": "Build & Auto-Optimize LLM Apps in 2026: The Ultimate AdalFlow Guide",
+      "stars": 55,
+      "language": "HTML",
+      "url": "https://github.com/genoskietv/AdalFlow-Optimizer",
+      "createdAt": "2026-08-25T08:57:31Z"
+    },
+    {
+      "fullName": "jzjzzzzzzz/agent-me",
+      "description": "Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.",
+      "stars": 53,
+      "language": "Python",
+      "url": "https://github.com/jzjzzzzzzz/agent-me",
+      "createdAt": "2026-08-27T04:08:50Z"
+    },
+    {
       "fullName": "coderdailyone/llm-basics-speedrun",
       "description": "大模型基础知识速通",
       "stars": 53,
       "language": "DOC",
       "url": "https://github.com/coderdailyone/llm-basics-speedrun",
       "createdAt": "2026-08-27T13:30:05Z"
-    },
-    {
-      "fullName": "jzjzzzzzzz/agent-me",
-      "description": "Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.",
-      "stars": 50,
-      "language": "Python",
-      "url": "https://github.com/jzjzzzzzzz/agent-me",
-      "createdAt": "2026-08-27T04:08:50Z"
     }
   ]
 }
