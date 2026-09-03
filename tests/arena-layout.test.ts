@@ -61,4 +61,42 @@ describe.runIf(hasBuild)('arena 页面布局对齐', () => {
       }
     }
   });
+
+  it('score 列两行结构：CI 是块级行（样式表声明 display:block，数字/CI 垂直堆叠）', () => {
+    const scores = Array.from(doc.querySelectorAll('.wrow__score'));
+    expect(scores.length).toBeGreaterThanOrEqual(40);
+
+    // 从产物 CSS 中断言 .wrow__ci 为块级（两行结构的样式契约）。
+    // Astro scoped 样式会变成 .wrow__ci[data-astro-cid-xxx]{...}，正则需容忍属性选择器。
+    const styleTags = Array.from(doc.querySelectorAll('style'));
+    const allCss = styleTags.map((t) => (t.textContent ?? '')).join('\n');
+    expect(allCss).toMatch(/\.wrow__ci[^{]*\{[^}]*display:\s*block/);
+
+    for (const s of scores) {
+      const ci = s.querySelector('.wrow__ci');
+      if (ci === null) continue;
+      const numText = Array.from(s.childNodes)
+        .filter((n) => n.nodeType === 3)
+        .map((n) => (n.textContent ?? '').trim())
+        .join('');
+      expect(numText).not.toContain(' ');
+    }
+  });
+
+  it('两榜 score 数字部分宽度规范：Agent 百分比与 Elo 分数都为紧凑数字（无多余字符）', () => {
+    const scores = Array.from(doc.querySelectorAll('.wrow__score'));
+    const numbers = scores
+      .map((s) =>
+        Array.from(s.childNodes)
+          .filter((n) => n.nodeType === 3)
+          .map((n) => (n.textContent ?? '').trim())
+          .join(''),
+      )
+      .filter((t) => t !== '');
+
+    for (const n of numbers) {
+      // Elo: 4 位整数；Agent: 1-2 位整数.1位小数+%。除此之外都是脏数据
+      expect(n).toMatch(/^(?:\d{4}|\d{1,2}\.\d%)$/);
+    }
+  });
 });

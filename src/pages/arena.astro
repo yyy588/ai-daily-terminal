@@ -226,9 +226,15 @@ const lastSync = agent?.fetchedAt.slice(0, 10) ?? data.boards[0]?.fetchedAt.slic
     font-size: 0.9rem;
     font-weight: 600;
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 1.2;
   }
 
+  /* 与 ArenaBoardPane 组件同款：CI 块级独立行，数字右对齐不被 CI 宽度差挤压 */
   .wrow__ci {
+    display: block;
     font-size: 0.6rem;
     color: var(--color-text-faint);
     font-weight: 400;

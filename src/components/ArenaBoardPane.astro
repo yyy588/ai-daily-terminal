@@ -150,9 +150,15 @@ const { board, maxRows = 20 } = Astro.props;
     font-size: 0.9rem;
     font-weight: 600;
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 1.2;
   }
 
+  /* CI 块级独立行：数字右对齐不受 CI 宽度差挤压（Elo +8/-8 vs +23/-23 参差的根除） */
   .wrow__ci {
+    display: block;
     font-size: 0.6rem;
     color: var(--color-text-faint);
     font-weight: 400;
