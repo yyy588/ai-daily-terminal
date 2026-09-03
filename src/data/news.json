@@ -1,9 +1,59 @@
 {
-  "generatedAt": "2026-09-03T05:32:00.296Z",
+  "generatedAt": "2026-09-03T06:49:23.305Z",
   "digests": [
     {
       "date": "2026-09-03",
       "entries": [
+        {
+          "id": "https://www.ithome.com/0/997/907.htm",
+          "title": "微软 VS Code 纪录片明日开播，聚焦 10 年演变与 AI 适配",
+          "link": "https://www.ithome.com/0/997/907.htm",
+          "pubDate": "Thu, 03 Sep 2026 06:21:01 GMT",
+          "summary": "IT之家 9 月 3 日消息，科技媒体 Neowin 昨日（9 月 2 日）发布博文，报道称微软发布 1.136 版 Visual Studio Code 后，宣布将推出官方纪录片《The Story of VS Code》。IT之家附上《…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/906.htm",
+          "title": "分形工艺推出 Radius 处理器 AIO 液冷：管内走线 + 菊链风扇",
+          "link": "https://www.ithome.com/0/997/906.htm",
+          "pubDate": "Thu, 03 Sep 2026 06:20:36 GMT",
+          "summary": "IT之家 9 月 3 日消息，Fractal Design（分形工艺）昨日宣布推出处理器一体式 (AIO) 液冷散热器新品 Radius。这一新品可选 240 与 360 版本，提供 RGB 与非 RGB 款式。Radius 系列在提供良好…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.forescout.com/blog/can-ai-create-plc-attacks-yes-but-it%E2%80%99s-not-that-easy-yet",
+          "title": "Can AI Create PLC Attacks? Yes, but It's Not That Easy Yet",
+          "link": "https://www.forescout.com/blog/can-ai-create-plc-attacks-yes-but-it%E2%80%99s-not-that-easy-yet/",
+          "pubDate": "Thu, 03 Sep 2026 06:19:37 +0000",
+          "summary": "Article URL: https://www.forescout.com/blog/can-ai-create-plc-attacks-yes-but-it%E2%80%99s-not-that-easy-yet/ Comments U…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://gkoreli.com/which-ai-fetchers-send-which-headers",
+          "title": "Which AI Fetchers Send Which Headers, Measured on a Live Site",
+          "link": "https://gkoreli.com/which-ai-fetchers-send-which-headers",
+          "pubDate": "Thu, 03 Sep 2026 06:15:14 +0000",
+          "summary": "Article URL: https://gkoreli.com/which-ai-fetchers-send-which-headers Comments URL: https://news.ycombinator.com/item?id…",
+          "sources": [
+            "hackernews"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/997/866.htm",
+          "title": "OpenAI 首席科学家回应“AI 推理不透明”争议：复杂度未跳跃增长",
+          "link": "https://www.ithome.com/0/997/866.htm",
+          "pubDate": "Thu, 03 Sep 2026 05:38:24 GMT",
+          "summary": "IT之家 9 月 3 日消息，OpenAI 首席科学家雅库布・帕乔基（Jakub Pachocki）昨日（9 月 2 日）在 X 平台发布推文，回应 AI 模型 Astra“不可监控 / 推理不透明”的争议。帕乔基强调，包括 Astra 在…",
+          "sources": [
+            "ithome"
+          ]
+        },
         {
           "id": "https://pubmed.ncbi.nlm.nih.gov/40560616",
           "title": "Generative AI without guardrails can harm learning",
@@ -353,56 +403,6 @@
           "sources": [
             "hackernews"
           ]
-        },
-        {
-          "id": "https://www.ithome.com/0/997/726.htm",
-          "title": "欧洲最强 AI：西班牙公司推出 Quasar 438B 模型，1M 词元上下文",
-          "link": "https://www.ithome.com/0/997/726.htm",
-          "pubDate": "Wed, 02 Sep 2026 23:16:25 GMT",
-          "summary": "IT之家 9 月 3 日消息，西班牙 AI 公司 Multiverse Computing 最新推出 Quasar 438B 模型，根据 Artificial Analysis 得分，该模型 Intelligence Index v4.1.…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://akitaonrails.com/en/2026/09/02/ai-memory-2-0-best-memory-system-for-agents-and-teams",
-          "title": "AI-Memory 2.0 – The Best Memory System for Agents and Teams",
-          "link": "https://akitaonrails.com/en/2026/09/02/ai-memory-2-0-best-memory-system-for-agents-and-teams/",
-          "pubDate": "Wed, 02 Sep 2026 23:03:38 +0000",
-          "summary": "Article URL: https://akitaonrails.com/en/2026/09/02/ai-memory-2-0-best-memory-system-for-agents-and-teams/ Comments URL:…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://antithetical-labs.com/blog/the-judge-liked-it-better",
-          "title": "Ontologies catch untrustworthy LLM claims",
-          "link": "https://antithetical-labs.com/blog/the-judge-liked-it-better/",
-          "pubDate": "Wed, 02 Sep 2026 23:01:19 +0000",
-          "summary": "Article URL: https://antithetical-labs.com/blog/the-judge-liked-it-better/ Comments URL: https://news.ycombinator.com/it…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://phys.org/news/2026-09-pacman-ai-framework-fusion-safely.html",
-          "title": "Pacman AI for controlling fusion systems makes key decisions in milliseconds",
-          "link": "https://phys.org/news/2026-09-pacman-ai-framework-fusion-safely.html",
-          "pubDate": "Wed, 02 Sep 2026 22:57:11 +0000",
-          "summary": "Article URL: https://phys.org/news/2026-09-pacman-ai-framework-fusion-safely.html Comments URL: https://news.ycombinator…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://www.ifanr.com/1678197",
-          "title": "Gemini 3.8 Flash 光速发布：干活挺勤快，就是没开窍",
-          "link": "https://www.ifanr.com/1678197?utm_source=rss&utm_medium=rss&utm_campaign=",
-          "pubDate": "Wed, 02 Sep 2026 22:52:37 +0000",
-          "summary": "Gemini 圣质如初#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-          "sources": [
-            "ifanr"
-          ]
         }
       ]
     },
@@ -474,7 +474,7 @@
           "title": "WebLLM: high-performance in-browser LLM inference engine",
           "link": "https://github.com/mlc-ai/web-llm",
           "pubDate": "Wed, 02 Sep 2026 14:02:35 +0000",
-          "summary": "Article URL: https://github.com/mlc-ai/web-llm Comments URL: https://news.ycombinator.com/item?id=49536411 Points: 95 # …",
+          "summary": "Article URL: https://github.com/mlc-ai/web-llm Comments URL: https://news.ycombinator.com/item?id=49536411 Points: 105 #…",
           "sources": [
             "hackernews"
           ]
