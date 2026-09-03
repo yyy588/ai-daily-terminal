@@ -12,7 +12,8 @@ const page = path.resolve(__dirname, '../dist/arena/index.html');
 const hasBuild = existsSync(page);
 
 describe.runIf(hasBuild)('arena 页面布局对齐', () => {
-  const html = readFileSync(page, 'utf-8');
+  // 惰性读取：runIf(false) 时 describe 体不会执行，但保险起见仅在存在时读
+  const html = hasBuild ? readFileSync(page, 'utf-8') : '';
   const doc = new DOMParser().parseFromString(html, 'text/html');
 
   it('两榜行内列结构一致：rank / model / score / price 四列一一对应', () => {
