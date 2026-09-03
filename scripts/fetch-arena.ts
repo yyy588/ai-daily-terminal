@@ -31,18 +31,44 @@ const doFetch: typeof fetch = (url, init) =>
     ? (undiciFetch(url, { ...init, dispatcher: proxyAgent }) as unknown as Promise<Response>)
     : fetch(url, init);
 
-/** 榜单配置：加榜只需加一行。kind 决定解析器（elo 表格 / agent 多指标） */
+/**
+ * 榜单配置：加榜只需加一行。kind 决定解析器（elo 表格 / agent 多指标）。
+ * 精简记录（2026-09-03）：站点聚焦开发选型，chat/vision/search/t2i 四榜停抓。
+ * 恢复任一榜：加回配置即可（页面渲染按 id 消费）。
+ *   { id: 'chat',   title: 'Chat · Overall',   url: '.../text/overall',          kind: 'elo' },
+ *   { id: 'vision', title: 'Vision · 视觉理解', url: '.../vision/overall',        kind: 'elo' },
+ *   { id: 'search', title: 'Search · AI 搜索',  url: '.../search/overall',        kind: 'elo' },
+ *   { id: 't2i',    title: 'Text-to-Image · 文生图', url: '.../text-to-image/overall', kind: 'elo' },
+ */
 const BOARDS: readonly { id: string; title: string; url: string; kind: 'elo' | 'agent' }[] = [
   {
     id: 'webdev',
-    title: 'Code · WebDev',
+    title: '🏆 WebDev 综合',
     url: 'https://arena.ai/leaderboard/code/webdev/overall',
     kind: 'elo',
   },
   {
-    id: 'chat',
-    title: 'Chat · Overall',
-    url: 'https://arena.ai/leaderboard/text/overall',
+    id: 'webdev-fullstack',
+    title: '🧱 WebDev 全栈',
+    url: 'https://arena.ai/leaderboard/code/webdev/fullstack',
+    kind: 'elo',
+  },
+  {
+    id: 'webdev-frontend',
+    title: '🖥️ WebDev 前端',
+    url: 'https://arena.ai/leaderboard/code/webdev/frontend',
+    kind: 'elo',
+  },
+  {
+    id: 'webdev-html',
+    title: '🧩 HTML',
+    url: 'https://arena.ai/leaderboard/code/webdev/html',
+    kind: 'elo',
+  },
+  {
+    id: 'webdev-react',
+    title: '🧩 React',
+    url: 'https://arena.ai/leaderboard/code/webdev/react',
     kind: 'elo',
   },
   {
@@ -50,24 +76,6 @@ const BOARDS: readonly { id: string; title: string; url: string; kind: 'elo' | '
     title: 'Agent · 能力',
     url: 'https://arena.ai/leaderboard/agent',
     kind: 'agent',
-  },
-  {
-    id: 'vision',
-    title: 'Vision · 视觉理解',
-    url: 'https://arena.ai/leaderboard/vision/overall',
-    kind: 'elo',
-  },
-  {
-    id: 'search',
-    title: 'Search · AI 搜索',
-    url: 'https://arena.ai/leaderboard/search/overall',
-    kind: 'elo',
-  },
-  {
-    id: 't2i',
-    title: 'Text-to-Image · 文生图',
-    url: 'https://arena.ai/leaderboard/text-to-image/overall',
-    kind: 'elo',
   },
 ];
 

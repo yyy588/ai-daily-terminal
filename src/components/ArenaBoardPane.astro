@@ -1,0 +1,166 @@
+---
+/**
+ * WebDev 分维榜面板（arena.astro 与 [dimension].astro 共用）。
+ * 纯展示组件：board 数据 + 是否显示筛选条由调用方决定。
+ */
+import type { ArenaBoard } from '../lib/arena';
+
+interface Props {
+  readonly board: ArenaBoard | undefined;
+  readonly maxRows?: number;
+}
+
+const { board, maxRows = 20 } = Astro.props;
+---
+
+{
+  board && board.rows.length > 0 ? (
+    <div class="board__pane">
+      <h2 class="board__title mono">
+        {board.title}
+        <span class="board__meta">{board.rows.length} 模型 · Elo</span>
+      </h2>
+      <ol class="board__list">
+        {board.rows.slice(0, maxRows).map((row) => (
+          <li class="wrow">
+            <span class="wrow__rank mono">{String(row.rank).padStart(2, '0')}</span>
+            <span class="wrow__model">
+              <span class="wrow__name">{row.modelName}</span>
+              <span class="board__badges">
+                {row.isOpenSource ? <span class="chip chip--open">开源</span> : <span class="chip">闭源</span>}
+                <span class="chip chip--org">{row.organization}</span>
+              </span>
+            </span>
+            <span class="wrow__score mono">
+              {row.score}
+              {row.ci && <span class="wrow__ci"> {row.ci}</span>}
+            </span>
+            <span class="wrow__price mono" title="API 价格 输入/输出 $/M tokens">
+              {row.price ?? '--'}
+            </span>
+          </li>
+        ))}
+      </ol>
+    </div>
+  ) : (
+    <div class="doc-card">
+      <p class="doc-card__summary">// 本维度暂无数据，等待抓取或本地刷新。</p>
+    </div>
+  )
+}
+
+<style>
+  .board__title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: var(--color-primary);
+    margin: 0 0 var(--space-s);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: var(--space-s);
+  }
+
+  .board__meta {
+    font-size: 0.65rem;
+    color: var(--color-text-faint);
+    letter-spacing: 0.05em;
+  }
+
+  .board__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--color-border);
+    border-radius: 2px;
+    background: var(--color-surface);
+    overflow: hidden;
+  }
+
+  .wrow {
+    display: grid;
+    grid-template-columns: 2.2rem minmax(0, 1fr) 5rem 5.5rem;
+    align-items: center;
+    gap: var(--space-s);
+    padding: 0.45rem var(--space-m);
+    border-bottom: 1px solid var(--color-border);
+    transition: background var(--duration-fast) ease;
+  }
+
+  .wrow:last-child {
+    border-bottom: none;
+  }
+
+  .wrow:hover {
+    background: var(--color-surface-raised);
+  }
+
+  .board__list > .wrow:nth-child(-n + 3) .wrow__rank {
+    color: var(--color-accent);
+    font-weight: 700;
+  }
+
+  .wrow__rank {
+    font-size: 0.75rem;
+    color: var(--color-text-faint);
+  }
+
+  .wrow__model {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+
+  .wrow__name {
+    font-size: 0.85rem;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .board__badges {
+    display: flex;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+  }
+
+  .chip {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    padding: 0 0.35em;
+    border: 1px solid var(--color-border-active);
+    border-radius: 2px;
+    color: var(--color-text-faint);
+    line-height: 1.5;
+  }
+
+  .chip--open {
+    color: var(--color-primary);
+    border-color: var(--color-primary-dim);
+  }
+
+  .chip--org {
+    color: var(--color-text-dim);
+  }
+
+  .wrow__score {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: right;
+  }
+
+  .wrow__ci {
+    font-size: 0.6rem;
+    color: var(--color-text-faint);
+    font-weight: 400;
+  }
+
+  .wrow__price {
+    font-size: 0.65rem;
+    color: var(--color-text-faint);
+    text-align: right;
+  }
+</style>

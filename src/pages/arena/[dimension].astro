@@ -1,54 +1,61 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import ArenaBoardPane from '../components/ArenaBoardPane.astro';
-import { loadArenaData } from '../lib/site';
-import { internalHref } from '../lib/href';
-import { ARENA_FILTERS } from '../lib/arena-filters';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArenaBoardPane from '../../components/ArenaBoardPane.astro';
+import { loadArenaData } from '../../lib/site';
+import { internalHref } from '../../lib/href';
+import { ARENA_FILTERS } from '../../lib/arena-filters';
+
+export function getStaticPaths() {
+  return ARENA_FILTERS.filter((f) => f.slug !== '').map((f) => ({
+    params: { dimension: f.slug },
+  }));
+}
+
+const { dimension } = Astro.params;
+const current = ARENA_FILTERS.find((f) => f.slug === dimension);
+
+if (current === undefined) {
+  return Astro.redirect(internalHref('/arena/'));
+}
 
 const data = loadArenaData();
-const MAX_ROWS = 20;
-
-// 本页 = 🏆 综合维度（其余维度各自独立路径页）
-const board = data.boards.find((b) => b.id === 'webdev');
+const board = data.boards.find((b) => b.id === current.id);
 const agent = data.boards.find((b) => b.id === 'agent');
-const lastSync = agent?.fetchedAt.slice(0, 10) ?? data.boards[0]?.fetchedAt.slice(0, 10) ?? 'STANDBY';
+const lastSync = board?.fetchedAt.slice(0, 10) ?? 'STANDBY';
 ---
 
 <BaseLayout
-  title="ARENA // 开发选型 — 代码 + 智能体"
-  description="开发选型工作台：WebDev 五维代码榜（综合/全栈/前端/HTML/React）+ Agent 能力榜，含 API 价格"
+  title={`ARENA // ${current.label} — 代码能力榜`}
+  description={`WebDev ${current.label} 维度代码能力榜 + Agent 能力榜，开发选型`}
 >
   <header class="hud-bar" role="status">
     <span class="hud-bar__status">DEV_MODE // 选型工作台</span>
-    <span>CODE: {data.boards.filter((b) => b.id.startsWith('webdev')).length} 维</span>
-    <span>AGENT: {agent?.rows.length ?? 0} 模型</span>
+    <span>DIM: {current.label}</span>
+    <span>MODELS: {board?.rows.length ?? 0}</span>
     <span>SNAPSHOT: {lastSync}</span>
     <span>SOURCE: LMArena</span>
   </header>
 
   <section aria-labelledby="dev-heading">
-    <h1 class="section-title" id="dev-heading">开发选型 // 写代码 × 干活</h1>
+    <h1 class="section-title" id="dev-heading">开发选型 // {current.label}</h1>
 
     <div class="dev-boards">
-      <!-- 左列：WebDev 五维筛选 -->
       <div class="board">
         <nav class="filter-tabs mono" aria-label="WebDev 维度筛选">
           {
             ARENA_FILTERS.map((f) => (
               <a
                 href={f.slug === '' ? internalHref('/arena/') : internalHref(`/arena/${f.slug}/`)}
-                aria-current={f.slug === '' ? 'page' : undefined}
+                aria-current={f.slug === dimension ? 'page' : undefined}
               >
                 {f.label}
               </a>
             ))
           }
         </nav>
-
-        <ArenaBoardPane board={board} maxRows={MAX_ROWS} />
+        <ArenaBoardPane board={board} />
       </div>
 
-      <!-- 右列：Agent 综合榜常驻 -->
       {
         agent && agent.rows.length > 0 && (
           <div class="board">
@@ -57,7 +64,7 @@ const lastSync = agent?.fetchedAt.slice(0, 10) ?? data.boards[0]?.fetchedAt.slic
               <span class="board__meta">{agent.rows.length} 模型 · 多指标</span>
             </h2>
             <ol class="board__list">
-              {agent.rows.slice(0, MAX_ROWS).map((row) => (
+              {agent.rows.slice(0, 20).map((row) => (
                 <li class="wrow">
                   <span class="wrow__rank mono">{String(row.rank).padStart(2, '0')}</span>
                   <span class="wrow__model">
@@ -82,9 +89,7 @@ const lastSync = agent?.fetchedAt.slice(0, 10) ?? data.boards[0]?.fetchedAt.slic
   </section>
 
   <p class="note mono">
-    // 左列五维均可切换：综合 / 全栈 / 前端 / HTML / React（各维度独立 Elo 榜）。
-    右列 = Agent 真实终端多指标（净改进率 + 每任务成本），常驻不切换。
-    开工选型：能力 × 成本一起看。
+    // 左列当前维度：{current.label}。右列 = Agent 真实终端多指标，常驻不切换。
   </p>
 </BaseLayout>
 
