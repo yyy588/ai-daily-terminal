@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T10:29:43.111Z",
+  "generatedAt": "2026-09-03T10:45:29.004Z",
   "digests": [
     {
       "date": "2026-09-03",
@@ -12,6 +12,26 @@
           "summary": "Article URL: https://www.gov.uk/government/news/100-million-competition-to-back-british-ai-companies-to-fix-public-servi…",
           "sources": [
             "hackernews"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/483189.html",
+          "title": "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！",
+          "link": "https://www.qbitai.com/2026/09/483189.html",
+          "pubDate": "Thu, 03 Sep 2026 10:18:36 +0000",
+          "summary": "单图直出场景，顶会最佳论文落地",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/483600.html",
+          "title": "陈大年复出，入局大模型",
+          "link": "https://www.qbitai.com/2026/09/483600.html",
+          "pubDate": "Thu, 03 Sep 2026 10:13:24 +0000",
+          "summary": "首秀逼近DeepSeek万亿旗舰",
+          "sources": [
+            "qbitai"
           ]
         },
         {
@@ -380,26 +400,6 @@
           "link": "https://pubmed.ncbi.nlm.nih.gov/40560616/",
           "pubDate": "Thu, 03 Sep 2026 05:10:23 +0000",
           "summary": "Article URL: https://pubmed.ncbi.nlm.nih.gov/40560616/ Comments URL: https://news.ycombinator.com/item?id=49546175 Point…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://bartholomew.info",
-          "title": "What happens when your AI agent edits its own tests to pass?",
-          "link": "https://bartholomew.info/",
-          "pubDate": "Thu, 03 Sep 2026 04:29:52 +0000",
-          "summary": "Article URL: https://bartholomew.info/ Comments URL: https://news.ycombinator.com/item?id=49545935 Points: 2 # Comments:…",
-          "sources": [
-            "hackernews"
-          ]
-        },
-        {
-          "id": "https://secondthoughts.ai/p/ai-can-help-plan-a-bioweapon-building",
-          "title": "AI Can Help Plan a Bioweapon",
-          "link": "https://secondthoughts.ai/p/ai-can-help-plan-a-bioweapon-building",
-          "pubDate": "Thu, 03 Sep 2026 04:26:29 +0000",
-          "summary": "Article URL: https://secondthoughts.ai/p/ai-can-help-plan-a-bioweapon-building Comments URL: https://news.ycombinator.co…",
           "sources": [
             "hackernews"
           ]
