@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T09:55:12.025Z",
+  "generatedAt": "2026-09-03T10:13:07.490Z",
   "repos": [
     {
       "fullName": "ZJU-REAL/Easel",
@@ -20,7 +20,7 @@
     {
       "fullName": "crunz-ai/nativePDF-structurer",
       "description": "一个面向大体量数字原生 PDF 的、零 OCR、零模型依赖的文档结构化工具。  ",
-      "stars": 169,
+      "stars": 170,
       "language": "Python",
       "url": "https://github.com/crunz-ai/nativePDF-structurer",
       "createdAt": "2026-08-21T02:41:01Z"
