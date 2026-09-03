@@ -24,6 +24,8 @@ export interface ArenaRow {
   readonly ci: string;
   /** 投票数——Elo 榜字段 */
   readonly votes: number;
+  /** API 价格原文（如 "$10 / $50" = 输入/输出 $/M tokens）——Elo 榜字段 */
+  readonly price?: string;
   /** 厂商（如 Anthropic） */
   readonly organization: string;
   /** 许可证原文（如 Proprietary / MIT / Apache 2.0） */
@@ -107,11 +109,15 @@ function parseRows(html: string): Omit<ArenaRow, 'rank'>[] {
       texts.find((t) => /^\d{4,6}$/.test(t) && t !== scoreText);
     const votes = votesText !== undefined ? Number(votesText.replace(/,/g, '')) : 0;
 
+    // API 价格：行内 "$x / $y" 合并文本（HTML 注释分隔符在 textContent 中消失）
+    const price = texts.find((t) => /^\$\d+(\.\d+)?\s\/\s\$\d+(\.\d+)?$/.test(t));
+
     out.push({
       modelName,
       score,
       ci,
       votes,
+      price,
       organization,
       license,
       isOpenSource: !CLOSED_LICENSES.has(license.toLowerCase()),

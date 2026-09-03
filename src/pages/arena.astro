@@ -6,103 +6,106 @@ import { internalHref } from '../lib/href';
 const data = loadArenaData();
 const MAX_ROWS = 20;
 
-// 双榜对照：webdev 模型名 → 排名映射（Chat 榜标注 "↗ #N in WebDev"）
-const webdevBoard = data.boards.find((b) => b.id === 'webdev');
-const webdevRank = new Map(webdevBoard?.rows.map((r) => [r.modelName, r.rank]) ?? []);
+// 开发视图 = WebDev（写代码）+ Agent（干活）并排
+const webdev = data.boards.find((b) => b.id === 'webdev');
+const agent = data.boards.find((b) => b.id === 'agent');
 
-const lastSync = data.boards[0]?.fetchedAt
-  ? data.boards[0].fetchedAt.slice(0, 10)
-  : 'STANDBY';
+const lastSync = webdev?.fetchedAt.slice(0, 10) ?? 'STANDBY';
 
-function fmtVotes(votes: number): string {
-  return votes >= 1000 ? `${(votes / 1000).toFixed(1)}k` : String(votes);
+function fmtSessions(n: number | undefined): string {
+  if (n === undefined) return '--';
+  return n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n);
 }
 ---
 
 <BaseLayout
-  title="ARENA_BOARD // 大模型竞技场排行"
-  description="LMArena 双榜对照：WebDev 代码能力 vs Chat 综合对话，每日快照"
+  title="ARENA // 开发选型 — 代码 + 智能体"
+  description="开发视图：WebDev 代码能力榜 + Agent 干活能力榜并排，含 API 价格，模型选型工作台"
 >
   <header class="hud-bar" role="status">
-    <span class="hud-bar__status">ARENA_ONLINE // 竞技场扫描</span>
-    <span>BOARDS: {data.boards.length}</span>
+    <span class="hud-bar__status">DEV_MODE // 选型工作台</span>
+    <span>WEBDEV: {webdev?.rows.length ?? 0} 模型</span>
+    <span>AGENT: {agent?.rows.length ?? 0} 模型</span>
     <span>SNAPSHOT: {lastSync}</span>
-    <span>SOURCE: LMArena (arena.ai)</span>
+    <span>SOURCE: LMArena</span>
   </header>
 
   <nav class="view-tabs mono" aria-label="榜单视图切换">
-    <a href={internalHref('/arena/')} aria-current="page">[ Chat·WebDev 对照 ]</a>
-    <a href={internalHref('/arena/agent/')}>[ Agent 能力 ]</a>
+    <a href={internalHref('/arena/')} aria-current="page">[ 开发 · 代码+智能体 ]</a>
+    <a href={internalHref('/arena/models/')}>[ 模型 · 全能力 ]</a>
+    <a href={internalHref('/arena/agent/')}>[ Agent 深度 ]</a>
   </nav>
 
-  <section aria-labelledby="arena-heading">
-    <h1 class="section-title" id="arena-heading">
-      {data.boards.length > 0 ? `大模型竞技场 // 双榜对照` : '竞技场待机 // 等待首次抓取'}
-    </h1>
+  <section aria-labelledby="dev-heading">
+    <h1 class="section-title" id="dev-heading">开发选型 // 写代码 × 干活</h1>
 
-    {
-      data.boards.length === 0 ? (
-        <div class="doc-card">
-          <p class="doc-card__summary">
-            // 无数据。CI 运行 <code class="mono">pnpm fetch-arena</code>，或本地
-            <code class="mono">ARENA_PROXY=http://127.0.0.1:7897 pnpm fetch-arena</code> 走代理。
-          </p>
-        </div>
-      ) : (
-        <div class="boards">
-          {data.boards.map((board) => (
-            <div class="board">
-              <h2 class="board__title mono">
-                {board.title}
-                <span class="board__meta">{board.rows.length} models · {board.fetchedAt.slice(0, 10)}</span>
-              </h2>
-              <ol class="board__list">
-                {board.rows.slice(0, MAX_ROWS).map((row) => {
-                  const crossRank = board.id === 'chat' ? webdevRank.get(row.modelName) : undefined;
-                  return (
-                    <li class="board__row">
-                      <span class="board__rank mono">{String(row.rank).padStart(2, '0')}</span>
-                      <span class="board__model">
-                        <a
-                          href={`https://arena.ai/leaderboard/${board.id === 'chat' ? 'text' : 'code/webdev'}/overall`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="board__model-link"
-                        >
-                          {row.modelName}
-                        </a>
-                        <span class="board__badges">
-                          {row.isOpenSource ? (
-                            <span class="chip chip--open">开源</span>
-                          ) : (
-                            <span class="chip">闭源</span>
-                          )}
-                          <span class="chip chip--org">{row.organization}</span>
-                          {crossRank !== undefined && (
-                            <span class="chip chip--cross">WebDev #{crossRank}</span>
-                          )}
-                        </span>
-                      </span>
-                      <span class="board__score mono">
-                        {row.score}
-                        {row.ci && <span class="board__ci"> {row.ci}</span>}
-                      </span>
-                      <span class="board__votes mono" title="投票数">{fmtVotes(row.votes)}</span>
-                    </li>
-                  );
-                })}
-              </ol>
-            </div>
-          ))}
-        </div>
-      )
-    }
+    <div class="dev-boards">
+      {
+        webdev && webdev.rows.length > 0 && (
+          <div class="board">
+            <h2 class="board__title mono">
+              Code · WebDev
+              <span class="board__meta">{webdev.rows.length} 模型 · Elo</span>
+            </h2>
+            <ol class="board__list">
+              {webdev.rows.slice(0, MAX_ROWS).map((row) => (
+                <li class="wrow">
+                  <span class="wrow__rank mono">{String(row.rank).padStart(2, '0')}</span>
+                  <span class="wrow__model">
+                    <span class="wrow__name">{row.modelName}</span>
+                    <span class="board__badges">
+                      {row.isOpenSource ? <span class="chip chip--open">开源</span> : <span class="chip">闭源</span>}
+                      <span class="chip chip--org">{row.organization}</span>
+                    </span>
+                  </span>
+                  <span class="wrow__score mono">
+                    {row.score}
+                    {row.ci && <span class="wrow__ci"> {row.ci}</span>}
+                  </span>
+                  <span class="wrow__price mono" title="API 价格 输入/输出 $/M tokens">{row.price ?? '--'}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        )
+      }
+
+      {
+        agent && agent.rows.length > 0 && (
+          <div class="board">
+            <h2 class="board__title mono">
+              Agent · 能力
+              <span class="board__meta">{agent.rows.length} 模型 · 多指标</span>
+            </h2>
+            <ol class="board__list">
+              {agent.rows.slice(0, MAX_ROWS).map((row) => (
+                <li class="wrow">
+                  <span class="wrow__rank mono">{String(row.rank).padStart(2, '0')}</span>
+                  <span class="wrow__model">
+                    <span class="wrow__name">{row.modelName}</span>
+                    <span class="board__badges">
+                      {row.isOpenSource ? <span class="chip chip--open">开源</span> : <span class="chip">闭源</span>}
+                      <span class="chip chip--org">{row.organization}</span>
+                    </span>
+                  </span>
+                  <span class="wrow__score mono">
+                    {row.netImprovement !== undefined ? `${row.netImprovement.toFixed(1)}%` : '--'}
+                    {row.netImprovementCi && <span class="wrow__ci"> {row.netImprovementCi}</span>}
+                  </span>
+                  <span class="wrow__price mono" title="每任务成本">{row.costPerTask ?? '--'}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        )
+      }
+    </div>
   </section>
 
   <p class="note mono">
-    // 数据来源 LMArena（arena.ai），基于人类盲测投票的 Elo 积分。每日自动抓取快照；
-    CI 被反爬拦截时沿用最近快照（见 SNAPSHOT 日期）。完整榜与更多维度见
-    <a href="https://arena.ai/leaderboard" target="_blank" rel="noopener noreferrer">arena.ai ↗</a>
+    // 左榜：前端/Web 开发盲测 Elo（右列 = API 价格 输入/输出 $/M tokens）。
+    右榜：真实终端会话多指标（右列 = 每任务成本）。开工选型：能力 × 成本一起看。
+    Agent 完整指标见 <a href={internalHref('/arena/agent/')}>Agent 深度视图</a>。
   </p>
 </BaseLayout>
 
@@ -124,7 +127,7 @@ function fmtVotes(votes: number): string {
     color: var(--color-primary);
   }
 
-  .boards {
+  .dev-boards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
     gap: var(--space-l);
@@ -158,9 +161,9 @@ function fmtVotes(votes: number): string {
     overflow: hidden;
   }
 
-  .board__row {
+  .wrow {
     display: grid;
-    grid-template-columns: 2.2rem 1fr 4.2rem 3rem;
+    grid-template-columns: 2.2rem minmax(0, 1fr) 5rem 5.5rem;
     align-items: center;
     gap: var(--space-s);
     padding: 0.45rem var(--space-m);
@@ -168,43 +171,37 @@ function fmtVotes(votes: number): string {
     transition: background var(--duration-fast) ease;
   }
 
-  .board__row:last-child {
+  .wrow:last-child {
     border-bottom: none;
   }
 
-  .board__row:hover {
+  .wrow:hover {
     background: var(--color-surface-raised);
   }
 
-  /* 前三名高亮 */
-  .board__row:nth-child(-n + 3) .board__rank {
+  .board__list > .wrow:nth-child(-n + 3) .wrow__rank {
     color: var(--color-accent);
     font-weight: 700;
   }
 
-  .board__rank {
+  .wrow__rank {
     font-size: 0.75rem;
     color: var(--color-text-faint);
   }
 
-  .board__model {
+  .wrow__model {
     display: flex;
     flex-direction: column;
     gap: 2px;
     min-width: 0;
   }
 
-  .board__model-link {
-    color: var(--color-text);
+  .wrow__name {
     font-size: 0.85rem;
     font-weight: 500;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
-
-  .board__model-link:hover {
-    color: var(--color-primary);
   }
 
   .board__badges {
@@ -232,26 +229,20 @@ function fmtVotes(votes: number): string {
     color: var(--color-text-dim);
   }
 
-  .chip--cross {
-    color: var(--color-accent);
-    border-color: var(--color-accent);
-  }
-
-  .board__score {
+  .wrow__score {
     font-size: 0.9rem;
     font-weight: 600;
-    color: var(--color-text);
     text-align: right;
   }
 
-  .board__ci {
+  .wrow__ci {
     font-size: 0.6rem;
     color: var(--color-text-faint);
     font-weight: 400;
   }
 
-  .board__votes {
-    font-size: 0.7rem;
+  .wrow__price {
+    font-size: 0.65rem;
     color: var(--color-text-faint);
     text-align: right;
   }

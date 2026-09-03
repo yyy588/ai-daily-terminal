@@ -51,6 +51,24 @@ const BOARDS: readonly { id: string; title: string; url: string; kind: 'elo' | '
     url: 'https://arena.ai/leaderboard/agent',
     kind: 'agent',
   },
+  {
+    id: 'vision',
+    title: 'Vision · 视觉理解',
+    url: 'https://arena.ai/leaderboard/vision/overall',
+    kind: 'elo',
+  },
+  {
+    id: 'search',
+    title: 'Search · AI 搜索',
+    url: 'https://arena.ai/leaderboard/search/overall',
+    kind: 'elo',
+  },
+  {
+    id: 't2i',
+    title: 'Text-to-Image · 文生图',
+    url: 'https://arena.ai/leaderboard/text-to-image/overall',
+    kind: 'elo',
+  },
 ];
 
 async function fetchBoard(
