@@ -40,6 +40,10 @@ jobs:
       - name: Install deps
         run: pnpm install --frozen-lockfile
 
+      # build 先于 test：布局/导航产物断言测试需要 dist 存在（本地跑 vitest 前也先 build）
+      - name: Build site (pre-test)
+        run: pnpm build
+
       - name: Test
         run: pnpm test
 

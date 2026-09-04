@@ -8,7 +8,8 @@ const homePage = path.join(distDir, 'index.html');
 const hasBuild = existsSync(homePage);
 
 describe.runIf(hasBuild)('导航中文化与日期条（产物断言）', () => {
-  const html = readFileSync(homePage, 'utf-8');
+  // 惰性读取：CI test 先于 build 时 runIf 跳过本块，但 describe 体仍会解析——只在有产物时读
+  const html = hasBuild ? readFileSync(homePage, 'utf-8') : '';
   const doc = new DOMParser().parseFromString(html, 'text/html');
 
   it('导航四项为中文，无英文旧标签', () => {
@@ -56,12 +57,9 @@ describe.runIf(hasBuild)('导航中文化与日期条（产物断言）', () => 
 
 describe.runIf(hasBuild)('详情页日期条（选中态）', () => {
   const distNews = path.join(distDir, 'news');
-  const dates = existsSync(distNews)
-    ? readFileSync(homePage, 'utf-8').match(/\/news\/(\d{4}-\d{2}-\d{2})\//g)?.slice(0, 1) ?? []
-    : [];
 
   it('详情页有日期条且当前日 aria-current="page"', () => {
-    // 取首页第一个日期 chip 的目标页验证
+    // 取首页第一个日期 chip 的目标页验证（惰性读取同上）
     const m = readFileSync(homePage, 'utf-8').match(/\/news\/(\d{4}-\d{2}-\d{2})\//);
     if (m === null) return; // 无档案时跳过
     const date = m[1];
