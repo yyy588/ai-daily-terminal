@@ -1,9 +1,119 @@
 {
-  "generatedAt": "2026-09-04T07:12:27.972Z",
+  "generatedAt": "2026-09-04T16:35:28.492Z",
   "digests": [
     {
       "date": "2026-09-04",
       "entries": [
+        {
+          "id": "https://www.ithome.com/0/998/620.htm",
+          "title": "仅用两年时间，英伟达从零建起近千亿美元股权投资组合",
+          "link": "https://www.ithome.com/0/998/620.htm",
+          "pubDate": "Fri, 04 Sep 2026 14:59:33 GMT",
+          "summary": "IT之家 9 月 4 日消息，据《商业内幕》今天（4 日）报道，英伟达通过投资其他科技公司，仅用两年时间就几乎从零建立起规模接近 1,000 亿美元（IT之家注：现汇率约合 6,735.52 亿元人民币）的股权投资组合。英伟达最新财报显示，…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/610.htm",
+          "title": "广电总局召开 AI 微短剧“融像”“融声”座谈会，爱奇艺、红果等参会",
+          "link": "https://www.ithome.com/0/998/610.htm",
+          "pubDate": "Fri, 04 Sep 2026 14:27:11 GMT",
+          "summary": "IT之家 9 月 4 日消息，据国家广播电视总局，9 月 2 日，AI 微短剧“融像”“融声”知识产权与人格权益保护座谈会召开。会议围绕生成式人工智能在微短剧创作中涉及的肖像、声音等权益使用问题，听取行业意见，凝聚行业共识。会议认为，AI …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/595.htm",
+          "title": "OpenAI 奥尔特曼：AI 若要赢得怀疑论者的支持，“能治愈癌症”还不够",
+          "link": "https://www.ithome.com/0/998/595.htm",
+          "pubDate": "Fri, 04 Sep 2026 12:55:57 GMT",
+          "summary": "IT之家 9 月 4 日消息，用 AI 治愈癌症，怀疑者自然就会去理解 AI 热潮，这一点或许是硅谷最常见的宣传方式。但 OpenAI CEO 萨姆 · 奥尔特曼认为，仅仅做到这一点还远远不够。据《商业内幕》今天（4 日）晚间报道，奥尔特曼…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/593.htm",
+          "title": "曝 OpenAI 智能体今年 5 月就已“失控”，曾主动劫持德国一网站",
+          "link": "https://www.ithome.com/0/998/593.htm",
+          "pubDate": "Fri, 04 Sep 2026 12:41:05 GMT",
+          "summary": "IT之家 9 月 4 日消息，据路透社援引一项研究以及两名知情人士消息称，今年上半年，一群失控的 OpenAI 智能体劫持了一个德国网站，并把网站改造成供其他 AI 智能体交流的留言板。知情人士表示，OpenAI 官员数周前已经得知此事，但…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/592.htm",
+          "title": "问界：网传 M6 车型“预制车”铭牌系 P 图 / AI 修改生成，已就谣言报案",
+          "link": "https://www.ithome.com/0/998/592.htm",
+          "pubDate": "Fri, 04 Sep 2026 12:34:45 GMT",
+          "summary": "IT之家 9 月 4 日消息，“问界真探社”公众号今日发文称，近日，我们获悉多家互联网平台的多个自媒体账号发布及转发我司旗下问界品牌 M6 车型某台车的铭牌图片、视频，其中铭牌显示，该车辆的生产制造年月为“2026-10”。因现在才 202…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/591.htm",
+          "title": "仅为原价的 1.3-8%，Meta 为 Muse Spark AI 模型推出数据共享折扣计划",
+          "link": "https://www.ithome.com/0/998/591.htm",
+          "pubDate": "Fri, 04 Sep 2026 12:31:48 GMT",
+          "summary": "IT之家 9 月 4 日消息，据 TechCrunch 报道，大多数 AI 工具都允许用户选择退出数据共享，防止自己的使用记录被模型提供商用于迭代后续版本。而 Meta 却反其道而行之，直接为这项选择明码标价。针对新款 Muse Spark…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/484547.html",
+          "title": "趋境科技与摩尔线程达成战略合作，高品质 AI Token 国产异构方案性价比超越国际先进算力",
+          "link": "https://www.qbitai.com/2026/09/484547.html",
+          "pubDate": "Fri, 04 Sep 2026 09:23:24 +0000",
+          "summary": "国产卡跑出高品质 AI Token 生产级性能",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/484437.html",
+          "title": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理",
+          "link": "https://www.qbitai.com/2026/09/484437.html",
+          "pubDate": "Fri, 04 Sep 2026 09:19:29 +0000",
+          "summary": "星尘智能（Astribot） 基座模型团队发布能异步执行的在线强化学习框架 SmoothRL",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/484293.html",
+          "title": "九问ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写出通用积分器，低成本找出物理科学规律",
+          "link": "https://www.qbitai.com/2026/09/484293.html",
+          "pubDate": "Fri, 04 Sep 2026 08:57:14 +0000",
+          "summary": "不训练模型、不调参数",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/484203.html",
+          "title": "金融AI的年度大考交卷了：2万名选手、30+家机构、百亿级数据开源",
+          "link": "https://www.qbitai.com/2026/09/484203.html",
+          "pubDate": "Fri, 04 Sep 2026 07:09:43 +0000",
+          "summary": "5000支队伍同台做题，写尽行业四年变化",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/484163.html",
+          "title": "李飞飞刚发Atlas，中国开源“同款”已抢跑半年？",
+          "link": "https://www.qbitai.com/2026/09/484163.html",
+          "pubDate": "Fri, 04 Sep 2026 06:54:12 +0000",
+          "summary": "智能不只是模式识别，更是对世界的建模",
+          "sources": [
+            "qbitai"
+          ]
+        },
         {
           "id": "https://www.ithome.com/0/998/403.htm",
           "title": "工信部：支持国家级人工智能开源社区（AtomGit）发展壮大，鼓励人工智能创业企业积极参与开源生态建设",
