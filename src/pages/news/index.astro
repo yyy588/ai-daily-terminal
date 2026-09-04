@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import DateStrip from '../../components/DateStrip.astro';
 import { loadSiteData } from '../../lib/site';
 import { internalHref } from '../../lib/href';
 
@@ -15,6 +16,8 @@ const months = [...new Set(data.digests.map((d) => d.date.slice(0, 7)))];
     <span>TOTAL_DAYS: {data.digests.length}</span>
     <span>TOTAL_ITEMS: {data.digests.reduce((n, d) => n + d.entries.length, 0)}</span>
   </header>
+
+  <DateStrip digests={data.digests} />
 
   {
     months.length > 1 && (

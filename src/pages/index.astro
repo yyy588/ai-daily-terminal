@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import DateStrip from '../components/DateStrip.astro';
 import { loadSiteData, loadReposData, loadArenaData, SOURCE_NAMES } from '../lib/site';
 import { internalHref } from '../lib/href';
 import { sortByScore } from '../lib/scoring';
@@ -33,6 +34,8 @@ function timeOf(pubDate: string): string {
     <span>ARCHIVE_DAYS: {data.digests.length}</span>
     <span>SIGNAL: {latest ? `${latest.entries.length} ITEMS` : 'NO_DATA'}</span>
   </header>
+
+  <DateStrip digests={data.digests} />
 
   <section aria-labelledby="today-heading">
     <h1 class="section-title" id="today-heading">

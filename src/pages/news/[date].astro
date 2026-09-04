@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import DateStrip from '../../components/DateStrip.astro';
 import { loadSiteData, SOURCE_NAMES } from '../../lib/site';
 import { internalHref } from '../../lib/href';
 
@@ -39,11 +40,14 @@ const older = data.digests[idx + 1];
     <span>ITEMS: {digest.entries.length}</span>
   </header>
 
-  <nav class="day-nav mono" aria-label="前后日导航">
-    {older ? <a href={internalHref(`/news/${older.date}/`)}>[← {older.date}]</a> : <span class="day-nav__pad" />}
-    <a href={internalHref('/news/')}>[ 存档索引 ]</a>
-    {newer ? <a href={internalHref(`/news/${newer.date}/`)}>[{newer.date} →]</a> : <span class="day-nav__pad" />}
-  </nav>
+  <div class="day-nav-wrap">
+    <nav class="day-arrows mono" aria-label="前后日导航">
+      {older ? <a href={internalHref(`/news/${older.date}/`)} title={`前一天 ${older.date}`}>[← 前一天]</a> : <span class="day-nav__pad" />}
+      <a href={internalHref('/news/')}>[ 存档索引 ]</a>
+      {newer ? <a href={internalHref(`/news/${newer.date}/`)} title={`后一天 ${newer.date}`}>[后一天 →]</a> : <span class="day-nav__pad" />}
+    </nav>
+    <DateStrip digests={data.digests} currentDate={digest.date} />
+  </div>
 
   <section aria-label={`《${digest.date}》全部条目`}>
     <h1 class="section-title">核心文档 // {digest.date}</h1>
@@ -74,7 +78,7 @@ const older = data.digests[idx + 1];
 </BaseLayout>
 
 <style>
-  .day-nav {
+  .day-arrows {
     display: flex;
     justify-content: space-between;
     align-items: center;

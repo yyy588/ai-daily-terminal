@@ -1,0 +1,80 @@
+---
+/**
+ * 日期条：全部档案日的横向 chips，点击进对应日报详情页。
+ * 三处复用：首页（最新日带“今”标）/ 日报流 / 详情页（当前日 aria-current）。
+ */
+import { internalHref } from '../lib/href';
+import type { DailyDigest } from '../lib/types';
+
+interface Props {
+  /** 档案（倒序），组件内部截取展示上限 */
+  readonly digests: readonly DailyDigest[];
+  /** 当前选中日（详情页传该页日期；首页/流页不传则无选中） */
+  readonly currentDate?: string;
+  /** 最多展示多少个日期 chip（档案窗口 30 天，全放，容器横向滚动） */
+  readonly max?: number;
+}
+
+const { digests, currentDate, max = 30 } = Astro.props;
+const shown = digests.slice(0, max);
+const latestDate = digests[0]?.date;
+---
+
+<nav class="date-strip mono" aria-label="按日期查看要闻">
+  {
+    shown.map((digest) => {
+      const isLatest = digest.date === latestDate;
+      const isCurrent = digest.date === currentDate;
+      return (
+        <a
+          href={internalHref(`/news/${digest.date}/`)}
+          aria-current={isCurrent ? 'page' : undefined}
+          aria-label={isLatest ? `最新 ${digest.date}（今日要闻）` : `${digest.date} 日报 ${digest.entries.length} 条`}
+        >
+          {isLatest && <span class="date-strip__today">今</span>}{digest.date.slice(5)}
+        </a>
+      );
+    })
+  }
+</nav>
+
+<style>
+  .date-strip {
+    display: flex;
+    gap: var(--space-xs);
+    overflow-x: auto;
+    padding: var(--space-s) 0;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .date-strip a {
+    flex-shrink: 0;
+    padding: 0.15em 0.55em;
+    border: 1px solid var(--color-border);
+    border-radius: 2px;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    color: var(--color-text-dim);
+    white-space: nowrap;
+    transition: border-color var(--duration-fast) ease, color var(--duration-fast) ease,
+      background var(--duration-fast) ease;
+  }
+
+  .date-strip a:hover {
+    border-color: var(--color-border-active);
+    color: var(--color-text);
+  }
+
+  .date-strip a[aria-current='page'] {
+    color: var(--color-primary);
+    border-color: var(--color-primary-dim);
+    background: var(--color-primary-soft);
+  }
+
+  .date-strip__today {
+    color: var(--color-accent);
+    font-weight: 700;
+    margin-right: 0.2em;
+  }
+</style>
