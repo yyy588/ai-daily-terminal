@@ -8,6 +8,7 @@ interface Props {
 }
 
 const { title, description = '每日 AI 要闻终端 // 信息降噪中' } = Astro.props;
+const SITE_URL = 'https://yyy588.github.io/ai-daily-terminal/';
 ---
 
 <!doctype html>
@@ -17,7 +18,16 @@ const { title, description = '每日 AI 要闻终端 // 信息降噪中' } = Ast
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#020202" />
+    <meta name="theme-color" content="#0e7a6c" />
+    <link rel="icon" type="image/svg+xml" href={internalHref('favicon.svg')} />
+    <link rel="alternate" type="application/rss+xml" title="AI_DAILY_TERMINAL RSS" href={internalHref('rss.xml')} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AI_DAILY_TERMINAL" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={SITE_URL} />
+    <meta property="og:image" content={`${SITE_URL}og-card.png`} />
+    <meta name="twitter:card" content="summary_large_image" />
     <title>{title}</title>
   </head>
   <body>

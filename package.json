@@ -16,12 +16,14 @@
     "fetch-arena:local": "cross-env ARENA_PROXY=http://127.0.0.1:7897 tsx scripts/fetch-arena.ts"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
     "astro": "^5.13.0",
     "linkedom": "^0.18.13",
     "undici": "^8.10.1"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
+    "sharp": "^0.35.4",
     "tsx": "^4.20.0",
     "typescript": "^5.6.0",
     "vitest": "^3.0.0"

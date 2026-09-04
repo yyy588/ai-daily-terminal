@@ -141,20 +141,19 @@ function timeOf(pubDate: string): string {
     </section>
   )}
 
-  <section aria-labelledby="archive-heading">
-    <h2 class="section-title" id="archive-heading">检修日志存档</h2>
-    <ul class="archive-list mono">
-      {
-        data.digests.slice(0, 8).map((digest) => (
-          <li>
-            <a href={internalHref(`/news/${digest.date}/`)}>
-              [ 核心文档 ] {digest.date} — {digest.entries.length} 条
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-    <p class="more-link mono"><a href={internalHref('/news/')}>[ 进入日报流 → ]</a></p>
+  <section aria-labelledby="subscribe-heading">
+    <h2 class="section-title" id="subscribe-heading">订阅 // RSS 输出</h2>
+    <div class="doc-card">
+      <p class="doc-card__summary">
+        // 聚合站也输出自己的订阅源：每日一条汇总（当日 Top 5 标题）。<br />
+        阅读器中添加 <code class="mono">https://yyy588.github.io/ai-daily-terminal/rss.xml</code> 即可追更；
+        历史日期请用顶部日期条直达。
+      </p>
+      <p class="more-link mono" style="text-align:left; margin-top: var(--space-s);">
+        <a href={internalHref('rss.xml')}>[ 订阅 RSS → ]</a>
+        <a href={internalHref('/news/')}>[ 日报流 → ]</a>
+      </p>
+    </div>
   </section>
 </BaseLayout>
 

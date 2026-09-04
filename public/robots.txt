@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yyy588.github.io/ai-daily-terminal/sitemap-index.xml

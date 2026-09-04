@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { internalHref } from '../lib/href';
+---
+
+<BaseLayout title="404 // 信号丢失" description="页面不存在或已滚出档案窗口">
+  <header class="hud-bar" role="status">
+    <span class="hud-bar__status" style="color: var(--color-accent);">SIGNAL_LOST // 链路中断</span>
+    <span>ERROR: 404</span>
+  </header>
+
+  <section aria-labelledby="notfound-heading">
+    <h1 class="section-title" id="notfound-heading">信号丢失 // 页面不在档案中</h1>
+    <div class="doc-card">
+      <p class="doc-card__summary">
+        // 请求的页面不存在，或日报已滚出 30 天档案窗口。
+      </p>
+      <ul class="lost-links mono">
+        <li><a href={internalHref('/')}>[ 返回终端 → ]</a></li>
+        <li><a href={internalHref('/news/')}>[ 查看要闻流 → ]</a></li>
+        <li><a href={internalHref('/arena/')}>[ 模型选型 → ]</a></li>
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .lost-links {
+    list-style: none;
+    margin: var(--space-m) 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+    font-size: 0.8rem;
+  }
+</style>
