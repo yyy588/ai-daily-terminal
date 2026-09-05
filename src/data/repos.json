@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-05T04:36:36.267Z",
+  "generatedAt": "2026-09-05T15:31:09.770Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
-      "description": "Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets. MCP server + CLI.",
-      "stars": 890,
+      "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
+      "stars": 918,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
@@ -12,7 +12,7 @@
     {
       "fullName": "ZJU-REAL/Easel",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "stars": 352,
+      "stars": 357,
       "language": "Python",
       "url": "https://github.com/ZJU-REAL/Easel",
       "createdAt": "2026-08-28T02:22:27Z"
@@ -28,7 +28,7 @@
     {
       "fullName": "XHToken/Spark-X2.5",
       "description": "Spark-x2.5 open model series. Pushing the Limits of Agentic Capabilities in On-Device Models",
-      "stars": 150,
+      "stars": 152,
       "language": "DOC",
       "url": "https://github.com/XHToken/Spark-X2.5",
       "createdAt": "2026-08-24T06:36:40Z"
@@ -44,15 +44,23 @@
     {
       "fullName": "KinGao294/grok-bot-orange-book",
       "description": "Grok Bot 橙皮书《把一支 AI 团队装进口袋》：从入门到进阶 · 多智能体协作 · Routine · 省钱与自动化",
-      "stars": 105,
+      "stars": 106,
       "language": "DOC",
       "url": "https://github.com/KinGao294/grok-bot-orange-book",
       "createdAt": "2026-08-23T16:35:48Z"
     },
     {
+      "fullName": "shtjww/llm-inference-capacity-handbook",
+      "description": "大模型推理案头手册（开源版）：给定 GPU 算力，一个模型能扛多少 QPS？三层模型 × 三面墙 × 排队论 × 开环压测",
+      "stars": 86,
+      "language": "DOC",
+      "url": "https://github.com/shtjww/llm-inference-capacity-handbook",
+      "createdAt": "2026-09-02T02:41:51Z"
+    },
+    {
       "fullName": "peter123023/awesome-free-llm-api",
       "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
-      "stars": 85,
+      "stars": 86,
       "language": "DOC",
       "url": "https://github.com/peter123023/awesome-free-llm-api",
       "createdAt": "2026-09-01T17:49:12Z"
@@ -60,23 +68,15 @@
     {
       "fullName": "AbuZar-Ansarii/Needle",
       "description": "This 14 MB Agentic LLM(Cactus Needle 2) can control your phone completely.",
-      "stars": 82,
+      "stars": 83,
       "language": "Python",
       "url": "https://github.com/AbuZar-Ansarii/Needle",
       "createdAt": "2026-08-30T06:43:48Z"
     },
     {
-      "fullName": "shtjww/llm-inference-capacity-handbook",
-      "description": "大模型推理案头手册（开源版）：给定 GPU 算力，一个模型能扛多少 QPS？三层模型 × 三面墙 × 排队论 × 开环压测",
-      "stars": 76,
-      "language": "DOC",
-      "url": "https://github.com/shtjww/llm-inference-capacity-handbook",
-      "createdAt": "2026-09-02T02:41:51Z"
-    },
-    {
       "fullName": "jzjzzzzzzz/agent-me",
       "description": "Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.",
-      "stars": 68,
+      "stars": 76,
       "language": "Python",
       "url": "https://github.com/jzjzzzzzzz/agent-me",
       "createdAt": "2026-08-27T04:08:50Z"
@@ -99,8 +99,8 @@
     },
     {
       "fullName": "zeroa234/ryza-ai-revive",
-      "description": "Offline fan-made Ryza AI companion. Bring your own LLM/TTS. 离线同人莱莎 AI 陪伴，自填大模型与语音。",
-      "stars": 56,
+      "description": "Ryza AI companion. Bring your own LLM/TTS. 莱莎 AI 陪伴，自填大模型与语音。",
+      "stars": 57,
       "language": "JavaScript",
       "url": "https://github.com/zeroa234/ryza-ai-revive",
       "createdAt": "2026-09-02T00:52:18Z"
@@ -124,7 +124,7 @@
     {
       "fullName": "coderdailyone/llm-basics-speedrun",
       "description": "大模型基础知识速通",
-      "stars": 53,
+      "stars": 54,
       "language": "DOC",
       "url": "https://github.com/coderdailyone/llm-basics-speedrun",
       "createdAt": "2026-08-27T13:30:05Z"
