@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-04T16:35:29.731Z",
+  "generatedAt": "2026-09-05T04:36:36.267Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
       "description": "Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets. MCP server + CLI.",
-      "stars": 863,
+      "stars": 890,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
@@ -12,7 +12,7 @@
     {
       "fullName": "ZJU-REAL/Easel",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "stars": 346,
+      "stars": 352,
       "language": "Python",
       "url": "https://github.com/ZJU-REAL/Easel",
       "createdAt": "2026-08-28T02:22:27Z"
@@ -28,7 +28,7 @@
     {
       "fullName": "XHToken/Spark-X2.5",
       "description": "Spark-x2.5 open model series. Pushing the Limits of Agentic Capabilities in On-Device Models",
-      "stars": 148,
+      "stars": 150,
       "language": "DOC",
       "url": "https://github.com/XHToken/Spark-X2.5",
       "createdAt": "2026-08-24T06:36:40Z"
@@ -36,7 +36,7 @@
     {
       "fullName": "itshen/source-reading-methodology",
       "description": "带 AI 精读大型开源仓库的方法论：四阶段流程、可复用模板、28 条踩坑清单，核心是让每个技术论断都可回溯到源码具体行",
-      "stars": 132,
+      "stars": 133,
       "language": "Python",
       "url": "https://github.com/itshen/source-reading-methodology",
       "createdAt": "2026-08-23T02:51:45Z"
@@ -44,7 +44,7 @@
     {
       "fullName": "KinGao294/grok-bot-orange-book",
       "description": "Grok Bot 橙皮书《把一支 AI 团队装进口袋》：从入门到进阶 · 多智能体协作 · Routine · 省钱与自动化",
-      "stars": 104,
+      "stars": 105,
       "language": "DOC",
       "url": "https://github.com/KinGao294/grok-bot-orange-book",
       "createdAt": "2026-08-23T16:35:48Z"
@@ -60,10 +60,26 @@
     {
       "fullName": "AbuZar-Ansarii/Needle",
       "description": "This 14 MB Agentic LLM(Cactus Needle 2) can control your phone completely.",
-      "stars": 74,
+      "stars": 82,
       "language": "Python",
       "url": "https://github.com/AbuZar-Ansarii/Needle",
       "createdAt": "2026-08-30T06:43:48Z"
+    },
+    {
+      "fullName": "shtjww/llm-inference-capacity-handbook",
+      "description": "大模型推理案头手册（开源版）：给定 GPU 算力，一个模型能扛多少 QPS？三层模型 × 三面墙 × 排队论 × 开环压测",
+      "stars": 76,
+      "language": "DOC",
+      "url": "https://github.com/shtjww/llm-inference-capacity-handbook",
+      "createdAt": "2026-09-02T02:41:51Z"
+    },
+    {
+      "fullName": "jzjzzzzzzz/agent-me",
+      "description": "Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.",
+      "stars": 68,
+      "language": "Python",
+      "url": "https://github.com/jzjzzzzzzz/agent-me",
+      "createdAt": "2026-08-27T04:08:50Z"
     },
     {
       "fullName": "liangdabiao/deepseek-v4-flash-vision-rag",
@@ -74,20 +90,20 @@
       "createdAt": "2026-08-24T06:22:33Z"
     },
     {
-      "fullName": "jzjzzzzzzz/agent-me",
-      "description": "Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.",
-      "stars": 62,
-      "language": "Python",
-      "url": "https://github.com/jzjzzzzzzz/agent-me",
-      "createdAt": "2026-08-27T04:08:50Z"
-    },
-    {
       "fullName": "liangdabiao/deepseek-v4-flash-vision-video-rag",
       "description": "DeepSeek V4-Flash Vision Video RAG 让 AI 真正\"看懂\" 一段视频，然后你对它提问：它告诉你答案、答案发生在 第几分几秒，并切出那一段的可播放片段和关键帧给你核对。  基于 DeepSeek 视觉大模型 deepseek-v4-flash-vision-exp 的视频理解与问答 （video RAG）agent skill。先按时间轴抽帧阅读、建立索引（一次性），再对问题做 本地粗筛 → 视觉精排 → 深读回答；回答带 [MM:SS] 时间戳引用，自动生成 自包含 HTML 预览页（内嵌可播放片段 + 关键帧 + 答案），双击浏览器即看。",
-      "stars": 61,
+      "stars": 62,
       "language": "Python",
       "url": "https://github.com/liangdabiao/deepseek-v4-flash-vision-video-rag",
       "createdAt": "2026-08-24T09:46:05Z"
+    },
+    {
+      "fullName": "zeroa234/ryza-ai-revive",
+      "description": "Offline fan-made Ryza AI companion. Bring your own LLM/TTS. 离线同人莱莎 AI 陪伴，自填大模型与语音。",
+      "stars": 56,
+      "language": "JavaScript",
+      "url": "https://github.com/zeroa234/ryza-ai-revive",
+      "createdAt": "2026-09-02T00:52:18Z"
     },
     {
       "fullName": "raamonp/rl-gym-orchestrator",
@@ -114,25 +130,9 @@
       "createdAt": "2026-08-27T13:30:05Z"
     },
     {
-      "fullName": "zeroa234/ryza-ai-revive",
-      "description": "Offline fan-made Ryza AI companion. Bring your own LLM/TTS. 离线同人莱莎 AI 陪伴，自填大模型与语音。",
-      "stars": 53,
-      "language": "JavaScript",
-      "url": "https://github.com/zeroa234/ryza-ai-revive",
-      "createdAt": "2026-09-02T00:52:18Z"
-    },
-    {
-      "fullName": "shtjww/llm-inference-capacity-handbook",
-      "description": "大模型推理案头手册（开源版）：给定 GPU 算力，一个模型能扛多少 QPS？三层模型 × 三面墙 × 排队论 × 开环压测",
-      "stars": 51,
-      "language": "DOC",
-      "url": "https://github.com/shtjww/llm-inference-capacity-handbook",
-      "createdAt": "2026-09-02T02:41:51Z"
-    },
-    {
       "fullName": "liangdabiao/ecom-video-seedance-prompt",
       "description": "这是一个基于deepseek-v4-flash-vision 视觉deepseek大模型的复刻带货爆款视频Skill, 会生成复刻效果的seedance提示词！  > 你刷到一条带货爆款视频，想让 AI 照着再来一条——本 skill 就是那个\"翻译官\"： > 它把视频**看懂**（拆成一张张镜头卡片），再把卡片**翻译**成即梦（Seedance） > 能直接执行的提示词。你拿到手的，是一套可以直接粘贴进即梦的完整提示词包。",
-      "stars": 50,
+      "stars": 52,
       "language": "HTML",
       "url": "https://github.com/liangdabiao/ecom-video-seedance-prompt",
       "createdAt": "2026-08-26T00:52:11Z"
