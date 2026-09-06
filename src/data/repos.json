@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-06T04:46:32.346Z",
+  "generatedAt": "2026-09-06T15:44:31.016Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
       "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-      "stars": 924,
+      "stars": 946,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
@@ -12,7 +12,7 @@
     {
       "fullName": "ZJU-REAL/Easel",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "stars": 359,
+      "stars": 364,
       "language": "Python",
       "url": "https://github.com/ZJU-REAL/Easel",
       "createdAt": "2026-08-28T02:22:27Z"
@@ -28,7 +28,7 @@
     {
       "fullName": "XHToken/Spark-X2.5",
       "description": "Spark-x2.5 open model series. Pushing the Limits of Agentic Capabilities in On-Device Models",
-      "stars": 152,
+      "stars": 158,
       "language": "DOC",
       "url": "https://github.com/XHToken/Spark-X2.5",
       "createdAt": "2026-08-24T06:36:40Z"
@@ -36,7 +36,7 @@
     {
       "fullName": "shtjww/llm-inference-capacity-handbook",
       "description": "大模型推理案头手册（开源版）：给定 GPU 算力，一个模型能扛多少 QPS？三层模型 × 三面墙 × 排队论 × 开环压测",
-      "stars": 94,
+      "stars": 100,
       "language": "DOC",
       "url": "https://github.com/shtjww/llm-inference-capacity-handbook",
       "createdAt": "2026-09-02T02:41:51Z"
@@ -44,26 +44,34 @@
     {
       "fullName": "jzjzzzzzzz/agent-me",
       "description": "Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.",
-      "stars": 88,
+      "stars": 94,
       "language": "Python",
       "url": "https://github.com/jzjzzzzzzz/agent-me",
       "createdAt": "2026-08-27T04:08:50Z"
     },
     {
+      "fullName": "AbuZar-Ansarii/Needle",
+      "description": "This 14 MB Agentic LLM(Cactus Needle 2) can control your phone completely.",
+      "stars": 90,
+      "language": "Python",
+      "url": "https://github.com/AbuZar-Ansarii/Needle",
+      "createdAt": "2026-08-30T06:43:48Z"
+    },
+    {
       "fullName": "peter123023/awesome-free-llm-api",
       "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
-      "stars": 86,
+      "stars": 87,
       "language": "DOC",
       "url": "https://github.com/peter123023/awesome-free-llm-api",
       "createdAt": "2026-09-01T17:49:12Z"
     },
     {
-      "fullName": "AbuZar-Ansarii/Needle",
-      "description": "This 14 MB Agentic LLM(Cactus Needle 2) can control your phone completely.",
-      "stars": 85,
+      "fullName": "jiukemi/JY_IPAgent",
+      "description": "AI口播智能体,实体口播作弊神器",
+      "stars": 72,
       "language": "Python",
-      "url": "https://github.com/AbuZar-Ansarii/Needle",
-      "createdAt": "2026-08-30T06:43:48Z"
+      "url": "https://github.com/jiukemi/JY_IPAgent",
+      "createdAt": "2026-08-31T15:55:10Z"
     },
     {
       "fullName": "liangdabiao/deepseek-v4-flash-vision-rag",
@@ -82,17 +90,9 @@
       "createdAt": "2026-08-24T09:46:05Z"
     },
     {
-      "fullName": "jiukemi/JY_IPAgent",
-      "description": "AI口播智能体,实体口播作弊神器",
-      "stars": 60,
-      "language": "Python",
-      "url": "https://github.com/jiukemi/JY_IPAgent",
-      "createdAt": "2026-08-31T15:55:10Z"
-    },
-    {
       "fullName": "zeroa234/ryza-ai-revive",
       "description": "Ryza AI companion. Bring your own LLM/TTS. 莱莎 AI 陪伴，自填大模型与语音。",
-      "stars": 58,
+      "stars": 59,
       "language": "JavaScript",
       "url": "https://github.com/zeroa234/ryza-ai-revive",
       "createdAt": "2026-09-02T00:52:18Z"
@@ -106,6 +106,14 @@
       "createdAt": "2026-08-25T09:56:41Z"
     },
     {
+      "fullName": "jiabaobei/memory-bridge",
+      "description": "记忆桥 MemoryBridge — 跨设备、跨平台的 AI 共享记忆层 | Cross-device and cross-platform shared memory for AI (CDSMP implementation)",
+      "stars": 55,
+      "language": "Python",
+      "url": "https://github.com/jiabaobei/memory-bridge",
+      "createdAt": "2026-08-29T04:34:06Z"
+    },
+    {
       "fullName": "genoskietv/AdalFlow-Optimizer",
       "description": "Build & Auto-Optimize LLM Apps in 2026: The Ultimate AdalFlow Guide",
       "stars": 55,
@@ -116,18 +124,10 @@
     {
       "fullName": "coderdailyone/llm-basics-speedrun",
       "description": "大模型基础知识速通",
-      "stars": 54,
+      "stars": 55,
       "language": "DOC",
       "url": "https://github.com/coderdailyone/llm-basics-speedrun",
       "createdAt": "2026-08-27T13:30:05Z"
-    },
-    {
-      "fullName": "jiabaobei/memory-bridge",
-      "description": "记忆桥 MemoryBridge — 跨设备、跨平台的 AI 共享记忆层 | Cross-device and cross-platform shared memory for AI (CDSMP implementation)",
-      "stars": 52,
-      "language": "Python",
-      "url": "https://github.com/jiabaobei/memory-bridge",
-      "createdAt": "2026-08-29T04:34:06Z"
     },
     {
       "fullName": "liangdabiao/ecom-video-seedance-prompt",
@@ -136,6 +136,14 @@
       "language": "HTML",
       "url": "https://github.com/liangdabiao/ecom-video-seedance-prompt",
       "createdAt": "2026-08-26T00:52:11Z"
+    },
+    {
+      "fullName": "wemux-ai/wemux",
+      "description": "Wemux - self-hostable AI agent collaboration platform (Apache-2.0, community edition)",
+      "stars": 51,
+      "language": "TypeScript",
+      "url": "https://github.com/wemux-ai/wemux",
+      "createdAt": "2026-08-25T16:55:32Z"
     }
   ]
 }
