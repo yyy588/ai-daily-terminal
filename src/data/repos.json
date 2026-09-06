@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-05T15:31:09.770Z",
+  "generatedAt": "2026-09-06T04:46:32.346Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
       "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-      "stars": 918,
+      "stars": 924,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
@@ -12,7 +12,7 @@
     {
       "fullName": "ZJU-REAL/Easel",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "stars": 357,
+      "stars": 359,
       "language": "Python",
       "url": "https://github.com/ZJU-REAL/Easel",
       "createdAt": "2026-08-28T02:22:27Z"
@@ -20,7 +20,7 @@
     {
       "fullName": "useagenthq/useagent",
       "description": "The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription.",
-      "stars": 284,
+      "stars": 283,
       "language": "TypeScript",
       "url": "https://github.com/useagenthq/useagent",
       "createdAt": "2026-08-29T21:14:31Z"
@@ -34,28 +34,20 @@
       "createdAt": "2026-08-24T06:36:40Z"
     },
     {
-      "fullName": "itshen/source-reading-methodology",
-      "description": "带 AI 精读大型开源仓库的方法论：四阶段流程、可复用模板、28 条踩坑清单，核心是让每个技术论断都可回溯到源码具体行",
-      "stars": 133,
-      "language": "Python",
-      "url": "https://github.com/itshen/source-reading-methodology",
-      "createdAt": "2026-08-23T02:51:45Z"
-    },
-    {
-      "fullName": "KinGao294/grok-bot-orange-book",
-      "description": "Grok Bot 橙皮书《把一支 AI 团队装进口袋》：从入门到进阶 · 多智能体协作 · Routine · 省钱与自动化",
-      "stars": 106,
-      "language": "DOC",
-      "url": "https://github.com/KinGao294/grok-bot-orange-book",
-      "createdAt": "2026-08-23T16:35:48Z"
-    },
-    {
       "fullName": "shtjww/llm-inference-capacity-handbook",
       "description": "大模型推理案头手册（开源版）：给定 GPU 算力，一个模型能扛多少 QPS？三层模型 × 三面墙 × 排队论 × 开环压测",
-      "stars": 86,
+      "stars": 94,
       "language": "DOC",
       "url": "https://github.com/shtjww/llm-inference-capacity-handbook",
       "createdAt": "2026-09-02T02:41:51Z"
+    },
+    {
+      "fullName": "jzjzzzzzzz/agent-me",
+      "description": "Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.",
+      "stars": 88,
+      "language": "Python",
+      "url": "https://github.com/jzjzzzzzzz/agent-me",
+      "createdAt": "2026-08-27T04:08:50Z"
     },
     {
       "fullName": "peter123023/awesome-free-llm-api",
@@ -68,18 +60,10 @@
     {
       "fullName": "AbuZar-Ansarii/Needle",
       "description": "This 14 MB Agentic LLM(Cactus Needle 2) can control your phone completely.",
-      "stars": 83,
+      "stars": 85,
       "language": "Python",
       "url": "https://github.com/AbuZar-Ansarii/Needle",
       "createdAt": "2026-08-30T06:43:48Z"
-    },
-    {
-      "fullName": "jzjzzzzzzz/agent-me",
-      "description": "Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.",
-      "stars": 76,
-      "language": "Python",
-      "url": "https://github.com/jzjzzzzzzz/agent-me",
-      "createdAt": "2026-08-27T04:08:50Z"
     },
     {
       "fullName": "liangdabiao/deepseek-v4-flash-vision-rag",
@@ -98,9 +82,17 @@
       "createdAt": "2026-08-24T09:46:05Z"
     },
     {
+      "fullName": "jiukemi/JY_IPAgent",
+      "description": "AI口播智能体,实体口播作弊神器",
+      "stars": 60,
+      "language": "Python",
+      "url": "https://github.com/jiukemi/JY_IPAgent",
+      "createdAt": "2026-08-31T15:55:10Z"
+    },
+    {
       "fullName": "zeroa234/ryza-ai-revive",
       "description": "Ryza AI companion. Bring your own LLM/TTS. 莱莎 AI 陪伴，自填大模型与语音。",
-      "stars": 57,
+      "stars": 58,
       "language": "JavaScript",
       "url": "https://github.com/zeroa234/ryza-ai-revive",
       "createdAt": "2026-09-02T00:52:18Z"
@@ -128,6 +120,14 @@
       "language": "DOC",
       "url": "https://github.com/coderdailyone/llm-basics-speedrun",
       "createdAt": "2026-08-27T13:30:05Z"
+    },
+    {
+      "fullName": "jiabaobei/memory-bridge",
+      "description": "记忆桥 MemoryBridge — 跨设备、跨平台的 AI 共享记忆层 | Cross-device and cross-platform shared memory for AI (CDSMP implementation)",
+      "stars": 52,
+      "language": "Python",
+      "url": "https://github.com/jiabaobei/memory-bridge",
+      "createdAt": "2026-08-29T04:34:06Z"
     },
     {
       "fullName": "liangdabiao/ecom-video-seedance-prompt",

@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-09-05T15:31:08.756Z",
+  "generatedAt": "2026-09-06T04:46:31.259Z",
   "digests": [
+    {
+      "date": "2026-09-06",
+      "entries": [
+        {
+          "id": "https://www.ithome.com/0/998/895.htm",
+          "title": "开源安卓应用商店 F-Droid 考虑效仿 Debian AI 政策：允许使用 AI，最终责任由贡献者承担",
+          "link": "https://www.ithome.com/0/998/895.htm",
+          "pubDate": "Sun, 06 Sep 2026 02:31:22 GMT",
+          "summary": "IT之家 9 月 6 日消息，Debian 社区大语言模型投票议案上周迎来表决。投票结果显示，大部分开发者支持负责任地使用生成式 AI，如今开源安卓应用商店项目 F-Droid 也考虑采用类似的 AI 政策。参考IT之家先前报道，本次投票一…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/879.htm",
+          "title": "绿联发布家庭 AIoT 中枢 HomeAgent，至高可选 Jetson Thor T5000",
+          "link": "https://www.ithome.com/0/998/879.htm",
+          "pubDate": "Sun, 06 Sep 2026 01:11:29 GMT",
+          "summary": "IT之家 9 月 6 日消息，绿联 (UGREEN) 在 IFA 2026 上宣布正式进军 AIoT 领域，并发布了集成存储、计算、控制功能的 HomeAgent 智能体 AI 本地控制中心。▲ HomeAgent HA100HomeAge…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/877.htm",
+          "title": "联通反诈大模型揪出涉诈 VOIP 黑盒，如有可疑人员不请自来“维修网络”要警惕",
+          "link": "https://www.ithome.com/0/998/877.htm",
+          "pubDate": "Sun, 06 Sep 2026 01:03:59 GMT",
+          "summary": "IT之家 9 月 6 日消息，中国联通官方昨日在公众号平台披露，中国联通抚顺市分公司近日依托自主研发的反诈大模型系统，联合当地公安机关，精准识别并捣毁被用于电信诈骗的非法 VOIP 通信设备，守护群众财产安全。8 月 24 日上午 9 时，…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/861.htm",
+          "title": "IT早报 0906：苹果 iPhone 18 Pro / Ultra 机模再曝光；曝华为新机防窥屏为独立像素驱动；Kimi、MiniMax 将天猫开店；全球首款家用 Wi-Fi8 路由器上市...",
+          "link": "https://www.ithome.com/0/998/861.htm",
+          "pubDate": "Sat, 05 Sep 2026 23:46:06 GMT",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 9 月 6 日星期日，今天的重要科技资讯有：1. 苹果 iPhone 18 Pro / Max、iPhone Ultra 机模再曝光科技媒体 AppleInsider 9 月 4 日发布博文，…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/859.htm",
+          "title": "OpenAI 将建立全新框架，承诺未来将更加透明地披露 AI 智能体失控情况",
+          "link": "https://www.ithome.com/0/998/859.htm",
+          "pubDate": "Sat, 05 Sep 2026 23:43:55 GMT",
+          "summary": "IT之家 9 月 6 日消息，OpenAI 发文，宣布将建立全新框架，承诺“更加透明地”向民众披露旗下 AI 智能体“失控”和“失准（Misalignment）”情况。当前，OpenAI 正深陷一系列 AI 智能体逃逸并自主入侵第三方网络的…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/998/851.htm",
+          "title": "英伟达宣布在 PAX West 游戏展以官方建议零售价销售 RTX 50 系列 Founders Edition 显卡",
+          "link": "https://www.ithome.com/0/998/851.htm",
+          "pubDate": "Sat, 05 Sep 2026 23:21:15 GMT",
+          "summary": "IT之家 9 月 6 日消息，如今想以合理价格甚至官方建议零售价（MSRP）购买一块新款显卡几乎成为难事，不过英伟达称该公司正在今年的 PAX West 游戏展会中，为玩家提供了难得的“以原价购买显卡”机会。据外媒 TechPowerUP …",
+          "sources": [
+            "ithome"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-05",
       "entries": [
@@ -22,6 +87,16 @@
           "summary": "IT之家 9 月 5 日消息，据 GamesIndustry 报道，Epic Games 首席执行官蒂姆 · 斯威尼（Tim Sweeney）在最新一期的《Edge》杂志专访中，与多位业内专家一起探讨了游戏产业当前所面临的“大崩盘 2.0（…",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/484726.html",
+          "title": "GPT-6带火循环Transformer，阿里早已布局",
+          "link": "https://www.qbitai.com/2026/09/484726.html",
+          "pubDate": "Sat, 05 Sep 2026 15:07:08 +0000",
+          "summary": "手握两篇顶会论文",
+          "sources": [
+            "qbitai"
           ]
         },
         {
@@ -390,16 +465,6 @@
           "link": "https://www.ithome.com/0/998/642.htm",
           "pubDate": "Fri, 04 Sep 2026 23:31:22 GMT",
           "summary": "IT之家 9 月 5 日消息，据外媒 MacObserver 报道，苹果正计划在 2027 年（明年）推出一项全新的家庭安全监控服务，作为其进一步拓展智能家居业务的一部分。与此同时，苹果正在研发一款注重隐私保护的家庭安防摄像头及自动化设备。…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/0/998/641.htm",
-          "title": "匿名 AI 模型再现：又一 Alpha 上线 OpenCode，线索指向智谱",
-          "link": "https://www.ithome.com/0/998/641.htm",
-          "pubDate": "Fri, 04 Sep 2026 23:30:48 GMT",
-          "summary": "IT之家 9 月 5 日消息，在 Ox Alpha 确认为 GLM-5.3-Flash 原生多模态模型后，又一款名为 Omen Alpha 的模型昨日（9 月 4 日）上线 OpenCode Go 订阅计划，种种线索表明同样来自智谱公司。费…",
           "sources": [
             "ithome"
           ]
