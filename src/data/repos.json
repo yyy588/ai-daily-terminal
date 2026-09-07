@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T06:09:45.894Z",
+  "generatedAt": "2026-09-07T06:44:47.596Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
@@ -12,7 +12,7 @@
     {
       "fullName": "ZJU-REAL/Easel",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "stars": 385,
+      "stars": 388,
       "language": "Python",
       "url": "https://github.com/ZJU-REAL/Easel",
       "createdAt": "2026-08-28T02:22:27Z"
@@ -28,7 +28,7 @@
     {
       "fullName": "jzjzzzzzzz/agent-me",
       "description": "Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.",
-      "stars": 110,
+      "stars": 111,
       "language": "Python",
       "url": "https://github.com/jzjzzzzzzz/agent-me",
       "createdAt": "2026-08-27T04:08:50Z"
@@ -36,10 +36,18 @@
     {
       "fullName": "shtjww/llm-inference-capacity-handbook",
       "description": "大模型推理案头手册（开源版）：给定 GPU 算力，一个模型能扛多少 QPS？三层模型 × 三面墙 × 排队论 × 开环压测",
-      "stars": 102,
+      "stars": 103,
       "language": "DOC",
       "url": "https://github.com/shtjww/llm-inference-capacity-handbook",
       "createdAt": "2026-09-02T02:41:51Z"
+    },
+    {
+      "fullName": "datawhalechina/zero-to-sglang",
+      "description": "面向大模型开发者的 SGLang 系统化开源教程：从推理基础与环境搭建开始，逐步学习模型部署、结构化生成、服务开发和性能优化，   结合实战案例带你从 0 到 1 掌握 SGLang，构建高性能 LLM 推理应用",
+      "stars": 102,
+      "language": "DOC",
+      "url": "https://github.com/datawhalechina/zero-to-sglang",
+      "createdAt": "2026-08-27T02:24:12Z"
     },
     {
       "fullName": "peter123023/awesome-free-llm-api",
@@ -66,17 +74,9 @@
       "createdAt": "2026-08-31T15:55:10Z"
     },
     {
-      "fullName": "datawhalechina/zero-to-sglang",
-      "description": "面向大模型开发者的 SGLang 系统化开源教程：从推理基础与环境搭建开始，逐步学习模型部署、结构化生成、服务开发和性能优化，   结合实战案例带你从 0 到 1 掌握 SGLang，构建高性能 LLM 推理应用",
-      "stars": 69,
-      "language": "DOC",
-      "url": "https://github.com/datawhalechina/zero-to-sglang",
-      "createdAt": "2026-08-27T02:24:12Z"
-    },
-    {
       "fullName": "wemux-ai/wemux",
       "description": "Wemux - self-hostable AI agent collaboration platform (Apache-2.0, community edition)",
-      "stars": 65,
+      "stars": 66,
       "language": "TypeScript",
       "url": "https://github.com/wemux-ai/wemux",
       "createdAt": "2026-08-25T16:55:32Z"
