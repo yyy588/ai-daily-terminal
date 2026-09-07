@@ -1,80 +1,178 @@
 ---
 /**
- * 日期条：全部档案日的横向 chips，点击进对应日报详情页。
- * 三处复用：首页（最新日带“今”标）/ 日报流 / 详情页（当前日 aria-current）。
+ * 日期月历（GitHub 贡献图式）：档案日按新闻量 4 档深浅，点击进日报详情页。
+ * 双月并排（桌面）/堆叠（移动）；当前日描边高亮；最新日带“今”标。
+ * 布局纯 CSS grid，日期矩阵构建时由 buildCalendars 算好——零 JS。
  */
 import { internalHref } from '../lib/href';
+import { buildCalendars, intensityClass } from '../lib/build-calendar';
 import type { DailyDigest } from '../lib/types';
 
 interface Props {
-  /** 档案（倒序），组件内部截取展示上限 */
   readonly digests: readonly DailyDigest[];
-  /** 当前选中日（详情页传该页日期；首页/流页不传则无选中） */
+  /** 当前选中日（详情页传该页日期） */
   readonly currentDate?: string;
-  /** 最多展示多少个日期 chip（档案窗口 30 天，全放，容器横向滚动） */
-  readonly max?: number;
+  /** 最多展示几个月历 */
+  readonly maxMonths?: number;
 }
 
-const { digests, currentDate, max = 30 } = Astro.props;
-const shown = digests.slice(0, max);
+const { digests, currentDate, maxMonths = 2 } = Astro.props;
+const calendars = buildCalendars(digests, maxMonths);
 const latestDate = digests[0]?.date;
+
+const WEEKDAYS = ['一', '二', '三', '四', '五', '六', '日'];
 ---
 
-<nav class="date-strip mono" aria-label="按日期查看要闻">
+<nav class="date-cal mono" aria-label="按日期查看要闻">
   {
-    shown.map((digest) => {
-      const isLatest = digest.date === latestDate;
-      const isCurrent = digest.date === currentDate;
-      return (
-        <a
-          href={internalHref(`/news/${digest.date}/`)}
-          aria-current={isCurrent ? 'page' : undefined}
-          aria-label={isLatest ? `最新 ${digest.date}（今日要闻）` : `${digest.date} 日报 ${digest.entries.length} 条`}
-        >
-          {isLatest && <span class="date-strip__today">今</span>}{digest.date.slice(5)}
-        </a>
-      );
-    })
+    calendars.map((cal) => (
+      <div class="date-cal__month">
+        <p class="date-cal__ym">
+          {cal.yearMonth.replace('-', ' / ')}
+        </p>
+        <div class="date-cal__grid" role="grid">
+          {WEEKDAYS.map((w) => (
+            <span class="date-cal__weekday" role="columnheader">{w}</span>
+          ))}
+          {cal.cells.map((cell) => {
+            if (!cell.hasArchive || cell.date === null) {
+              return (
+                <span
+                  class={`date-cal__cell date-cal__cell--${cell.day === null ? 'pad' : `off ${intensityClass(0)}`}`}
+                  role="gridcell"
+                  aria-label={cell.day !== null ? `${cell.date ?? ''} 无档案` : undefined}
+                />
+              );
+            }
+            const isCurrent = cell.date === currentDate;
+            const isLatest = cell.date === latestDate;
+            return (
+              <a
+                class={`date-cal__cell date-cal__cell--day ${intensityClass(cell.count)}`}
+                href={internalHref(`/news/${cell.date}/`)}
+                aria-current={isCurrent ? 'page' : undefined}
+                aria-label={`${cell.date} 日报 ${cell.count} 条${isLatest ? '（今日）' : ''}`}
+                title={`${cell.date} · ${cell.count} 条`}
+              >
+                {isLatest && <i class="date-cal__today">今</i>}
+                {cell.day}
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    ))
   }
 </nav>
 
 <style>
-  .date-strip {
+  .date-cal {
     display: flex;
-    gap: var(--space-xs);
-    overflow-x: auto;
-    padding: var(--space-s) 0;
-    scrollbar-width: thin;
-    -webkit-overflow-scrolling: touch;
+    gap: var(--space-l);
+    flex-wrap: wrap;
+    padding: var(--space-s) 0 var(--space-m);
   }
 
-  .date-strip a {
-    flex-shrink: 0;
-    padding: 0.15em 0.55em;
-    border: 1px solid var(--color-border);
-    border-radius: 2px;
+  .date-cal__month {
+    min-width: 0;
+  }
+
+  .date-cal__ym {
+    margin: 0 0 var(--space-xs);
     font-size: 0.7rem;
-    letter-spacing: 0.05em;
-    color: var(--color-text-dim);
-    white-space: nowrap;
-    transition: border-color var(--duration-fast) ease, color var(--duration-fast) ease,
-      background var(--duration-fast) ease;
+    letter-spacing: 0.15em;
+    color: var(--color-primary);
+    font-weight: 600;
   }
 
-  .date-strip a:hover {
-    border-color: var(--color-border-active);
+  .date-cal__grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1.8rem);
+    gap: 3px;
+  }
+
+  .date-cal__weekday {
+    font-size: 0.58rem;
+    color: var(--color-text-faint);
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .date-cal__cell {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 0.68rem;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: transform var(--duration-fast) ease, box-shadow var(--duration-fast) ease;
+  }
+
+  /* 无档案/占位格：不可点 */
+  .date-cal__cell--pad {
+    background: transparent;
+  }
+
+  .date-cal__cell--off {
+    background: var(--color-surface-raised);
+    color: var(--color-text-faint);
+  }
+
+  /* 有档案日：4 档深浅（GitHub 贡献图式） */
+  .date-cal__cell--day {
+    font-weight: 500;
     color: var(--color-text);
   }
 
-  .date-strip a[aria-current='page'] {
-    color: var(--color-primary);
-    border-color: var(--color-primary-dim);
-    background: var(--color-primary-soft);
+  .date-cal__cell--day.lv1 {
+    background: color-mix(in srgb, var(--color-primary) 22%, var(--color-surface));
   }
 
-  .date-strip__today {
+  .date-cal__cell--day.lv2 {
+    background: color-mix(in srgb, var(--color-primary) 45%, var(--color-surface));
+  }
+
+  .date-cal__cell--day.lv3 {
+    background: var(--color-primary);
+    color: var(--color-surface);
+    font-weight: 700;
+  }
+
+  .date-cal__cell--day:hover {
+    transform: scale(1.12);
+    box-shadow: 0 0 0 1px var(--color-primary);
+  }
+
+  .date-cal__cell--day[aria-current='page'] {
+    box-shadow: 0 0 0 2px var(--color-accent);
+  }
+
+  .date-cal__today {
+    position: absolute;
+    top: -0.4em;
+    right: -0.2em;
+    font-style: normal;
+    font-size: 0.55rem;
     color: var(--color-accent);
     font-weight: 700;
-    margin-right: 0.2em;
+    line-height: 1;
+  }
+
+  @media (max-width: 480px) {
+    .date-cal {
+      gap: var(--space-m);
+    }
+
+    .date-cal__grid {
+      grid-template-columns: repeat(7, 1.9rem);
+    }
+
+    .date-cal__cell {
+      width: 1.9rem;
+      height: 1.9rem;
+    }
   }
 </style>

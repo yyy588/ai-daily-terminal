@@ -7,8 +7,7 @@ const distDir = path.resolve(__dirname, '../dist');
 const homePage = path.join(distDir, 'index.html');
 const hasBuild = existsSync(homePage);
 
-describe.runIf(hasBuild)('导航中文化与日期条（产物断言）', () => {
-  // 惰性读取：CI test 先于 build 时 runIf 跳过本块，但 describe 体仍会解析——只在有产物时读
+describe.runIf(hasBuild)('导航中文化与日期月历（产物断言）', () => {
   const html = hasBuild ? readFileSync(homePage, 'utf-8') : '';
   const doc = new DOMParser().parseFromString(html, 'text/html');
 
@@ -19,7 +18,6 @@ describe.runIf(hasBuild)('导航中文化与日期条（产物断言）', () => 
     const labels = Array.from(nav!.querySelectorAll('a')).map((a) => (a.textContent ?? '').trim());
     expect(labels).toEqual(['终端', '要闻', '新锐榜', '模型选型']);
 
-    // 旧英文标签不再出现在导航
     const navText = nav!.textContent ?? '';
     for (const old of ['AI_TERMINAL', 'DAILY_FEED', 'REPO_RADAR', 'ARENA_BOARD']) {
       expect(navText).not.toContain(old);
@@ -27,51 +25,63 @@ describe.runIf(hasBuild)('导航中文化与日期条（产物断言）', () => 
   });
 
   it('HUD 状态读数保留英文风格（SYSTEM_ONLINE 仍在）', () => {
-    // 风格层不动：HUD 条的机器读数保留
     expect(html).toContain('SYSTEM_ONLINE');
   });
 
-  it('日期条存在：nav.date-strip 含全部档案日 chips', () => {
-    const strip = doc.querySelector('nav.date-strip');
-    expect(strip, '首页缺日期条').not.toBeNull();
+  it('日期月历存在：nav.date-cal 含月历网格与周表头', () => {
+    const cal = doc.querySelector('nav.date-cal');
+    expect(cal, '首页缺日期月历').not.toBeNull();
 
-    const chips = Array.from(strip!.querySelectorAll('a'));
-    expect(chips.length).toBeGreaterThanOrEqual(4); // 至少数日档案
+    // 每个月历的表头都是 一~日；双月并排时总 weekday = 月历数 × 7
+    const weekdays = Array.from(cal!.querySelectorAll('.date-cal__weekday')).map((w) => (w.textContent ?? '').trim());
+    expect(weekdays.slice(0, 7)).toEqual(['一', '二', '三', '四', '五', '六', '日']);
 
-    // 每个 chip 链接到对应日期详情页，文本为 MM-DD
-    for (const chip of chips) {
-      const href = chip.getAttribute('href') ?? '';
-      const text = (chip.textContent ?? '').trim().replace('今', '');
-      expect(href).toMatch(/\/news\/\d{4}-\d{2}-\d{2}\/$/);
-      expect(text).toMatch(/^\d{2}-\d{2}$/);
-    }
+    const grids = cal!.querySelectorAll('.date-cal__grid');
+    expect(grids.length).toBeGreaterThanOrEqual(1);
+    // 7 表头 + 42 格
+    expect(grids[0].children.length).toBe(7 + 42);
   });
 
-  it('最新一天 chip 带“今”标记（aria-label 或独立元素）', () => {
-    const strip = doc.querySelector('nav.date-strip');
-    const first = strip!.querySelector('a');
-    expect(first!.textContent ?? '').toContain('今');
-    expect(first!.getAttribute('aria-label')).toMatch(/最新/);
+  it('有档案日是链接且指向详情页；无档案格不是链接', () => {
+    const cal = doc.querySelector('nav.date-cal');
+    const dayLinks = Array.from(cal!.querySelectorAll('a.date-cal__cell--day'));
+    expect(dayLinks.length).toBeGreaterThanOrEqual(4);
+
+    for (const link of dayLinks) {
+      expect(link.getAttribute('href') ?? '').toMatch(/\/news\/\d{4}-\d{2}-\d{2}\/$/);
+    }
+
+    // 无档案格为 span（不可点，无死链）
+    const offCells = cal!.querySelectorAll('span.date-cal__cell--off');
+    expect(offCells.length).toBeGreaterThanOrEqual(1);
+  });
+
+  it('最新一天带“今”标记', () => {
+    const cal = doc.querySelector('nav.date-cal');
+    expect(cal!.querySelector('.date-cal__today')).not.toBeNull();
+  });
+
+  it('深浅档位 class 存在（贡献图式编码）', () => {
+    const cal = doc.querySelector('nav.date-cal');
+    const lvCells = cal!.querySelectorAll('[class*="lv"]');
+    expect(lvCells.length).toBeGreaterThanOrEqual(1);
   });
 });
 
-describe.runIf(hasBuild)('详情页日期条（选中态）', () => {
-  const distNews = path.join(distDir, 'news');
-
-  it('详情页有日期条且当前日 aria-current="page"', () => {
-    // 取首页第一个日期 chip 的目标页验证（惰性读取同上）
-    const m = readFileSync(homePage, 'utf-8').match(/\/news\/(\d{4}-\d{2}-\d{2})\//);
-    if (m === null) return; // 无档案时跳过
+describe.runIf(hasBuild)('详情页月历（选中态）', () => {
+  it('详情页有月历且当前日 aria-current="page"', () => {
+    const m = hasBuild ? readFileSync(homePage, 'utf-8').match(/\/news\/(\d{4}-\d{2}-\d{2})\//) : null;
+    if (m === null) return;
     const date = m[1];
-    const page = path.join(distNews, date, 'index.html');
+    const page = path.join(distDir, 'news', date, 'index.html');
     if (!existsSync(page)) return;
 
     const dhtml = readFileSync(page, 'utf-8');
     const ddoc = new DOMParser().parseFromString(dhtml, 'text/html');
-    const strip = ddoc.querySelector('nav.date-strip');
-    expect(strip, '详情页缺日期条').not.toBeNull();
+    const cal = ddoc.querySelector('nav.date-cal');
+    expect(cal, '详情页缺月历').not.toBeNull();
 
-    const current = strip!.querySelector('a[aria-current="page"]');
+    const current = cal!.querySelector('a[aria-current="page"]');
     expect(current?.getAttribute('href')).toContain(date);
   });
 });
