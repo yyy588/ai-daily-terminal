@@ -15,6 +15,8 @@ describe.runIf(hasBuild)('arena 页面布局对齐', () => {
   // 惰性读取：runIf(false) 时 describe 体不会执行，但保险起见仅在存在时读
   const html = hasBuild ? readFileSync(page, 'utf-8') : '';
   const doc = new DOMParser().parseFromString(html, 'text/html');
+  const styleTags = Array.from(doc.querySelectorAll('style'));
+  const distDir = path.resolve(__dirname, '../dist');
 
   it('两榜行内列结构一致：rank / model / score / price 四列一一对应', () => {
     const rows = Array.from(doc.querySelectorAll('.wrow'));
@@ -98,11 +100,16 @@ describe.runIf(hasBuild)('arena 页面布局对齐', () => {
     const scores = Array.from(doc.querySelectorAll('.wrow__score'));
     expect(scores.length).toBeGreaterThanOrEqual(40);
 
-    // 从产物 CSS 中断言 .wrow__ci 为块级（两行结构的样式契约）。
+    // CI 块级契约：样式现在位于外部 global.css（重构后），扫描链接的 CSS 文件 + 页内 style。
     // Astro scoped 样式会变成 .wrow__ci[data-astro-cid-xxx]{...}，正则需容忍属性选择器。
-    const styleTags = Array.from(doc.querySelectorAll('style'));
-    const allCss = styleTags.map((t) => (t.textContent ?? '')).join('\n');
-    expect(allCss).toMatch(/\.wrow__ci[^{]*\{[^}]*display:\s*block/);
+    const cssLinks = Array.from(doc.querySelectorAll('link[rel="stylesheet"]'))
+      .map((l) => (l as Element).getAttribute('href') ?? '')
+      .map((href) => path.join(distDir, href.replace(/^\/ai-daily-terminal\//, '')));
+    const cssText = [
+      ...styleTags.map((t) => (t.textContent ?? '')),
+      ...cssLinks.filter((p) => existsSync(p)).map((p) => readFileSync(p, 'utf-8')),
+    ].join('\n');
+    expect(cssText).toMatch(/\.wrow__ci[^{]*\{[^}]*display:\s*block/);
 
     for (const s of scores) {
       const ci = s.querySelector('.wrow__ci');

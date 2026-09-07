@@ -1,7 +1,7 @@
 ---
 /**
- * WebDev 分维榜面板（arena.astro 与 [dimension].astro 共用）。
- * 列：Elo 分数 ±CI / API 价格。样式走 global.css 的 arena 共享区段。
+ * Agent 能力榜面板（arena.astro 与 [dimension].astro 共用，与 ArenaBoardPane 对称）。
+ * 列：净改进率（主指标）±CI / 每任务成本。样式走 global.css 的 arena 共享区段。
  */
 import type { ArenaBoard } from '../lib/arena';
 
@@ -17,15 +17,15 @@ const { board, maxRows = 20 } = Astro.props;
   board && board.rows.length > 0 ? (
     <div class="board__pane">
       <h2 class="board__title mono">
-        {board.title}
-        <span class="board__meta">{board.rows.length} 模型 · Elo</span>
+        Agent · 能力
+        <span class="board__meta">{board.rows.length} 模型 · 多指标</span>
       </h2>
       <ol class="board__list">
         <li class="wrow wrow--head mono" aria-hidden="true">
           <span class="wrow__rank">#</span>
           <span class="wrow__model">模型</span>
-          <span class="wrow__score">Elo 分数</span>
-          <span class="wrow__price">API 价格</span>
+          <span class="wrow__score">净改进率</span>
+          <span class="wrow__price">每任务成本</span>
         </li>
         {board.rows.slice(0, maxRows).map((row) => (
           <li class="wrow">
@@ -38,19 +38,17 @@ const { board, maxRows = 20 } = Astro.props;
               </span>
             </span>
             <span class="wrow__score mono">
-              {row.score}
-              {row.ci && <span class="wrow__ci">{row.ci}</span>}
+              {row.netImprovement !== undefined ? `${row.netImprovement.toFixed(1)}%` : '--'}
+              {row.netImprovementCi && <span class="wrow__ci">{row.netImprovementCi}</span>}
             </span>
-            <span class="wrow__price mono" title="API 价格 输入/输出 $/M tokens">
-              {row.price ?? '--'}
-            </span>
+            <span class="wrow__price mono" title="每任务成本">{row.costPerTask ?? '--'}</span>
           </li>
         ))}
       </ol>
     </div>
   ) : (
     <div class="doc-card">
-      <p class="doc-card__summary">// 本维度暂无数据，等待抓取或本地刷新。</p>
+      <p class="doc-card__summary">// Agent 榜暂无数据，等待抓取或本地刷新。</p>
     </div>
   )
 }

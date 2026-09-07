@@ -1,12 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArenaBoardPane from '../components/ArenaBoardPane.astro';
+import AgentBoardPane from '../components/AgentBoardPane.astro';
 import { loadArenaData } from '../lib/site';
 import { internalHref } from '../lib/href';
 import { ARENA_FILTERS } from '../lib/arena-filters';
 
 const data = loadArenaData();
-const MAX_ROWS = 20;
 
 // 本页 = 🏆 综合维度（其余维度各自独立路径页）
 const board = data.boards.find((b) => b.id === 'webdev');
@@ -29,7 +29,7 @@ const lastSync = agent?.fetchedAt.slice(0, 10) ?? data.boards[0]?.fetchedAt.slic
   <section aria-labelledby="dev-heading">
     <h1 class="section-title" id="dev-heading">开发选型 // 写代码 × 干活</h1>
 
-    <!-- 筛选条独占一行（不挤占左列，两榜列结构完全同构起头对齐） -->
+    <!-- 筛选条独占一行（两榜列结构完全同构起头对齐） -->
     <nav class="filter-tabs mono" aria-label="WebDev 维度筛选">
       {
         ARENA_FILTERS.map((f) => (
@@ -44,49 +44,12 @@ const lastSync = agent?.fetchedAt.slice(0, 10) ?? data.boards[0]?.fetchedAt.slic
     </nav>
 
     <div class="dev-boards">
-      <!-- 左列：当前 WebDev 维度 -->
       <div class="board">
-        <ArenaBoardPane board={board} maxRows={MAX_ROWS} />
+        <ArenaBoardPane board={board} />
       </div>
-
-      <!-- 右列：Agent 综合榜常驻（与左列同构：pane 内 title + list） -->
-      {
-        agent && agent.rows.length > 0 && (
-          <div class="board">
-            <div class="board__pane">
-              <h2 class="board__title mono">
-                Agent · 能力
-                <span class="board__meta">{agent.rows.length} 模型 · 多指标</span>
-              </h2>
-              <ol class="board__list">
-                <li class="wrow wrow--head mono" aria-hidden="true">
-                  <span class="wrow__rank">#</span>
-                  <span class="wrow__model">模型</span>
-                  <span class="wrow__score">净改进率</span>
-                  <span class="wrow__price">每任务成本</span>
-                </li>
-                {agent.rows.slice(0, MAX_ROWS).map((row) => (
-                  <li class="wrow">
-                    <span class="wrow__rank mono">{String(row.rank).padStart(2, '0')}</span>
-                    <span class="wrow__model">
-                      <span class="wrow__name">{row.modelName}</span>
-                      <span class="board__badges">
-                        {row.isOpenSource ? <span class="chip chip--open">开源</span> : <span class="chip">闭源</span>}
-                        <span class="chip chip--org">{row.organization}</span>
-                      </span>
-                    </span>
-                    <span class="wrow__score mono">
-                      {row.netImprovement !== undefined ? `${row.netImprovement.toFixed(1)}%` : '--'}
-                      {row.netImprovementCi && <span class="wrow__ci">{row.netImprovementCi}</span>}
-                    </span>
-                    <span class="wrow__price mono" title="每任务成本">{row.costPerTask ?? '--'}</span>
-                  </li>
-                ))}
-              </ol>
-            </div>
-          </div>
-        )
-      }
+      <div class="board">
+        <AgentBoardPane board={agent} />
+      </div>
     </div>
   </section>
 
@@ -96,188 +59,3 @@ const lastSync = agent?.fetchedAt.slice(0, 10) ?? data.boards[0]?.fetchedAt.slic
     开工选型：能力 × 成本一起看。
   </p>
 </BaseLayout>
-
-<style>
-  .dev-boards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-    gap: var(--space-l);
-    align-items: start;
-  }
-
-  .filter-tabs {
-    display: flex;
-    gap: var(--space-s);
-    flex-wrap: wrap;
-    padding: 0 0 var(--space-s);
-    font-size: 0.72rem;
-  }
-
-  .filter-tabs a {
-    padding: 0.2em 0.6em;
-    border: 1px solid var(--color-border);
-    border-radius: 2px;
-    color: var(--color-text-dim);
-    transition: border-color var(--duration-fast) ease, color var(--duration-fast) ease;
-  }
-
-  .filter-tabs a:hover {
-    border-color: var(--color-border-active);
-    color: var(--color-text);
-  }
-
-  .filter-tabs a[aria-current='page'] {
-    color: var(--color-primary);
-    border-color: var(--color-primary-dim);
-    background: var(--color-primary-soft);
-  }
-
-  .board__title {
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    color: var(--color-primary);
-    margin: 0 0 var(--space-s);
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: var(--space-s);
-  }
-
-  .board__meta {
-    font-size: 0.65rem;
-    color: var(--color-text-faint);
-    letter-spacing: 0.05em;
-  }
-
-  .board__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border: 1px solid var(--color-border);
-    border-radius: 2px;
-    background: var(--color-surface);
-    overflow: hidden;
-  }
-
-  .wrow {
-    display: grid;
-    grid-template-columns: 2.2rem minmax(0, 1fr) 5rem 5.5rem;
-    align-items: center;
-    gap: var(--space-s);
-    padding: 0.45rem var(--space-m);
-    border-bottom: 1px solid var(--color-border);
-    transition: background var(--duration-fast) ease;
-  }
-
-  .wrow:last-child {
-    border-bottom: none;
-  }
-
-  .wrow:hover {
-    background: var(--color-surface-raised);
-  }
-
-  .board__list > .wrow:nth-child(-n + 3) .wrow__rank {
-    color: var(--color-accent);
-    font-weight: 700;
-  }
-
-  .wrow__rank {
-    font-size: 0.75rem;
-    color: var(--color-text-faint);
-  }
-
-  .wrow__model {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    min-width: 0;
-  }
-
-  .wrow__name {
-    font-size: 0.85rem;
-    font-weight: 500;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .board__badges {
-    display: flex;
-    gap: var(--space-xs);
-    flex-wrap: wrap;
-  }
-
-  .chip {
-    font-family: var(--font-mono);
-    font-size: 0.6rem;
-    padding: 0 0.35em;
-    border: 1px solid var(--color-border-active);
-    border-radius: 2px;
-    color: var(--color-text-faint);
-    line-height: 1.5;
-  }
-
-  .chip--open {
-    color: var(--color-primary);
-    border-color: var(--color-primary-dim);
-  }
-
-  .chip--org {
-    color: var(--color-text-dim);
-  }
-
-  .wrow__score {
-    font-size: 0.9rem;
-    font-weight: 600;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    line-height: 1.2;
-  }
-
-  /* 与 ArenaBoardPane 组件同款：CI 块级独立行，数字右对齐不被 CI 宽度差挤压 */
-  .wrow__ci {
-    display: block;
-    font-size: 0.6rem;
-    color: var(--color-text-faint);
-    font-weight: 400;
-  }
-
-  .wrow--head {
-    font-size: 0.62rem;
-    letter-spacing: 0.1em;
-    color: var(--color-text-faint);
-    background: var(--color-surface-raised);
-    padding: 0.3rem var(--space-m);
-  }
-
-  .wrow--head .wrow__model,
-  .wrow--head .wrow__rank,
-  .wrow--head .wrow__score,
-  .wrow--head .wrow__price {
-    font-size: 0.62rem;
-    font-weight: 400;
-    color: var(--color-text-faint);
-  }
-
-  .wrow--head:hover {
-    background: var(--color-surface-raised);
-  }
-
-  .wrow__price {
-    font-size: 0.65rem;
-    color: var(--color-text-faint);
-    text-align: right;
-  }
-
-  .note {
-    margin-top: var(--space-l);
-    font-size: 0.7rem;
-    color: var(--color-text-faint);
-    letter-spacing: 0.05em;
-    line-height: 1.8;
-  }
-</style>

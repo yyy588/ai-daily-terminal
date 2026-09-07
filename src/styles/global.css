@@ -301,3 +301,210 @@ a:hover {
     display: none;
   }
 }
+
+/* ========== Arena 榜单共享样式（全局：ArenaBoardPane / AgentBoardPane / 两页面复用） ========== */
+.board__pane {
+  min-width: 0;
+}
+
+.board__title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--color-primary);
+  margin: 0 0 var(--space-s);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-s);
+}
+
+.board__meta {
+  font-size: 0.65rem;
+  color: var(--color-text-faint);
+  letter-spacing: 0.05em;
+}
+
+.board__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+  background: var(--color-surface);
+  overflow: hidden;
+}
+
+.wrow {
+  display: grid;
+  grid-template-columns: 2.2rem minmax(0, 1fr) 5rem 5.5rem;
+  align-items: center;
+  gap: var(--space-s);
+  padding: 0.45rem var(--space-m);
+  border-bottom: 1px solid var(--color-border);
+  transition: background var(--duration-fast) ease;
+}
+
+.wrow:last-child {
+  border-bottom: none;
+}
+
+.wrow:hover {
+  background: var(--color-surface-raised);
+}
+
+.board__list > .wrow:nth-child(-n + 3) .wrow__rank {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.wrow__rank {
+  font-size: 0.75rem;
+  color: var(--color-text-faint);
+}
+
+.wrow__model {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.wrow__name {
+  font-size: 0.85rem;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.board__badges {
+  display: flex;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+}
+
+.chip {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  padding: 0 0.35em;
+  border: 1px solid var(--color-border-active);
+  border-radius: 2px;
+  color: var(--color-text-faint);
+  line-height: 1.5;
+}
+
+.chip--open {
+  color: var(--color-primary);
+  border-color: var(--color-primary-dim);
+}
+
+.chip--org {
+  color: var(--color-text-dim);
+}
+
+.wrow__score {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.2;
+}
+
+/* CI 块级独立行：数字右对齐不受 CI 宽度差挤压 */
+.wrow__ci {
+  display: block;
+  font-size: 0.6rem;
+  color: var(--color-text-faint);
+  font-weight: 400;
+}
+
+.wrow__price {
+  font-size: 0.65rem;
+  color: var(--color-text-faint);
+  text-align: right;
+}
+
+/* 表头行：与数据行同 grid 列，弱化视觉 */
+.wrow--head {
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+  background: var(--color-surface-raised);
+  padding: 0.3rem var(--space-m);
+}
+
+.wrow--head .wrow__model,
+.wrow--head .wrow__rank,
+.wrow--head .wrow__score,
+.wrow--head .wrow__price {
+  font-size: 0.62rem;
+  font-weight: 400;
+  color: var(--color-text-faint);
+}
+
+.wrow--head:hover {
+  background: var(--color-surface-raised);
+}
+
+.view-tabs {
+  display: flex;
+  gap: var(--space-m);
+  padding: var(--space-m) 0;
+  font-size: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.view-tabs a {
+  color: var(--color-text-dim);
+}
+
+.view-tabs a:hover,
+.view-tabs a[aria-current='page'] {
+  color: var(--color-primary);
+}
+
+.filter-tabs {
+  display: flex;
+  gap: var(--space-s);
+  flex-wrap: wrap;
+  padding: 0 0 var(--space-s);
+  font-size: 0.72rem;
+}
+
+.filter-tabs a {
+  padding: 0.2em 0.6em;
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+  color: var(--color-text-dim);
+  transition: border-color var(--duration-fast) ease, color var(--duration-fast) ease;
+}
+
+.filter-tabs a:hover {
+  border-color: var(--color-border-active);
+  color: var(--color-text);
+}
+
+.filter-tabs a[aria-current='page'] {
+  color: var(--color-primary);
+  border-color: var(--color-primary-dim);
+  background: var(--color-primary-soft);
+}
+
+.dev-boards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  gap: var(--space-l);
+  align-items: start;
+}
+
+.note {
+  margin-top: var(--space-l);
+  font-size: 0.7rem;
+  color: var(--color-text-faint);
+  letter-spacing: 0.05em;
+  line-height: 1.8;
+}
