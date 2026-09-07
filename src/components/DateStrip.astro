@@ -1,8 +1,8 @@
 ---
 /**
- * 日期月历（贡献图式，单月宽度）：全部档案月纵向堆叠（最新在上），
- * 月历头部 [← 月份 →] 锚点翻月——零 JS，点箭头滚动定位到目标月。
- * 深浅 4 档编码新闻量；无档案日灰格不可点；详情页当前日描边。
+ * 日期月历下拉（GitHub 贡献图式，收纳在 <details> 原生折叠里）：
+ * 摘要行常驻（含月份范围提示），展开见月历——零 JS 真"下拉"。
+ * 档案日按新闻量 4 档深浅，点击进日报详情页；详情页默认展开（当前日直接可见）。
  */
 import { internalHref } from '../lib/href';
 import { buildCalendars, intensityClass } from '../lib/build-calendar';
@@ -10,136 +10,153 @@ import type { DailyDigest } from '../lib/types';
 
 interface Props {
   readonly digests: readonly DailyDigest[];
-  /** 当前选中日（详情页传该页日期） */
+  /** 当前选中日（详情页传该页日期；传入时 <details> 默认展开） */
   readonly currentDate?: string;
+  /** 最多展示几个月历 */
+  readonly maxMonths?: number;
 }
 
-const { digests, currentDate } = Astro.props;
-const calendars = buildCalendars(digests, 99); // 全部档案月都渲染（纵向堆叠）
+const { digests, currentDate, maxMonths = 2 } = Astro.props;
+const calendars = buildCalendars(digests, maxMonths);
 const latestDate = digests[0]?.date;
+const monthCount = calendars.length;
+const rangeHint = monthCount > 0
+  ? `${calendars[monthCount - 1].yearMonth.replace('-', '.')} – ${calendars[0].yearMonth.replace('-', '.')}`
+  : '';
 
 const WEEKDAYS = ['一', '二', '三', '四', '五', '六', '日'];
-
-/**
- * 箭头目标：相邻档案月（buildCalendars 已倒序——索引 0 = 最新月）。
- * →（右箭头）= 时间上更近的月（堆叠上方，索引更小）；← = 更早的月（下方，索引更大）。
- */
-const monthIndex = new Map(calendars.map((c, i) => [c.yearMonth, i]));
-const newerMonthOf = (ym: string): string | null => {
-  const i = monthIndex.get(ym)!;
-  return i > 0 ? calendars[i - 1].yearMonth : null;
-};
-const olderMonthOf = (ym: string): string | null => {
-  const i = monthIndex.get(ym)!;
-  return i < calendars.length - 1 ? calendars[i + 1].yearMonth : null;
-};
 ---
 
-<nav class="date-cal mono" aria-label="按日期查看要闻">
+<details class="date-cal-drop" open={currentDate !== undefined}>
+  <summary class="mono">
+    📅 按日期查看 <span class="date-cal-drop__meta">{monthCount} 个月（{rangeHint}）</span>
+    <span class="date-cal-drop__hint">点击展开/收起</span>
+  </summary>
+
+  <nav class="date-cal mono" aria-label="按日期查看要闻">
   {
-    calendars.map((cal) => {
-      const older = olderMonthOf(cal.yearMonth); // 时间更早的月（堆叠下方）
-      const newer = newerMonthOf(cal.yearMonth); // 更近的月（上方）
-      return (
-        <div class="date-cal__month" id={`cal-${cal.yearMonth}`}>
-          <p class="date-cal__head">
-            {newer !== null ? (
-              <a class="date-cal__nav" href={`#cal-${newer}`} aria-label={`更新月份 ${newer}`}>
-                ←
-              </a>
-            ) : (
-              <span class="date-cal__nav date-cal__nav--pad" aria-hidden="true">←</span>
-            )}
-            <span class="date-cal__ym">{cal.yearMonth.replace('-', ' / ')}</span>
-            {older !== null ? (
-              <a class="date-cal__nav" href={`#cal-${older}`} aria-label={`更早月份 ${older}`}>
-                →
-              </a>
-            ) : (
-              <span class="date-cal__nav date-cal__nav--pad" aria-hidden="true">→</span>
-            )}
-          </p>
-          <div class="date-cal__grid" role="grid">
-            {WEEKDAYS.map((w) => (
-              <span class="date-cal__weekday" role="columnheader">{w}</span>
-            ))}
-            {cal.cells.map((cell) => {
-              if (!cell.hasArchive || cell.date === null) {
-                return (
-                  <span
-                    class={`date-cal__cell date-cal__cell--${cell.day === null ? 'pad' : `off`}`}
-                    role="gridcell"
-                  />
-                );
-              }
-              const isCurrent = cell.date === currentDate;
-              const isLatest = cell.date === latestDate;
+    calendars.map((cal) => (
+      <div class="date-cal__month">
+        <p class="date-cal__ym">
+          {cal.yearMonth.replace('-', ' / ')}
+        </p>
+        <div class="date-cal__grid" role="grid">
+          {WEEKDAYS.map((w) => (
+            <span class="date-cal__weekday" role="columnheader">{w}</span>
+          ))}
+          {cal.cells.map((cell) => {
+            if (!cell.hasArchive || cell.date === null) {
               return (
-                <a
-                  class={`date-cal__cell date-cal__cell--day ${intensityClass(cell.count)}`}
-                  href={internalHref(`/news/${cell.date}/`)}
-                  aria-current={isCurrent ? 'page' : undefined}
-                  aria-label={`${cell.date} 日报 ${cell.count} 条${isLatest ? '（今日）' : ''}`}
-                  title={`${cell.date} · ${cell.count} 条`}
-                >
-                  {isLatest && <i class="date-cal__today">今</i>}
-                  {cell.day}
-                </a>
+                <span
+                  class={`date-cal__cell date-cal__cell--${cell.day === null ? 'pad' : `off ${intensityClass(0)}`}`}
+                  role="gridcell"
+                  aria-label={cell.day !== null ? `${cell.date ?? ''} 无档案` : undefined}
+                />
               );
-            })}
-          </div>
+            }
+            const isCurrent = cell.date === currentDate;
+            const isLatest = cell.date === latestDate;
+            return (
+              <a
+                class={`date-cal__cell date-cal__cell--day ${intensityClass(cell.count)}`}
+                href={internalHref(`/news/${cell.date}/`)}
+                aria-current={isCurrent ? 'page' : undefined}
+                aria-label={`${cell.date} 日报 ${cell.count} 条${isLatest ? '（今日）' : ''}`}
+                title={`${cell.date} · ${cell.count} 条`}
+              >
+                {isLatest && <i class="date-cal__today">今</i>}
+                {cell.day}
+              </a>
+            );
+          })}
         </div>
-      );
-    })
+      </div>
+    ))
   }
-</nav>
+  </nav>
+</details>
 
 <style>
+  .date-cal-drop {
+    border: 1px solid var(--color-border);
+    border-radius: 2px;
+    background: var(--color-surface);
+    margin: var(--space-s) 0;
+  }
+
+  .date-cal-drop summary {
+    display: flex;
+    align-items: center;
+    gap: var(--space-s);
+    padding: 0.5rem var(--space-m);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    color: var(--color-text-dim);
+    cursor: pointer;
+    list-style: none; /* 自绘指示 */
+    user-select: none;
+    transition: color var(--duration-fast) ease;
+  }
+
+  .date-cal-drop summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .date-cal-drop summary:hover {
+    color: var(--color-primary);
+  }
+
+  .date-cal-drop__meta {
+    color: var(--color-text-faint);
+    font-size: 0.68rem;
+  }
+
+  .date-cal-drop__hint {
+    margin-left: auto;
+    font-size: 0.62rem;
+    color: var(--color-text-faint);
+  }
+
+  /* 展开时指示箭头旋转 */
+  .date-cal-drop summary::before {
+    content: '▸';
+    color: var(--color-primary);
+    transition: transform var(--duration-fast) ease;
+  }
+
+  .date-cal-drop[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  .date-cal-drop[open] summary {
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .date-cal {
+    padding: var(--space-m);
+  }
+
   .date-cal {
     display: flex;
-    flex-direction: column;
-    gap: var(--space-m);
-    padding: var(--space-s) 0 var(--space-m);
-    max-width: 17rem; /* 单月宽度 */
+    gap: var(--space-l);
+    flex-wrap: wrap;
   }
 
-  .date-cal__head {
-    margin: 0 0 var(--space-xs);
-    display: grid;
-    grid-template-columns: 1.8rem 1fr 1.8rem;
-    align-items: center;
-  }
-
-  .date-cal__nav {
-    font-size: 0.9rem;
-    color: var(--color-text-dim);
-    text-align: center;
-    text-decoration: none;
-    padding: 0.1em 0.3em;
-    border-radius: 2px;
-    transition: color var(--duration-fast) ease, background var(--duration-fast) ease;
-  }
-
-  a.date-cal__nav:hover {
-    color: var(--color-primary);
-    background: var(--color-primary-soft);
-  }
-
-  .date-cal__nav--pad {
-    visibility: hidden; /* 占位保持三段对齐，但不可见不可点 */
+  .date-cal__month {
+    min-width: 0;
   }
 
   .date-cal__ym {
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
+    margin: 0 0 var(--space-xs);
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
     color: var(--color-primary);
     font-weight: 600;
-    text-align: center;
   }
 
   .date-cal__grid {
     display: grid;
-    grid-template-columns: repeat(7, 1.9rem);
+    grid-template-columns: repeat(7, 1.8rem);
     gap: 3px;
   }
 
@@ -155,8 +172,8 @@ const olderMonthOf = (ym: string): string | null => {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1.9rem;
-    height: 1.9rem;
+    width: 1.8rem;
+    height: 1.8rem;
     font-size: 0.68rem;
     border-radius: 2px;
     text-decoration: none;
@@ -173,7 +190,7 @@ const olderMonthOf = (ym: string): string | null => {
     color: var(--color-text-faint);
   }
 
-  /* 有档案日：4 档深浅（贡献图式） */
+  /* 有档案日：4 档深浅（GitHub 贡献图式） */
   .date-cal__cell--day {
     font-weight: 500;
     color: var(--color-text);
@@ -211,5 +228,20 @@ const olderMonthOf = (ym: string): string | null => {
     color: var(--color-accent);
     font-weight: 700;
     line-height: 1;
+  }
+
+  @media (max-width: 480px) {
+    .date-cal {
+      gap: var(--space-m);
+    }
+
+    .date-cal__grid {
+      grid-template-columns: repeat(7, 1.9rem);
+    }
+
+    .date-cal__cell {
+      width: 1.9rem;
+      height: 1.9rem;
+    }
   }
 </style>

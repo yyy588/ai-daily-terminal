@@ -28,46 +28,17 @@ describe.runIf(hasBuild)('导航中文化与日期月历（产物断言）', () 
     expect(html).toContain('SYSTEM_ONLINE');
   });
 
-  it('日期月历存在：单月宽度纵向堆叠，每月历带锚点 id', () => {
+  it('日期月历存在：nav.date-cal 含月历网格与周表头', () => {
     const cal = doc.querySelector('nav.date-cal');
     expect(cal, '首页缺日期月历').not.toBeNull();
 
-    const months = Array.from(cal!.querySelectorAll('.date-cal__month'));
-    expect(months.length).toBeGreaterThanOrEqual(2); // 跨月档案（当前 09+08）
+    // 每个月历的表头都是 一~日；双月并排时总 weekday = 月历数 × 7
+    const weekdays = Array.from(cal!.querySelectorAll('.date-cal__weekday')).map((w) => (w.textContent ?? '').trim());
+    expect(weekdays.slice(0, 7)).toEqual(['一', '二', '三', '四', '五', '六', '日']);
 
-    // 每月历带锚点 id（翻月箭头的跳转目标）
-    for (const m of months) {
-      expect(m.id ?? '').toMatch(/^cal-\d{4}-\d{2}$/);
-    }
-
-    // 最新月在首位
-    expect(months[0].id).toBe(`cal-${months[0].querySelector('.date-cal__ym')?.textContent?.trim().replace(' / ', '-')}`);
-  });
-
-  it('月历头部三段式：←（更新月锚点）+ 月份标题 + →（更早月锚点），端点月箭头占位隐藏', () => {
-    const cal = doc.querySelector('nav.date-cal');
-    const months = Array.from(cal!.querySelectorAll('.date-cal__month'));
-
-    // 最新月（首位）：← 是隐藏占位（没有更新的月）；→ 指向更早月锚点
-    const newest = months[0];
-    const newestLinks = Array.from(newest.querySelectorAll('a.date-cal__nav'));
-    expect(newestLinks).toHaveLength(1);
-    expect(newestLinks[0].getAttribute('href')).toMatch(/^#cal-\d{4}-\d{2}$/);
-
-    // 最旧月（末位）：→ 是隐藏占位；← 指向更新月
-    const oldest = months[months.length - 1];
-    const oldestLinks = Array.from(oldest.querySelectorAll('a.date-cal__nav'));
-    expect(oldestLinks).toHaveLength(1);
-
-    // 占位 span 存在但不可见（visibility 由 CSS 控制，结构上仍占位保持对齐）
-    const pads = cal!.querySelectorAll('.date-cal__nav--pad');
-    expect(pads.length).toBeGreaterThanOrEqual(months.length); // 每月至少一个占位箭头（端点）
-  });
-
-  it('网格结构不变：7 表头 + 42 格', () => {
-    const cal = doc.querySelector('nav.date-cal');
     const grids = cal!.querySelectorAll('.date-cal__grid');
     expect(grids.length).toBeGreaterThanOrEqual(1);
+    // 7 表头 + 42 格
     expect(grids[0].children.length).toBe(7 + 42);
   });
 
@@ -95,6 +66,25 @@ describe.runIf(hasBuild)('导航中文化与日期月历（产物断言）', () 
     const lvCells = cal!.querySelectorAll('[class*="lv"]');
     expect(lvCells.length).toBeGreaterThanOrEqual(1);
   });
+
+  it('月历收纳为下拉：<details> 折叠，摘要行含月份范围提示', () => {
+    const details = doc.querySelector('details.date-cal-drop');
+    expect(details, '缺 <details> 下拉容器').not.toBeNull();
+
+    // 默认折叠（无 open 属性）——首屏不罗列日期
+    expect(details!.hasAttribute('open')).toBe(false);
+
+    const summary = details!.querySelector('summary');
+    expect(summary).not.toBeNull();
+    expect(summary!.textContent ?? '').toContain('按日期查看');
+    // 月份数提示（不展开也知道范围）
+    expect(summary!.textContent ?? '').toMatch(/\d+\s*个月/);
+  });
+
+  it('月历在 details 内部（展开即见）', () => {
+    const details = doc.querySelector('details.date-cal-drop');
+    expect(details!.querySelector('nav.date-cal')).not.toBeNull();
+  });
 });
 
 describe.runIf(hasBuild)('详情页月历（选中态）', () => {
@@ -109,6 +99,9 @@ describe.runIf(hasBuild)('详情页月历（选中态）', () => {
     const ddoc = new DOMParser().parseFromString(dhtml, 'text/html');
     const cal = ddoc.querySelector('nav.date-cal');
     expect(cal, '详情页缺月历').not.toBeNull();
+    // 详情页月历同样收纳在下拉中，且默认展开当前日所在月（直接可见选中态）
+    const details = ddoc.querySelector('details.date-cal-drop');
+    expect(details).not.toBeNull();
 
     const current = cal!.querySelector('a[aria-current="page"]');
     expect(current?.getAttribute('href')).toContain(date);
