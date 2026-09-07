@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-07T07:43:52.752Z",
+  "generatedAt": "2026-09-07T08:30:14.947Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
       "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-      "stars": 978,
+      "stars": 992,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
@@ -12,7 +12,7 @@
     {
       "fullName": "ZJU-REAL/Easel",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "stars": 393,
+      "stars": 397,
       "language": "Python",
       "url": "https://github.com/ZJU-REAL/Easel",
       "createdAt": "2026-08-28T02:22:27Z"
@@ -28,7 +28,7 @@
     {
       "fullName": "datawhalechina/zero-to-sglang",
       "description": "面向大模型开发者的 SGLang 系统化开源教程：从推理基础与环境搭建开始，逐步学习模型部署、结构化生成、服务开发和性能优化，   结合实战案例带你从 0 到 1 掌握 SGLang，构建高性能 LLM 推理应用",
-      "stars": 142,
+      "stars": 175,
       "language": "DOC",
       "url": "https://github.com/datawhalechina/zero-to-sglang",
       "createdAt": "2026-08-27T02:24:12Z"
@@ -68,7 +68,7 @@
     {
       "fullName": "jiukemi/JY_IPAgent",
       "description": "AI口播智能体,实体口播作弊神器",
-      "stars": 79,
+      "stars": 80,
       "language": "Python",
       "url": "https://github.com/jiukemi/JY_IPAgent",
       "createdAt": "2026-08-31T15:55:10Z"
@@ -76,7 +76,7 @@
     {
       "fullName": "wemux-ai/wemux",
       "description": "Wemux - self-hostable AI agent collaboration platform (Apache-2.0, community edition)",
-      "stars": 67,
+      "stars": 68,
       "language": "TypeScript",
       "url": "https://github.com/wemux-ai/wemux",
       "createdAt": "2026-08-25T16:55:32Z"
@@ -84,7 +84,7 @@
     {
       "fullName": "jiabaobei/memory-bridge",
       "description": "记忆桥 MemoryBridge — 跨设备、跨平台的 AI 共享记忆层 | Cross-device and cross-platform shared memory for AI (CDSMP implementation)",
-      "stars": 61,
+      "stars": 63,
       "language": "Python",
       "url": "https://github.com/jiabaobei/memory-bridge",
       "createdAt": "2026-08-29T04:34:06Z"
@@ -106,20 +106,20 @@
       "createdAt": "2026-08-27T13:30:05Z"
     },
     {
-      "fullName": "genoskietv/AdalFlow-Optimizer",
-      "description": "Build & Auto-Optimize LLM Apps in 2026: The Ultimate AdalFlow Guide",
-      "stars": 55,
-      "language": "HTML",
-      "url": "https://github.com/genoskietv/AdalFlow-Optimizer",
-      "createdAt": "2026-08-25T08:57:31Z"
-    },
-    {
       "fullName": "raamonp/rl-gym-orchestrator",
       "description": "Ultimate LLM Gym Trainer Guide 2026: Reinforcement Learning Fine-Tuning Framework",
       "stars": 55,
       "language": "HTML",
       "url": "https://github.com/raamonp/rl-gym-orchestrator",
       "createdAt": "2026-08-25T09:56:41Z"
+    },
+    {
+      "fullName": "genoskietv/AdalFlow-Optimizer",
+      "description": "Build & Auto-Optimize LLM Apps in 2026: The Ultimate AdalFlow Guide",
+      "stars": 55,
+      "language": "HTML",
+      "url": "https://github.com/genoskietv/AdalFlow-Optimizer",
+      "createdAt": "2026-08-25T08:57:31Z"
     },
     {
       "fullName": "liangdabiao/ecom-video-seedance-prompt",
