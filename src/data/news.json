@@ -1,9 +1,119 @@
 {
-  "generatedAt": "2026-09-08T04:46:19.338Z",
+  "generatedAt": "2026-09-08T16:50:30.965Z",
   "digests": [
     {
       "date": "2026-09-08",
       "entries": [
+        {
+          "id": "https://www.ithome.com/0/999/948.htm",
+          "title": "消息称 WhatsApp 将支持第三方 AI 智能体，顺应时代潮流",
+          "link": "https://www.ithome.com/0/999/948.htm",
+          "pubDate": "Tue, 08 Sep 2026 15:36:33 GMT",
+          "summary": "IT之家 9 月 8 日消息，据科技媒体 WABetaInfo 上周（9 月 4 日）报道，WhatsApp 即将支持第三方 AI 智能体。IT之家从原报道获悉，当 OpenClaw 等人工智能助手出现时，许多用户尝试将这些 AI 智能体当…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/999/945.htm",
+          "title": "达芬奇 DaVinci Resolve 21.1 发布，接入 Claude Code、ChatGPT Codex 等 AI 助手",
+          "link": "https://www.ithome.com/0/999/945.htm",
+          "pubDate": "Tue, 08 Sep 2026 15:12:48 GMT",
+          "summary": "IT之家 9 月 8 日消息，Blackmagic Design 今天发布视频剪辑软件 DaVinci Resolve 21.1，接入多个人工智能助手。据介绍，本次更新将支持 Claude、Claude Code 和 ChatGPT Cod…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/999/939.htm",
+          "title": "吉利银河战舰 700 将于 9 月 15 日开启预售，首发搭载 AI 新能源越野技术",
+          "link": "https://www.ithome.com/0/999/939.htm",
+          "pubDate": "Tue, 08 Sep 2026 14:35:14 GMT",
+          "summary": "IT之家 9 月 8 日消息，吉利汽车传播策略部长、吉利银河公关部长 @单爱富William 今天（8 日）晚间宣布，吉利银河战舰 700 将于 9 月 15 日开启全球预售。据IT之家了解，银河战舰 700 长宽分别为 5085/1999…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/999/934.htm",
+          "title": "豆包输入法推出 Windows 版，现已覆盖 PC、Mac、iOS、Android 和鸿蒙五大平台",
+          "link": "https://www.ithome.com/0/999/934.htm",
+          "pubDate": "Tue, 08 Sep 2026 14:09:09 GMT",
+          "summary": "IT之家 9 月 8 日消息，豆包输入法今天推出 Windows 版，版本号 0.9.0。至此，该输入法已覆盖 PC、Mac、iOS、Android 和鸿蒙五大平台。IT之家了解到，豆包输入法最初上线于去年 11 月，支持豆包同款语音输入，…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/999/926.htm",
+          "title": "“傻瓜式”剪片：Adobe Premiere 更新 AI 功能，时间线上能直接生成音视频素材",
+          "link": "https://www.ithome.com/0/999/926.htm",
+          "pubDate": "Tue, 08 Sep 2026 13:21:33 GMT",
+          "summary": "IT之家 9 月 8 日消息，Adobe 今天（8 日）宣布重新设计专业视频剪辑软件 Premiere 中的 AI 交互方式，新的“生成式媒体”工具支持直接在项目时间线中生成视频、音效、音乐和声景，无需中断当前工作流程。所使用的生成模型并非…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/999/925.htm",
+          "title": "高通与亚马逊达成合作，共同打造 AI 定制芯片与 1.6T 光互联解决方案",
+          "link": "https://www.ithome.com/0/999/925.htm",
+          "pubDate": "Tue, 08 Sep 2026 13:15:57 GMT",
+          "summary": "IT之家 9 月 8 日消息，高通技术公司今日宣布与亚马逊达成一项跨多代产品的合作，双方将共同为大规模 AI 数据中心提供可规模化部署的定制芯片，并围绕 AI 推理展开合作。此外，两家公司还将共同开发最高支持 1.6T 速率的光互连解决方案…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/999/909.htm",
+          "title": "经合组织最新报告：不用或少用 AI 完成课业的学生，整体表现优于常用 AI 的学生",
+          "link": "https://www.ithome.com/0/999/909.htm",
+          "pubDate": "Tue, 08 Sep 2026 12:09:39 GMT",
+          "summary": "IT之家 9 月 8 日消息，据彭博社今天（8 日）晚间报道，经济合作与发展组织（OECD）最新教育报告显示，不使用或较少使用 AI 聊天机器人完成课业的学生，整体表现优于经常使用 AI 的学生。报告提供了迄今覆盖范围最广的一批证据，显示 …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/999/893.htm",
+          "title": "分析机构 Similarweb：网页端 AI 聊天机器人中 ChatGPT 使用者最多，8 月市场份额回升至 55.5%",
+          "link": "https://www.ithome.com/0/999/893.htm",
+          "pubDate": "Tue, 08 Sep 2026 11:09:48 GMT",
+          "summary": "IT之家 9 月 8 日消息，分析机构 Similarweb 现已公布 2026 年 8 月 AI 聊天机器人网页端流量统计数据，当前 ChatGPT 仍占据 AI 聊天机器人网页端流量主导地位，近期市场份额进一步回升，从 3 个月前的 5…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/0/999/887.htm",
+          "title": "AI 大幅推高韩国电力需求，政府部门考虑大建核反应堆",
+          "link": "https://www.ithome.com/0/999/887.htm",
+          "pubDate": "Tue, 08 Sep 2026 10:41:34 GMT",
+          "summary": "IT之家 9 月 8 日消息，据路透社今天（8 日）报道，韩国气候能源环境部长金成焕表示，三星电子和 SK 海力士计划扩大芯片产能，加上新的 AI 数据中心陆续建设，韩国未来几年的电力需求预计将大幅增长。金成焕指出，仅 AI 发展带来的新增…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/485854.html",
+          "title": "感谢用GPT-6搓3D的！燃烧自己的token换来一次全体重置",
+          "link": "https://www.qbitai.com/2026/09/485854.html",
+          "pubDate": "Tue, 08 Sep 2026 06:05:30 +0000",
+          "summary": "Blender也不用学了",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/485794.html",
+          "title": "现场围观金融AI决赛，大厂挑人的逻辑我悟了",
+          "link": "https://www.qbitai.com/2026/09/485794.html",
+          "pubDate": "Tue, 08 Sep 2026 05:05:03 +0000",
+          "summary": "百万奖金、大厂直通、VC跟投",
+          "sources": [
+            "qbitai"
+          ]
+        },
         {
           "id": "https://www.qbitai.com/2026/09/485784.html",
           "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
