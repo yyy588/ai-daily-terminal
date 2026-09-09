@@ -1,9 +1,39 @@
 {
-  "generatedAt": "2026-09-09T03:20:13.521Z",
+  "generatedAt": "2026-09-09T03:41:23.087Z",
   "digests": [
     {
       "date": "2026-09-09",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/000/106.htm",
+          "title": "OpenAI AI 训练版权纠纷案新细节：GPT-5 可代笔乔治 ·R·R· 马丁撰写《冰与火之歌》",
+          "link": "https://www.ithome.com/1/000/106.htm",
+          "pubDate": "Wed, 09 Sep 2026 03:38:26 GMT",
+          "summary": "IT之家 9 月 9 日消息，科技媒体 torrentfreak 昨日（9 月 8 日）发布博文，报道称多名图书作者本周向纽约联邦法院提交简易判决动议，要求法官认定 OpenAI 未经许可复制作品，且相关行为不构成合理使用。这起诉讼可以追溯…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/103.htm",
+          "title": "消息称华为 Pura X View、Mate XT 2 非凡大师手机支持端侧本地大模型下载部署",
+          "link": "https://www.ithome.com/1/000/103.htm",
+          "pubDate": "Wed, 09 Sep 2026 03:37:43 GMT",
+          "summary": "IT之家 9 月 9 日消息，据博主 @超维界 透露，华为 Pura X View、Mate XT 2 非凡大师手机支持端侧本地大模型下载部署，有多模态增强大模型（6GB 左右）和多模态混合专家大模型（15GB 左右）共自主选择下载。博主表…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/095.htm",
+          "title": "京东云宣布与摩尔线程规划建设 10 万卡 AI 工厂",
+          "link": "https://www.ithome.com/1/000/095.htm",
+          "pubDate": "Wed, 09 Sep 2026 03:24:41 GMT",
+          "summary": "IT之家 9 月 9 日消息，综合新浪科技、第一财经报道，在今日的 2026 京东全球科技探索者大会上，京东集团技术委员会主席、京东云总裁曹鹏公布了京东在算力、数据和模型三大 AI 基建的最新进展。算力方面，京东云已与摩尔线程等合作伙伴打造…",
+          "sources": [
+            "ithome"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/000/067.htm",
           "title": "曹操出行与豆包联合推出 AI 打车服务，能一句话选车、设置空调温度等",

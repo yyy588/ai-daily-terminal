@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-09T03:20:14.616Z",
+  "generatedAt": "2026-09-09T03:41:24.258Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
       "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-      "stars": 1041,
+      "stars": 1042,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
@@ -12,7 +12,7 @@
     {
       "fullName": "datawhalechina/zero-to-sglang",
       "description": "面向大模型开发者的 SGLang 系统化开源教程：从推理基础与环境搭建开始，逐步学习模型部署、结构化生成、服务开发和性能优化，   结合实战案例带你从 0 到 1 掌握 SGLang，构建高性能 LLM 推理应用",
-      "stars": 571,
+      "stars": 573,
       "language": "Python",
       "url": "https://github.com/datawhalechina/zero-to-sglang",
       "createdAt": "2026-08-27T02:24:12Z"
@@ -20,7 +20,7 @@
     {
       "fullName": "ZJU-REAL/Easel",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "stars": 541,
+      "stars": 549,
       "language": "Python",
       "url": "https://github.com/ZJU-REAL/Easel",
       "createdAt": "2026-08-28T02:22:27Z"
@@ -28,7 +28,7 @@
     {
       "fullName": "useagenthq/useagent",
       "description": "The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription.",
-      "stars": 283,
+      "stars": 284,
       "language": "TypeScript",
       "url": "https://github.com/useagenthq/useagent",
       "createdAt": "2026-08-29T21:14:31Z"
@@ -60,7 +60,7 @@
     {
       "fullName": "jiukemi/JY_IPAgent",
       "description": "AI口播智能体,实体口播作弊神器",
-      "stars": 101,
+      "stars": 102,
       "language": "Python",
       "url": "https://github.com/jiukemi/JY_IPAgent",
       "createdAt": "2026-08-31T15:55:10Z"
