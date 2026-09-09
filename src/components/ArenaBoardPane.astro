@@ -25,7 +25,7 @@ const { board, maxRows = 20 } = Astro.props;
           <span class="wrow__rank">#</span>
           <span class="wrow__model">模型</span>
           <span class="wrow__score">Elo 分数</span>
-          <span class="wrow__price">API 价格 $/百万token</span>
+          <span class="wrow__price">价格 $/百万token</span>
         </li>
         {board.rows.slice(0, maxRows).map((row) => (
           <li class="wrow">
