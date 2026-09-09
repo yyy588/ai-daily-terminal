@@ -88,12 +88,31 @@ describe.runIf(hasBuild)('arena 页面布局对齐', () => {
       expect(texts[1]).toBe('模型');
       if (i === 0) {
         expect(texts[2]).toContain('Elo');
+        // 单位完整性：API 价格必须标明计量单位（每百万 token）
         expect(texts[3]).toContain('价格');
+        expect(texts[3]).toMatch(/\$\/M|百万|token/i);
       } else {
         expect(texts[2]).toContain('改进');
+        // 单位完整性：每任务成本必须标明"每"任务
         expect(texts[3]).toContain('成本');
+        expect(texts[3]).toContain('任务');
       }
     });
+  });
+
+  it('价格单元格 title 悬浮说明含完整单位（不展开也知道计量口径）', () => {
+    // 按榜分组取格（两个 board 各自的 price 单元格口径不同）
+    const boards = Array.from(doc.querySelectorAll('.dev-boards > .board'));
+    expect(boards.length).toBe(2);
+
+    const webdevPrices = Array.from(boards[0].querySelectorAll('.wrow:not(.wrow--head) .wrow__price'));
+    const agentPrices = Array.from(boards[1].querySelectorAll('.wrow:not(.wrow--head) .wrow__price'));
+
+    const webdevTitle = webdevPrices[0]?.getAttribute('title') ?? '';
+    expect(webdevTitle).toMatch(/输入.*输出.*百万|百万.*token/i);
+
+    const agentTitle = agentPrices[0]?.getAttribute('title') ?? '';
+    expect(agentTitle).toMatch(/每.*任务|任务.*成本/);
   });
 
   it('score 列两行结构：CI 是块级行（样式表声明 display:block，数字/CI 垂直堆叠）', () => {
