@@ -1,9 +1,59 @@
 {
-  "generatedAt": "2026-09-09T05:50:35.985Z",
+  "generatedAt": "2026-09-09T07:03:32.133Z",
   "digests": [
     {
       "date": "2026-09-09",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/000/198.htm",
+          "title": "面壁智能开源 MiniCPM5-2B AI 模型：AA 榜单全球 4B 以下第一，初具端侧通用 Agent 能力",
+          "link": "https://www.ithome.com/1/000/198.htm",
+          "pubDate": "Wed, 09 Sep 2026 06:59:21 GMT",
+          "summary": "IT之家 9 月 9 日消息，面壁智能昨日联合 OpenBMB 开源社区正式开源新一代“小钢炮”MiniCPM5-2B。MiniCPM5-2B 的参数规模为 2B，是一款高密度端侧语言基座模型，支持工具调用、深度搜索、代码生成等任务，官方称…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/188.htm",
+          "title": "曝 DeepSeek 已聘请中信证券筹备 IPO 事宜：目标是在今年递交申请、明年正式挂牌上市",
+          "link": "https://www.ithome.com/1/000/188.htm",
+          "pubDate": "Wed, 09 Sep 2026 06:41:51 GMT",
+          "summary": "IT之家 9 月 9 日消息，路透社今日报道称，深度求索 DeepSeek 已聘请中信证券筹备科创板上市事宜，计划于年内启动 IPO 进程。目前具体募资规模与目标估值尚未确定。深度求索希望通过 IPO 募集资金，扩大算力基础设施建设、加大模…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/181.htm",
+          "title": "OpenAI 韩国负责人：与三星电子的下一代芯片合作取得良好进展",
+          "link": "https://www.ithome.com/1/000/181.htm",
+          "pubDate": "Wed, 09 Sep 2026 06:22:41 GMT",
+          "summary": "IT之家 9 月 9 日消息，OpenAI 韩国负责人 Kim Kyoung-hoon (Harrison Kim) 在该企业韩国首尔区域办事处成立一周年新闻发布会上表示，OpenAI 与三星电子的下一代芯片合作取得良好进展。三星电子在一份…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/176.htm",
+          "title": "“超薄”变“标准版”：消息称苹果 iPhone Air 2 将作为 iPhone 18 明年推出",
+          "link": "https://www.ithome.com/1/000/176.htm",
+          "pubDate": "Wed, 09 Sep 2026 06:05:49 GMT",
+          "summary": "IT之家 9 月 9 日消息，消息源 @earlyappleleaks 昨日（9 月 8 日）在 X 平台发布推文，爆料称苹果公司调整 iPhone 18 标准版机型，让主打超薄的 iPhone Air 2 直接以 iPhone 18 的名…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/174.htm",
+          "title": "中国联通与魅族合作发布“小魔方”AI 手机：4 英寸小方屏，主打全语音交互与端云协同",
+          "link": "https://www.ithome.com/1/000/174.htm",
+          "pubDate": "Wed, 09 Sep 2026 06:04:00 GMT",
+          "summary": "IT之家 9 月 9 日消息，据凤凰网科技报道，中国联通今日发布“小魔方”AI 原生终端。该产品由中国联通与魅族合作研发，搭载云智 OS，采用 4 英寸小方屏设计，整机重量 99 克，主打全语音操控、AI 智能服务、智能通话及端云协同。小魔…",
+          "sources": [
+            "ithome"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/000/166.htm",
           "title": "奥之心新款 PEN 复古无反相机曝光：2040 万像素 M4/3 画幅，AI 识别对焦",
@@ -22,6 +72,16 @@
           "summary": "9 月 9 日上午消息，今日，在京东全球科技探索者大会（JDD 大会）上，京东集团技术委员会主席、京东云总裁曹鹏表示，“物理 AI 迈向规模化落地，竞争焦点转向算力、数据和场景。物理 AI 正从模型和本体的单点竞争，走向体系化竞争。”在这样…",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486288.html",
+          "title": "蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流",
+          "link": "https://www.qbitai.com/2026/09/486288.html",
+          "pubDate": "Wed, 09 Sep 2026 05:02:30 +0000",
+          "summary": "蚂蚁集团百灵首个金融增强开放模型 Ling-3.0-flash-Fin发布。",
+          "sources": [
+            "qbitai"
           ]
         },
         {
