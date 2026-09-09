@@ -115,6 +115,27 @@ describe.runIf(hasBuild)('arena 页面布局对齐', () => {
     expect(agentTitle).toMatch(/每.*任务|任务.*成本/);
   });
 
+  it('表头与数据行共用同一网格：表头不得自带 grid-template 覆盖（列边界错位防线）', () => {
+    const cssLinks = Array.from(doc.querySelectorAll('link[rel="stylesheet"]'))
+      .map((l) => (l as Element).getAttribute('href') ?? '')
+      .map((href) => path.join(distDir, href.replace(/^\/ai-daily-terminal\//, '')));
+    const cssText = [
+      ...Array.from(doc.querySelectorAll('style')).map((t) => (t.textContent ?? '')),
+      ...cssLinks.filter((p) => existsSync(p)).map((p) => readFileSync(p, 'utf-8')),
+    ].join('\n');
+
+    // .wrow--head 规则块里不得出现 grid-template-columns（继承 .wrow 才能对齐）
+    const headRule = cssText.match(/\.wrow--head\{[^}]*\}/g) ?? [];
+    expect(headRule.length).toBeGreaterThanOrEqual(1);
+    for (const rule of headRule) {
+      expect(rule).not.toContain('grid-template');
+    }
+
+    // 数据行 .wrow 的列宽须容纳表头最长文字（price 列 ≥ 5.5rem，防 "API 价格 $/百万token" 换行）
+    const wrowRule = cssText.match(/\.wrow(?:\[data-astro-cid-[a-z0-9]+\])?\{[^}]*grid-template-columns[^}]*\}/)?.[0] ?? '';
+    expect(wrowRule).toMatch(/grid-template-columns:[^;]*6(\.\d+)?rem/);
+  });
+
   it('score 列两行结构：CI 是块级行（样式表声明 display:block，数字/CI 垂直堆叠）', () => {
     const scores = Array.from(doc.querySelectorAll('.wrow__score'));
     expect(scores.length).toBeGreaterThanOrEqual(40);

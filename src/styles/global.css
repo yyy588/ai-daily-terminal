@@ -337,9 +337,10 @@ a:hover {
 
 .wrow {
   display: grid;
-  /* 数字两行结构后 score 实际占宽 ~3.2rem（13.7%/±1.80%），price ~4rem（$10 / $50）——
-     压缩固定列把宽度让给模型名列，长模型名不再挤 */
-  grid-template-columns: 2.1rem minmax(0, 1fr) 3.4rem 4.1rem;
+  /* 列宽须同时容纳表头文字（nowrap）与数据：price 列 6.3rem 是
+     "API 价格 $/百万token" 的宽度，score 3.4rem 容 "Elo 分数"/13.7%。
+     表头与数据共用此定义——列边界严格对齐（auto 会导致两行各画各的网格） */
+  grid-template-columns: 2.1rem minmax(0, 1fr) 3.4rem 6.3rem;
   align-items: center;
   gap: var(--space-s);
   padding: 0.45rem var(--space-m);
@@ -429,11 +430,9 @@ a:hover {
   text-align: right;
 }
 
-/* 表头行：复用 wrow grid 但列宽独立——表头文字（"API 价格 $/百万token"）比数字长，
-   沿用数据行的窄数字列会换行堆高。模型列收窄、数字列放宽，白名单不换行 */
+/* 表头行：列宽继承 .wrow（与数据行同一网格，边界严格对齐），
+   仅样式差异：小字/浅色/nowrap 单行/右对齐数字列 */
 .wrow--head {
-  grid-template-columns: 2.1rem minmax(0, 1fr) auto auto;
-  column-gap: var(--space-m);
   font-size: 0.62rem;
   letter-spacing: 0.1em;
   color: var(--color-text-faint);
