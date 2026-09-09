@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-09-09T07:59:47.992Z",
+  "generatedAt": "2026-09-09T08:22:32.357Z",
   "digests": [
     {
       "date": "2026-09-09",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/000/280.htm",
+          "title": "AZZA 推出 AI 工作站机箱 TRAIL，支持塔式 / 机架部署",
+          "link": "https://www.ithome.com/1/000/280.htm",
+          "pubDate": "Wed, 09 Sep 2026 08:06:00 GMT",
+          "summary": "IT之家 9 月 9 日消息，以其异形机箱而广为人知的 PC 硬件品牌 AZZA 近日推出了一款造型常规的机箱产品 TRAIL。这一型号面向 AI 工作站用途，可容纳 4 张双槽 370mm 扩展卡，支持塔式 / 机架部署。TRAIL 主要…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/277.htm",
+          "title": "美国国防部被曝曾要求 OpenAI 提供特别版 AI，对军事指令拥有“最低拒绝率”",
+          "link": "https://www.ithome.com/1/000/277.htm",
+          "pubDate": "Wed, 09 Sep 2026 08:00:26 GMT",
+          "summary": "IT之家 9 月 9 日消息，据《The Intercept》获得的文件显示，美国国防部曾要求 OpenAI 向美军提供一款其人工智能技术的特殊版本，该版本的设计目标是尽可能减少军事指令的驳回次数。此次要求开发一款对五角大楼指令具有“最低拒…",
+          "sources": [
+            "ithome"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/000/262.htm",
           "title": "美国一私立学校标榜“AI 教学”，却被曝向学生布置多项“羞辱式”任务",
