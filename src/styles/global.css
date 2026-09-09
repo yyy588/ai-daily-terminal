@@ -337,7 +337,9 @@ a:hover {
 
 .wrow {
   display: grid;
-  grid-template-columns: 2.2rem minmax(0, 1fr) 5rem 5.5rem;
+  /* 数字两行结构后 score 实际占宽 ~3.2rem（13.7%/±1.80%），price ~4rem（$10 / $50）——
+     压缩固定列把宽度让给模型名列，长模型名不再挤 */
+  grid-template-columns: 2.1rem minmax(0, 1fr) 3.4rem 4.1rem;
   align-items: center;
   gap: var(--space-s);
   padding: 0.45rem var(--space-m);
