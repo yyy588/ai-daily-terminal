@@ -426,7 +426,7 @@
           "score": 1510,
           "ci": "+11/-11",
           "votes": 3327,
-          "price": "$0.08 / $0.33",
+          "price": "$0.13 / $0.53",
           "organization": "Tencent",
           "license": "Apache 2.0",
           "isOpenSource": true,
@@ -1083,7 +1083,7 @@
           "score": 105,
           "ci": "+11/-11",
           "votes": 6599,
-          "price": "$0.55 / $2.20",
+          "price": "$0.43 / $1.75",
           "organization": "Z.ai",
           "license": "MIT",
           "isOpenSource": true,
@@ -1373,7 +1373,7 @@
           "rank": 125
         }
       ],
-      "fetchedAt": "2026-09-09T02:30:11.384Z"
+      "fetchedAt": "2026-09-09T03:01:10.157Z"
     },
     {
       "id": "webdev-fullstack",
@@ -1779,7 +1779,7 @@
           "score": 1535,
           "ci": "+24/-24",
           "votes": 0,
-          "price": "$0.08 / $0.33",
+          "price": "$0.13 / $0.53",
           "organization": "Tencent",
           "license": "Apache 2.0",
           "isOpenSource": true,
@@ -2039,7 +2039,7 @@
           "rank": 60
         }
       ],
-      "fetchedAt": "2026-09-09T02:30:13.656Z"
+      "fetchedAt": "2026-09-09T03:01:12.713Z"
     },
     {
       "id": "webdev-frontend",
@@ -2467,7 +2467,7 @@
           "score": 1515,
           "ci": "+12/-12",
           "votes": 2700,
-          "price": "$0.08 / $0.33",
+          "price": "$0.13 / $0.53",
           "organization": "Tencent",
           "license": "Apache 2.0",
           "isOpenSource": true,
@@ -3124,7 +3124,7 @@
           "score": 105,
           "ci": "+11/-11",
           "votes": 6599,
-          "price": "$0.55 / $2.20",
+          "price": "$0.43 / $1.75",
           "organization": "Z.ai",
           "license": "MIT",
           "isOpenSource": true,
@@ -3414,7 +3414,7 @@
           "rank": 125
         }
       ],
-      "fetchedAt": "2026-09-09T02:30:16.048Z"
+      "fetchedAt": "2026-09-09T03:01:15.273Z"
     },
     {
       "id": "webdev-html",
@@ -3963,7 +3963,7 @@
           "score": 1480,
           "ci": "+33/-33",
           "votes": 0,
-          "price": "$0.08 / $0.33",
+          "price": "$0.13 / $0.53",
           "organization": "Tencent",
           "license": "Apache 2.0",
           "isOpenSource": true,
@@ -4488,7 +4488,7 @@
           "score": 105,
           "ci": "+12/-12",
           "votes": 6573,
-          "price": "$0.55 / $2.20",
+          "price": "$0.43 / $1.75",
           "organization": "Z.ai",
           "license": "MIT",
           "isOpenSource": true,
@@ -4778,7 +4778,7 @@
           "rank": 124
         }
       ],
-      "fetchedAt": "2026-09-09T02:30:18.406Z"
+      "fetchedAt": "2026-09-09T03:01:17.974Z"
     },
     {
       "id": "webdev-react",
@@ -5162,7 +5162,7 @@
           "score": 1515,
           "ci": "+13/-13",
           "votes": 2331,
-          "price": "$0.08 / $0.33",
+          "price": "$0.13 / $0.53",
           "organization": "Tencent",
           "license": "Apache 2.0",
           "isOpenSource": true,
@@ -5989,7 +5989,7 @@
           "rank": 110
         }
       ],
-      "fetchedAt": "2026-09-09T02:30:20.973Z"
+      "fetchedAt": "2026-09-09T03:01:20.851Z"
     },
     {
       "id": "agent",
@@ -6641,7 +6641,7 @@
           "sessions": 23216
         }
       ],
-      "fetchedAt": "2026-09-09T02:30:24.221Z"
+      "fetchedAt": "2026-09-09T03:01:23.440Z"
     }
   ]
 }

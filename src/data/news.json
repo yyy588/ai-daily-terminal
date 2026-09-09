@@ -1,9 +1,39 @@
 {
-  "generatedAt": "2026-09-09T02:30:09.047Z",
+  "generatedAt": "2026-09-09T03:01:07.850Z",
   "digests": [
     {
       "date": "2026-09-09",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/000/067.htm",
+          "title": "曹操出行与豆包联合推出 AI 打车服务，能一句话选车、设置空调温度等",
+          "link": "https://www.ithome.com/1/000/067.htm",
+          "pubDate": "Wed, 09 Sep 2026 02:57:06 GMT",
+          "summary": "IT之家 9 月 9 日消息，曹操出行今日宣布与豆包联合打造 AI 打车服务，首批在北京、杭州、苏州三城上线，这意味着曹操出行将出行服务能力与 AI Agent 深度融合。AI 打车服务上线后，当用户在豆包产品端咨询路线、地点、休闲娱乐、美…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/060.htm",
+          "title": "苹果 M5 Pro 非官方移植英伟达 DLSS 5：画质提升、延迟达 240ms",
+          "link": "https://www.ithome.com/1/000/060.htm",
+          "pubDate": "Wed, 09 Sep 2026 02:38:53 GMT",
+          "summary": "IT之家 9 月 9 日消息，科技媒体 Wccftech 昨日（9 月 8 日）发布博文，报道称开发者成功在 M5 Pro 等苹果 Apple Silicon 芯片上，非官方移植英伟达的 DLSS 5。开发者 @iamwavecut 已把 …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486038.html",
+          "title": "宜宾，一场机器人“招聘会”的产业雄心",
+          "link": "https://www.qbitai.com/2026/09/486038.html",
+          "pubDate": "Wed, 09 Sep 2026 02:15:54 +0000",
+          "summary": "9月3日，宜宾国际会展中心，55支机器人团队正在完成一场特殊的“面试”。",
+          "sources": [
+            "qbitai"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/000/052.htm",
           "title": "抢单“物理外挂”被判赔 300 万元：最高法发布 9 件反不正当竞争典型案例，涵盖 AI、直播电商等新兴领域",
