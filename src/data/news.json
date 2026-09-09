@@ -1,9 +1,49 @@
 {
-  "generatedAt": "2026-09-09T07:03:32.133Z",
+  "generatedAt": "2026-09-09T07:35:23.791Z",
   "digests": [
     {
       "date": "2026-09-09",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/000/257.htm",
+          "title": "OpenAI CFO：自研 AI 助力芯片设计，Luna 模型部署成本低于开源方案",
+          "link": "https://www.ithome.com/1/000/257.htm",
+          "pubDate": "Wed, 09 Sep 2026 07:33:55 GMT",
+          "summary": "IT之家 9 月 9 日消息，据路透社报道，OpenAI 首席财务官 Sarah Friar 当地时间周一表示，随着企业业务增长不断加速，OpenAI 正在推动 AI 进一步进入专业行业，同时通过降低价格来与开源及开放权重模型竞争。Fria…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/237.htm",
+          "title": "脉脉 CEO 林凡：明年科技公司将只招 AI 人才，白领绝大部分工作都可以用 Coding Agent 实现",
+          "link": "https://www.ithome.com/1/000/237.htm",
+          "pubDate": "Wed, 09 Sep 2026 07:24:49 GMT",
+          "summary": "IT之家 9 月 9 日消息，据界面新闻报道，脉脉 CEO 林凡接受采访时表示，今年各家大厂和头部创业公司对基础模型人才的争夺愈演愈烈，预训练、后训练、推理优化等方向的 AI 人才，一些应届毕业生的薪酬已达到几百万甚至千万元年薪。IT之家从…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/222.htm",
+          "title": "DeepSeek 计划 9 月 10 日前后发布 V4.1 Flash 模型，各项指标全面超越 V4 Pro",
+          "link": "https://www.ithome.com/1/000/222.htm",
+          "pubDate": "Wed, 09 Sep 2026 07:16:39 GMT",
+          "summary": "IT之家 9 月 9 日消息，DeepSeek 开放平台今日发布通知，DeepSeek 计划于北京时间 2026 年 9 月 10 日前后正式发布 V4.1 Flash 模型。DeepSeek 官方表示，经内部、外部多方测试，V4.1 Fl…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/209.htm",
+          "title": "曾任职 OpenAI 的 Anthropic 预训练研究员离职并警告：两家公司正拿人类生命赌博",
+          "link": "https://www.ithome.com/1/000/209.htm",
+          "pubDate": "Wed, 09 Sep 2026 07:06:34 GMT",
+          "summary": "IT之家 9 月 9 日消息，据《商业内幕》今天（9 日）午间报道，曾在 OpenAI 工作的 Anthropic 研究员雅各布 · 考克森宣布辞职。过去 3 年，他先后在 OpenAI 和 Anthropic 两家 AI 巨头从事预训练研…",
+          "sources": [
+            "ithome"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/000/198.htm",
           "title": "面壁智能开源 MiniCPM5-2B AI 模型：AA 榜单全球 4B 以下第一，初具端侧通用 Agent 能力",
@@ -36,7 +76,7 @@
         },
         {
           "id": "https://www.ithome.com/1/000/176.htm",
-          "title": "“超薄”变“标准版”：消息称苹果 iPhone Air 2 将作为 iPhone 18 明年推出",
+          "title": "[存疑]“超薄”变“标准版”：消息称苹果 iPhone Air 2 将作为 iPhone 18 明年推出",
           "link": "https://www.ithome.com/1/000/176.htm",
           "pubDate": "Wed, 09 Sep 2026 06:05:49 GMT",
           "summary": "IT之家 9 月 9 日消息，消息源 @earlyappleleaks 昨日（9 月 8 日）在 X 平台发布推文，爆料称苹果公司调整 iPhone 18 标准版机型，让主打超薄的 iPhone Air 2 直接以 iPhone 18 的名…",
