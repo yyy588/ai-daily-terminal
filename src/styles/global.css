@@ -332,7 +332,10 @@ a:hover {
   border: 1px solid var(--color-border);
   border-radius: 2px;
   background: var(--color-surface);
-  overflow: hidden;
+  /* Top 30 纵向滚动：约 15 行高的视窗内滚动浏览，整页不被 2000px+ 长榜拉爆 */
+  max-height: 34rem;
+  overflow-y: auto;
+  scrollbar-width: thin;
 }
 
 .wrow {

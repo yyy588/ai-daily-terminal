@@ -20,7 +20,7 @@ describe.runIf(hasBuild)('arena 页面布局对齐', () => {
 
   it('两榜行内列结构一致：rank / model / score / price 四列一一对应', () => {
     const rows = Array.from(doc.querySelectorAll('.wrow'));
-    expect(rows.length).toBeGreaterThanOrEqual(40); // 两榜各 20 行
+    expect(rows.length).toBeGreaterThanOrEqual(60); // 两榜各 30 行（Top 30）
 
     const colShapes = new Set(
       rows.map((r) =>
@@ -113,6 +113,27 @@ describe.runIf(hasBuild)('arena 页面布局对齐', () => {
 
     const agentTitle = agentPrices[0]?.getAttribute('title') ?? '';
     expect(agentTitle).toMatch(/每.*任务|任务.*成本/);
+  });
+
+  it('榜单纵向滚动：列表容器有 max-height + overflow-y，30 行不拉长整页', () => {
+    const cssLinks = Array.from(doc.querySelectorAll('link[rel="stylesheet"]'))
+      .map((l) => (l as Element).getAttribute('href') ?? '')
+      .map((href) => path.join(distDir, href.replace(/^\/ai-daily-terminal\//, '')));
+    const cssText = [
+      ...Array.from(doc.querySelectorAll('style')).map((t) => (t.textContent ?? '')),
+      ...cssLinks.filter((p) => existsSync(p)).map((p) => readFileSync(p, 'utf-8')),
+    ].join('\n');
+
+    // .board__list 必须限高可滚（30 行约 2100px，不限高页面被拉爆）
+    const listRule = cssText.match(/\.board__list(?:\[data-astro-cid-[a-z0-9]+\])?\{[^}]*\}/)?.[0] ?? '';
+    expect(listRule, '.board__list 规则缺失').toMatch(/max-height/);
+    expect(listRule).toMatch(/overflow-y:\s*(auto|scroll)/);
+  });
+
+  it('30 行完整渲染：WebDev 榜数据行恰为 30（数据 125 行充足）', () => {
+    const boards = Array.from(doc.querySelectorAll('.dev-boards > .board'));
+    const webdevDataRows = boards[0].querySelectorAll('.wrow:not(.wrow--head)');
+    expect(webdevDataRows.length).toBe(30);
   });
 
   it('表头与数据行共用同一网格：表头不得自带 grid-template 覆盖（列边界错位防线）', () => {
