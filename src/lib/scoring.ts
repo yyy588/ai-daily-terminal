@@ -29,21 +29,30 @@ const WEIGHTS: ReadonlyMap<string, number> = new Map(
 /** 带分数的条目（模板消费） */
 export type ScoredEntry = NewsEntry & { readonly score: number };
 
-/** 单条打分。now 参数化保证可测试。 */
-export function scoreEntry(entry: NewsEntry, now: number): number {
+/** 单条打分。now 参数化保证可测试；halfLifeHours 默认 12h（今日榜），
+ *  周榜传 48——7 天视角下拉长衰减，隔夜大稿不消失。 */
+export function scoreEntry(
+  entry: NewsEntry,
+  now: number,
+  halfLifeHours: number = HALF_LIFE_H,
+): number {
   const maxWeight = Math.max(
     ...entry.sources.map((id) => WEIGHTS.get(id) ?? DEFAULT_WEIGHT),
   );
 
   const ageHours = Math.max(0, (now - Date.parse(entry.pubDate)) / 3_600_000);
-  const decay = Math.exp(-ageHours / HALF_LIFE_H);
+  const decay = Math.exp(-ageHours / halfLifeHours);
 
   return maxWeight * decay + CROSS_BONUS * (entry.sources.length - 1);
 }
 
-/** 按分数降序排序（稳定），返回带 score 字段的新数组，不修改入参。 */
-export function sortByScore(entries: readonly NewsEntry[], now: number): ScoredEntry[] {
+/** 按分数降序排序（稳定），返回带 score 字段的新数组，不修改入参。半衰期透传。 */
+export function sortByScore(
+  entries: readonly NewsEntry[],
+  now: number,
+  halfLifeHours: number = HALF_LIFE_H,
+): ScoredEntry[] {
   return entries
-    .map((entry) => ({ ...entry, score: scoreEntry(entry, now) }))
+    .map((entry) => ({ ...entry, score: scoreEntry(entry, now, halfLifeHours) }))
     .sort((a, b) => b.score - a.score);
 }

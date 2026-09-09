@@ -14,6 +14,39 @@ const topEntries = todayEntries.length
   ? sortByScore(todayEntries, Date.now()).slice(0, 10)
   : [];
 
+// 周热榜：近 7 天日历窗口 × 48h 半衰期（隔夜大稿不消失，7 天前的衰减到 ~5%）
+const WEEK_WINDOW_MS = 7 * 86_400_000;
+const WEEK_HALF_LIFE_H = 48;
+const now = Date.now();
+const weekEntries = data.digests
+  .flatMap((g) => g.entries)
+  .filter((e) => now - Date.parse(e.pubDate) <= WEEK_WINDOW_MS);
+const weeklyTop = weekEntries.length
+  ? sortByScore(weekEntries, now, WEEK_HALF_LIFE_H).slice(0, 10)
+  : [];
+
+/** 相对日期标签：今天 / 昨天 / N天前（按北京日历日算，不足 24h 也可能跨"昨天"） */
+function relativeAge(pubDate: string): string {
+  const days = daysAgoBJ(Date.parse(pubDate), now);
+  if (days <= 0) return '今天';
+  if (days === 1) return '昨天';
+  return `${days}天前`;
+}
+
+/** 北京日历日差 */
+function daysAgoBJ(ts: number, refNow: number): number {
+  return Math.floor((dayStartBJ(refNow) - dayStartBJ(ts)) / 86_400_000);
+}
+
+/** 北京日期串 YYYY-MM-DD（供年龄标签链接该日日报） */
+function beijingDate(ts: number): string {
+  return new Date(ts + 8 * 3600_000).toISOString().slice(0, 10);
+}
+
+function dayStartBJ(ts: number): number {
+  return Date.parse(`${beijingDate(ts)}T00:00:00+08:00`);
+}
+
 const reposData = loadReposData();
 const topRepos = reposData.repos.slice(0, 5);
 const arenaData = loadArenaData();
@@ -36,6 +69,41 @@ function timeOf(pubDate: string): string {
   </header>
 
   <DateStrip digests={data.digests} />
+
+  <section aria-labelledby="weekly-heading">
+    <h1 class="section-title" id="weekly-heading">周热榜 // 七日最热</h1>
+    {
+      weeklyTop.length === 0 ? (
+        <div class="doc-card">
+          <p class="doc-card__summary">// 档案不足一周，热榜等待积累。</p>
+        </div>
+      ) : (
+        <ol class="weekly-list">
+          {weeklyTop.map((entry, i) => (
+            <li class="doc-card weekly__item">
+              <article>
+                <div class="doc-card__meta">
+                  <span class="weekly__rank mono">{String(i + 1).padStart(2, '0')}</span>
+                  <span class="weekly__age">
+                    <a href={internalHref(`/news/${beijingDate(Date.parse(entry.pubDate))}/`)}>{relativeAge(entry.pubDate)}</a>
+                  </span>
+                  {entry.sources.map((s) => (
+                    <span class="source-chip">{SOURCE_NAMES[s] ?? s}</span>
+                  ))}
+                  <span class="weekly__score mono" title="热度分：来源权重×时间衰减+共报加成">
+                    {entry.score.toFixed(2)}
+                  </span>
+                </div>
+                <h2 class="doc-card__title">
+                  <a href={entry.link} target="_blank" rel="noopener noreferrer">{entry.title}</a>
+                </h2>
+              </article>
+            </li>
+          ))}
+        </ol>
+      )
+    }
+  </section>
 
   <section aria-labelledby="today-heading">
     <h1 class="section-title" id="today-heading">
@@ -241,6 +309,38 @@ function timeOf(pubDate: string): string {
     margin: var(--space-xs) 0 0;
     font-size: 0.68rem;
     color: var(--color-primary);
+  }
+
+  .weekly-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+  }
+
+  .weekly__rank {
+    color: var(--color-accent);
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  .weekly__age {
+    color: var(--color-text-dim);
+    font-size: 0.68rem;
+    font-family: var(--font-sans);
+  }
+
+  .weekly__age a {
+    color: inherit;
+  }
+
+  .weekly__score {
+    margin-left: auto;
+    color: var(--color-primary);
+    font-size: 0.7rem;
+    font-weight: 600;
   }
 
   .top-list {
