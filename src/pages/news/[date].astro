@@ -55,13 +55,14 @@ const older = data.digests[idx + 1];
       {
         digest.entries.map((entry, i) => (
           <li class="doc-card">
-            <article>
+            <article id={`n${i + 1}`}>
               <div class="doc-card__meta">
                 <span class="day-list__index mono">{String(i + 1).padStart(2, '0')}</span>
                 <span>{timeOf(entry.pubDate)}</span>
                 {entry.sources.map((s) => (
                   <span class="source-chip">{SOURCE_NAMES[s] ?? s}</span>
                 ))}
+                <a class="anchor-link mono" href={`#n${i + 1}`} aria-label={`分享第 ${i + 1} 条的链接`} title="复制此条链接">§</a>
               </div>
               <h2 class="doc-card__title">
                 <a href={entry.link} target="_blank" rel="noopener noreferrer">
@@ -103,6 +104,37 @@ const older = data.digests[idx + 1];
   .day-list__index {
     color: var(--color-accent);
     font-size: 0.7rem;
+  }
+
+  .anchor-link {
+    color: var(--color-text-faint);
+    text-decoration: none;
+    font-size: 0.7rem;
+    opacity: 0;
+    transition: opacity var(--duration-fast) ease, color var(--duration-fast) ease;
+  }
+
+  .doc-card:hover .anchor-link,
+  .anchor-link:focus-visible {
+    opacity: 1;
+  }
+
+  .anchor-link:hover {
+    color: var(--color-primary);
+  }
+
+  /* 锚点直达时目标条目高亮 */
+  article[id] {
+    scroll-margin-top: 2rem;
+  }
+
+  article[id]:target {
+    border-color: var(--color-primary-dim);
+  }
+
+  article[id]:target::before {
+    background: var(--color-primary);
+    box-shadow: 0 0 12px var(--color-primary-dim);
   }
 
   .ext-link {

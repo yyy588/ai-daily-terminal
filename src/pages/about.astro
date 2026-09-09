@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { internalHref } from '../lib/href';
+import { FEED_SOURCES } from '../lib/feeds.config';
+
+const activeSources = FEED_SOURCES.filter((s) => s.enabled !== false);
+---
+
+<BaseLayout title="关于 // AI_DAILY_TERMINAL" description="站点说明：数据来源、打分规则、订阅方式">
+  <header class="hud-bar" role="status">
+    <span class="hud-bar__status">ABOUT // 系统档案</span>
+    <span>VERSION: 1.0</span>
+    <span>ARCHIVE_WINDOW: 30 天</span>
+  </header>
+
+  <section aria-labelledby="what-heading">
+    <h1 class="section-title" id="what-heading">这是什么站</h1>
+    <div class="doc-card">
+      <p class="doc-card__summary">
+        每日 AI 要闻聚合 + 开源新锐榜 + 大模型选型工作台。全静态构建、零跟踪、
+        GitHub Actions 每天三次自动抓取部署（北京 08:11 / 10:53 / 20:37）。
+      </p>
+    </div>
+  </section>
+
+  <section aria-labelledby="sources-heading">
+    <h2 class="section-title" id="sources-heading">数据来源</h2>
+    <ul class="doc-card list">
+      {
+        activeSources.map((s) => (
+          <li class="row">
+            <span class="source-chip">{s.name}</span>
+            <span>权重 {s.weight ?? 1} · {s.filterByKeywords ? 'AI 关键词过滤' : '全量收录'}</span>
+          </li>
+        ))
+      }
+      <li class="row">
+        <span class="source-chip">GitHub Search API</span>
+        <span>新锐榜：近 14 天创建、≥50 星、英文 topic + 中文关键词双通道</span>
+      </li>
+      <li class="row">
+        <span class="source-chip">LMArena</span>
+        <span>模型榜单：WebDev 五维 + Agent 能力（每日快照，反爬时沿用上次）</span>
+      </li>
+    </ul>
+    <p class="note mono">// 已停用源留档于代码：机器之心（RSS 失效）、HackerNews（英文门槛）。</p>
+  </section>
+
+  <section aria-labelledby="scoring-heading">
+    <h2 class="section-title" id="scoring-heading">排序规则</h2>
+    <div class="doc-card">
+      <p class="doc-card__summary mono">
+        今日要闻：分数 = 来源权重 × e^(-龄期/12h) + 0.5×(共报源数-1)<br />
+        周热榜：分数 = e^(-龄期/48h) + 0.5×(共报源数-1)，去权重 + 每源每日限 2 条<br />
+        跨源同题材自动合并（标题 2-gram 相似度）——多家都报的才是真热点
+      </p>
+    </div>
+  </section>
+
+  <section aria-labelledby="limits-heading">
+    <h2 class="section-title" id="limits-heading">已知边界</h2>
+    <div class="doc-card">
+      <p class="doc-card__summary">
+        · 日报档案滚动保留 <strong>30 天</strong>，更早的日报页会下线（数据仍在
+        <a href="https://github.com/yyy588/ai-daily-terminal" target="_blank" rel="noopener noreferrer">git 历史</a>）<br />
+        · 新锐榜 / 模型榜为"只看今天"的覆盖快照，不保留历史<br />
+        · 无搜索功能——滚动窗口的内容天然易失，建议用 RSS 归档
+      </p>
+    </div>
+  </section>
+
+  <section aria-labelledby="sub-heading">
+    <h2 class="section-title" id="sub-heading">订阅与源码</h2>
+    <div class="doc-card">
+      <p class="doc-card__summary mono">
+        RSS：<a href={internalHref('rss.xml')}>…/rss.xml</a>（每日一条汇总）<br />
+        源码：<a href="https://github.com/yyy588/ai-daily-terminal" target="_blank" rel="noopener noreferrer">github.com/yyy588/ai-daily-terminal ↗</a>
+        （159 个测试守护的数据管道，欢迎参考）
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: var(--space-m);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-m);
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    color: var(--color-text-dim);
+  }
+
+  .note {
+    margin-top: var(--space-xs);
+    font-size: 0.7rem;
+    color: var(--color-text-faint);
+  }
+</style>

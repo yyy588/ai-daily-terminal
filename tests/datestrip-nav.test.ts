@@ -16,7 +16,7 @@ describe.runIf(hasBuild)('导航中文化与日期月历（产物断言）', () 
     expect(nav).not.toBeNull();
 
     const labels = Array.from(nav!.querySelectorAll('a')).map((a) => (a.textContent ?? '').trim());
-    expect(labels).toEqual(['终端', '要闻', '新锐榜', '模型选型']);
+    expect(labels).toEqual(['终端', '要闻', '新锐榜', '模型选型', '关于']);
 
     const navText = nav!.textContent ?? '';
     for (const old of ['AI_TERMINAL', 'DAILY_FEED', 'REPO_RADAR', 'ARENA_BOARD']) {
