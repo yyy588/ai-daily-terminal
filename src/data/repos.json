@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-08T16:50:32.225Z",
+  "generatedAt": "2026-09-09T02:30:10.210Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
       "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-      "stars": 1035,
+      "stars": 1040,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
@@ -12,7 +12,7 @@
     {
       "fullName": "datawhalechina/zero-to-sglang",
       "description": "面向大模型开发者的 SGLang 系统化开源教程：从推理基础与环境搭建开始，逐步学习模型部署、结构化生成、服务开发和性能优化，   结合实战案例带你从 0 到 1 掌握 SGLang，构建高性能 LLM 推理应用",
-      "stars": 544,
+      "stars": 565,
       "language": "Python",
       "url": "https://github.com/datawhalechina/zero-to-sglang",
       "createdAt": "2026-08-27T02:24:12Z"
@@ -20,7 +20,7 @@
     {
       "fullName": "ZJU-REAL/Easel",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "stars": 477,
+      "stars": 527,
       "language": "Python",
       "url": "https://github.com/ZJU-REAL/Easel",
       "createdAt": "2026-08-28T02:22:27Z"
@@ -36,10 +36,18 @@
     {
       "fullName": "jzjzzzzzzz/agent-me",
       "description": "Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.",
-      "stars": 127,
+      "stars": 134,
       "language": "Python",
       "url": "https://github.com/jzjzzzzzzz/agent-me",
       "createdAt": "2026-08-27T04:08:50Z"
+    },
+    {
+      "fullName": "peter123023/awesome-free-llm-api",
+      "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
+      "stars": 105,
+      "language": "DOC",
+      "url": "https://github.com/peter123023/awesome-free-llm-api",
+      "createdAt": "2026-09-01T17:49:12Z"
     },
     {
       "fullName": "shtjww/llm-inference-capacity-handbook",
@@ -50,12 +58,12 @@
       "createdAt": "2026-09-02T02:41:51Z"
     },
     {
-      "fullName": "peter123023/awesome-free-llm-api",
-      "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
-      "stars": 103,
-      "language": "DOC",
-      "url": "https://github.com/peter123023/awesome-free-llm-api",
-      "createdAt": "2026-09-01T17:49:12Z"
+      "fullName": "jiukemi/JY_IPAgent",
+      "description": "AI口播智能体,实体口播作弊神器",
+      "stars": 101,
+      "language": "Python",
+      "url": "https://github.com/jiukemi/JY_IPAgent",
+      "createdAt": "2026-08-31T15:55:10Z"
     },
     {
       "fullName": "AbuZar-Ansarii/Needle",
@@ -66,17 +74,9 @@
       "createdAt": "2026-08-30T06:43:48Z"
     },
     {
-      "fullName": "jiukemi/JY_IPAgent",
-      "description": "AI口播智能体,实体口播作弊神器",
-      "stars": 97,
-      "language": "Python",
-      "url": "https://github.com/jiukemi/JY_IPAgent",
-      "createdAt": "2026-08-31T15:55:10Z"
-    },
-    {
       "fullName": "jiabaobei/memory-bridge",
       "description": "记忆桥 MemoryBridge — 跨设备、跨平台的 AI 共享记忆层 | Cross-device and cross-platform shared memory for AI (CDSMP implementation)",
-      "stars": 73,
+      "stars": 75,
       "language": "Python",
       "url": "https://github.com/jiabaobei/memory-bridge",
       "createdAt": "2026-08-29T04:34:06Z"
@@ -96,14 +96,6 @@
       "language": "DOC",
       "url": "https://github.com/coderdailyone/llm-basics-speedrun",
       "createdAt": "2026-08-27T13:30:05Z"
-    },
-    {
-      "fullName": "liangdabiao/ecom-video-seedance-prompt",
-      "description": "这是一个基于deepseek-v4-flash-vision 视觉deepseek大模型的复刻带货爆款视频Skill, 会生成复刻效果的seedance提示词！  > 你刷到一条带货爆款视频，想让 AI 照着再来一条——本 skill 就是那个\"翻译官\"： > 它把视频**看懂**（拆成一张张镜头卡片），再把卡片**翻译**成即梦（Seedance） > 能直接执行的提示词。你拿到手的，是一套可以直接粘贴进即梦的完整提示词包。",
-      "stars": 55,
-      "language": "HTML",
-      "url": "https://github.com/liangdabiao/ecom-video-seedance-prompt",
-      "createdAt": "2026-08-26T00:52:11Z"
     }
   ]
 }
