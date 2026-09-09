@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-09-09T07:35:23.791Z",
+  "generatedAt": "2026-09-09T07:39:14.596Z",
   "digests": [
     {
       "date": "2026-09-09",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/000/262.htm",
+          "title": "美国一私立学校标榜“AI 教学”，却被曝向学生布置多项“羞辱式”任务",
+          "link": "https://www.ithome.com/1/000/262.htm",
+          "pubDate": "Wed, 09 Sep 2026 07:39:08 GMT",
+          "summary": "IT之家 9 月 9 日消息，据外媒 Futurism 当地时间 8 日报道，世界各地的学校纷纷尝试将 AI 工具用于教学，事先不知情的家长往往对此感到不安。美国私立学校机构阿尔法学校却直接把 AI 当作招生卖点，其课堂内的经历离奇得超乎想…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/261.htm",
+          "title": "谷歌计划在芬兰投入至少 130 亿欧元用于 AI 基建，为其在欧洲最大单笔投资",
+          "link": "https://www.ithome.com/1/000/261.htm",
+          "pubDate": "Wed, 09 Sep 2026 07:37:55 GMT",
+          "summary": "IT之家 9 月 9 日消息，Alphabet 旗下谷歌正在芬兰推进其在欧洲规模最大的单笔投资，计划投入至少 130 亿欧元（IT之家注：现汇率约合 1,015.72 亿元人民币），用于建设人工智能基础设施。谷歌当地时间周三在一份声明中表示…",
+          "sources": [
+            "ithome"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/000/257.htm",
           "title": "OpenAI CFO：自研 AI 助力芯片设计，Luna 模型部署成本低于开源方案",
