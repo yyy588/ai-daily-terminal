@@ -429,11 +429,13 @@ a:hover {
   text-align: right;
 }
 
-/* 表头行：与数据行同 grid 列，弱化视觉 */
+/* 表头行：复用 wrow grid 但列宽独立——表头文字（"API 价格 $/百万token"）比数字长，
+   沿用数据行的窄数字列会换行堆高。模型列收窄、数字列放宽，白名单不换行 */
 .wrow--head {
+  grid-template-columns: 2.1rem minmax(0, 1fr) auto auto;
+  column-gap: var(--space-m);
   font-size: 0.62rem;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
   color: var(--color-text-faint);
   background: var(--color-surface-raised);
   padding: 0.3rem var(--space-m);
@@ -446,6 +448,12 @@ a:hover {
   font-size: 0.62rem;
   font-weight: 400;
   color: var(--color-text-faint);
+  white-space: nowrap;
+}
+
+.wrow--head .wrow__score,
+.wrow--head .wrow__price {
+  text-align: right;
 }
 
 .wrow--head:hover {
