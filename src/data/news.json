@@ -1,9 +1,69 @@
 {
-  "generatedAt": "2026-09-09T03:47:31.651Z",
+  "generatedAt": "2026-09-09T05:24:40.403Z",
   "digests": [
     {
       "date": "2026-09-09",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/000/163.htm",
+          "title": "京东启动“京东物理 AI 加速计划”，打造全球最大物理世界运营中心",
+          "link": "https://www.ithome.com/1/000/163.htm",
+          "pubDate": "Wed, 09 Sep 2026 05:13:10 GMT",
+          "summary": "9 月 9 日上午消息，今日，在京东全球科技探索者大会（JDD 大会）上，京东集团技术委员会主席、京东云总裁曹鹏表示，“物理 AI 迈向规模化落地，竞争焦点转向算力、数据和场景。物理 AI 正从模型和本体的单点竞争，走向体系化竞争。”在这样…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486280.html",
+          "title": "具身机器人能搞定超市盘点吗？全球七万门店正在给出答案",
+          "link": "https://www.qbitai.com/2026/09/486280.html",
+          "pubDate": "Wed, 09 Sep 2026 04:52:12 +0000",
+          "summary": "从Demo到货架，这两家公司要让具身智能算得过账",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/144.htm",
+          "title": "唐家三少痛批“AI 泔水”：网络文学成 AI 洗稿重灾区，48 小时能生成 500 万字",
+          "link": "https://www.ithome.com/1/000/144.htm",
+          "pubDate": "Wed, 09 Sep 2026 04:02:49 GMT",
+          "summary": "IT之家 9 月 9 日消息，《光明日报》今日刊发了网络作家、北京市作协副主席张威（唐家三少）的署名文章《让 AI 内容“亮明身份”—— 基于网络文学新现象的观察与思考》。文章指出，人工智能正给网络文学行业带来“AI 洗稿”频发与“AI 泔…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ifanr.com/1679152",
+          "title": "办公 Agent 大乱战，新势力TeleAgent 凭什么坐上牌桌",
+          "link": "https://www.ifanr.com/1679152?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Wed, 09 Sep 2026 04:00:01 +0000",
+          "summary": "谁能成为真正的「国民级AI 办公助理」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/135.htm",
+          "title": "已修复：OpenAI 的 ChatGPT 生图功能出现故障，持续约 7.5 小时",
+          "link": "https://www.ithome.com/1/000/135.htm",
+          "pubDate": "Wed, 09 Sep 2026 03:49:42 GMT",
+          "summary": "IT之家 9 月 9 日消息，OpenAI 官方状态页面显示，从北京时间 9 月 8 日 22:32 到 9 月 9 日 05:59，旗下 ChatGPT 和 Images API 的图像生成功能出现故障，持续约 7 小时 27 分钟。IT…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486052.html",
+          "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
+          "link": "https://www.qbitai.com/2026/09/486052.html",
+          "pubDate": "Wed, 09 Sep 2026 03:39:58 +0000",
+          "summary": "8月28日-9月1日，SkyProduction（天工工作台）联合阿里巴巴通义万相，推出了Wan 3.0模型限时免费活动",
+          "sources": [
+            "qbitai"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/000/106.htm",
           "title": "OpenAI AI 训练版权纠纷案新细节：GPT-5 可代笔乔治 ·R·R· 马丁撰写《冰与火之歌》",
@@ -19,7 +79,7 @@
           "title": "消息称华为 Pura X View、Mate XT 2 非凡大师手机支持端侧本地大模型下载部署",
           "link": "https://www.ithome.com/1/000/103.htm",
           "pubDate": "Wed, 09 Sep 2026 03:37:43 GMT",
-          "summary": "IT之家 9 月 9 日消息，据博主 @超维界 透露，华为 Pura X View、Mate XT 2 非凡大师手机支持端侧本地大模型下载部署，有多模态增强大模型（6GB 左右）和多模态混合专家大模型（15GB 左右）共自主选择下载。博主表…",
+          "summary": "IT之家 9 月 9 日消息，据博主 @超维界 透露，华为 Pura X View、Mate XT 2 非凡大师手机支持端侧本地大模型下载部署，有多模态增强大模型（6GB 左右）和多模态混合专家大模型（15GB 左右）供自主选择下载。博主表…",
           "sources": [
             "ithome"
           ]
