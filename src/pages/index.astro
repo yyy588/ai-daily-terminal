@@ -4,6 +4,7 @@ import DateStrip from '../components/DateStrip.astro';
 import { loadSiteData, loadReposData, loadArenaData, SOURCE_NAMES } from '../lib/site';
 import { internalHref } from '../lib/href';
 import { sortByScore } from '../lib/scoring';
+import { mergeByTopic, pickWithQuota } from '../lib/topic-merge';
 
 const data = loadSiteData();
 const latest = data.digests[0];
@@ -14,16 +15,17 @@ const topEntries = todayEntries.length
   ? sortByScore(todayEntries, Date.now()).slice(0, 10)
   : [];
 
-// 周热榜：近 7 天日历窗口 × 48h 半衰期 × 去权重化——
-// "热"的正确信号是共报（多家都报）而非源可信度，防止量子位(3分)垄断周榜
+// 周热榜三步：跨源同题材合并（共报=热）→ 48h 半衰期去权重打分 → 每源每日配额（多样性）
 const WEEK_WINDOW_MS = 7 * 86_400_000;
 const WEEK_HALF_LIFE_H = 48;
 const now = Date.now();
-const weekEntries = data.digests
-  .flatMap((g) => g.entries)
-  .filter((e) => now - Date.parse(e.pubDate) <= WEEK_WINDOW_MS);
-const weeklyTop = weekEntries.length
-  ? sortByScore(weekEntries, now, WEEK_HALF_LIFE_H, true).slice(0, 10)
+const weekPool = mergeByTopic(
+  data.digests
+    .flatMap((g) => g.entries)
+    .filter((e) => now - Date.parse(e.pubDate) <= WEEK_WINDOW_MS),
+);
+const weeklyTop = weekPool.length
+  ? pickWithQuota(sortByScore(weekPool, now, WEEK_HALF_LIFE_H, true), 10)
   : [];
 
 /** 相对日期标签：今天 / 昨天 / N天前（按北京日历日算，不足 24h 也可能跨"昨天"） */
