@@ -50,4 +50,31 @@ describe('scoreEntry 半衰期参数化（周榜口径）', () => {
     // 3×e^(-0.5)=1.82 vs 1.5×e^(-2/48)=1.44 —— 昨夜大稿反超（48h 口径的设计意图）
     expect(overnight).toBeGreaterThan(today);
   });
+
+  it('周榜去权重化（ignoreSourceWeight）：三源分数只差在共报与衰减', () => {
+    // 同龄期单源：量子位与 IT之家 分数完全一致（权重统一为 1）
+    const qb = scoreEntry(entryAt('量子位稿', 24, ['qbitai']), NOW, 48, true);
+    const it = scoreEntry(entryAt('IT稿', 24, ['ithome']), NOW, 48, true);
+    expect(qb).toBeCloseTo(it, 10);
+    expect(qb).toBeCloseTo(Math.exp(-24 / 48), 5); // 1×e^(-0.5)
+  });
+
+  it('去权重下共报成为主导信号：双源 3 天前稿胜单源今天稿', () => {
+    const cross = scoreEntry(entryAt('双源旧稿', 72, ['qbitai', 'ithome']), NOW, 48, true);
+    const single = scoreEntry(entryAt('单源新稿', 2, ['qbitai']), NOW, 48, true);
+    // (1+0.5)×e^(-1.5)=0.335 vs 1×e^(-2/48)≈0.959 —— 新稿仍赢
+    expect(single).toBeGreaterThan(cross);
+    // 但双源 1 天前 vs 单源 3 天前：共报胜
+    const cross1d = scoreEntry(entryAt('双源一天前', 24, ['qbitai', 'ithome']), NOW, 48, true);
+    const single3d = scoreEntry(entryAt('单源三天前', 72, ['qbitai']), NOW, 48, true);
+    // 1.5×e^(-0.5)=0.91 vs e^(-1.5)=0.22 —— 共报碾压
+    expect(cross1d).toBeGreaterThan(single3d);
+  });
+
+  it('ignoreSourceWeight 默认 false（今日榜行为不变）', () => {
+    const s = scoreEntry(entryAt('稿', 0, ['qbitai']), NOW);
+    expect(s).toBeCloseTo(3, 5); // 默认带权重
+    const sNoW = scoreEntry(entryAt('稿', 0, ['qbitai']), NOW, 12, true);
+    expect(sNoW).toBeCloseTo(1, 5); // 去权重=1
+  });
 });

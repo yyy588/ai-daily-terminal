@@ -30,15 +30,18 @@ const WEIGHTS: ReadonlyMap<string, number> = new Map(
 export type ScoredEntry = NewsEntry & { readonly score: number };
 
 /** 单条打分。now 参数化保证可测试；halfLifeHours 默认 12h（今日榜），
- *  周榜传 48——7 天视角下拉长衰减，隔夜大稿不消失。 */
+ *  周榜传 48——7 天视角下拉长衰减，隔夜大稿不消失。
+ *  ignoreSourceWeight：周榜口径——"热"的正确信号是共报而非源可信度，
+ *  权重统一为 1，防止高权重源（量子位 3 分）垄断周榜。 */
 export function scoreEntry(
   entry: NewsEntry,
   now: number,
   halfLifeHours: number = HALF_LIFE_H,
+  ignoreSourceWeight: boolean = false,
 ): number {
-  const maxWeight = Math.max(
-    ...entry.sources.map((id) => WEIGHTS.get(id) ?? DEFAULT_WEIGHT),
-  );
+  const maxWeight = ignoreSourceWeight
+    ? 1
+    : Math.max(...entry.sources.map((id) => WEIGHTS.get(id) ?? DEFAULT_WEIGHT));
 
   const ageHours = Math.max(0, (now - Date.parse(entry.pubDate)) / 3_600_000);
   const decay = Math.exp(-ageHours / halfLifeHours);
@@ -46,13 +49,17 @@ export function scoreEntry(
   return maxWeight * decay + CROSS_BONUS * (entry.sources.length - 1);
 }
 
-/** 按分数降序排序（稳定），返回带 score 字段的新数组，不修改入参。半衰期透传。 */
+/** 按分数降序排序（稳定），返回带 score 字段的新数组，不修改入参。半衰期/权重开关透传。 */
 export function sortByScore(
   entries: readonly NewsEntry[],
   now: number,
   halfLifeHours: number = HALF_LIFE_H,
+  ignoreSourceWeight: boolean = false,
 ): ScoredEntry[] {
   return entries
-    .map((entry) => ({ ...entry, score: scoreEntry(entry, now, halfLifeHours) }))
+    .map((entry) => ({
+      ...entry,
+      score: scoreEntry(entry, now, halfLifeHours, ignoreSourceWeight),
+    }))
     .sort((a, b) => b.score - a.score);
 }
