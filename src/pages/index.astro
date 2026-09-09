@@ -143,21 +143,106 @@ function timeOf(pubDate: string): string {
 
   <section aria-labelledby="subscribe-heading">
     <h2 class="section-title" id="subscribe-heading">订阅 // RSS 输出</h2>
-    <div class="doc-card">
+    <div class="doc-card rss-card">
       <p class="doc-card__summary">
-        // 聚合站也输出自己的订阅源：每日一条汇总（当日 Top 5 标题）。<br />
-        阅读器中添加 <code class="mono">https://yyy588.github.io/ai-daily-terminal/rss.xml</code> 即可追更；
-        历史日期请用顶部日期条直达。
+        // 每日一条汇总（当日 Top 5 标题）。复制下面的地址，粘贴到任意 RSS 阅读器即可追更。
       </p>
+      <div class="rss-row mono">
+        <code class="rss-addr">https://yyy588.github.io/ai-daily-terminal/rss.xml</code>
+        <button type="button" class="rss-copy" data-copy="https://yyy588.github.io/ai-daily-terminal/rss.xml">
+          复制
+        </button>
+      </div>
+      <p class="rss-copied mono" hidden>// 已复制 — 去 RSS 阅读器粘贴订阅</p>
       <p class="more-link mono" style="text-align:left; margin-top: var(--space-s);">
-        <a href={internalHref('rss.xml')}>[ 订阅 RSS → ]</a>
         <a href={internalHref('/news/')}>[ 日报流 → ]</a>
+        <span>历史日期用顶部月历直达</span>
       </p>
     </div>
   </section>
+
+  <script>
+    // 全站唯一小脚本：RSS 地址一键复制（clipboard API + 老浏览器 execCommand 降级）
+    document.querySelectorAll<HTMLButtonElement>('.rss-copy').forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const text = btn.dataset.copy ?? '';
+        let ok = false;
+        try {
+          await navigator.clipboard.writeText(text);
+          ok = true;
+        } catch {
+          const ta = document.createElement('textarea');
+          ta.value = text;
+          document.body.appendChild(ta);
+          ta.select();
+          ok = document.execCommand('copy');
+          ta.remove();
+        }
+        if (ok) {
+          const tip = document.querySelector('.rss-copied');
+          if (tip !== null) {
+            tip.hidden = false;
+            setTimeout(() => {
+              tip.hidden = true;
+            }, 2500);
+          }
+          btn.textContent = '已复制 ✓';
+          setTimeout(() => {
+            btn.textContent = '复制';
+          }, 2500);
+        }
+      });
+    });
+  </script>
 </BaseLayout>
 
 <style>
+  .rss-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-s);
+    margin-top: var(--space-s);
+    flex-wrap: wrap;
+  }
+
+  .rss-addr {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 0.35rem 0.6rem;
+    border: 1px solid var(--color-border-active);
+    border-radius: 2px;
+    background: var(--color-surface-raised);
+    font-size: 0.72rem;
+    color: var(--color-primary);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .rss-copy {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    padding: 0.35rem 0.9rem;
+    border: 1px solid var(--color-primary-dim);
+    border-radius: 2px;
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+    cursor: pointer;
+    transition: background var(--duration-fast) ease, color var(--duration-fast) ease;
+  }
+
+  .rss-copy:hover {
+    background: var(--color-primary);
+    color: var(--color-surface);
+  }
+
+  .rss-copied {
+    margin: var(--space-xs) 0 0;
+    font-size: 0.68rem;
+    color: var(--color-primary);
+  }
+
   .top-list {
     list-style: none;
     margin: 0;
