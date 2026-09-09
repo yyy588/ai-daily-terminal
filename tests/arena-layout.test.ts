@@ -128,6 +128,14 @@ describe.runIf(hasBuild)('arena 页面布局对齐', () => {
     const listRule = cssText.match(/\.board__list(?:\[data-astro-cid-[a-z0-9]+\])?\{[^}]*\}/)?.[0] ?? '';
     expect(listRule, '.board__list 规则缺失').toMatch(/max-height/);
     expect(listRule).toMatch(/overflow-y:\s*(auto|scroll)/);
+
+    // 表头吸顶：滚动容器内表头 sticky，列名始终可见
+    const headRule = cssText.match(/\.wrow--head(?:\[data-astro-cid-[a-z0-9]+\])?\{[^}]*\}/)?.[0] ?? '';
+    expect(headRule, '.wrow--head 规则缺失').toMatch(/position:\s*sticky/);
+    expect(headRule).toMatch(/top:\s*0/);
+    // sticky 需要不透明背景（否则滚动时数据行从表头底下透出来）
+    expect(headRule).toMatch(/background/);
+    expect(headRule).toMatch(/z-index/);
   });
 
   it('30 行完整渲染：WebDev 榜数据行恰为 30（数据 125 行充足）', () => {

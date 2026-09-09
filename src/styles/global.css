@@ -434,8 +434,12 @@ a:hover {
 }
 
 /* 表头行：列宽继承 .wrow（与数据行同一网格，边界严格对齐），
-   仅样式差异：小字/浅色/nowrap 单行/右对齐数字列 */
+   仅样式差异：小字/浅色/nowrap 单行/右对齐数字列。
+   sticky 吸顶：列表容器滚动时列名始终可见（背景必须不透明防数据透出） */
 .wrow--head {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   font-size: 0.62rem;
   letter-spacing: 0.1em;
   color: var(--color-text-faint);
