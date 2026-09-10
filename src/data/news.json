@@ -1,6 +1,141 @@
 {
-  "generatedAt": "2026-09-09T16:50:43.370Z",
+  "generatedAt": "2026-09-10T00:49:43.878Z",
   "digests": [
+    {
+      "date": "2026-09-10",
+      "entries": [
+        {
+          "id": "https://www.ithome.com/1/000/574.htm",
+          "title": "曾获扎克伯格 15 亿美元 offer，Meta 明星 AI 研究员安德鲁 · 塔洛克宣布离职",
+          "link": "https://www.ithome.com/1/000/574.htm",
+          "pubDate": "Thu, 10 Sep 2026 00:43:52 GMT",
+          "summary": "北京时间 9 月 10 日，据《华尔街日报》报道，知情人士透露，明星 AI 研究员安德鲁 · 塔洛克 (Andrew Tulloch) 即将从 Meta 离职。去年，Meta 为了招募他曾提供价值超过 10 亿美元的薪酬方案。塔洛克的加入曾…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/573.htm",
+          "title": "米哈游《原神》角色声音被“偷”获赔 75 万元，上海首例涉 AI 声音仿冒不正当竞争案宣判",
+          "link": "https://www.ithome.com/1/000/573.htm",
+          "pubDate": "Thu, 10 Sep 2026 00:42:15 GMT",
+          "summary": "IT之家 9 月 10 日消息，据《案件聚焦》节目公众号，近日，上海市浦东新区人民法院宣判了上海市首例涉 AI 声音仿冒不正当竞争纠纷案。米哈游公司于 2025 年发现，一款 AI 变声软件提供了《原神》63 款角色的声音资源包，供用户付费…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/568.htm",
+          "title": "OpenAI 悄然收紧 ChatGPT 广告政策，禁止 Adobe 等竞品投放 AI 生图与音频广告",
+          "link": "https://www.ithome.com/1/000/568.htm",
+          "pubDate": "Thu, 10 Sep 2026 00:09:39 GMT",
+          "summary": "IT之家 9 月 10 日消息，OpenAI 最近刚刚推出了 ChatGPT Images 2.5 图像生成模型以及 ChatGPT Live 语音功能。据 The Information 今日报道，OpenAI 近期悄然更新了其广告政策，…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/567.htm",
+          "title": "IT早报 0910：苹果发首款折叠屏 iPhone Duo、iPhone 18 Pro 系列；老款 iPhone 集体涨价；曝 DeepSeek 备战科创板 IPO；唐家三少批 AI 洗稿...",
+          "link": "https://www.ithome.com/1/000/567.htm",
+          "pubDate": "Thu, 10 Sep 2026 00:02:05 GMT",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 9 月 10 日星期四，今天的重要科技资讯有：1. 苹果 iPhone 18 Pro 系列发布：新增可变光圈技术、首发 2 纳米制程工艺 A20 Pro 芯片，9999 元起全新 iPhone…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/565.htm",
+          "title": "Anthropic 披露第四起 Claude 模型未经授权访问真实第三方系统的安全事件",
+          "link": "https://www.ithome.com/1/000/565.htm",
+          "pubDate": "Wed, 09 Sep 2026 23:53:07 GMT",
+          "summary": "IT之家 9 月 10 日消息，Anthropic 于当地时间 9 月 9 日发文，确认一起发生于 2026 年 1 月的安全事件，也是 Anthropic 对外披露的第四起真实网络安全事件。据IT之家此前报道，Anthropic 曾在当地…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/559.htm",
+          "title": "苹果 Apple Watch 将增 AI 音频功能：全天谈话划重点 / 回顾 15 秒对话",
+          "link": "https://www.ithome.com/1/000/559.htm",
+          "pubDate": "Wed, 09 Sep 2026 23:14:51 GMT",
+          "summary": "IT之家 9 月 10 日消息，彭博社今天（9 月 10 日）发布博文，报道称在 2026 秋季发布会上，苹果为 Apple Watch Series 12、Apple Watch Ultra 4 两款智能手表，带来了 Siri Recap…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/544.htm",
+          "title": "证明照片不是 AI：苹果 iPhone 18 Pro 支持像素级标注真实图像数据，但又和国内无关",
+          "link": "https://www.ithome.com/1/000/544.htm",
+          "pubDate": "Wed, 09 Sep 2026 21:03:15 GMT",
+          "summary": "IT之家 9 月 10 日消息，在 AI 照片近乎以假乱真的年代，苹果为最新发布的 iPhone 18 Pro 系列手机带来一项标注真实照片功能。苹果在今日的发布会上宣布推出“Apple 参考图像”，iPhone 18 Pro 用户可通过该…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/536.htm",
+          "title": "苹果 iOS / iPadOS 27 RC 更新日志：升级 Siri AI，增强家长管控等",
+          "link": "https://www.ithome.com/1/000/536.htm",
+          "pubDate": "Wed, 09 Sep 2026 19:45:10 GMT",
+          "summary": "IT之家 9 月 10 日消息，苹果公司今日正式推送了 iOS / iPadOS 27 RC，正式版将于 9 月 15 日推出。IT之家附上 iOS / iPadOS 27 RC 完整更新日志内容如下：Siri AI适用机型：所有 iPho…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/534.htm",
+          "title": "苹果 macOS 27 RC 更新日志：全新 Siri AI、界面更精致、体验更可靠",
+          "link": "https://www.ithome.com/1/000/534.htm",
+          "pubDate": "Wed, 09 Sep 2026 19:35:51 GMT",
+          "summary": "IT之家 9 月 10 日消息，苹果今日向 Mac 电脑用户推送了 macOS 27.0 RC 更新（内部版本号：26A428），本次更新距离上次发布 Beta / RC 间隔 9 天，正式版将于 9 月 15 日发布。IT之家附上 mac…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486450.html",
+          "title": "刚刚，苹果首款折叠屏发布！15999元起，AI参与设计",
+          "link": "https://www.qbitai.com/2026/09/486450.html",
+          "pubDate": "Wed, 09 Sep 2026 19:24:22 +0000",
+          "summary": "一比根号二的小胖折叠",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/524.htm",
+          "title": "苹果官网下架 iPhone 17 Pro 系列手机，16、17e、17、Air 同步涨价最高 2300 元",
+          "link": "https://www.ithome.com/1/000/524.htm",
+          "pubDate": "Wed, 09 Sep 2026 18:55:08 GMT",
+          "summary": "IT之家 9 月 10 日消息，在苹果 iPhone 18 Pro 系列发布后，苹果官网按照常规下架了 iPhone 17 Pro 系列。与此同时，iPhone Air、iPhone 17、iPhone 17e、iPhone 16 四款老机…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/521.htm",
+          "title": "苹果上调国行 iPhone Air 售价：8799 元起，最高涨幅约 19%",
+          "link": "https://www.ithome.com/1/000/521.htm",
+          "pubDate": "Wed, 09 Sep 2026 18:38:54 GMT",
+          "summary": "IT之家 9 月 10 日消息，苹果在发布 iPhone 18 Pro、iPhone 18 Pro Max 以及其首款折叠手机 iPhone Duo 后，苹果中国官网今天还上调了 iPhone Air 国行版 3 个存储版本售价，涨幅从 8…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/516.htm",
+          "title": "苹果 AirPods 5 耳机国行售价 999 元起，9 月 18 日发售",
+          "link": "https://www.ithome.com/1/000/516.htm",
+          "pubDate": "Wed, 09 Sep 2026 18:26:45 GMT",
+          "summary": "IT之家 9 月 10 日消息，苹果今日宣布推出 AirPods 5，带来“业内一流的无耳塞式主动降噪功能和更加出色的音质”（点此购买）。AirPods 5 采用全新多孔声学架构，具备新一代自适应均衡功能，打造更具沉浸感的音效。突破性的无耳…",
+          "sources": [
+            "ithome"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-09",
       "entries": [
