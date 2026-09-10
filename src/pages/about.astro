@@ -61,10 +61,13 @@ const activeSources = FEED_SOURCES.filter((s) => s.enabled !== false);
     <h2 class="section-title" id="limits-heading">已知边界</h2>
     <div class="doc-card">
       <p class="doc-card__summary">
-        · 日报档案滚动保留 <strong>30 天</strong>，更早的日报页会下线（数据仍在
-        <a href="https://github.com/yyy588/ai-daily-terminal" target="_blank" rel="noopener noreferrer">git 历史</a>）<br />
+        · 日报档案滚动保留 <strong>30 天</strong>，更早的日报页下线。<br />
+        · 历史 retrievable 的真实边界（三层各管一段）：<br />
+        　　网页 = 最近 30 天；RSS = <strong>你订阅那天起</strong>（拉取式，订阅前帮不了）；<br />
+        　　git 历史 = <strong>建站（2026-08-31）起</strong>的每日快照——<a href={internalHref('/archive/')}>归档清单见此</a>，<br />
+        　　缺日 = 建站前或当日抓取失败（如 08-30，站点尚未上线）。<br />
         · 新锐榜 / 模型榜为"只看今天"的覆盖快照，不保留历史<br />
-        · 无搜索功能——滚动窗口的内容天然易失，建议用 RSS 归档
+        · 无站内搜索——滚动窗口内容天然易失，投入产出不成立
       </p>
     </div>
   </section>

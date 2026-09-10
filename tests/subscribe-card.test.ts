@@ -9,9 +9,9 @@ const hasBuild = existsSync(home);
 describe.runIf(hasBuild)('RSS 订阅卡（产物断言）', () => {
   const html = readFileSync(home, 'utf-8');
   const doc = new DOMParser().parseFromString(html, 'text/html');
-  const section = Array.from(doc.querySelectorAll('section')).find((s) =>
-    (s.textContent ?? '').includes('订阅'),
-  );
+  // 用稳定 id 定位（subscribe-heading）——textContent.includes('订阅') 会被
+  // 含"订阅"字样的新闻标题误中（如"Claude Max 订阅条款"上了周热榜）
+  const section = doc.getElementById('subscribe-heading')?.parentElement ?? null;
 
   it('订阅卡存在且有复制按钮（button + 目标地址）', () => {
     expect(section).toBeTruthy();

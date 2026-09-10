@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { execSync } from 'node:child_process';
+import { loadSiteData } from '../lib/site';
+
+/**
+ * 归档清单：git 全历史里出现过的每个档案日 + 当日条数。
+ * 构建时从 git log 生成——"git 里有"从程序员彩蛋变成可见功能。
+ */
+
+interface DayInfo {
+  date: string;
+  count: number;
+  /** 该日是否还在 30 天网页窗口内 */
+  live: boolean;
+}
+
+function collectArchive(): DayInfo[] {
+  const byDate = new Map<string, number>();
+
+  let commits: string[] = [];
+  try {
+    commits = execSync('git log --format=%H -- src/data/news.json', {
+      encoding: 'utf-8',
+      maxBuffer: 64 * 1024 * 1024,
+    })
+      .trim()
+      .split('\n')
+      .filter(Boolean);
+  } catch {
+    // CI checkout 深度或无 git 环境时降级：只用当前窗口
+  }
+
+  for (const c of commits) {
+    try {
+      const json = JSON.parse(
+        execSync(`git show ${c}:src/data/news.json`, {
+          encoding: 'utf-8',
+          maxBuffer: 64 * 1024 * 1024,
+        }),
+      ) as { digests: { date: string; entries: unknown[] }[] };
+      for (const g of json.digests) {
+        const cur = byDate.get(g.date) ?? 0;
+        if (g.entries.length > cur) byDate.set(g.date, g.entries.length);
+      }
+    } catch {
+      // 单提交解析失败跳过（冲突标记等历史脏数据）
+    }
+  }
+
+  const liveDates = new Set(loadSiteData().digests.map((g) => g.date));
+
+  return [...byDate.entries()]
+    .map(([date, count]) => ({ date, count, live: liveDates.has(date) }))
+    .sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+const archive = collectArchive();
+const total = archive.reduce((n, d) => n + d.count, 0);
+const liveCount = archive.filter((d) => d.live).length;
+---
+
+<BaseLayout title="归档清单 // 历史可溯" description="git 全历史的每日档案清单：日期、条数、可否网页直达">
+  <header class="hud-bar" role="status">
+    <span class="hud-bar__status">ARCHIVE // 历史可溯</span>
+    <span>DAYS: {archive.length}</span>
+    <span>TOTAL_ITEMS: {total}</span>
+    <span>LIVE: {liveCount}</span>
+  </header>
+
+  <section aria-labelledby="archive-heading">
+    <h1 class="section-title" id="archive-heading">归档清单 // 每日档案全史</h1>
+    <div class="doc-card">
+      <p class="doc-card__summary">
+        // 自建站（2026-08-31）起每个抓取日的条数。✓ = 30 天窗口内可点；
+        超窗日期的数据在
+        <a href="https://github.com/yyy588/ai-daily-terminal/commits/main/src/data/news.json" target="_blank" rel="noopener noreferrer">git 提交历史 ↗</a>
+        中，找回命令：<code class="mono">git log --format=%H -- src/data/news.json</code> 逐提交检索目标日期。
+      </p>
+    </div>
+
+    <ul class="arch-list mono">
+      {
+        archive.map((d) => (
+          <li class="arch-list__row">
+            {d.live ? (
+              <a href={`/ai-daily-terminal/news/${d.date}/`}>
+                ✓ {d.date} — {d.count} 条
+              </a>
+            ) : (
+              <span class="arch-list__dead">✗ {d.date} — {d.count} 条（已超窗，见 git）</span>
+            )}
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</BaseLayout>
+
+<style>
+  .arch-list {
+    list-style: none;
+    margin: var(--space-m) 0 0;
+    padding: 0 var(--space-m);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: var(--space-xs) var(--space-m);
+    font-size: 0.75rem;
+  }
+
+  .arch-list__row a {
+    color: var(--color-text-dim);
+  }
+
+  .arch-list__row a:hover {
+    color: var(--color-primary);
+  }
+
+  .arch-list__dead {
+    color: var(--color-text-faint);
+  }
+</style>
