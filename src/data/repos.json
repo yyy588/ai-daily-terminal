@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-10T04:33:48.686Z",
+  "generatedAt": "2026-09-10T07:31:55.301Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
       "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-      "stars": 1069,
+      "stars": 1073,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
@@ -12,7 +12,7 @@
     {
       "fullName": "ZJU-REAL/Easel",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "stars": 731,
+      "stars": 743,
       "language": "Python",
       "url": "https://github.com/ZJU-REAL/Easel",
       "createdAt": "2026-08-28T02:22:27Z"
@@ -36,7 +36,7 @@
     {
       "fullName": "jiukemi/JY_IPAgent",
       "description": "AI口播智能体,实体口播作弊神器",
-      "stars": 111,
+      "stars": 112,
       "language": "Python",
       "url": "https://github.com/jiukemi/JY_IPAgent",
       "createdAt": "2026-08-31T15:55:10Z"
@@ -76,7 +76,7 @@
     {
       "fullName": "aimeoa/hanshuang-codex",
       "description": "针对GPT 5.6,V4flash的破甲实验项目",
-      "stars": 61,
+      "stars": 63,
       "language": "Python",
       "url": "https://github.com/aimeoa/hanshuang-codex",
       "createdAt": "2026-09-06T08:42:57Z"

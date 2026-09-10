@@ -1,9 +1,119 @@
 {
-  "generatedAt": "2026-09-10T04:33:47.541Z",
+  "generatedAt": "2026-09-10T07:31:54.242Z",
   "digests": [
     {
       "date": "2026-09-10",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/000/800.htm",
+          "title": "消息称美国司法部正调查英伟达与 Groq 百亿美元交易，涉嫌规避反垄断审查",
+          "link": "https://www.ithome.com/1/000/800.htm",
+          "pubDate": "Thu, 10 Sep 2026 07:21:07 GMT",
+          "summary": "IT之家 9 月 10 日消息，据《纽约时报》当地时间周三援引两名知情人士消息报道，美国司法部正在调查英伟达与人工智能芯片初创企业 Groq 达成的授权协议是否经过特殊设计，以此规避反垄断审查。英伟达去年宣布与 Groq 达成一项价值 17…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/799.htm",
+          "title": "戴森回应 AI 电动牙刷 CameraJet 电池仓进水：少数早期批次存在问题",
+          "link": "https://www.ithome.com/1/000/799.htm",
+          "pubDate": "Thu, 10 Sep 2026 07:17:57 GMT",
+          "summary": "IT之家 9 月 10 日消息，科技媒体 The Verge 昨日（9 月 9 日）发布博文，报道称部分早期用户反馈戴森（Dyson）电动牙刷 CameraJet 电池仓出现进水情况。IT之家曾于 9 月 1 日报道，戴森 CameraJe…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/769.htm",
+          "title": "AI 智能体出现失控行为，OpenAI 呼吁美国出台强制性全国 AI 安全法规",
+          "link": "https://www.ithome.com/1/000/769.htm",
+          "pubDate": "Thu, 10 Sep 2026 07:08:58 GMT",
+          "summary": "IT之家 9 月 10 日消息，据路透社报道，OpenAI 当地时间周三表示，鉴于自身部分 AI 智能体出现失控行为，出于对该技术可能加速自身发展的担忧，该公司正推动美国出台强制性的全国人工智能安全法规。IT之家注意到，包括 OpenAI …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/767.htm",
+          "title": "AMD：逾 20 款锐龙 AI Max+ PRO 495 设备即将近期上市",
+          "link": "https://www.ithome.com/1/000/767.htm",
+          "pubDate": "Thu, 10 Sep 2026 07:06:53 GMT",
+          "summary": "IT之家 9 月 10 日消息，AMD 官方今日在锐龙 AI Max 媒体沙龙上表示，近期将有超 20 款基于锐龙 AI Max+ PRO 495 处理器平台的设备上市。AMD 在沙龙上提到的产品绝大多数均采用迷你主机形态，HP（惠普）则将…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/736.htm",
+          "title": "月之暗面官宣 Kimi 企业合作伙伴计划，金山云、中软国际、华胜天成等已加入",
+          "link": "https://www.ithome.com/1/000/736.htm",
+          "pubDate": "Thu, 10 Sep 2026 06:55:58 GMT",
+          "summary": "IT之家 9 月 10 日消息，月之暗面今天宣布启动 Kimi 企业合作伙伴计划，旨在帮助企业将 AI 真正部署到核心业务中，并培养前线部署工程师（Forward Deployed Engineer，FDE）队伍。据悉，月之暗面将为加入计划…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/734.htm",
+          "title": "VAIO T 双转轴翻转本发布：平板模式屏幕“背对面”覆盖键盘",
+          "link": "https://www.ithome.com/1/000/734.htm",
+          "pubDate": "Thu, 10 Sep 2026 06:52:21 GMT",
+          "summary": "IT之家 9 月 10 日消息，VAIO 日本当地时间今日发布了笔记本电脑新品 VAIO T。该产品采用双转轴结构，除连接上下方的常规转轴外还在上方中部设置了第二转轴。这意味着 VAIO T 在平板模式下屏幕能以“背对面”的形式直接覆盖键盘…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/719.htm",
+          "title": "DeepSeek V4.1 Flash 模型正式发布：全面超越 V4 Pro、原生多模态视觉理解，API 定价下调",
+          "link": "https://www.ithome.com/1/000/719.htm",
+          "pubDate": "Thu, 10 Sep 2026 05:50:17 GMT",
+          "summary": "IT之家 9 月 10 日消息，深度求索今日正式发布 DeepSeek V4.1 Flash 模型。这是其全新模型结构系列中的最小尺寸的模型，具备原生多模态视觉理解能力。新模型结构的设计初衷是：能力上限更高、推理速度更快、吞吐更大、可扩展到…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/717.htm",
+          "title": "JPR 报告 2026Q2 全球 PC AIB 显卡出货量 1250 万块：环比增 10%、同比增 6.6%",
+          "link": "https://www.ithome.com/1/000/717.htm",
+          "pubDate": "Thu, 10 Sep 2026 05:49:22 GMT",
+          "summary": "IT之家 9 月 10 日消息，市场调查机构 Jon Peddie Research 昨日（9 月 9 日）发布博文，报告称 2026 年第二季度全球 PC 图形附加板（AIB）市场出货量达到 1,250 万块，环比增长 10%、同比增长 …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/715.htm",
+          "title": "DeepSeek Harness 0.1.5 更新：适配 DeepSeek V4.1 Flash 模型，新增文件上传与侧边栏预览功能",
+          "link": "https://www.ithome.com/1/000/715.htm",
+          "pubDate": "Thu, 10 Sep 2026 05:41:40 GMT",
+          "summary": "IT之家 9 月 10 日消息，DeepSeek Harness v0.1.5 版本现已发布。新版本与 DeepSeek V4.1 Flash 模型训练深度结合，模型在 DeepSeek Harness 不同配置中进行了专项训练和优化。新版…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/708.htm",
+          "title": "阿里千问新款 AI 眼镜“保密式”展出：首次支持虹膜识别，不带显示屏",
+          "link": "https://www.ithome.com/1/000/708.htm",
+          "pubDate": "Thu, 10 Sep 2026 05:21:24 GMT",
+          "summary": "9 月 10 日消息，千问新款 AI 眼镜现身 2026 年外滩大会 AI 支付展区，该款眼镜被黑色遮蔽材料大面积包裹，暂时无法判断更多功能及硬件细节。据新浪科技了解，该产品被命名为“N1”，将首次引入虹膜识别能力，误识率低于百万分之一，复…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486625.html",
+          "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
+          "link": "https://www.qbitai.com/2026/09/486625.html",
+          "pubDate": "Thu, 10 Sep 2026 04:55:38 +0000",
+          "summary": "模型可以开源，部署经验不能",
+          "sources": [
+            "qbitai"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/000/694.htm",
           "title": "英伟达 CUDA Toolkit 13.4 首次原生支持 Windows on Arm64，铺路 RTX Spark",
