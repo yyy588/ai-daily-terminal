@@ -148,6 +148,17 @@
           "rank": 13
         },
         {
+          "modelName": "deepseek-v4.1-flash-max",
+          "score": 1620,
+          "ci": "+18/-18",
+          "votes": 0,
+          "price": "$0.30 / $1.20",
+          "organization": "DeepSeek",
+          "license": "MIT",
+          "isOpenSource": true,
+          "rank": 14
+        },
+        {
           "modelName": "gpt-5.6-sol-xhigh (codex-harness)",
           "score": 1617,
           "ci": "+7/-7",
@@ -156,7 +167,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 14
+          "rank": 15
         },
         {
           "modelName": "glm-5.3-max",
@@ -167,7 +178,7 @@
           "organization": "Z.ai",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 15
+          "rank": 16
         },
         {
           "modelName": "glm-5.3-flash",
@@ -178,7 +189,7 @@
           "organization": "Z.ai",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 16
+          "rank": 17
         },
         {
           "modelName": "qwen3.8-27b",
@@ -189,7 +200,7 @@
           "organization": "Alibaba",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 17
+          "rank": 18
         },
         {
           "modelName": "glm-5.2-max",
@@ -200,7 +211,7 @@
           "organization": "Z.ai",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 18
+          "rank": 19
         },
         {
           "modelName": "gemini-3.7-flash-high",
@@ -211,18 +222,18 @@
           "organization": "Google",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 19
+          "rank": 20
         },
         {
           "modelName": "deepseek-v4-flash-high",
           "score": 1582,
           "ci": "+10/-10",
           "votes": 4410,
-          "price": "$0.44 / $1.32",
+          "price": "$0.30 / $1.20",
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 20
+          "rank": 21
         },
         {
           "modelName": "deepseek-v4-pro-high-20260813",
@@ -233,7 +244,7 @@
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 21
+          "rank": 22
         },
         {
           "modelName": "gemini-3.8-flash-high",
@@ -244,7 +255,7 @@
           "organization": "Google",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 22
+          "rank": 23
         },
         {
           "modelName": "claude-opus-4-8-high",
@@ -255,7 +266,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 23
+          "rank": 24
         },
         {
           "modelName": "claude-opus-4-7",
@@ -266,7 +277,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 24
+          "rank": 25
         },
         {
           "modelName": "grok-4.5",
@@ -277,7 +288,7 @@
           "organization": "SpaceXAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 25
+          "rank": 26
         },
         {
           "modelName": "claude-opus-4-7-high",
@@ -288,7 +299,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 26
+          "rank": 27
         },
         {
           "modelName": "claude-opus-4-6-high",
@@ -299,7 +310,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 27
+          "rank": 28
         },
         {
           "modelName": "muse-spark-1.1",
@@ -310,7 +321,7 @@
           "organization": "Meta",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 28
+          "rank": 29
         },
         {
           "modelName": "claude-opus-4-8",
@@ -321,7 +332,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 29
+          "rank": 30
         },
         {
           "modelName": "claude-sonnet-5-high",
@@ -332,7 +343,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 30
+          "rank": 31
         },
         {
           "modelName": "claude-opus-4-6",
@@ -343,7 +354,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 31
+          "rank": 32
         },
         {
           "modelName": "gemini-3.6-flash-high",
@@ -354,7 +365,7 @@
           "organization": "Google",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 32
+          "rank": 33
         },
         {
           "modelName": "muse-spark-1.2 (xHigh)",
@@ -365,7 +376,7 @@
           "organization": "Meta",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 33
+          "rank": 34
         },
         {
           "modelName": "claude-sonnet-4-6",
@@ -376,7 +387,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 34
+          "rank": 35
         },
         {
           "modelName": "gpt-5.6-terra-xhigh (codex-harness)",
@@ -387,7 +398,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 35
+          "rank": 36
         },
         {
           "modelName": "gpt-5.6-luna-xhigh (codex-harness)",
@@ -398,7 +409,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 36
+          "rank": 37
         },
         {
           "modelName": "seed-2.1-pro-preview",
@@ -408,7 +419,7 @@
           "organization": "Bytedance",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 37
+          "rank": 38
         },
         {
           "modelName": "qwen3.7-max-20260517",
@@ -419,7 +430,7 @@
           "organization": "Alibaba",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 38
+          "rank": 39
         },
         {
           "modelName": "hy3",
@@ -430,7 +441,7 @@
           "organization": "Tencent",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 39
+          "rank": 40
         },
         {
           "modelName": "gpt-5.5-xhigh (codex-harness)",
@@ -441,7 +452,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 40
+          "rank": 41
         },
         {
           "modelName": "kimi-k2.6",
@@ -452,7 +463,7 @@
           "organization": "Moonshot",
           "license": "Modified MIT",
           "isOpenSource": true,
-          "rank": 41
+          "rank": 42
         },
         {
           "modelName": "glm-5.1",
@@ -463,7 +474,7 @@
           "organization": "Z.ai",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 42
+          "rank": 43
         },
         {
           "modelName": "gemini-3.5-flash-high",
@@ -474,7 +485,7 @@
           "organization": "Google",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 43
+          "rank": 44
         },
         {
           "modelName": "claude-opus-4-5-20251101-high-32k",
@@ -485,7 +496,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 44
+          "rank": 45
         },
         {
           "modelName": "gemini-3.5-flash-medium",
@@ -496,7 +507,7 @@
           "organization": "Google",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 45
+          "rank": 46
         },
         {
           "modelName": "gpt-5.5-high (codex-harness)",
@@ -507,7 +518,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 46
+          "rank": 47
         },
         {
           "modelName": "minimax-m3",
@@ -518,7 +529,7 @@
           "organization": "MiniMax",
           "license": "MiniMax Community License",
           "isOpenSource": true,
-          "rank": 47
+          "rank": 48
         },
         {
           "modelName": "qwen3.6-max-preview",
@@ -529,7 +540,7 @@
           "organization": "Alibaba",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 48
+          "rank": 49
         },
         {
           "modelName": "mimo-v2.5-pro",
@@ -540,7 +551,7 @@
           "organization": "Xiaomi",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 49
+          "rank": 50
         },
         {
           "modelName": "kimi-k2.7-code",
@@ -551,7 +562,7 @@
           "organization": "Moonshot",
           "license": "Modified MIT",
           "isOpenSource": true,
-          "rank": 50
+          "rank": 51
         },
         {
           "modelName": "claude-opus-4-5-20251101",
@@ -562,7 +573,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 51
+          "rank": 52
         },
         {
           "modelName": "deepseek-v4-pro-high-preview",
@@ -573,7 +584,7 @@
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 52
+          "rank": 53
         },
         {
           "modelName": "gpt-5.4-high (codex-harness)",
@@ -584,7 +595,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 53
+          "rank": 54
         },
         {
           "modelName": "qwen3.6-plus",
@@ -595,7 +606,7 @@
           "organization": "Alibaba",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 54
+          "rank": 55
         },
         {
           "modelName": "gpt-5.5 (codex-harness)",
@@ -606,7 +617,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 55
+          "rank": 56
         },
         {
           "modelName": "gemini-3.5-flash-lite",
@@ -617,7 +628,7 @@
           "organization": "Google",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 56
+          "rank": 57
         },
         {
           "modelName": "gemini-3.1-pro-preview",
@@ -628,7 +639,7 @@
           "organization": "Google",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 57
+          "rank": 58
         },
         {
           "modelName": "deepseek-v4-pro",
@@ -639,7 +650,7 @@
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 58
+          "rank": 59
         },
         {
           "modelName": "gpt-5.4-medium (codex-harness)",
@@ -650,7 +661,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 59
+          "rank": 60
         },
         {
           "modelName": "gemini-3-pro",
@@ -661,7 +672,7 @@
           "organization": "Google",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 60
+          "rank": 61
         },
         {
           "modelName": "gemini-3-flash",
@@ -672,7 +683,7 @@
           "organization": "Google",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 61
+          "rank": 62
         },
         {
           "modelName": "mimo-v2.5",
@@ -683,7 +694,7 @@
           "organization": "Xiaomi",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 62
+          "rank": 63
         },
         {
           "modelName": "kimi-k2.5-thinking",
@@ -694,7 +705,7 @@
           "organization": "Moonshot",
           "license": "Modified MIT",
           "isOpenSource": true,
-          "rank": 63
+          "rank": 64
         },
         {
           "modelName": "glm-5",
@@ -705,7 +716,7 @@
           "organization": "Z.ai",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 64
+          "rank": 65
         },
         {
           "modelName": "glm-4.7",
@@ -716,7 +727,7 @@
           "organization": "Z.ai",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 65
+          "rank": 66
         },
         {
           "modelName": "mimo-v2-pro",
@@ -727,18 +738,18 @@
           "organization": "Xiaomi",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 66
+          "rank": 67
         },
         {
           "modelName": "deepseek-v4-flash-high-preview",
           "score": 1431,
           "ci": "+7/-7",
           "votes": 9491,
-          "price": "$0.44 / $1.32",
+          "price": "$0.30 / $1.20",
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 67
+          "rank": 68
         },
         {
           "modelName": "gpt-5-medium",
@@ -749,7 +760,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 68
+          "rank": 69
         },
         {
           "modelName": "gpt-5.2",
@@ -760,7 +771,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 69
+          "rank": 70
         },
         {
           "modelName": "gpt-5.3-codex (codex-harness)",
@@ -771,7 +782,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 70
+          "rank": 71
         },
         {
           "modelName": "inkling",
@@ -782,7 +793,7 @@
           "organization": "Thinky",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 71
+          "rank": 72
         },
         {
           "modelName": "Inkling Small",
@@ -793,7 +804,7 @@
           "organization": "Thinky",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 72
+          "rank": 73
         },
         {
           "modelName": "kimi-k2.5-instant",
@@ -804,7 +815,7 @@
           "organization": "Moonshot",
           "license": "Modified MIT",
           "isOpenSource": true,
-          "rank": 73
+          "rank": 74
         },
         {
           "modelName": "glm-5v-turbo",
@@ -815,7 +826,7 @@
           "organization": "Z.ai",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 74
+          "rank": 75
         },
         {
           "modelName": "qwen3.5-397b-a17b",
@@ -826,7 +837,7 @@
           "organization": "Alibaba",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 75
+          "rank": 76
         },
         {
           "modelName": "minimax-m2.7",
@@ -837,7 +848,7 @@
           "organization": "MiniMax",
           "license": "Modified MIT",
           "isOpenSource": true,
-          "rank": 76
+          "rank": 77
         },
         {
           "modelName": "gpt-5.4-mini-high",
@@ -848,7 +859,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 77
+          "rank": 78
         },
         {
           "modelName": "claude-sonnet-4-5-20250929-high-32k",
@@ -859,7 +870,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 78
+          "rank": 79
         },
         {
           "modelName": "gpt-5.1-medium",
@@ -870,7 +881,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 79
+          "rank": 80
         },
         {
           "modelName": "claude-opus-4-1-20250805",
@@ -881,7 +892,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 80
+          "rank": 81
         },
         {
           "modelName": "minimax-m2.1-preview",
@@ -892,7 +903,7 @@
           "organization": "MiniMax",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 81
+          "rank": 82
         },
         {
           "modelName": "gpt-5.4",
@@ -903,7 +914,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 82
+          "rank": 83
         },
         {
           "modelName": "claude-sonnet-4-5-20250929",
@@ -914,7 +925,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 83
+          "rank": 84
         },
         {
           "modelName": "minimax-m2.5",
@@ -925,7 +936,7 @@
           "organization": "MiniMax",
           "license": "Modified MIT",
           "isOpenSource": true,
-          "rank": 84
+          "rank": 85
         },
         {
           "modelName": "gemini-3-flash (thinking-minimal)",
@@ -936,7 +947,7 @@
           "organization": "Google",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 85
+          "rank": 86
         },
         {
           "modelName": "grok-4.20-beta-0309-reasoning",
@@ -947,7 +958,7 @@
           "organization": "SpaceXAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 86
+          "rank": 87
         },
         {
           "modelName": "solar-pro4",
@@ -958,7 +969,7 @@
           "organization": "Upstage",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 87
+          "rank": 88
         },
         {
           "modelName": "gpt-5.3-codex (codex-harness)",
@@ -969,7 +980,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 88
+          "rank": 89
         },
         {
           "modelName": "gemma-4-31b",
@@ -980,7 +991,7 @@
           "organization": "Google",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 89
+          "rank": 90
         },
         {
           "modelName": "gemma-4-26b-a4b",
@@ -990,7 +1001,7 @@
           "organization": "Google",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 90
+          "rank": 91
         },
         {
           "modelName": "deepseek-v3.2-thinking",
@@ -1001,7 +1012,7 @@
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 91
+          "rank": 92
         },
         {
           "modelName": "muse-glimmer",
@@ -1011,7 +1022,7 @@
           "organization": "Meta",
           "license": "Apache-2.0",
           "isOpenSource": true,
-          "rank": 92
+          "rank": 93
         },
         {
           "modelName": "qwen3.5-122b-a10b",
@@ -1022,7 +1033,7 @@
           "organization": "Alibaba",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 93
+          "rank": 94
         },
         {
           "modelName": "qwen3.5-27b",
@@ -1033,7 +1044,7 @@
           "organization": "Alibaba",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 94
+          "rank": 95
         },
         {
           "modelName": "grok-4.3",
@@ -1044,7 +1055,7 @@
           "organization": "SpaceXAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 95
+          "rank": 96
         },
         {
           "modelName": "hunyuan-hy3-preview",
@@ -1054,7 +1065,7 @@
           "organization": "Tencent",
           "license": "tencent-hunyuan-community",
           "isOpenSource": true,
-          "rank": 96
+          "rank": 97
         },
         {
           "modelName": "laguna-m.1",
@@ -1065,7 +1076,7 @@
           "organization": "Poolside",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 97
+          "rank": 98
         },
         {
           "modelName": "gpt-5.1",
@@ -1076,7 +1087,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 98
+          "rank": 99
         },
         {
           "modelName": "glm-4.6",
@@ -1087,7 +1098,7 @@
           "organization": "Z.ai",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 99
+          "rank": 100
         },
         {
           "modelName": "gpt-5.2-codex",
@@ -1098,7 +1109,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 100
+          "rank": 101
         },
         {
           "modelName": "gpt-5.1-codex",
@@ -1109,7 +1120,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 101
+          "rank": 102
         },
         {
           "modelName": "mimo-v2-flash (non-thinking)",
@@ -1120,7 +1131,7 @@
           "organization": "Xiaomi",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 102
+          "rank": 103
         },
         {
           "modelName": "claude-haiku-4-5-20251001",
@@ -1131,7 +1142,7 @@
           "organization": "Anthropic",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 103
+          "rank": 104
         },
         {
           "modelName": "deepseek-v3.2",
@@ -1142,7 +1153,7 @@
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 104
+          "rank": 105
         },
         {
           "modelName": "kimi-k2-thinking-turbo",
@@ -1153,7 +1164,7 @@
           "organization": "Moonshot",
           "license": "Modified MIT",
           "isOpenSource": true,
-          "rank": 105
+          "rank": 106
         },
         {
           "modelName": "laguna-xs.2",
@@ -1164,7 +1175,7 @@
           "organization": "Poolside",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 106
+          "rank": 107
         },
         {
           "modelName": "minimax-m2",
@@ -1175,7 +1186,7 @@
           "organization": "MiniMax",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 107
+          "rank": 108
         },
         {
           "modelName": "mimo-v2-flash (thinking)",
@@ -1186,7 +1197,7 @@
           "organization": "Xiaomi",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 108
+          "rank": 109
         },
         {
           "modelName": "qwen3-coder-480b-a35b-instruct",
@@ -1197,7 +1208,7 @@
           "organization": "Alibaba",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 109
+          "rank": 110
         },
         {
           "modelName": "deepseek-v3.2-exp",
@@ -1208,7 +1219,7 @@
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
-          "rank": 110
+          "rank": 111
         },
         {
           "modelName": "mistral-medium-3.5",
@@ -1219,7 +1230,7 @@
           "organization": "Mistral",
           "license": "Modified MIT",
           "isOpenSource": true,
-          "rank": 111
+          "rank": 112
         },
         {
           "modelName": "gemini-3.1-flash-lite-preview",
@@ -1230,7 +1241,7 @@
           "organization": "Google",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 112
+          "rank": 113
         },
         {
           "modelName": "qwen3.5-35b-a3b",
@@ -1241,7 +1252,7 @@
           "organization": "Alibaba",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 113
+          "rank": 114
         },
         {
           "modelName": "gpt-5.1-codex-mini",
@@ -1252,7 +1263,7 @@
           "organization": "OpenAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 114
+          "rank": 115
         },
         {
           "modelName": "grok-4-1-fast-reasoning",
@@ -1263,7 +1274,7 @@
           "organization": "SpaceXAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 115
+          "rank": 116
         },
         {
           "modelName": "qwen3.5-flash",
@@ -1273,7 +1284,7 @@
           "organization": "Alibaba",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 116
+          "rank": 117
         },
         {
           "modelName": "mistral-large-3",
@@ -1284,7 +1295,7 @@
           "organization": "Mistral",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 117
+          "rank": 118
         },
         {
           "modelName": "gemini-2.5-pro",
@@ -1295,7 +1306,7 @@
           "organization": "Google",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 118
+          "rank": 119
         },
         {
           "modelName": "grok-4.1-thinking",
@@ -1305,7 +1316,7 @@
           "organization": "SpaceXAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 119
+          "rank": 120
         },
         {
           "modelName": "devstral-2",
@@ -1315,7 +1326,7 @@
           "organization": "Mistral",
           "license": "Modified MIT",
           "isOpenSource": true,
-          "rank": 120
+          "rank": 121
         },
         {
           "modelName": "granite-4.1-8b",
@@ -1326,7 +1337,7 @@
           "organization": "IBM",
           "license": "Apache 2.0",
           "isOpenSource": true,
-          "rank": 121
+          "rank": 122
         },
         {
           "modelName": "mercury-2",
@@ -1337,7 +1348,7 @@
           "organization": "Inception AI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 122
+          "rank": 123
         },
         {
           "modelName": "grok-code-fast-1",
@@ -1348,7 +1359,7 @@
           "organization": "SpaceXAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 123
+          "rank": 124
         },
         {
           "modelName": "grok-4-fast-reasoning",
@@ -1359,7 +1370,7 @@
           "organization": "SpaceXAI",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 124
+          "rank": 125
         },
         {
           "modelName": "devstral-medium-2507",
@@ -1370,10 +1381,10 @@
           "organization": "Mistral",
           "license": "Proprietary",
           "isOpenSource": false,
-          "rank": 125
+          "rank": 126
         }
       ],
-      "fetchedAt": "2026-09-10T07:31:56.930Z"
+      "fetchedAt": "2026-09-10T16:37:59.881Z"
     },
     {
       "id": "webdev-fullstack",
@@ -1483,7 +1494,7 @@
           "score": 1614,
           "ci": "+21/-21",
           "votes": 0,
-          "price": "$0.44 / $1.32",
+          "price": "$0.30 / $1.20",
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
@@ -1878,7 +1889,7 @@
           "score": 1498,
           "ci": "+23/-23",
           "votes": 0,
-          "price": "$0.44 / $1.32",
+          "price": "$0.30 / $1.20",
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
@@ -2039,7 +2050,7 @@
           "rank": 60
         }
       ],
-      "fetchedAt": "2026-09-10T07:31:59.472Z"
+      "fetchedAt": "2026-09-10T16:38:02.755Z"
     },
     {
       "id": "webdev-frontend",
@@ -2259,7 +2270,7 @@
           "score": 1584,
           "ci": "+11/-11",
           "votes": 3564,
-          "price": "$0.44 / $1.32",
+          "price": "$0.30 / $1.20",
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
@@ -2775,7 +2786,7 @@
           "score": 1427,
           "ci": "+7/-7",
           "votes": 8710,
-          "price": "$0.44 / $1.32",
+          "price": "$0.30 / $1.20",
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
@@ -3414,7 +3425,7 @@
           "rank": 125
         }
       ],
-      "fetchedAt": "2026-09-10T07:32:02.015Z"
+      "fetchedAt": "2026-09-10T16:38:05.572Z"
     },
     {
       "id": "webdev-html",
@@ -3689,7 +3700,7 @@
           "score": 1549,
           "ci": "+28/-28",
           "votes": 0,
-          "price": "$0.44 / $1.32",
+          "price": "$0.30 / $1.20",
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
@@ -4194,7 +4205,7 @@
           "score": 1421,
           "ci": "+19/-19",
           "votes": 1073,
-          "price": "$0.44 / $1.32",
+          "price": "$0.30 / $1.20",
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
@@ -4778,7 +4789,7 @@
           "rank": 124
         }
       ],
-      "fetchedAt": "2026-09-10T07:32:04.571Z"
+      "fetchedAt": "2026-09-10T16:38:08.150Z"
     },
     {
       "id": "webdev-react",
@@ -4987,7 +4998,7 @@
           "score": 1585,
           "ci": "+12/-12",
           "votes": 3036,
-          "price": "$0.44 / $1.32",
+          "price": "$0.30 / $1.20",
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
@@ -5503,7 +5514,7 @@
           "score": 1422,
           "ci": "+8/-8",
           "votes": 7620,
-          "price": "$0.44 / $1.32",
+          "price": "$0.30 / $1.20",
           "organization": "DeepSeek",
           "license": "MIT",
           "isOpenSource": true,
@@ -5989,7 +6000,7 @@
           "rank": 110
         }
       ],
-      "fetchedAt": "2026-09-10T07:32:07.293Z"
+      "fetchedAt": "2026-09-10T16:38:10.866Z"
     },
     {
       "id": "agent",
@@ -6007,7 +6018,7 @@
           "netImprovement": 14.51,
           "netImprovementCi": "±1.90%",
           "successRate": 23.19,
-          "costPerTask": "$4.44",
+          "costPerTask": "$4.45",
           "sessions": 11788
         },
         {
@@ -6022,7 +6033,7 @@
           "netImprovement": 12.55,
           "netImprovementCi": "±2.18%",
           "successRate": 21.85,
-          "costPerTask": "$4.04",
+          "costPerTask": "$4.05",
           "sessions": 8929
         },
         {
@@ -6037,7 +6048,7 @@
           "netImprovement": 11.42,
           "netImprovementCi": "±1.73%",
           "successRate": 11.96,
-          "costPerTask": "$2.38",
+          "costPerTask": "$2.43",
           "sessions": 23232
         },
         {
@@ -6082,7 +6093,7 @@
           "netImprovement": 7.75,
           "netImprovementCi": "±1.45%",
           "successRate": 5.13,
-          "costPerTask": "$1.21",
+          "costPerTask": "$1.22",
           "sessions": 30450
         },
         {
@@ -6097,7 +6108,7 @@
           "netImprovement": 7.69,
           "netImprovementCi": "±1.44%",
           "successRate": 4.48,
-          "costPerTask": "$1.46",
+          "costPerTask": "$1.45",
           "sessions": 38862
         },
         {
@@ -6142,7 +6153,7 @@
           "netImprovement": 5.37,
           "netImprovementCi": "±1.40%",
           "successRate": 12,
-          "costPerTask": "$0.27",
+          "costPerTask": "$0.26",
           "sessions": 17107
         },
         {
@@ -6157,7 +6168,7 @@
           "netImprovement": 5.33,
           "netImprovementCi": "±1.08%",
           "successRate": 0.13,
-          "costPerTask": "$1.07",
+          "costPerTask": "$1.05",
           "sessions": 51887
         },
         {
@@ -6172,7 +6183,7 @@
           "netImprovement": 4.64,
           "netImprovementCi": "±0.75%",
           "successRate": 8.06,
-          "costPerTask": "$0.64",
+          "costPerTask": "$0.63",
           "sessions": 71824
         },
         {
@@ -6217,7 +6228,7 @@
           "netImprovement": 3.93,
           "netImprovementCi": "±1.14%",
           "successRate": 5.05,
-          "costPerTask": "$0.50",
+          "costPerTask": "$0.49",
           "sessions": 35991
         },
         {
@@ -6247,7 +6258,7 @@
           "netImprovement": 3.24,
           "netImprovementCi": "±1.17%",
           "successRate": 4.92,
-          "costPerTask": "$0.95",
+          "costPerTask": "$0.94",
           "sessions": 19855
         },
         {
@@ -6262,7 +6273,7 @@
           "netImprovement": 2.95,
           "netImprovementCi": "±0.92%",
           "successRate": 0.96,
-          "costPerTask": "$0.56",
+          "costPerTask": "$0.55",
           "sessions": 79963
         },
         {
@@ -6277,7 +6288,7 @@
           "netImprovement": 2.56,
           "netImprovementCi": "±0.68%",
           "successRate": 11.04,
-          "costPerTask": "$0.48",
+          "costPerTask": "$0.49",
           "sessions": 60879
         },
         {
@@ -6322,7 +6333,7 @@
           "netImprovement": 1.57,
           "netImprovementCi": "±0.91%",
           "successRate": 0.58,
-          "costPerTask": "$0.60",
+          "costPerTask": "$0.61",
           "sessions": 79102
         },
         {
@@ -6382,7 +6393,7 @@
           "netImprovement": 0.14,
           "netImprovementCi": "±0.92%",
           "successRate": 7.41,
-          "costPerTask": "$0.34",
+          "costPerTask": "$0.35",
           "sessions": 26260
         },
         {
@@ -6412,7 +6423,7 @@
           "netImprovement": 1.05,
           "netImprovementCi": "±1.31%",
           "successRate": 7.55,
-          "costPerTask": "$0.63",
+          "costPerTask": "$0.61",
           "sessions": 39399
         },
         {
@@ -6641,7 +6652,7 @@
           "sessions": 23216
         }
       ],
-      "fetchedAt": "2026-09-10T07:32:09.981Z"
+      "fetchedAt": "2026-09-10T16:38:13.412Z"
     }
   ]
 }

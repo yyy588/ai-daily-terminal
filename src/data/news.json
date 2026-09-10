@@ -1,9 +1,139 @@
 {
-  "generatedAt": "2026-09-10T07:31:54.242Z",
+  "generatedAt": "2026-09-10T16:37:56.933Z",
   "digests": [
     {
       "date": "2026-09-10",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/001/040.htm",
+          "title": "高通全球副总裁夏权：个人 AI 时代，每个人都拥有自己的智能体",
+          "link": "https://www.ithome.com/1/001/040.htm",
+          "pubDate": "Thu, 10 Sep 2026 15:22:16 GMT",
+          "summary": "IT之家 9 月 10 日消息，据新浪科技今日消息，高通公司全球副总裁夏权在 2026 服贸会表示，随着 AI 能力不断提升，人机交互正在发生新的变化。过去人类需要依靠应用完成工作，未来人们将越来越多地与智能体协同工作。夏权指出，真正有用的…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/015.htm",
+          "title": "OpenAI 将为美国政府机构提供 AI 模型五折优惠，终止每年 1 美元试点项目",
+          "link": "https://www.ithome.com/1/001/015.htm",
+          "pubDate": "Thu, 10 Sep 2026 14:25:54 GMT",
+          "summary": "IT之家 9 月 10 日消息，据彭博社报道，美国总务管理局（GSA）发布声明称，OpenAI 将终止一项政府机构试点项目。该项目允许政府机构每年仅花 1 美元（IT之家注：现汇率约合 6.7 元人民币）使用其模型；新方案改为按用量计费，联…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/003.htm",
+          "title": "吉利银河 TT 正式上市：定位 C 级 AI 纯电运动轿车，12.99 万-18.59 万元",
+          "link": "https://www.ithome.com/1/001/003.htm",
+          "pubDate": "Thu, 10 Sep 2026 13:21:47 GMT",
+          "summary": "IT之家 9 月 10 日消息，吉利银河旗下全新 C 级 AI 纯电运动轿车 —— 吉利银河 TT 今天（10 日）晚间正式上市，共推出五大版型，上市限时先享价为 12.99 万元-18.59 万元。640 后驱尊享版：12.99 万元64…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/986.htm",
+          "title": "NASA 与 IBM 联合发布开源月球研究基础大模型，可识别月表冰区与撞击坑",
+          "link": "https://www.ithome.com/1/000/986.htm",
+          "pubDate": "Thu, 10 Sep 2026 12:23:46 GMT",
+          "summary": "IT之家 9 月 10 日消息，今年春天，NASA 的阿尔忒弥斯 2 号任务完成了具有历史意义的月球掠飞，这是 1972 年之后人类首次载人绕月飞行。4 月 6 日，宇航员里德 · 怀斯曼、克里斯蒂娜 · 科赫、维克多 · 格洛弗与杰里米 …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/981.htm",
+          "title": "德军正评估 30 款 AI 工具，计划 2027 年起用于加快战场决策",
+          "link": "https://www.ithome.com/1/000/981.htm",
+          "pubDate": "Thu, 10 Sep 2026 12:07:19 GMT",
+          "summary": "IT之家 9 月 10 日消息，德国一名军方高级官员向德国财经日报《商报》透露，德军正在评估 30 款人工智能工具，用于加快战场决策，计划从 2027 年起部署这套系统。IT之家注意到，德军网络司令部司令托马斯 · 多姆海军中将在接受该报采…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/976.htm",
+          "title": "DeepSeek V4.1 Flash 模型上线国家超算互联网",
+          "link": "https://www.ithome.com/1/000/976.htm",
+          "pubDate": "Thu, 10 Sep 2026 11:47:00 GMT",
+          "summary": "IT之家 9 月 10 日消息，DeepSeek V4.1 Flash 模型今日上线国家超算互联网中心。用户可登录国家超算互联网官网，从首页进入「模型服务」页面，即可快速打开 DeepSeek V4.1 Flash 模型 API 调用界面。…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/969.htm",
+          "title": "开发者用 Claude 一小时复刻 Win3.1 程序管理器，可在 Win11 和 macOS 上运行",
+          "link": "https://www.ithome.com/1/000/969.htm",
+          "pubDate": "Thu, 10 Sep 2026 11:19:20 GMT",
+          "summary": "IT之家 9 月 10 日消息，如果你想在 Windows 11 或 macOS 设备上快速回味一把复古 Windows 体验，这款主打氛围感还原的 Windows 3.1 程序管理器复刻版或许会合你心意。开发者 Mayuki 推出了一个精…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/961.htm",
+          "title": "849 元支持主动降噪：苹果 AirPods 5 耳机江苏、吉林可享政府补贴",
+          "link": "https://www.ithome.com/1/000/961.htm",
+          "pubDate": "Thu, 10 Sep 2026 10:57:48 GMT",
+          "summary": "苹果今日宣布推出 AirPods 5，支持主动降噪，国行定价 999 元起。今日京东自营开启预售，收货地址江苏、吉林可享政府补贴，实付 849.15 元起：京东 Apple AirPods 5 支持主动降噪国补后 849 元直达链接京东 A…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486934.html",
+          "title": "ECCV上，顶尖学者们开始研究如何让AI做生意了",
+          "link": "https://www.qbitai.com/2026/09/486934.html",
+          "pubDate": "Thu, 10 Sep 2026 10:17:46 +0000",
+          "summary": "多模态AI大牛轮番登台，全球64支团队组团解题",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486900.html",
+          "title": "全球首个3D原生城市世界模型ABot-Earth 0.7发布，构建AI理解真实世界的入口",
+          "link": "https://www.qbitai.com/2026/09/486900.html",
+          "pubDate": "Thu, 10 Sep 2026 08:17:05 +0000",
+          "summary": "9月10日，阿里巴巴集团旗下高德正式发布全球首个3D原生城市世界模型ABot-Earth 0.7。",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486747.html",
+          "title": "全球首个可仿真的人–场景交互重建框架 HSImul3R：让人类视频真正成为机器人技能来源",
+          "link": "https://www.qbitai.com/2026/09/486747.html",
+          "pubDate": "Thu, 10 Sep 2026 07:57:55 +0000",
+          "summary": "大晓机器人联合南洋理工大学 S-Lab、上海人工智能实验室发布全新人–场景交互重建研究 HSImul3R",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486716.html",
+          "title": "这个新开源的世界模型只有1.3B，单卡就能实时跑！",
+          "link": "https://www.qbitai.com/2026/09/486716.html",
+          "pubDate": "Thu, 10 Sep 2026 07:44:00 +0000",
+          "summary": "轻量版LingBot-World 2.0",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486684.html",
+          "title": "AGI时代的第一个生图模型，ChatGPT Images 2.5上线",
+          "link": "https://www.qbitai.com/2026/09/486684.html",
+          "pubDate": "Thu, 10 Sep 2026 07:25:39 +0000",
+          "summary": "主打生成更快，细节更好，改图也终于越来越像“真·修图”了。",
+          "sources": [
+            "qbitai"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/000/800.htm",
           "title": "消息称美国司法部正调查英伟达与 Groq 百亿美元交易，涉嫌规避反垄断审查",
@@ -62,6 +192,16 @@
           "summary": "IT之家 9 月 10 日消息，VAIO 日本当地时间今日发布了笔记本电脑新品 VAIO T。该产品采用双转轴结构，除连接上下方的常规转轴外还在上方中部设置了第二转轴。这意味着 VAIO T 在平板模式下屏幕能以“背对面”的形式直接覆盖键盘…",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486651.html",
+          "title": "营销科技巨头蓝色光标与全球达人营销AI平台AhaCreator达成深度合作，让品牌更高效连接全球500万创作者",
+          "link": "https://www.qbitai.com/2026/09/486651.html",
+          "pubDate": "Thu, 10 Sep 2026 06:25:22 +0000",
+          "summary": "从一次投放到一套增长系统，AI 让海外达人营销可规模化复制",
+          "sources": [
+            "qbitai"
           ]
         },
         {
@@ -262,116 +402,6 @@
           "summary": "赶上了API限时五折",
           "sources": [
             "qbitai"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/000/568.htm",
-          "title": "OpenAI 悄然收紧 ChatGPT 广告政策，禁止 Adobe 等竞品投放 AI 生图与音频广告",
-          "link": "https://www.ithome.com/1/000/568.htm",
-          "pubDate": "Thu, 10 Sep 2026 00:09:39 GMT",
-          "summary": "IT之家 9 月 10 日消息，OpenAI 最近刚刚推出了 ChatGPT Images 2.5 图像生成模型以及 ChatGPT Live 语音功能。据 The Information 今日报道，OpenAI 近期悄然更新了其广告政策，…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/000/567.htm",
-          "title": "IT早报 0910：苹果发首款折叠屏 iPhone Duo、iPhone 18 Pro 系列；老款 iPhone 集体涨价；曝 DeepSeek 备战科创板 IPO；唐家三少批 AI 洗稿...",
-          "link": "https://www.ithome.com/1/000/567.htm",
-          "pubDate": "Thu, 10 Sep 2026 00:02:05 GMT",
-          "summary": "“IT早报”时间，大家好，现在是 2026 年 9 月 10 日星期四，今天的重要科技资讯有：1. 苹果 iPhone 18 Pro 系列发布：新增可变光圈技术、首发 2 纳米制程工艺 A20 Pro 芯片，9999 元起全新 iPhone…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/000/565.htm",
-          "title": "Anthropic 披露第四起 Claude 模型未经授权访问真实第三方系统的安全事件",
-          "link": "https://www.ithome.com/1/000/565.htm",
-          "pubDate": "Wed, 09 Sep 2026 23:53:07 GMT",
-          "summary": "IT之家 9 月 10 日消息，Anthropic 于当地时间 9 月 9 日发文，确认一起发生于 2026 年 1 月的安全事件，也是 Anthropic 对外披露的第四起真实网络安全事件。据IT之家此前报道，Anthropic 曾在当地…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/000/559.htm",
-          "title": "苹果 Apple Watch 将增 AI 音频功能：全天谈话划重点 / 回顾 15 秒对话",
-          "link": "https://www.ithome.com/1/000/559.htm",
-          "pubDate": "Wed, 09 Sep 2026 23:14:51 GMT",
-          "summary": "IT之家 9 月 10 日消息，彭博社今天（9 月 10 日）发布博文，报道称在 2026 秋季发布会上，苹果为 Apple Watch Series 12、Apple Watch Ultra 4 两款智能手表，带来了 Siri Recap…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/000/544.htm",
-          "title": "证明照片不是 AI：苹果 iPhone 18 Pro 支持像素级标注真实图像数据，但又和国内无关",
-          "link": "https://www.ithome.com/1/000/544.htm",
-          "pubDate": "Wed, 09 Sep 2026 21:03:15 GMT",
-          "summary": "IT之家 9 月 10 日消息，在 AI 照片近乎以假乱真的年代，苹果为最新发布的 iPhone 18 Pro 系列手机带来一项标注真实照片功能。苹果在今日的发布会上宣布推出“Apple 参考图像”，iPhone 18 Pro 用户可通过该…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/000/536.htm",
-          "title": "苹果 iOS / iPadOS 27 RC 更新日志：升级 Siri AI，增强家长管控等",
-          "link": "https://www.ithome.com/1/000/536.htm",
-          "pubDate": "Wed, 09 Sep 2026 19:45:10 GMT",
-          "summary": "IT之家 9 月 10 日消息，苹果公司今日正式推送了 iOS / iPadOS 27 RC，正式版将于 9 月 15 日推出。IT之家附上 iOS / iPadOS 27 RC 完整更新日志内容如下：Siri AI适用机型：所有 iPho…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/000/534.htm",
-          "title": "苹果 macOS 27 RC 更新日志：全新 Siri AI、界面更精致、体验更可靠",
-          "link": "https://www.ithome.com/1/000/534.htm",
-          "pubDate": "Wed, 09 Sep 2026 19:35:51 GMT",
-          "summary": "IT之家 9 月 10 日消息，苹果今日向 Mac 电脑用户推送了 macOS 27.0 RC 更新（内部版本号：26A428），本次更新距离上次发布 Beta / RC 间隔 9 天，正式版将于 9 月 15 日发布。IT之家附上 mac…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.qbitai.com/2026/09/486450.html",
-          "title": "刚刚，苹果首款折叠屏发布！15999元起，AI参与设计",
-          "link": "https://www.qbitai.com/2026/09/486450.html",
-          "pubDate": "Wed, 09 Sep 2026 19:24:22 +0000",
-          "summary": "一比根号二的小胖折叠",
-          "sources": [
-            "qbitai"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/000/524.htm",
-          "title": "苹果官网下架 iPhone 17 Pro 系列手机，16、17e、17、Air 同步涨价最高 2300 元",
-          "link": "https://www.ithome.com/1/000/524.htm",
-          "pubDate": "Wed, 09 Sep 2026 18:55:08 GMT",
-          "summary": "IT之家 9 月 10 日消息，在苹果 iPhone 18 Pro 系列发布后，苹果官网按照常规下架了 iPhone 17 Pro 系列。与此同时，iPhone Air、iPhone 17、iPhone 17e、iPhone 16 四款老机…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/000/521.htm",
-          "title": "苹果上调国行 iPhone Air 售价：8799 元起，最高涨幅约 19%",
-          "link": "https://www.ithome.com/1/000/521.htm",
-          "pubDate": "Wed, 09 Sep 2026 18:38:54 GMT",
-          "summary": "IT之家 9 月 10 日消息，苹果在发布 iPhone 18 Pro、iPhone 18 Pro Max 以及其首款折叠手机 iPhone Duo 后，苹果中国官网今天还上调了 iPhone Air 国行版 3 个存储版本售价，涨幅从 8…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/000/516.htm",
-          "title": "苹果 AirPods 5 耳机国行售价 999 元起，9 月 18 日发售",
-          "link": "https://www.ithome.com/1/000/516.htm",
-          "pubDate": "Wed, 09 Sep 2026 18:26:45 GMT",
-          "summary": "IT之家 9 月 10 日消息，苹果今日宣布推出 AirPods 5，带来“业内一流的无耳塞式主动降噪功能和更加出色的音质”（点此购买）。AirPods 5 采用全新多孔声学架构，具备新一代自适应均衡功能，打造更具沉浸感的音效。突破性的无耳…",
-          "sources": [
-            "ithome"
           ]
         }
       ]

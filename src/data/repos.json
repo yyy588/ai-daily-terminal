@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-10T07:31:55.301Z",
+  "generatedAt": "2026-09-10T16:37:58.297Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
       "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-      "stars": 1073,
+      "stars": 1095,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
@@ -12,7 +12,7 @@
     {
       "fullName": "ZJU-REAL/Easel",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "stars": 743,
+      "stars": 772,
       "language": "Python",
       "url": "https://github.com/ZJU-REAL/Easel",
       "createdAt": "2026-08-28T02:22:27Z"
@@ -26,6 +26,14 @@
       "createdAt": "2026-08-29T21:14:31Z"
     },
     {
+      "fullName": "jiukemi/JY_IPAgent",
+      "description": "AI口播智能体,实体口播作弊神器",
+      "stars": 114,
+      "language": "Python",
+      "url": "https://github.com/jiukemi/JY_IPAgent",
+      "createdAt": "2026-08-31T15:55:10Z"
+    },
+    {
       "fullName": "peter123023/awesome-free-llm-api",
       "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
       "stars": 112,
@@ -34,12 +42,12 @@
       "createdAt": "2026-09-01T17:49:12Z"
     },
     {
-      "fullName": "jiukemi/JY_IPAgent",
-      "description": "AI口播智能体,实体口播作弊神器",
-      "stars": 112,
+      "fullName": "AbuZar-Ansarii/Needle",
+      "description": "This 14 MB Agentic LLM(Cactus Needle 2) can control your phone completely.",
+      "stars": 104,
       "language": "Python",
-      "url": "https://github.com/jiukemi/JY_IPAgent",
-      "createdAt": "2026-08-31T15:55:10Z"
+      "url": "https://github.com/AbuZar-Ansarii/Needle",
+      "createdAt": "2026-08-30T06:43:48Z"
     },
     {
       "fullName": "shtjww/llm-inference-capacity-handbook",
@@ -50,36 +58,36 @@
       "createdAt": "2026-09-02T02:41:51Z"
     },
     {
-      "fullName": "AbuZar-Ansarii/Needle",
-      "description": "This 14 MB Agentic LLM(Cactus Needle 2) can control your phone completely.",
-      "stars": 103,
-      "language": "Python",
-      "url": "https://github.com/AbuZar-Ansarii/Needle",
-      "createdAt": "2026-08-30T06:43:48Z"
-    },
-    {
       "fullName": "jiabaobei/memory-bridge",
       "description": "记忆桥 MemoryBridge — 跨设备、跨平台的 AI 共享记忆层 | Cross-device and cross-platform shared memory for AI (CDSMP implementation)",
-      "stars": 85,
+      "stars": 88,
       "language": "Python",
       "url": "https://github.com/jiabaobei/memory-bridge",
       "createdAt": "2026-08-29T04:34:06Z"
     },
     {
+      "fullName": "aimeoa/hanshuang-codex",
+      "description": "针对GPT 6.0,V4flash的破甲实验项目",
+      "stars": 75,
+      "language": "Python",
+      "url": "https://github.com/aimeoa/hanshuang-codex",
+      "createdAt": "2026-09-06T08:42:57Z"
+    },
+    {
       "fullName": "zeroa234/ryza-ai-revive",
       "description": "Ryza AI companion. Bring your own LLM/TTS. 莱莎 AI 陪伴，自填大模型与语音。",
-      "stars": 66,
+      "stars": 67,
       "language": "JavaScript",
       "url": "https://github.com/zeroa234/ryza-ai-revive",
       "createdAt": "2026-09-02T00:52:18Z"
     },
     {
-      "fullName": "aimeoa/hanshuang-codex",
-      "description": "针对GPT 5.6,V4flash的破甲实验项目",
-      "stars": 63,
-      "language": "Python",
-      "url": "https://github.com/aimeoa/hanshuang-codex",
-      "createdAt": "2026-09-06T08:42:57Z"
+      "fullName": "tshemsedinov/reslop",
+      "description": "Interactive terminal code review git diff with intra-line highlighting",
+      "stars": 51,
+      "language": "JavaScript",
+      "url": "https://github.com/tshemsedinov/reslop",
+      "createdAt": "2026-09-06T21:28:21Z"
     }
   ]
 }
