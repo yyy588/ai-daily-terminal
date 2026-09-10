@@ -1,9 +1,129 @@
 {
-  "generatedAt": "2026-09-10T00:49:43.878Z",
+  "generatedAt": "2026-09-10T04:33:47.541Z",
   "digests": [
     {
       "date": "2026-09-10",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/000/694.htm",
+          "title": "英伟达 CUDA Toolkit 13.4 首次原生支持 Windows on Arm64，铺路 RTX Spark",
+          "link": "https://www.ithome.com/1/000/694.htm",
+          "pubDate": "Thu, 10 Sep 2026 04:17:03 GMT",
+          "summary": "IT之家 9 月 10 日消息，英伟达昨日（9 月 9 日）发布 CUDA Toolkit 13.4 工具包，首次为 Windows on Arm64 平台提供原生开发包支持。这是 CUDA 历史上第一次将 Arm 平台支持从 Linux …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/693.htm",
+          "title": "成都以 AI 治理“龟速车”：覆盖城区所有快速路及绕城高速，试行监测路段慢车数量降约 20%",
+          "link": "https://www.ithome.com/1/000/693.htm",
+          "pubDate": "Thu, 10 Sep 2026 04:16:23 GMT",
+          "summary": "IT之家 9 月 10 日消息，据央视新闻今日报道，成都交警去年上线了一套专门治理“龟速车”的 AI 智慧系统。经过一年多测试，该系统近期在成都城区所有快速路及绕城高速完成部署。“龟速车”指在道路通行条件良好时仍超低速行驶的车辆，通常包含两…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/692.htm",
+          "title": "DeepSeek V4.1 Flash 模型今日发布，V4 Pro 服务推迟到 9 月 14 日下线",
+          "link": "https://www.ithome.com/1/000/692.htm",
+          "pubDate": "Thu, 10 Sep 2026 04:10:07 GMT",
+          "summary": "IT之家 9 月 10 日消息，据IT之家小伙伴反馈，DeepSeek 官方今日向 API 用户发送通知邮件，宣布 DeepSeek 于北京时间 2026 年 9 月 10 日正式发布 V4.1 Flash 模型并执行新的 Flash 定价…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/632.htm",
+          "title": "System76 发布 AM5 工作站 Thelio Mira AI，支持双卡配置",
+          "link": "https://www.ithome.com/1/000/632.htm",
+          "pubDate": "Thu, 10 Sep 2026 03:38:31 GMT",
+          "summary": "IT之家 9 月 10 日消息，美国 Linux PC 制造商 System76 当地时间昨日发布了 Thelio Mira AI 工作站系统。该系列基于 AMD 锐龙 9000 系列处理器，可通过 x8+x8 的 PCIe 拆分连接至 2…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/625.htm",
+          "title": "蚂蚁国际联合 Visa、万事达卡合作开发 AI 支付新标准",
+          "link": "https://www.ithome.com/1/000/625.htm",
+          "pubDate": "Thu, 10 Sep 2026 03:17:15 GMT",
+          "summary": "IT之家 9 月 10 日消息，蚂蚁国际预计消费者和企业将越来越多地使用 AI 智能体完成交易，于是今日宣布与 Visa 和 Mastercard 万事达卡达成合作，共同制定 AI 支付的新标准。据 CNBC 报道，三方在声明中援引麦肯锡的…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/617.htm",
+          "title": "小米推出米家首款 AI 智控灶定时燃气灶 3 Max：5200W 猛火 + 新增离灶雷达，国补后 2299 元",
+          "link": "https://www.ithome.com/1/000/617.htm",
+          "pubDate": "Thu, 10 Sep 2026 02:46:23 GMT",
+          "summary": "IT之家 9 月 10 日消息，小米官方今日宣布推出米家智能燃气灶 3 Max 并开启预售，京东售价为 2704 元，叠加国补后 2299 元。京东米家燃气灶天然气双边定时灶 3 Max 以旧换新上门安装 AI 防干烧 75% 热效率【推荐…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/615.htm",
+          "title": "小米推出米家智能净烟机 3 Max：AI 全程托管控烟，国补价 4599 元",
+          "link": "https://www.ithome.com/1/000/615.htm",
+          "pubDate": "Thu, 10 Sep 2026 02:40:49 GMT",
+          "summary": "IT之家 9 月 10 日消息，小米官方今日宣布推出米家智能净烟机 3 Max 以及米家定时燃气灶 3 Max 并开启预售，前者官方指导价 5999 元，叠加国补后新品到手价 4599 元。京东米家小米抽吸油烟机净烟机 3 Max 以旧换新…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/602.htm",
+          "title": "DeepSeek 快速、专家、识图模式合并升级，V4.1 Flash 最快今日发布",
+          "link": "https://www.ithome.com/1/000/602.htm",
+          "pubDate": "Thu, 10 Sep 2026 02:11:13 GMT",
+          "summary": "IT之家 9 月 10 日消息，DeepSeek 今日宣布将原有的快速模式、专家模式和识图模式合而为一，这意味着用户将不再需要手动切换。DeepSeek 将其整合为统一的智能模式，模型可自动检测查询复杂度、在检测到图片输入时激活视觉能力，并…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/587.htm",
+          "title": "OpenAI 新董事严厉警告：AI 失控将是灾难性的，大多数人可能丧命",
+          "link": "https://www.ithome.com/1/000/587.htm",
+          "pubDate": "Thu, 10 Sep 2026 01:45:48 GMT",
+          "summary": "北京时间 9 月 10 日，据《商业内幕》报道，OpenAI 周三宣布保罗 · 克里斯蒂亚诺 (Paul Christiano) 加入其基金会董事会。随后，克里斯蒂亚诺直言不讳地谈到了 AI 超级智能时代所面临的风险。克里斯蒂亚诺此前曾在 …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486436.html",
+          "title": "打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果",
+          "link": "https://www.qbitai.com/2026/09/486436.html",
+          "pubDate": "Thu, 10 Sep 2026 01:39:13 +0000",
+          "summary": "9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/577.htm",
+          "title": "OpenAI ChatGPT 语音模式支持调用 GPT-5.6 Sol 和 GPT-6 Astra",
+          "link": "https://www.ithome.com/1/000/577.htm",
+          "pubDate": "Thu, 10 Sep 2026 01:11:41 GMT",
+          "summary": "IT之家 9 月 10 日消息，OpenAI 语音产品负责人 Atty Eleti 今日宣布，在 ChatGPT 语音模式（ChatGPT Voice）中，用户可以自由选择所需的模型以及推理深度，Pro 套餐更可调用 GPT-5.6 Sol…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/576.htm",
+          "title": "苹果部分功能不随 iOS 27 及新硬件首发：Siri AI 下月拓展更多语言支持，Apple Watch 新功能年底推出",
+          "link": "https://www.ithome.com/1/000/576.htm",
+          "pubDate": "Thu, 10 Sep 2026 01:11:29 GMT",
+          "summary": "IT之家 9 月 10 日消息，苹果在发布会上及发布会后公布的部分软件功能并不会与 iOS 27 及新硬件同步上线，部分功能仍需等待未来更新，甚至要等到 2026 年底。硬件方面，Apple Watch Series 12、Apple Wa…",
+          "sources": [
+            "ithome"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/000/574.htm",
           "title": "曾获扎克伯格 15 亿美元 offer，Meta 明星 AI 研究员安德鲁 · 塔洛克宣布离职",
@@ -22,6 +142,16 @@
           "summary": "IT之家 9 月 10 日消息，据《案件聚焦》节目公众号，近日，上海市浦东新区人民法院宣判了上海市首例涉 AI 声音仿冒不正当竞争纠纷案。米哈游公司于 2025 年发现，一款 AI 变声软件提供了《原神》63 款角色的声音资源包，供用户付费…",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/486350.html",
+          "title": "实测星火X2.5：手搓粒子月亮、拆完61页财报……还顺手揪出了我的Bug",
+          "link": "https://www.qbitai.com/2026/09/486350.html",
+          "pubDate": "Thu, 10 Sep 2026 00:42:06 +0000",
+          "summary": "赶上了API限时五折",
+          "sources": [
+            "qbitai"
           ]
         },
         {
@@ -175,6 +305,16 @@
           "link": "https://www.ithome.com/1/000/452.htm",
           "pubDate": "Wed, 09 Sep 2026 13:35:49 GMT",
           "summary": "IT之家 9 月 9 日消息，据韩媒 TheElec 消息，三星电子已着手开发其首款配备显示屏的 AI 眼镜。与 Meta Ray-Ban Display 智能眼镜类似，该产品不仅能提供音频功能，还能在镜片上显示彩色视觉信息。据业内人士 9…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/000/447.htm",
+          "title": "英伟达发布 GeForce Game Ready 616.92 显卡驱动：修复闪烁问题，优化多款游戏",
+          "link": "https://www.ithome.com/1/000/447.htm",
+          "pubDate": "Wed, 09 Sep 2026 13:15:43 GMT",
+          "summary": "IT之家 9 月 9 日消息，NVIDIA（英伟达）发布了最新版本为 616.92 的 GeForce Game Ready 显卡驱动，为多款支持 DLSS 、RTX 技术的新游戏及游戏更新提供优化支持，同时修复了此前版本存在的多个问题。I…",
           "sources": [
             "ithome"
           ]
@@ -528,16 +668,6 @@
           "sources": [
             "ithome"
           ]
-        },
-        {
-          "id": "https://www.ithome.com/0/999/987.htm",
-          "title": "三星电子与 Mistral AI 达成战略合作，联手打造半导体专用人工智能模型",
-          "link": "https://www.ithome.com/0/999/987.htm",
-          "pubDate": "Wed, 09 Sep 2026 01:00:56 GMT",
-          "summary": "IT之家 9 月 9 日消息，三星电子 (Samsung Electronics) 与法国人工智能初创企业 Mistral AI 当地时间 8 日签署一份战略合作协议。三星电子也是 Mistral AI 的 30 亿欧元 D 轮融资的领投方…",
-          "sources": [
-            "ithome"
-          ]
         }
       ]
     },
@@ -612,6 +742,16 @@
           "summary": "IT之家 9 月 8 日消息，据彭博社今天（8 日）晚间报道，经济合作与发展组织（OECD）最新教育报告显示，不使用或较少使用 AI 聊天机器人完成课业的学生，整体表现优于经常使用 AI 的学生。报告提供了迄今覆盖范围最广的一批证据，显示 …",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ifanr.com/1679204",
+          "title": "GPT-6 让 48 个网页验证码失效了，最聪明的 AI 和最笨的人类相遇了",
+          "link": "https://www.ifanr.com/1679204?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Tue, 08 Sep 2026 11:38:04 +0000",
+          "summary": "人类的验证码已经拦不住 AI#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
           ]
         },
         {
