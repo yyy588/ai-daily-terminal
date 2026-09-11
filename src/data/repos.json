@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-11T07:30:13.096Z",
+  "generatedAt": "2026-09-11T16:42:26.032Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
       "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-      "stars": 1115,
+      "stars": 1131,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
@@ -12,10 +12,18 @@
     {
       "fullName": "useagenthq/useagent",
       "description": "The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription.",
-      "stars": 284,
+      "stars": 286,
       "language": "TypeScript",
       "url": "https://github.com/useagenthq/useagent",
       "createdAt": "2026-08-29T21:14:31Z"
+    },
+    {
+      "fullName": "xiaYuTian11/maskit",
+      "description": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
+      "stars": 138,
+      "language": "Python",
+      "url": "https://github.com/xiaYuTian11/maskit",
+      "createdAt": "2026-09-09T12:36:06Z"
     },
     {
       "fullName": "jiukemi/JY_IPAgent",
@@ -28,7 +36,7 @@
     {
       "fullName": "peter123023/awesome-free-llm-api",
       "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
-      "stars": 112,
+      "stars": 113,
       "language": "DOC",
       "url": "https://github.com/peter123023/awesome-free-llm-api",
       "createdAt": "2026-09-01T17:49:12Z"
@@ -36,7 +44,7 @@
     {
       "fullName": "AbuZar-Ansarii/Needle",
       "description": "This 14 MB Agentic LLM(Cactus Needle 2) can control your phone completely.",
-      "stars": 104,
+      "stars": 105,
       "language": "Python",
       "url": "https://github.com/AbuZar-Ansarii/Needle",
       "createdAt": "2026-08-30T06:43:48Z"
@@ -50,17 +58,9 @@
       "createdAt": "2026-09-02T02:41:51Z"
     },
     {
-      "fullName": "xiaYuTian11/maskit",
-      "description": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
-      "stars": 99,
-      "language": "Python",
-      "url": "https://github.com/xiaYuTian11/maskit",
-      "createdAt": "2026-09-09T12:36:06Z"
-    },
-    {
       "fullName": "aimeoa/hanshuang-codex",
       "description": "针对GPT 6.0,V4flash的破甲实验项目",
-      "stars": 94,
+      "stars": 100,
       "language": "Python",
       "url": "https://github.com/aimeoa/hanshuang-codex",
       "createdAt": "2026-09-06T08:42:57Z"
@@ -68,26 +68,34 @@
     {
       "fullName": "jiabaobei/memory-bridge",
       "description": "记忆桥 MemoryBridge — 跨设备、跨平台的 AI 共享记忆层 | Cross-device and cross-platform shared memory for AI (CDSMP implementation)",
-      "stars": 93,
+      "stars": 96,
       "language": "Python",
       "url": "https://github.com/jiabaobei/memory-bridge",
       "createdAt": "2026-08-29T04:34:06Z"
     },
     {
-      "fullName": "zeroa234/ryza-ai-revive",
-      "description": "Ryza AI companion. Bring your own LLM/TTS. 莱莎 AI 陪伴，自填大模型与语音。",
-      "stars": 68,
-      "language": "JavaScript",
-      "url": "https://github.com/zeroa234/ryza-ai-revive",
-      "createdAt": "2026-09-02T00:52:18Z"
-    },
-    {
       "fullName": "tshemsedinov/reslop",
       "description": "Interactive terminal code review git diff with intra-line highlighting",
-      "stars": 61,
+      "stars": 73,
       "language": "JavaScript",
       "url": "https://github.com/tshemsedinov/reslop",
       "createdAt": "2026-09-06T21:28:21Z"
+    },
+    {
+      "fullName": "Loopera-ai/loopera",
+      "description": "面向基本面因子研究的智能体-A hypothesis-driven AI agent for fundamental factor research, with evidence-gated validation and research memory.",
+      "stars": 73,
+      "language": "DOC",
+      "url": "https://github.com/Loopera-ai/loopera",
+      "createdAt": "2026-09-08T13:46:05Z"
+    },
+    {
+      "fullName": "zeroa234/ryza-ai-revive",
+      "description": "Ryza AI companion. Bring your own LLM/TTS. 莱莎 AI 陪伴，自填大模型与语音。",
+      "stars": 69,
+      "language": "JavaScript",
+      "url": "https://github.com/zeroa234/ryza-ai-revive",
+      "createdAt": "2026-09-02T00:52:18Z"
     }
   ]
 }
