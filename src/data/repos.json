@@ -1,21 +1,13 @@
 {
-  "generatedAt": "2026-09-10T16:37:58.297Z",
+  "generatedAt": "2026-09-11T04:31:03.415Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
       "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-      "stars": 1095,
+      "stars": 1109,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
-    },
-    {
-      "fullName": "ZJU-REAL/Easel",
-      "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "stars": 772,
-      "language": "Python",
-      "url": "https://github.com/ZJU-REAL/Easel",
-      "createdAt": "2026-08-28T02:22:27Z"
     },
     {
       "fullName": "useagenthq/useagent",
@@ -28,7 +20,7 @@
     {
       "fullName": "jiukemi/JY_IPAgent",
       "description": "AI口播智能体,实体口播作弊神器",
-      "stars": 114,
+      "stars": 116,
       "language": "Python",
       "url": "https://github.com/jiukemi/JY_IPAgent",
       "createdAt": "2026-08-31T15:55:10Z"
@@ -60,7 +52,7 @@
     {
       "fullName": "jiabaobei/memory-bridge",
       "description": "记忆桥 MemoryBridge — 跨设备、跨平台的 AI 共享记忆层 | Cross-device and cross-platform shared memory for AI (CDSMP implementation)",
-      "stars": 88,
+      "stars": 93,
       "language": "Python",
       "url": "https://github.com/jiabaobei/memory-bridge",
       "createdAt": "2026-08-29T04:34:06Z"
@@ -68,15 +60,23 @@
     {
       "fullName": "aimeoa/hanshuang-codex",
       "description": "针对GPT 6.0,V4flash的破甲实验项目",
-      "stars": 75,
+      "stars": 87,
       "language": "Python",
       "url": "https://github.com/aimeoa/hanshuang-codex",
       "createdAt": "2026-09-06T08:42:57Z"
     },
     {
+      "fullName": "xiaYuTian11/maskit",
+      "description": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
+      "stars": 74,
+      "language": "Python",
+      "url": "https://github.com/xiaYuTian11/maskit",
+      "createdAt": "2026-09-09T12:36:06Z"
+    },
+    {
       "fullName": "zeroa234/ryza-ai-revive",
       "description": "Ryza AI companion. Bring your own LLM/TTS. 莱莎 AI 陪伴，自填大模型与语音。",
-      "stars": 67,
+      "stars": 68,
       "language": "JavaScript",
       "url": "https://github.com/zeroa234/ryza-ai-revive",
       "createdAt": "2026-09-02T00:52:18Z"
@@ -84,7 +84,7 @@
     {
       "fullName": "tshemsedinov/reslop",
       "description": "Interactive terminal code review git diff with intra-line highlighting",
-      "stars": 51,
+      "stars": 57,
       "language": "JavaScript",
       "url": "https://github.com/tshemsedinov/reslop",
       "createdAt": "2026-09-06T21:28:21Z"
