@@ -1,9 +1,119 @@
 {
-  "generatedAt": "2026-09-11T04:31:02.057Z",
+  "generatedAt": "2026-09-11T07:30:11.873Z",
   "digests": [
     {
       "date": "2026-09-11",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/001/260.htm",
+          "title": "小米开源工业级目标说话人语音识别大模型 Xiaomi-CocktailASR-1",
+          "link": "https://www.ithome.com/1/001/260.htm",
+          "pubDate": "Fri, 11 Sep 2026 06:51:39 GMT",
+          "summary": "IT之家 9 月 11 日消息，小米技术今日发文宣布，小米正式发布并开源工业级目标说话人语音识别大模型 Xiaomi-CocktailASR-1。官方表示，Xiaomi-CocktailASR-1 旨在解决“鸡尾酒会”难题（IT之家注：当前…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/259.htm",
+          "title": "英伟达黄仁勋：网络安全是 AI 下一个重要市场，驳斥 AI 恐慌论",
+          "link": "https://www.ithome.com/1/001/259.htm",
+          "pubDate": "Fri, 11 Sep 2026 06:51:12 GMT",
+          "summary": "IT之家 9 月 11 日消息，昨日（9 月 10 日）召开的高盛会议上，英伟达首席执行官黄仁勋表示，网络安全将成为人工智能的下一个“重磅应用”。黄仁勋表示，网络安全是编程的自然延伸：编程可衍生出漏洞查找，而漏洞查找进一步对应网络安全市场。…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/257.htm",
+          "title": "阿里云 Token Plan 个人版升级：Standard、Pro 套餐新增 12 类 Agent Harness 工具",
+          "link": "https://www.ithome.com/1/001/257.htm",
+          "pubDate": "Fri, 11 Sep 2026 06:41:45 GMT",
+          "summary": "IT之家 9 月 11 日消息，阿里云官方今日宣布，阿里云 Token Plan 个人版升级。原有价格及 Credit 额度保持不变，Standard 和 Pro 套餐新增 Agent Harness 工具权益与用量，覆盖搜索、网页解析、图…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/487273.html",
+          "title": "墨芯人工智能亮相2026 Inclusion·外滩大会：以专用稀疏推理芯片提升算力效能，共创AI新经济",
+          "link": "https://www.qbitai.com/2026/09/487273.html",
+          "pubDate": "Fri, 11 Sep 2026 06:19:03 +0000",
+          "summary": "9月9日，墨芯人工智能亮相以\"共创AI新经济\"为主题的2026 Inclusion·外滩大会。",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/247.htm",
+          "title": "NS 方程争议发酵：数学家联名抗议，OpenAI 宣布退出数学黑客马拉松赞助",
+          "link": "https://www.ithome.com/1/001/247.htm",
+          "pubDate": "Fri, 11 Sep 2026 06:17:03 GMT",
+          "summary": "北京时间 9 月 11 日，据《商业内幕》报道，OpenAI 眼下试图解决的最新数学难题，是一群愤怒的数学家。OpenAI 一名研究员周四表示，该公司不再赞助加州理工学院的“数学黑客马拉松”。该活动让参与者使用大语言模型解决研究问题。就在 …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/242.htm",
+          "title": "达尔优推出 A950SE 双模电竞鼠标：自带彩屏智显底座、AIM-WL 传感器，189 元",
+          "link": "https://www.ithome.com/1/001/242.htm",
+          "pubDate": "Fri, 11 Sep 2026 06:01:28 GMT",
+          "summary": "IT之家 9 月 11 日消息，达尔优现已在京东上架 A950SE 双模电竞鼠标，该产品匹配自带彩屏的智显底座，定价为 189 元。该鼠标外壳采用 ABS 材质，单只重量为 64g，机身整体尺寸为 123x64x39mm。其外观采用经典的全…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/238.htm",
+          "title": "蚂蚁集团 CEO 韩歆毅：智能体商业的“ChatGPT”时刻已经到来",
+          "link": "https://www.ithome.com/1/001/238.htm",
+          "pubDate": "Fri, 11 Sep 2026 05:51:50 GMT",
+          "summary": "9 月 11 日中午消息，上海 2026 Inclusion· 外滩大会，蚂蚁集团 CEO 韩歆毅在主题演讲中表示，智能体商业的“ChatGPT”时刻已经到来，其关键变化是智能体从“能力展示”走向“真实交易”，智能体不再只是回答问题、生成内…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/237.htm",
+          "title": "网易 OpenPods 有道 AI 耳机发售：获苹果 MFi 认证、支持一键通话录音等功能，1499 元",
+          "link": "https://www.ithome.com/1/001/237.htm",
+          "pubDate": "Fri, 11 Sep 2026 05:47:15 GMT",
+          "summary": "IT之家 9 月 11 日消息，网易有道旗下 OpenPods 有道 AI 耳机现已在京东发售，该产品号称首款专为 iPhone 用户打造的智能体耳机，首发补贴后到手价 1499 元。京东网易有道 AI 耳机 OpenPods1499 元直…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/235.htm",
+          "title": "支付宝将推 AI 钱包智能体",
+          "link": "https://www.ithome.com/1/001/235.htm",
+          "pubDate": "Fri, 11 Sep 2026 05:46:18 GMT",
+          "summary": "IT之家 9 月 11 日消息，在本周的 2026 外滩大会上，支付宝宣布 AI 支付进一步从“可支付”迈向“可信支付”，将推出 AI 钱包智能体，帮助个人管好每一笔 AI 支付。支付宝“AI 收”进一步推出 Vibe Pay、Skill …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/230.htm",
+          "title": "加利福尼亚州颁布美国首份人工智能安全保障法案",
+          "link": "https://www.ithome.com/1/001/230.htm",
+          "pubDate": "Fri, 11 Sep 2026 05:41:47 GMT",
+          "summary": "IT之家 9 月 11 日消息，美国加利福尼亚州州长 Gavin Newsom（加文 · 纽森）当地时间本月 9 日签署两份人工智能安全保障法案。此类法案在该国尚属首例。两份法案其一建立了全美首个 AI 系统 / 模型州级法律合规独立评估机…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/220.htm",
+          "title": "中国软件协会吕卫锋回应“AI 替代程序员”：高度重视，支持从业人员向高附加值岗位转型",
+          "link": "https://www.ithome.com/1/001/220.htm",
+          "pubDate": "Fri, 11 Sep 2026 04:37:58 GMT",
+          "summary": "IT之家 9 月 11 日消息，工信部今日召开《“人工智能 + 软件”专项行动实施方案》新闻发布会，有记者提到智能编程普及让一些软件从业人员感到压力，社会上也有“人工智能会替代程序员”的讨论。中国软件行业协会副理事长兼秘书长吕卫锋表示，当前…",
+          "sources": [
+            "ithome"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/001/219.htm",
           "title": "奥尔特曼称 OpenAI 考虑放缓前沿 AI 开发，希望其他公司也能跟进",
@@ -22,6 +132,16 @@
           "summary": "IT之家 9 月 11 日消息，机械革命旗下 2026 款翼龙 15 Air 笔记本新增的 AMD 锐龙 7 H 449 处理器版本目前已在京东发售，该机搭载 24GB RAM 和 1TB SSD，匹配 RTX5060 Laptop 显卡，…",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/487176.html",
+          "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+          "link": "https://www.qbitai.com/2026/09/487176.html",
+          "pubDate": "Fri, 11 Sep 2026 03:57:32 +0000",
+          "summary": "今年12月，北京，MEET2027智能未来大会！",
+          "sources": [
+            "qbitai"
           ]
         },
         {
