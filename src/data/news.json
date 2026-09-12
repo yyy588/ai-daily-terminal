@@ -1,9 +1,69 @@
 {
-  "generatedAt": "2026-09-12T04:27:20.060Z",
+  "generatedAt": "2026-09-12T07:21:57.175Z",
   "digests": [
     {
       "date": "2026-09-12",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/001/578.htm",
+          "title": "国家超算互联网注册用户量突破 170 万，国产算力占比超 95%",
+          "link": "https://www.ithome.com/1/001/578.htm",
+          "pubDate": "Sat, 12 Sep 2026 06:58:00 GMT",
+          "summary": "IT之家 9 月 12 日消息，据界面新闻报道，9 月 12 日，中科曙光副总裁曹振南在 2026 中国算力大会主论坛上披露，国家超算互联网注册用户量已突破 170 万，累计完成作业量突破 2.7 亿个，国产算力占比超 95%。曹振南介绍，…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ifanr.com/1679877",
+          "title": "刚刚，Apple Watch 成为了苹果最新的 AI 硬件",
+          "link": "https://www.ifanr.com/1679877?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Sat, 12 Sep 2026 06:08:51 +0000",
+          "summary": "刚刚，Apple Watch 成为了苹果最新的 AI 硬件#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/487688.html",
+          "title": "Kimi突发K2.8：性能逼近K3，百万上下文全员开放",
+          "link": "https://www.qbitai.com/2026/09/487688.html",
+          "pubDate": "Sat, 12 Sep 2026 05:58:41 +0000",
+          "summary": "冲刺港股IPO",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/557.htm",
+          "title": "荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元",
+          "link": "https://www.ithome.com/1/001/557.htm",
+          "pubDate": "Sat, 12 Sep 2026 05:23:59 GMT",
+          "summary": "IT之家 9 月 12 日消息，荣耀现已在京东上架荣耀亲选 DigaCite AI 相册管家，该产品可以看作是一款平板电脑，定价 1199 元，首发价 999 元。京东荣耀亲选 DigaCiteAI 相册管家券后 999 元领 200 元券…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/554.htm",
+          "title": "25 位菲尔兹奖得主联合警告“AI 在数学领域严重错位”，邓煜调侃要退休回家写百合小说",
+          "link": "https://www.ithome.com/1/001/554.htm",
+          "pubDate": "Sat, 12 Sep 2026 04:55:37 GMT",
+          "summary": "IT之家 9 月 12 日消息，当地时间 9 月 11 日，陶哲轩、邓煜、彼得 · 舒尔茨（Peter Scholze）等 25 位菲尔兹奖得主作为最初签署人，联合发表声明《人工智能在数学中的严重错位》（A Severe Misalignm…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/487653.html",
+          "title": "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神",
+          "link": "https://www.qbitai.com/2026/09/487653.html",
+          "pubDate": "Sat, 12 Sep 2026 04:53:58 +0000",
+          "summary": "25位菲尔兹奖得主联名吹哨",
+          "sources": [
+            "qbitai"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/001/524.htm",
           "title": "英伟达 DLSS 5 混合精度 Mod 测试：RTX 50 系列显卡性能仅提升 1% 至 2%",
