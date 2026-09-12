@@ -1,6 +1,171 @@
 {
-  "generatedAt": "2026-09-11T16:42:24.784Z",
+  "generatedAt": "2026-09-12T04:27:20.060Z",
   "digests": [
+    {
+      "date": "2026-09-12",
+      "entries": [
+        {
+          "id": "https://www.ithome.com/1/001/524.htm",
+          "title": "英伟达 DLSS 5 混合精度 Mod 测试：RTX 50 系列显卡性能仅提升 1% 至 2%",
+          "link": "https://www.ithome.com/1/001/524.htm",
+          "pubDate": "Sat, 12 Sep 2026 02:28:34 GMT",
+          "summary": "IT之家 9 月 12 日消息，在英伟达 DLSS 5 神经渲染 DLL 文件流出后，各路民间大神纷纷下场进行调试和优化，还有 Mod 开发者尝试通过降低模型推理成本以提升游戏性能。根据 X 用户 SwurvGaming 分享的情报，有 M…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/522.htm",
+          "title": "俞敏洪：人工智能可能加剧社会贫富悬殊",
+          "link": "https://www.ithome.com/1/001/522.htm",
+          "pubDate": "Sat, 12 Sep 2026 02:23:28 GMT",
+          "summary": "11 月 12 日上午消息，在“2026 崇礼论坛”上，新东方创始人俞敏洪表示，“现在人工智能的发展呈现出一种趋势，互联网发展曾创造了无数工作机会，未来人工智能同样也会创造大量新的工作机会。但我们也会发现一个明显的倾向，人工智能正在替代普通…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/517.htm",
+          "title": "Linux 7.4 将默认启用 HDMI 2.1 FRL，支持 AMD FreeSync、VRR 与 ALLM",
+          "link": "https://www.ithome.com/1/001/517.htm",
+          "pubDate": "Sat, 12 Sep 2026 01:48:41 GMT",
+          "summary": "IT之家 9 月 12 日消息，尽管 HDMI Forum 百般阻挠，但 Linux 7.4 仍将迎来 HDMI 2.1 功能升级，新增对 AMD FreeSync、可变刷新率（VRR）及自动低延迟模式（ALLM）的支持。相关补丁已提交至 …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/514.htm",
+          "title": "微信 AI 功能密集测试：图片发送界面新增“AI 处理”，支持美化、修改与信息提取",
+          "link": "https://www.ithome.com/1/001/514.htm",
+          "pubDate": "Sat, 12 Sep 2026 01:28:27 GMT",
+          "summary": "IT之家 9 月 12 日消息，自小微 AI 灰度上线后，微信中涌现出了一大批新的 AI 功能。有多个用户反馈微信发送图片界面中新增“AI 处理”功能。如图所示，用户在聊天窗口点击图片后，底部编辑工具栏会出现该按钮。点击“AI 处理”后弹出…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/505.htm",
+          "title": "第三方公司基于三星 Galaxy Watch 8 打造 Bark Watch 儿童手表，内置 AI 风险监测功能",
+          "link": "https://www.ithome.com/1/001/505.htm",
+          "pubDate": "Sat, 12 Sep 2026 00:45:49 GMT",
+          "summary": "IT之家 9 月 12 日消息，美国科技公司 Bark Technologies 基于三星 Galaxy Watch 8 40mm 版手表进行定制，推出了一款 Bark Watch 儿童手表，面向“已经开始希望获得更多独立性的儿童”，定价为…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/503.htm",
+          "title": "国补后 3499 元起，全新一代华为 MatePad Air / 悦享款平板电脑今日开售",
+          "link": "https://www.ithome.com/1/001/503.htm",
+          "pubDate": "Sat, 12 Sep 2026 00:44:48 GMT",
+          "summary": "IT之家 9 月 12 日消息，全新一代华为 MatePad Air 平板电脑今日 10:08 正式开售，限时优惠叠加国补后到手价 4299 元起，悦享款 3499 元起。新一代 MatePad Air 延续 Air 系列的轻薄基因，机身轻…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/502.htm",
+          "title": "英伟达为 G-Sync Pulsar 显示器推送 1.1.10 固件，240Hz 下 MPRT 响应速度可降至 0.97ms",
+          "link": "https://www.ithome.com/1/001/502.htm",
+          "pubDate": "Sat, 12 Sep 2026 00:40:56 GMT",
+          "summary": "IT之家 9 月 12 日消息，英伟达近日为 G-Sync Pulsar 显示器推送 1.1.10 版固件更新，进一步提升动态画面清晰度。具体来看，G-Sync Pulsar 1.1.10 固件在 240Hz 模式、Pulse Width …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/498.htm",
+          "title": "DeepSeek 开口说话了：灰度测试 AI 语音对话，支持四种音色",
+          "link": "https://www.ithome.com/1/001/498.htm",
+          "pubDate": "Sat, 12 Sep 2026 00:17:46 GMT",
+          "summary": "IT之家 9 月 12 日消息，据IT之家小伙伴反馈，DeepSeek 灰度测试语音对话，测试到的用户在 App 右上角会有一个小喇叭按钮。此外，DeepSeek 的设置页面会出现一个“朗读音色”选项，用户可以选择四种音色：贝壳：百变活泼白…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/497.htm",
+          "title": "OpenAI 将 Habitat 从 Python 迁移至 Rust：CPU 效率提升 6 倍，服务 10 亿 ChatGPT 用户",
+          "link": "https://www.ithome.com/1/001/497.htm",
+          "pubDate": "Sat, 12 Sep 2026 00:07:04 GMT",
+          "summary": "IT之家 9 月 12 日消息，OpenAI 今日发文，主要介绍了其在线存储平台 Habitat 如何应对产品规模的快速增长，以及从 Python 迁移至 Rust 的工程实践。OpenAI 称该平台目前每秒处理超过 7000 万次请求，每…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/495.htm",
+          "title": "IT早报 0912：央视曝光 AI 中转站低价灰产；新版充电宝 3C 认证标准落地；36.9 万起特斯拉 Model Y 高性能版上市；哪吒汽车拟获 30 亿元偿债重整...",
+          "link": "https://www.ithome.com/1/001/495.htm",
+          "pubDate": "Fri, 11 Sep 2026 23:50:16 GMT",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 9 月 12 日星期六，今天的重要科技资讯有：1. 8.8 元买 5000 积分？央视曝光 AI 中转站低价灰产，小心你的代码被截留倒卖央视曝光二手平台大量低价 AI 工具积分实为第三方 AP…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/492.htm",
+          "title": "OpenAI 承认其 AI 智能体曾对 Ruby 语言包管理器 RubyGems 发起网络攻击",
+          "link": "https://www.ithome.com/1/001/492.htm",
+          "pubDate": "Fri, 11 Sep 2026 23:36:54 GMT",
+          "summary": "IT之家 9 月 12 日消息，据 《华尔街日报》当地时间周五报道，OpenAI 智能体开发人员参与了一起此前未披露的网络攻击，该攻击使 RubyGems 服务不堪重负。IT之家注：RubyGems 是 Ruby 语言的包管理器，用于创建、…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/488.htm",
+          "title": "冲刺史上最大 IPO：英伟达正洽谈为 Anthropic 投资至多 100 亿美元",
+          "link": "https://www.ithome.com/1/001/488.htm",
+          "pubDate": "Fri, 11 Sep 2026 23:22:39 GMT",
+          "summary": "IT之家 9 月 12 日消息，路透社刚刚报道称，英伟达正与 Anthropic 洽谈，考虑以基石投资者身份参与其 IPO，考虑投资至多 100 亿美元（现汇率约合 672.8 亿元人民币）。报道称，Anthropic 计划通过上市融资最多…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/485.htm",
+          "title": "OpenAI 进一步完善 ChatGPT Sites：响应速度提升、新增协作功能、可绑定自定义域名",
+          "link": "https://www.ithome.com/1/001/485.htm",
+          "pubDate": "Fri, 11 Sep 2026 23:10:51 GMT",
+          "summary": "IT之家 9 月 12 日消息，OpenAI 宣布进一步完善 ChatGPT Sites 功能，新增一项“Build Together”协作功能，允许用户邀请其他人共同开发同一个网站 / Web 应用。公开信息显示，ChatGPT Site…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/483.htm",
+          "title": "2026 年度《时代》杂志全球最佳企业榜单公布：英伟达位居第一、苹果重返排名前三",
+          "link": "https://www.ithome.com/1/001/483.htm",
+          "pubDate": "Fri, 11 Sep 2026 23:02:52 GMT",
+          "summary": "IT之家 9 月 12 日消息，《时代（TIME）》杂志现在已公布“2026 全球最佳企业”（The World’s Best Companies 2026）榜单，英伟达位居第一，苹果则以 93.16 分排名第三。这也是苹果继 2024 年…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/481.htm",
+          "title": "Fairphone 旗下 Fairbuds 2 耳机外观谍照曝光：可选黑 / 绿双色，今年第四季度上市",
+          "link": "https://www.ithome.com/1/001/481.htm",
+          "pubDate": "Fri, 11 Sep 2026 22:55:13 GMT",
+          "summary": "IT之家 9 月 12 日消息，外媒 NieuweMobiel 现已曝光了 Fairphone 旗下 Fairbuds 2 耳机外观谍照，该机将于今年第四季度上市。从图片来看，Fairbuds 2 放弃了首代产品较为圆润的外形，改用带耳机柄…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/487631.html",
+          "title": "银行Agent上岗：4200万小微经营者可用，信贷、票据、财税一把梭",
+          "link": "https://www.qbitai.com/2026/09/487631.html",
+          "pubDate": "Fri, 11 Sep 2026 18:02:36 +0000",
+          "summary": "看清「一个真正的人」",
+          "sources": [
+            "qbitai"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-11",
       "entries": [
