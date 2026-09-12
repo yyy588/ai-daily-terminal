@@ -1,9 +1,159 @@
 {
-  "generatedAt": "2026-09-12T07:21:57.175Z",
+  "generatedAt": "2026-09-12T15:46:20.692Z",
   "digests": [
     {
       "date": "2026-09-12",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/001/656.htm",
+          "title": "算力词元贷加速全国推广，支持机房建设、GPU 服务器集群采购",
+          "link": "https://www.ithome.com/1/001/656.htm",
+          "pubDate": "Sat, 12 Sep 2026 15:10:40 GMT",
+          "summary": "IT之家 9 月 12 日消息，据央视财经今日报道，今年服贸会首次推出“金融 + 科创”的联展模式，让金融机构联合他们所赋能的科创企业同台参展。展台上除了金融产品，还有智能机械臂、运载火箭模型、人形机器人等硬科技，背后是算力贷、算力保、投贷…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/653.htm",
+          "title": "谷歌完成对创企 Mechanize 的人才收购，旨在补齐自家 AI 编程短板",
+          "link": "https://www.ithome.com/1/001/653.htm",
+          "pubDate": "Sat, 12 Sep 2026 14:53:32 GMT",
+          "summary": "IT之家 9 月 12 日消息，据《商业内幕》今天（12 日）凌晨报道，谷歌完成了对旧金山 AI 编程初创企业 Mechanize 的人才收购。Mechanize 联合创始人塔迈 · 贝西罗格鲁的 LinkedIn 资料显示，他自 8 月起…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/651.htm",
+          "title": "Anthropic CEO 阿莫迪称 AI 行业应当放缓发展速度",
+          "link": "https://www.ithome.com/1/001/651.htm",
+          "pubDate": "Sat, 12 Sep 2026 14:43:06 GMT",
+          "summary": "IT之家 9 月 12 日消息，Anthropic CEO 达里奥 · 阿莫迪（Dario Amodei）今日发文，称人工智能行业应当放缓发展速度。阿莫迪表示，从 2026 年夏季开始，AI 协助构建下一代 AI 的能力快速演进，若不加节制…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/650.htm",
+          "title": "中国移动发布 AI 可信计算：提供多形态机密算力和机密 Token",
+          "link": "https://www.ithome.com/1/001/650.htm",
+          "pubDate": "Sat, 12 Sep 2026 14:27:39 GMT",
+          "summary": "IT之家 9 月 12 日消息，9 月 12 日，在 2026 中国算力大会主论坛上，中国移动正式发布 AI 可信计算（AITC），并启动 AI 可信计算生态共建战略合作。据介绍，中国移动率先布局 AI 可信计算，基于移动云全栈国产化算力底…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/641.htm",
+          "title": "英伟达发起《NBA 2K27》DLSS 5 截图挑战，将送出 4 张 RTX 5090 显卡",
+          "link": "https://www.ithome.com/1/001/641.htm",
+          "pubDate": "Sat, 12 Sep 2026 13:05:13 GMT",
+          "summary": "IT之家 9 月 12 日消息，英伟达宣布推出《NBA 2K27》DLSS 5“海报挑战赛”，奖品是 4 张定制 RTX 5090 显卡。参赛者可以使用 RTX 50 系列显卡开启 DLSS 5，在《NBA 2K27》中截取游戏画面或视频，…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/634.htm",
+          "title": "中国工程院院士邬贺铨：2030 年中国算力有望占到全球 30%",
+          "link": "https://www.ithome.com/1/001/634.htm",
+          "pubDate": "Sat, 12 Sep 2026 12:14:05 GMT",
+          "summary": "IT之家 9 月 12 日消息，据中国算力大会官方，9 月 12 日，在 2026 中国算力大会主论坛上，中国工程院院士邬贺铨指出，智能体的出现带动了 Token 的消费。今年 3 月，Token 的消费已经达到日均 140 万亿。随着技术…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/633.htm",
+          "title": "“Claude Code 之父”切尔尼谈 AI 编程：开发者核心职责是守住代码质量",
+          "link": "https://www.ithome.com/1/001/633.htm",
+          "pubDate": "Sat, 12 Sep 2026 12:12:14 GMT",
+          "summary": "IT之家 9 月 12 日消息，据《商业内幕》报道，随着 AI 彻底改变软件开发，Anthropic Claude Code 创作者鲍里斯 · 切尔尼认为，开发者真正需要守住的不是亲手写下每一行代码，而是代码质量本身。当地时间 10 日，切…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/487860.html",
+          "title": "“算力中国·年度卓越成就”发布 太初元碁超智融合计算系统入选",
+          "link": "https://www.qbitai.com/2026/09/487860.html",
+          "pubDate": "Sat, 12 Sep 2026 11:38:16 +0000",
+          "summary": "太初（杭州）集成电路有限公司新一代超智融合计算系统元碁Hypertintellix入选“算力中国·年度卓越成就”。",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/625.htm",
+          "title": "绿联发布 AI NAS iDX6011 Pro：酷睿 Ultra 7 255H、内存 64GB，首发价 15999 元",
+          "link": "https://www.ithome.com/1/001/625.htm",
+          "pubDate": "Sat, 12 Sep 2026 10:50:08 GMT",
+          "summary": "IT之家 9 月 12 日消息，绿联今日发布了 AI NAS iDX6011 Pro，日常价 19999 元，首发到手价 15999 元。这款新品搭载英特尔酷睿 Ultra 7 255H 处理器（16 核心 16 线程），64GB LPDD…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/487796.html",
+          "title": "A社承认Claude安全对齐存在缺陷，但“尚无解决方案”",
+          "link": "https://www.qbitai.com/2026/09/487796.html",
+          "pubDate": "Sat, 12 Sep 2026 08:49:02 +0000",
+          "summary": "Claude越界攻击真实系统，并非只是测试系统的设置问题，模型本身的安全问题也出了问题。",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/487752.html",
+          "title": "探索RSI，生数新世界模型让机器人开始自我进化",
+          "link": "https://www.qbitai.com/2026/09/487752.html",
+          "pubDate": "Sat, 12 Sep 2026 08:15:31 +0000",
+          "summary": "触觉、记忆、Ego数据、自进化……这个世界模型全都有",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/590.htm",
+          "title": "开源 AI 移动自动化项目 Minitap 指控谷歌盗用自家代码，且起初未注明出处",
+          "link": "https://www.ithome.com/1/001/590.htm",
+          "pubDate": "Sat, 12 Sep 2026 08:07:48 GMT",
+          "summary": "IT之家 9 月 12 日消息，据外媒 Neowin 今天（12 日）报道，Minitap 联合创始人兼 CEO 尼古拉 · 德汉舒韦克公开指控谷歌未经适当署名，使用了 Minitap 的代码、提示词和测试用例。被用于谷歌的 Artemis…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/587.htm",
+          "title": "Anthropic 研究员警告“AI 灭绝人类”后，美国两党议员呼吁政府采取更多行动",
+          "link": "https://www.ithome.com/1/001/587.htm",
+          "pubDate": "Sat, 12 Sep 2026 07:54:20 GMT",
+          "summary": "IT之家 9 月 12 日消息，在 Anthropic 两名研究人员警告称，快速发展的 AI 可能在不久的将来导致人类灭绝后，越来越多美国议员开始呼吁出台新的 AI 监管规则。本周，Anthropic 研究员雅各布 · 考克森宣布辞职。“真…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/487701.html",
+          "title": "AI数学的最后一道高墙，塌了！GPT-6 Astra刷穿FrontierMath Tier 4",
+          "link": "https://www.qbitai.com/2026/09/487701.html",
+          "pubDate": "Sat, 12 Sep 2026 07:33:54 +0000",
+          "summary": "FrontierMath Tier 4，饱和了",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/582.htm",
+          "title": "Hugging Face CEO：Anthropic 研究员谈 AI 灭绝风险，就像空调维修工谈气候变化",
+          "link": "https://www.ithome.com/1/001/582.htm",
+          "pubDate": "Sat, 12 Sep 2026 07:23:20 GMT",
+          "summary": "IT之家 9 月 12 日消息，Hugging Face CEO 克莱门特 · 德朗格质疑了外界围绕前 Anthropic 研究人员雅各布 · 考克森展开的讨论。考克森曾提出，AI 从业者私下担忧这项技术最终可能导致全人类灭亡。对此，德朗格…",
+          "sources": [
+            "ithome"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/001/578.htm",
           "title": "国家超算互联网注册用户量突破 170 万，国产算力占比超 95%",

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-12T07:21:58.335Z",
+  "generatedAt": "2026-09-12T15:46:21.843Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
       "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-      "stars": 1157,
+      "stars": 1169,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
@@ -12,15 +12,23 @@
     {
       "fullName": "xiaYuTian11/maskit",
       "description": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
-      "stars": 160,
+      "stars": 186,
       "language": "Python",
       "url": "https://github.com/xiaYuTian11/maskit",
       "createdAt": "2026-09-09T12:36:06Z"
     },
     {
+      "fullName": "aimeoa/hanshuang-codex",
+      "description": "针对GPT 6.0,V4flash的破甲实验项目",
+      "stars": 119,
+      "language": "Python",
+      "url": "https://github.com/aimeoa/hanshuang-codex",
+      "createdAt": "2026-09-06T08:42:57Z"
+    },
+    {
       "fullName": "jiukemi/JY_IPAgent",
       "description": "AI口播智能体,实体口播作弊神器",
-      "stars": 117,
+      "stars": 119,
       "language": "Python",
       "url": "https://github.com/jiukemi/JY_IPAgent",
       "createdAt": "2026-08-31T15:55:10Z"
@@ -34,17 +42,9 @@
       "createdAt": "2026-09-01T17:49:12Z"
     },
     {
-      "fullName": "aimeoa/hanshuang-codex",
-      "description": "针对GPT 6.0,V4flash的破甲实验项目",
-      "stars": 109,
-      "language": "Python",
-      "url": "https://github.com/aimeoa/hanshuang-codex",
-      "createdAt": "2026-09-06T08:42:57Z"
-    },
-    {
       "fullName": "AbuZar-Ansarii/Needle",
       "description": "This 14 MB Agentic LLM(Cactus Needle 2) can control your phone completely.",
-      "stars": 106,
+      "stars": 108,
       "language": "Python",
       "url": "https://github.com/AbuZar-Ansarii/Needle",
       "createdAt": "2026-08-30T06:43:48Z"
@@ -58,25 +58,25 @@
       "createdAt": "2026-09-02T02:41:51Z"
     },
     {
-      "fullName": "Loopera-ai/loopera",
-      "description": "面向基本面因子研究的智能体-A hypothesis-driven AI agent for fundamental factor research, with evidence-gated validation and research memory.",
-      "stars": 83,
-      "language": "DOC",
-      "url": "https://github.com/Loopera-ai/loopera",
-      "createdAt": "2026-09-08T13:46:05Z"
-    },
-    {
       "fullName": "Noisyxl/brier",
       "description": "Anyone can predict the future. Almost nobody keeps the receipt. A hash-chained prediction ledger for LLMs — sealed before the answer exists, graded with proper scoring rules.",
-      "stars": 77,
+      "stars": 90,
       "language": "HTML",
       "url": "https://github.com/Noisyxl/brier",
       "createdAt": "2026-09-06T13:42:25Z"
     },
     {
+      "fullName": "Loopera-ai/loopera",
+      "description": "面向基本面因子研究的智能体-A hypothesis-driven AI agent for fundamental factor research, with evidence-gated validation and research memory.",
+      "stars": 86,
+      "language": "DOC",
+      "url": "https://github.com/Loopera-ai/loopera",
+      "createdAt": "2026-09-08T13:46:05Z"
+    },
+    {
       "fullName": "tshemsedinov/reslop",
-      "description": "Interactive terminal code review git diff with intra-line highlighting",
-      "stars": 75,
+      "description": "👁️ Review AI generated code and plan changes",
+      "stars": 82,
       "language": "JavaScript",
       "url": "https://github.com/tshemsedinov/reslop",
       "createdAt": "2026-09-06T21:28:21Z"
@@ -88,6 +88,14 @@
       "language": "JavaScript",
       "url": "https://github.com/zeroa234/ryza-ai-revive",
       "createdAt": "2026-09-02T00:52:18Z"
+    },
+    {
+      "fullName": "kunpengtalk/OmniStudio",
+      "description": "OmniStudio 是一个本地大模型一体化桌面工作台（Electrobun + React），集模型市集下载、llama.cpp/vLLM/SGLang 三引擎推理管理，以及对话、语音、图片、OCR 四大应用于一体，全程本地优先。",
+      "stars": 58,
+      "language": "TypeScript",
+      "url": "https://github.com/kunpengtalk/OmniStudio",
+      "createdAt": "2026-09-09T06:11:55Z"
     }
   ]
 }
