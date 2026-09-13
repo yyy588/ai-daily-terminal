@@ -1,6 +1,101 @@
 {
-  "generatedAt": "2026-09-12T15:46:20.692Z",
+  "generatedAt": "2026-09-13T04:39:50.360Z",
   "digests": [
+    {
+      "date": "2026-09-13",
+      "entries": [
+        {
+          "id": "https://www.qbitai.com/2026/09/488380.html",
+          "title": "OpenAI年内不上市了！奥特曼支持对手Dario呼吁：AI该踩刹车了",
+          "link": "https://www.qbitai.com/2026/09/488380.html",
+          "pubDate": "Sun, 13 Sep 2026 03:13:00 +0000",
+          "summary": "RSI太危险，得管！",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/731.htm",
+          "title": "荣耀 Play11 手机发售：骁龙 4 Gen4、AI 一键关广告弹窗，1399 元起",
+          "link": "https://www.ithome.com/1/001/731.htm",
+          "pubDate": "Sun, 13 Sep 2026 03:02:43 GMT",
+          "summary": "IT之家 9 月 13 日消息，荣耀旗下 Play11 手机现已在荣耀商城发售（点此访问），该机主打 IP69K 认证、8300mAh 电池，定价为 1399 元起，部分地区国补后低至 1189.15 元起。6GB RAM+128GB 存储…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/715.htm",
+          "title": "曜越推出 AI 工作站机箱 AX1000，支持双 SSI-EEB 系统强劲配置",
+          "link": "https://www.ithome.com/1/001/715.htm",
+          "pubDate": "Sun, 13 Sep 2026 02:10:13 GMT",
+          "summary": "IT之家 9 月 13 日消息，曜越 (Thermaltake) 近日宣布推出 AI 工作站机箱 AX1000。这一系列采用左右双系统设计，两侧均支持到 XL-ATX / SSI-EEB 主板，也都提供了 10 条扩展槽。AX1000 系列…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/714.htm",
+          "title": "贝尔金推出新款桌面充电基座：支持苹果 iPhone 25W + AirPods 5W 无线充，429 元",
+          "link": "https://www.ithome.com/1/001/714.htm",
+          "pubDate": "Sun, 13 Sep 2026 02:05:21 GMT",
+          "summary": "IT之家 9 月 13 日消息，贝尔金现已在京东上架新款二合一可折叠磁吸无线充，其支持为苹果 iPhone 提供 25W 无线充电、为 AirPods 提供 5W 无线充电，同时支持 5W 有线输出，定价为 429 元。京东贝尔金新款桌面无…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/709.htm",
+          "title": "Anthropic CEO 阿莫迪呼吁放缓前沿 AI 模型开发后，xAI 马斯克、OpenAI 奥尔特曼等业界大佬赞同",
+          "link": "https://www.ithome.com/1/001/709.htm",
+          "pubDate": "Sun, 13 Sep 2026 01:45:22 GMT",
+          "summary": "IT之家 9 月 13 日消息，Anthropic 首席执行官达里奥 · 阿莫迪昨日发文称，人工智能行业应当放缓发展速度。他认为人类如果不约束 AI，未来的技术突破速度将彻底超越人类的理解与掌控能力。据IT之家此前报道，他在文中提到了 Op…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/698.htm",
+          "title": "绿联海外发布 Nexode Air Slim 100W 超薄充电器，2C+1A",
+          "link": "https://www.ithome.com/1/001/698.htm",
+          "pubDate": "Sun, 13 Sep 2026 00:56:35 GMT",
+          "summary": "IT之家 9 月 13 日消息，绿联现已在英国市场推出 Nexode Air Slim 100W 超薄充电器，新品采用卡片式设计，拥有可折叠的英规插脚，售价 59.99 英镑（IT之家注：现汇率约合 545.2 元人民币）。据介绍，这款充电…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/688.htm",
+          "title": "IT早报 0913：央视探访无堂食外卖后厨看到店员徒手抓烤鸡；全国多所高校买商品房当学生宿舍；DeepSeek 灰度测试 AI 语音对话；“支付宝假 App”上热搜...",
+          "link": "https://www.ithome.com/1/001/688.htm",
+          "pubDate": "Sat, 12 Sep 2026 23:46:49 GMT",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 9 月 13 日星期日，今天的重要科技资讯有：1. 外卖新规实施三个月，央视探访看到店员徒手抓烤鸡、明厨亮灶摄像头对着天花板今年 6 月 1 日起，《网络餐饮服务经营者落实食品安全主体责任监督…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/685.htm",
+          "title": "育儿博主曝光 Meta AI 可抓取日常数据“汇总生成隐私家庭信息”，官方紧急修复",
+          "link": "https://www.ithome.com/1/001/685.htm",
+          "pubDate": "Sat, 12 Sep 2026 23:40:32 GMT",
+          "summary": "IT之家 9 月 13 日消息，据外媒 CNET 报道，Meta 确认现已修复 Meta AI 的一项功能缺陷。此前有媒体爆出相应功能可能主动向用户推荐涉及个人隐私的问题，并从用户可访问的信息中整理出包括儿童在内的个人资料。IT之家注意到，…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/675.htm",
+          "title": "A20 Pro 芯片 AI 跑分曝光：苹果 iPhone 18 Pro NPU 较前代最高增幅 51.53%",
+          "link": "https://www.ithome.com/1/001/675.htm",
+          "pubDate": "Sat, 12 Sep 2026 23:12:01 GMT",
+          "summary": "IT之家 9 月 13 日消息，在 CPU / GPU 跑分曝光之后，苹果 iPhone 18 Pro（对应机型 iPhone19,2）的 GeekBench AI 跑分昨日（9 月 12 日）现身，相比较 iPhone 17 Pro 最高…",
+          "sources": [
+            "ithome"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-12",
       "entries": [
