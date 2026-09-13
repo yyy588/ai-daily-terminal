@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-13T04:39:51.400Z",
+  "generatedAt": "2026-09-13T07:40:29.943Z",
   "repos": [
     {
       "fullName": "2akouwu/reverify",
       "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-      "stars": 1180,
+      "stars": 1181,
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "createdAt": "2026-08-31T01:02:18Z"
@@ -12,7 +12,7 @@
     {
       "fullName": "mizzlelover/gongwen-gbt9704-skill",
       "description": "信息安全提醒：请勿上传企业禁止对外公开的文件；可在本地或企业内网部署大模型后使用。中文公文排版 Skill：按 GB/T 9704-2012 生成可编辑 DOCX。配套 CEB：https://github.com/mizzlelover/CEB",
-      "stars": 548,
+      "stars": 554,
       "language": "JavaScript",
       "url": "https://github.com/mizzlelover/gongwen-gbt9704-skill",
       "createdAt": "2026-09-09T10:04:14Z"
@@ -34,25 +34,25 @@
       "createdAt": "2026-09-06T08:42:57Z"
     },
     {
-      "fullName": "jiukemi/JY_IPAgent",
-      "description": "AI口播智能体,实体口播作弊神器",
-      "stars": 119,
-      "language": "Python",
-      "url": "https://github.com/jiukemi/JY_IPAgent",
-      "createdAt": "2026-08-31T15:55:10Z"
-    },
-    {
       "fullName": "Loopera-ai/loopera",
       "description": "面向基本面因子研究的智能体-A hypothesis-driven AI agent for fundamental factor research, with evidence-gated validation and research memory.",
-      "stars": 118,
+      "stars": 123,
       "language": "DOC",
       "url": "https://github.com/Loopera-ai/loopera",
       "createdAt": "2026-09-08T13:46:05Z"
     },
     {
+      "fullName": "jiukemi/JY_IPAgent",
+      "description": "AI口播智能体,实体口播作弊神器",
+      "stars": 121,
+      "language": "Python",
+      "url": "https://github.com/jiukemi/JY_IPAgent",
+      "createdAt": "2026-08-31T15:55:10Z"
+    },
+    {
       "fullName": "peter123023/awesome-free-llm-api",
       "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
-      "stars": 115,
+      "stars": 116,
       "language": "DOC",
       "url": "https://github.com/peter123023/awesome-free-llm-api",
       "createdAt": "2026-09-01T17:49:12Z"
@@ -76,7 +76,7 @@
     {
       "fullName": "tshemsedinov/reslop",
       "description": "👁️ Review AI generated code and plan changes",
-      "stars": 86,
+      "stars": 87,
       "language": "JavaScript",
       "url": "https://github.com/tshemsedinov/reslop",
       "createdAt": "2026-09-06T21:28:21Z"
@@ -84,7 +84,7 @@
     {
       "fullName": "zeroa234/ryza-ai-revive",
       "description": "Ryza AI companion. Bring your own LLM/TTS. 莱莎 AI 陪伴，自填大模型与语音。",
-      "stars": 75,
+      "stars": 81,
       "language": "JavaScript",
       "url": "https://github.com/zeroa234/ryza-ai-revive",
       "createdAt": "2026-09-02T00:52:18Z"
@@ -92,7 +92,7 @@
     {
       "fullName": "kunpengtalk/OmniStudio",
       "description": "OmniStudio 是一个本地大模型一体化桌面工作台（Electrobun + React），集模型市集下载、llama.cpp/vLLM/SGLang 三引擎推理管理，以及对话、语音、图片、OCR 四大应用于一体，全程本地优先。",
-      "stars": 63,
+      "stars": 64,
       "language": "TypeScript",
       "url": "https://github.com/kunpengtalk/OmniStudio",
       "createdAt": "2026-09-09T06:11:55Z"
@@ -100,7 +100,7 @@
     {
       "fullName": "1554151614-maker/pan-campus-agent",
       "description": "基于 Spring Boot 与 LLM 的校园多模态智能体系统（星辰校园百事通），支持动态层级 RAG、多轮对话记忆与 ReAct 思考链路追踪。",
-      "stars": 51,
+      "stars": 52,
       "language": "Java",
       "url": "https://github.com/1554151614-maker/pan-campus-agent",
       "createdAt": "2026-09-07T07:40:09Z"

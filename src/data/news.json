@@ -1,9 +1,59 @@
 {
-  "generatedAt": "2026-09-13T04:39:50.360Z",
+  "generatedAt": "2026-09-13T07:40:28.862Z",
   "digests": [
     {
       "date": "2026-09-13",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/001/793.htm",
+          "title": "国内首个国产 GPU + 类脑芯片大模型异构混合推理系统发布，较同类国产 GPU 算力集群性价比提升一倍以上",
+          "link": "https://www.ithome.com/1/001/793.htm",
+          "pubDate": "Sun, 13 Sep 2026 07:32:12 GMT",
+          "summary": "IT之家 9 月 13 日消息，9 月 11 日至 13 日，2026 中国算力大会在河北廊坊举行。由移动云公司联合中国电子科技南湖研究院、北京灵汐科技、上海天数智芯、清华大学、北京大学共同打造的国内首个国产 GPU + 类脑芯片大模型异构…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/786.htm",
+          "title": "我国实现一体化算力统筹监测，有序推动全国 31 个省区市对接入网",
+          "link": "https://www.ithome.com/1/001/786.htm",
+          "pubDate": "Sun, 13 Sep 2026 07:17:56 GMT",
+          "summary": "IT之家 9 月 13 日消息，据央视新闻今日报道，记者从工业和信息化部了解到，中国算力平台已实现全国一体化算力统筹监测，我国算力“一张网、一盘棋、一体化”发展格局基本形成。IT之家从报道获悉，中国算力平台是国家级综合性算力服务平台，目前已…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/757.htm",
+          "title": "华为 HarmonyOS 粒子动效适配设备清单调整，Mate 70 Air 等升级 7.0.0.105SP10 版本后支持",
+          "link": "https://www.ithome.com/1/001/757.htm",
+          "pubDate": "Sun, 13 Sep 2026 06:53:01 GMT",
+          "summary": "IT之家 9 月 13 日消息，华为官网近日调整了沉浸光感和粒子动效设备支持清单，Mate 60 系列、Mate X5 系列、Mate XT 系列、Pura 70 系列等目前显示“暂不支持”。另外，Mate 70 和 Mate 70 Air…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/001/755.htm",
+          "title": "车主手册披露：特斯拉 Grok 将支持语音收发短信功能",
+          "link": "https://www.ithome.com/1/001/755.htm",
+          "pubDate": "Sun, 13 Sep 2026 06:43:03 GMT",
+          "summary": "IT之家 9 月 13 日消息，特斯拉借助 Grok，持续把车载语音控制从基础关键词指令，升级成一套完整的对话助手。自从 SpaceX AI 的聊天程序登陆特斯拉车机屏幕后，工程师不断拓展其功能，让驾驶员双手不用离开方向盘就能完成更多操作。…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/488447.html",
+          "title": "今年外滩最特别Agent：能干活，能陪聊，还会朋友圈拉黑你",
+          "link": "https://www.qbitai.com/2026/09/488447.html",
+          "pubDate": "Sun, 13 Sep 2026 06:40:25 +0000",
+          "summary": "Agent的下一步是关系型生产力",
+          "sources": [
+            "qbitai"
+          ]
+        },
         {
           "id": "https://www.qbitai.com/2026/09/488380.html",
           "title": "OpenAI年内不上市了！奥特曼支持对手Dario呼吁：AI该踩刹车了",
