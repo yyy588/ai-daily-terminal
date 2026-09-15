@@ -1,6 +1,121 @@
 {
-  "generatedAt": "2026-09-14T18:09:16.696Z",
+  "generatedAt": "2026-09-15T04:47:26.327Z",
   "digests": [
+    {
+      "date": "2026-09-15",
+      "entries": [
+        {
+          "id": "https://www.ithome.com/1/002/520.htm",
+          "title": "比尔 · 盖茨：中美大模型各有 4 家能够保持最先进水平，中国人形机器人运动会非常有意思",
+          "link": "https://www.ithome.com/1/002/520.htm",
+          "pubDate": "Tue, 15 Sep 2026 04:26:40 GMT",
+          "summary": "今日，盖茨基金会掏出 10 亿美元“砸”向人工智能，宣布将在未来两年花费重金，推动这项前沿技术不只为富人服务，也能帮最贫困的人改变命运。在发布前夕，新浪科技与盖茨基金会主席比尔 · 盖茨展开了一场小范围对话。在交流中，盖茨不仅高度评价“中国…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/515.htm",
+          "title": "惠普战 X Pro 锐龙版上市：锐龙 AI 9 HX Pro 470、64GB + 2TB 存储，29999 元",
+          "link": "https://www.ithome.com/1/002/515.htm",
+          "pubDate": "Tue, 15 Sep 2026 04:00:26 GMT",
+          "summary": "IT之家 9 月 15 日消息，惠普战 X Pro 14 2026 锐龙版现已在京东上架开售，采用高雅尊爵蓝配色，搭载 AMD 锐龙 AI 9 HX Pro 470 处理器，配备 64GB 内存、2TB 固态硬盘，定价 29999 元。京东…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/511.htm",
+          "title": "国家统计局：截至 6 月末我国已建成 70 余条算力大通道",
+          "link": "https://www.ithome.com/1/002/511.htm",
+          "pubDate": "Tue, 15 Sep 2026 03:45:19 GMT",
+          "summary": "IT之家 9 月 15 日消息，国务院新闻办公室今日上午召开新闻发布会，国家统计局相关负责人介绍 8 月份国民经济运行情况，并答记者问。据央视新闻报道，发布会上介绍，今年是“十五五”开局之年，包括“六张网”在内的一批重大工程项目陆续开工建设…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/482.htm",
+          "title": "国补后 38499 元七彩虹灵创 K16 顶配版开售：AMD 锐龙 AI Max+ 395，128GB 内存 + 4TB 存储",
+          "link": "https://www.ithome.com/1/002/482.htm",
+          "pubDate": "Tue, 15 Sep 2026 03:12:32 GMT",
+          "summary": "IT之家 9 月 15 日消息，七彩虹旗下灵创 K16 游戏本新推出的 128GB RAM + 4TB SSD 版本现已开售。该机搭载 AMD 锐龙 AI Max+ 395 处理器，定价为 39999 元，叠加国补后 38499 元。京东七…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/471.htm",
+          "title": "字节跳动 CEO 梁汝波：过去 50 年 IT 领域共出现四次发展高峰，AI 高峰远超前三次",
+          "link": "https://www.ithome.com/1/002/471.htm",
+          "pubDate": "Tue, 15 Sep 2026 02:46:18 GMT",
+          "summary": "IT之家 9 月 15 日消息，据财联社报道，字节跳动 CEO 梁汝波今日在飞书未来无限暨豆包工作开工大会上表示，过去 50 年 IT 领域共出现 PC、Web、Mobile、AI 四次发展高峰，AI 高峰远超此前三次的高度。梁汝波认为，高…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/454.htm",
+          "title": "英伟达黄仁勋大会现场公开接特朗普电话，后者斥责 AI 危险论是骗局",
+          "link": "https://www.ithome.com/1/002/454.htm",
+          "pubDate": "Tue, 15 Sep 2026 02:36:47 GMT",
+          "summary": "IT之家 9 月 15 日消息，美国总统唐纳德 · 特朗普当地时间周一在一次行业峰会上致电英伟达 CEO 黄仁勋，并在免提电话中再次全力为 AI 辩护。IT之家注意到，特朗普将对 AI 安全的担忧称为“骗局”，并在大会上告诉黄仁勋：“机器人…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/450.htm",
+          "title": "WPS 多端支持 Markdown：新增源码与所见即所得模式，支持公式与 Mermaid 图表",
+          "link": "https://www.ithome.com/1/002/450.htm",
+          "pubDate": "Tue, 15 Sep 2026 02:35:20 GMT",
+          "summary": "IT之家 9 月 15 日消息，WPS 官方今日发文宣布，WPS 现已支持 Markdown 格式文档的编辑与预览。用户现在可在 WPS 中打开、编辑和保存 Markdown 文件。Windows、Mac 和 Web 端均支持该功能。IT之…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/421.htm",
+          "title": "消息称英国国王查尔斯三世本周将会见多家科技巨头高管，讨论 AI 治理话题",
+          "link": "https://www.ithome.com/1/002/421.htm",
+          "pubDate": "Tue, 15 Sep 2026 02:18:23 GMT",
+          "summary": "IT之家 9 月 15 日消息，综合《镜报》、路透社、纽约时报等媒体报道，英国国王查尔斯三世计划本周在苏格兰邓弗里斯主持一场峰会，邀请多家科技巨头高管共同讨论 AI 话题。据悉此次会议受邀人士包括 NVIDIA 首席执行官黄仁勋、谷歌 De…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/489227.html",
+          "title": "7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开",
+          "link": "https://www.qbitai.com/2026/09/489227.html",
+          "pubDate": "Tue, 15 Sep 2026 02:17:34 +0000",
+          "summary": "几百个Agent参与研发，AI开始造AI",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/409.htm",
+          "title": "白宫科技顾问抨击 Anthropic 和 OpenAI：你们要自己制造安全产品，别老想着靠政府干预",
+          "link": "https://www.ithome.com/1/002/409.htm",
+          "pubDate": "Tue, 15 Sep 2026 01:52:25 GMT",
+          "summary": "IT之家 9 月 15 日消息，据彭博社今日报道，美国总统科学与技术顾问委员会联合主席戴维 · 萨克斯（David Sack）当地时间周一在接受采访时表示，顶级人工智能公司 Anthropic 和 OpenAI 应当制造安全产品 —— 并在…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/405.htm",
+          "title": "谷歌调整内部政策，允许全体工程师使用 Anthropic Claude",
+          "link": "https://www.ithome.com/1/002/405.htm",
+          "pubDate": "Tue, 15 Sep 2026 01:39:05 GMT",
+          "summary": "IT之家 9 月 15 日消息，据 Business Insider 今日报道，谷歌已向全公司工程师开放 Anthropic Claude 模型的使用权限。在此之前，谷歌通常要求员工使用自家 Gemini。知情人士称，谷歌通过内部开发平台 …",
+          "sources": [
+            "ithome"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-14",
       "entries": [
