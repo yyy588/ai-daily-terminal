@@ -1,9 +1,209 @@
 {
-  "generatedAt": "2026-09-15T04:47:26.327Z",
+  "generatedAt": "2026-09-15T08:02:54.683Z",
   "digests": [
     {
       "date": "2026-09-15",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/002/606.htm",
+          "title": "英伟达 RTX 5090 美国官方渠道现货枯竭，第三方要价高达 9500 美元",
+          "link": "https://www.ithome.com/1/002/606.htm",
+          "pubDate": "Tue, 15 Sep 2026 07:58:30 GMT",
+          "summary": "IT之家 9 月 15 日消息，据 Tom's Hardware 报道，英伟达旗下性能最强的游戏显卡 RTX 5090，在过去数周持续涨价。而在上周，美国市场这款显卡的现货库存进一步枯竭。如今，消费者只能在新蛋、亚马逊等线上零售平台的第三方…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/605.htm",
+          "title": "CrowdStrike CEO 反对放缓前沿 AI 开发，称潘多拉魔盒已打开",
+          "link": "https://www.ithome.com/1/002/605.htm",
+          "pubDate": "Tue, 15 Sep 2026 07:57:55 GMT",
+          "summary": "IT之家 9 月 15 日消息，网络安全公司 CrowdStrike CEO 乔治 · 柯兹（George Kurtz）昨日接受 CNBC 采访时候，谈到 Anthropic CEO 达里奥 · 阿莫迪提出的“放缓前沿 AI 开发速度”想法…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/602.htm",
+          "title": "阶跃发布 StepAudio 3 系列语音大模型，拿下多个全球第一",
+          "link": "https://www.ithome.com/1/002/602.htm",
+          "pubDate": "Tue, 15 Sep 2026 07:45:40 GMT",
+          "summary": "IT之家 9 月 15 日消息，今日阶跃正式发布 StepAudio3 系列模型，包括 StepAudio3Realtime、StepAudio3ASR、StepAudio3TTS、StepAudio3Gen 和 StepAudio3Mus…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/599.htm",
+          "title": "“大空头”伯里谈科技巨头呼吁放缓 AI 开发：说白了还是为自己谋利",
+          "link": "https://www.ithome.com/1/002/599.htm",
+          "pubDate": "Tue, 15 Sep 2026 07:35:16 GMT",
+          "summary": "IT之家 9 月 15 日消息，在新一轮 AI 可能毁灭全人类的警告出现后，OpenAI CEO 萨姆 · 奥尔特曼、Anthropic CEO 达里奥 · 阿莫迪等 AI 企业负责人呼吁放慢技术发展。因《大空头》而闻名的投资者迈克尔 · …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/595.htm",
+          "title": "TDK 计划斥资 400 亿日元提升薄膜电感产能，应对 AI 产业需求提升",
+          "link": "https://www.ithome.com/1/002/595.htm",
+          "pubDate": "Tue, 15 Sep 2026 07:25:38 GMT",
+          "summary": "IT之家 9 月 15 日消息，《日经亚洲》当地时间昨日报道称，日本企业 TDK（东电化）计划未来 3 年向两家本土工厂投资约 400 亿日元（IT之家注：现汇率约合 17.41 亿元人民币）以提升薄膜电感器的产能，应对 AI 产业对此类稳…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/592.htm",
+          "title": "比尔 · 盖茨：各国政府尚未准备好应对 AI 带来的社会变革",
+          "link": "https://www.ithome.com/1/002/592.htm",
+          "pubDate": "Tue, 15 Sep 2026 07:16:51 GMT",
+          "summary": "IT之家 9 月 15 日消息，比尔 · 盖茨（Bill Gates）在接受路透社采访时警示了人工智能未来潜藏的各类风险，他表示，世界上没有任何一个国家的政府，已经准备好应对人工智能将给社会带来的变革。这位微软联合创始人、亿万富翁慈善家此前…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/562.htm",
+          "title": "行业呼吁控制 AI 研发节奏：投资者担忧资本开支降温，半导体板块承压",
+          "link": "https://www.ithome.com/1/002/562.htm",
+          "pubDate": "Tue, 15 Sep 2026 06:59:24 GMT",
+          "summary": "IT之家 9 月 15 日消息，据路透社报道，在行业领军人物呼吁控制 AI 研发节奏后，投资者对由 AI 带动的股市上涨行情开始心生不安，不过也有人认为，监管约束最终或将利好 AI 行业。上周末，在接连传出 AI 可能危及人类的悲观论断之后…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/557.htm",
+          "title": "联想推出 IdeaCentre AIO 24IWC11 一体机：至高酷睿 7 350 处理器，24 寸 1080P 屏幕",
+          "link": "https://www.ithome.com/1/002/557.htm",
+          "pubDate": "Tue, 15 Sep 2026 06:58:09 GMT",
+          "summary": "IT之家 9 月 15 日消息，联想现已在海外市场推出 IdeaCentre AIO 24IWC11 一体机，新品采用英特尔 Wildcat Lake 平台，配备 120Hz 屏幕。据介绍，这款一体机的入门配置采用 24 英寸 1080P …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/554.htm",
+          "title": "联发科技陈冠州：Token 经济时代来临，智能体将引爆 Token 消耗 & 市场规模",
+          "link": "https://www.ithome.com/1/002/554.htm",
+          "pubDate": "Tue, 15 Sep 2026 06:54:28 GMT",
+          "summary": "IT之家 9 月 15 日消息，在今天的 2026 年联发科天玑旗舰新品发布会上，联发科技董事、总经理暨营运长陈冠州率先登台发表了主题演讲，重点谈及了 GAI 和 Token 经济。陈冠州表示，2023 年～2026 年全球半导体行业 TA…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/547.htm",
+          "title": "谷歌 DeepMind 前员工警告：AI 有能力灭绝人类，留给我们的时间已不多",
+          "link": "https://www.ithome.com/1/002/547.htm",
+          "pubDate": "Tue, 15 Sep 2026 06:48:40 GMT",
+          "summary": "IT之家 9 月 15 日消息，据路透社报道，谷歌 DeepMind 前员工于周一成为最新一位发出警告的 AI 研究者，他称这项技术有可能“灭绝全人类”，想要避免这一结局，留给人类的时间或许已经不多。公众对人工智能潜在危险的担忧正在加剧。此…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ifanr.com/1680138",
+          "title": "豆包工作和飞书，把中国第一个团队 Agent 拉进了工作群",
+          "link": "https://www.ifanr.com/1680138?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Tue, 15 Sep 2026 06:39:55 +0000",
+          "summary": "为团队而生的办公 Agent#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/542.htm",
+          "title": "微信员工辟谣 AI 助手小微“直接读取聊天记录”、“偷看所有隐私”：都是失实的",
+          "link": "https://www.ithome.com/1/002/542.htm",
+          "pubDate": "Tue, 15 Sep 2026 06:32:24 GMT",
+          "summary": "IT之家 9 月 15 日消息，微信员工 @客村小蒋 刚刚发文谈及了微信 AI 助手小微，并针对该功能的隐私问题进行了说明。IT之家附微信员工 @客村小蒋 微博原文如下：还是跟大家聊聊我们在小范围内测的微信小微，这是个微信团队自己开发的原生…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/540.htm",
+          "title": "网友测试阿里 Qwen3.8-27B AI 模型极限：单张 RTX 3090 约 5 小时开发出僵尸射击游戏",
+          "link": "https://www.ithome.com/1/002/540.htm",
+          "pubDate": "Tue, 15 Sep 2026 06:14:32 GMT",
+          "summary": "IT之家 9 月 15 日消息，网友 u/EcstaticDentist 昨日（9 月 14 日）在 Reddit 社区发帖，在单张超频 RTX 3090 显卡上，耗时约 5 小时，通过 2 套 Harness 方案，调用 Q4KM 量化版…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/531.htm",
+          "title": "冲击英伟达护城河：开源项目让 AMD RX 9060 XT 显卡跑通部分 CUDA 库",
+          "link": "https://www.ithome.com/1/002/531.htm",
+          "pubDate": "Tue, 15 Sep 2026 05:52:41 GMT",
+          "summary": "IT之家 9 月 15 日消息，科技媒体 Tom's Hardware 昨日（9 月 14 日）发布博文，报道称开源项目 CUDA-for-AMD-Windows 正冲击英伟达的 CUDA 护城河，已在 AMD Radeon RX 9060…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/530.htm",
+          "title": "消息称英伟达内部限制使用 Anthropic 和 OpenAI 的前沿模型，敏感数据改用自家 AI",
+          "link": "https://www.ithome.com/1/002/530.htm",
+          "pubDate": "Tue, 15 Sep 2026 05:52:32 GMT",
+          "summary": "IT之家 9 月 15 日消息，据《The Information》昨日报道，包括英伟达、Palantir Technologies 和 Booz Allen Hamilton 在内的主要企业客户，因担忧专有企业数据的处理方式，正在限制使用…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/489288.html",
+          "title": "前OpenAI后训练VP回应陶哲轩：说AI毁了数学，可能还是太小瞧AI了",
+          "link": "https://www.qbitai.com/2026/09/489288.html",
+          "pubDate": "Tue, 15 Sep 2026 05:39:10 +0000",
+          "summary": "未来的AI不仅能解决问题，还能提出有价值的洞见、建立新的概念框架，让数学家在此基础上继续探索。",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/526.htm",
+          "title": "微软 CEO 纳德拉发布警告：AI 必须处于人类控制之下，支持更广泛的第三方测试",
+          "link": "https://www.ithome.com/1/002/526.htm",
+          "pubDate": "Tue, 15 Sep 2026 05:29:28 GMT",
+          "summary": "IT之家 9 月 15 日消息，当地时间 9 月 14 日晚，微软 CEO 萨提亚 · 纳德拉在公司留言板发布内部备忘录，就 AI 行业是否发展过快发表看法。他表示，AI 应保持在人类控制之下，支持更广泛的第三方测试，并警告公司必须花时间确…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/489277.html",
+          "title": "9月21日，深圳前海！聊聊工业AI与生态共创的下一步",
+          "link": "https://www.qbitai.com/2026/09/489277.html",
+          "pubDate": "Tue, 15 Sep 2026 05:20:30 +0000",
+          "summary": "西门子Xcelerator繁星生态大会，在生态合作中共赢机遇",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ifanr.com/1680134",
+          "title": "iOS 27 正式版体验：Siri AI 终于开窍了，老 iPhone 升级也有新东西",
+          "link": "https://www.ifanr.com/1680134?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Tue, 15 Sep 2026 05:00:50 +0000",
+          "summary": "值得升级。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/524.htm",
+          "title": "苹果 54 项 iOS / iPadOS 27 隐藏新功能 / 新特性汇总：打磨细节、聚焦 AI",
+          "link": "https://www.ithome.com/1/002/524.htm",
+          "pubDate": "Tue, 15 Sep 2026 04:48:56 GMT",
+          "summary": "IT之家 9 月 15 日消息，MacStories 主编费德里科 · 维蒂奇（Federico Viticci）今天（9 月 15 日）发布博文，梳理汇总了 54 条苹果 iOS / iPadOS 27 系统的隐藏新功能 / 新特性。整体…",
+          "sources": [
+            "ithome"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/002/520.htm",
           "title": "比尔 · 盖茨：中美大模型各有 4 家能够保持最先进水平，中国人形机器人运动会非常有意思",

@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-09-15T04:47:27.495Z",
+  "generatedAt": "2026-09-15T08:02:55.812Z",
   "repos": [
     {
       "fullName": "mizzlelover/gongwen-gbt9704-skill",
       "description": "信息安全提醒：请勿上传企业禁止对外公开的文件；可在本地或企业内网部署大模型后使用。中文公文排版 Skill：按 GB/T 9704-2012 生成可编辑 DOCX。配套 CEB：https://github.com/mizzlelover/CEB",
-      "stars": 610,
+      "stars": 615,
       "language": "JavaScript",
       "url": "https://github.com/mizzlelover/gongwen-gbt9704-skill",
       "createdAt": "2026-09-09T10:04:14Z"
     },
     {
-      "fullName": "xiaYuTian11/maskit",
-      "description": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
-      "stars": 216,
-      "language": "Python",
-      "url": "https://github.com/xiaYuTian11/maskit",
-      "createdAt": "2026-09-09T12:36:06Z"
-    },
-    {
       "fullName": "youngyangyang04/llm-master",
       "description": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
-      "stars": 157,
+      "stars": 289,
       "language": "DOC",
       "url": "https://github.com/youngyangyang04/llm-master",
       "createdAt": "2026-09-12T07:33:31Z"
     },
     {
+      "fullName": "xiaYuTian11/maskit",
+      "description": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
+      "stars": 219,
+      "language": "Python",
+      "url": "https://github.com/xiaYuTian11/maskit",
+      "createdAt": "2026-09-09T12:36:06Z"
+    },
+    {
       "fullName": "aimeoa/hanshuang-codex",
       "description": "针对GPT 6.0,V4flash的破甲实验项目",
-      "stars": 154,
+      "stars": 156,
       "language": "Python",
       "url": "https://github.com/aimeoa/hanshuang-codex",
       "createdAt": "2026-09-06T08:42:57Z"
@@ -44,7 +44,7 @@
     {
       "fullName": "zeroa234/ryza-ai-revive",
       "description": "Ryza AI companion. Bring your own LLM/TTS. 莱莎 AI 陪伴，自填大模型与语音。",
-      "stars": 128,
+      "stars": 129,
       "language": "JavaScript",
       "url": "https://github.com/zeroa234/ryza-ai-revive",
       "createdAt": "2026-09-02T00:52:18Z"
@@ -66,20 +66,20 @@
       "createdAt": "2026-09-06T13:42:25Z"
     },
     {
+      "fullName": "kunpengtalk/OmniStudio",
+      "description": "OmniStudio 是一个本地大模型一体化桌面工作台，集模型市集下载、llama.cpp/vLLM/SGLang 三引擎推理管理，以及对话、语音合成、ASR语音识别、图片生成、视频生成、OCR 等多种大模型应用于一体，全程本地优先。",
+      "stars": 98,
+      "language": "TypeScript",
+      "url": "https://github.com/kunpengtalk/OmniStudio",
+      "createdAt": "2026-09-09T06:11:55Z"
+    },
+    {
       "fullName": "tshemsedinov/reslop",
       "description": "👁️ Review AI generated code and plan changes",
       "stars": 96,
       "language": "JavaScript",
       "url": "https://github.com/tshemsedinov/reslop",
       "createdAt": "2026-09-06T21:28:21Z"
-    },
-    {
-      "fullName": "kunpengtalk/OmniStudio",
-      "description": "OmniStudio 是一个本地大模型一体化桌面工作台，集模型市集下载、llama.cpp/vLLM/SGLang 三引擎推理管理，以及对话、语音合成、ASR语音识别、图片生成、视频生成、OCR 等多种大模型应用于一体，全程本地优先。",
-      "stars": 95,
-      "language": "TypeScript",
-      "url": "https://github.com/kunpengtalk/OmniStudio",
-      "createdAt": "2026-09-09T06:11:55Z"
     },
     {
       "fullName": "1554151614-maker/pan-campus-agent",
@@ -90,20 +90,20 @@
       "createdAt": "2026-09-07T07:40:09Z"
     },
     {
+      "fullName": "ruc-datalab/SkillAdam",
+      "description": "SkillAdam: Better Skills for Your AI Agent🚀 Claude Code/Codex/Cursor 插件，一键进化你的skill",
+      "stars": 59,
+      "language": "Python",
+      "url": "https://github.com/ruc-datalab/SkillAdam",
+      "createdAt": "2026-09-06T15:42:45Z"
+    },
+    {
       "fullName": "ivyfan-toowell/IvyClaw",
       "description": "A production-oriented multi-agent AI Agent system for software engineering.  |   面向软件研发任务的多智能体 AI Agent 工程系统",
       "stars": 59,
       "language": "Python",
       "url": "https://github.com/ivyfan-toowell/IvyClaw",
       "createdAt": "2026-09-13T03:14:36Z"
-    },
-    {
-      "fullName": "ruc-datalab/SkillAdam",
-      "description": "SkillAdam: Better Skills for Your AI Agent🚀 Claude Code/Codex/Cursor 插件，一键进化你的skill",
-      "stars": 56,
-      "language": "Python",
-      "url": "https://github.com/ruc-datalab/SkillAdam",
-      "createdAt": "2026-09-06T15:42:45Z"
     }
   ]
 }
