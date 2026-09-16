@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-15T17:13:39.966Z",
+  "generatedAt": "2026-09-16T04:43:08.421Z",
   "repos": [
     {
       "fullName": "mizzlelover/gongwen-gbt9704-skill",
       "description": "信息安全提醒：请勿上传企业禁止对外公开的文件；可在本地或企业内网部署大模型后使用。中文公文排版 Skill：按 GB/T 9704-2012 生成可编辑 DOCX。配套 CEB：https://github.com/mizzlelover/CEB",
-      "stars": 627,
+      "stars": 635,
       "language": "JavaScript",
       "url": "https://github.com/mizzlelover/gongwen-gbt9704-skill",
       "createdAt": "2026-09-09T10:04:14Z"
@@ -12,7 +12,7 @@
     {
       "fullName": "youngyangyang04/llm-master",
       "description": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
-      "stars": 435,
+      "stars": 499,
       "language": "DOC",
       "url": "https://github.com/youngyangyang04/llm-master",
       "createdAt": "2026-09-12T07:33:31Z"
@@ -36,34 +36,18 @@
     {
       "fullName": "Loopera-ai/loopera",
       "description": "面向基本面因子研究的智能体-A hypothesis-driven AI agent for fundamental factor research, with evidence-gated validation and research memory.",
-      "stars": 154,
+      "stars": 155,
       "language": "DOC",
       "url": "https://github.com/Loopera-ai/loopera",
       "createdAt": "2026-09-08T13:46:05Z"
     },
     {
-      "fullName": "zeroa234/ryza-ai-revive",
-      "description": "Ryza AI companion. Bring your own LLM/TTS. 莱莎 AI 陪伴，自填大模型与语音。",
-      "stars": 135,
-      "language": "JavaScript",
-      "url": "https://github.com/zeroa234/ryza-ai-revive",
-      "createdAt": "2026-09-02T00:52:18Z"
-    },
-    {
       "fullName": "kunpengtalk/OmniStudio",
       "description": "OmniStudio 是一个本地大模型一体化桌面工作台，集模型市集下载、llama.cpp/vLLM/SGLang 三引擎推理管理，以及对话、语音合成、ASR语音识别、图片生成、视频生成、OCR 等多种大模型应用于一体，全程本地优先。",
-      "stars": 106,
+      "stars": 107,
       "language": "TypeScript",
       "url": "https://github.com/kunpengtalk/OmniStudio",
       "createdAt": "2026-09-09T06:11:55Z"
-    },
-    {
-      "fullName": "shtjww/llm-inference-capacity-handbook",
-      "description": "大模型推理案头手册（开源版）：给定 GPU 算力，一个模型能扛多少 QPS？三层模型 × 三面墙 × 排队论 × 开环压测",
-      "stars": 100,
-      "language": "DOC",
-      "url": "https://github.com/shtjww/llm-inference-capacity-handbook",
-      "createdAt": "2026-09-02T02:41:51Z"
     },
     {
       "fullName": "Noisyxl/brier",
@@ -104,6 +88,14 @@
       "language": "Python",
       "url": "https://github.com/ivyfan-toowell/IvyClaw",
       "createdAt": "2026-09-13T03:14:36Z"
+    },
+    {
+      "fullName": "Harvey-cream/accountings",
+      "description": "面向个人用户的一站式智能财务管理平台，覆盖日常记账、账单统计、预算、资产、发票及财务数据管理，并通过自然语言交互、RAG 与 Agent 工作流提供智能记账、财务问答和个性化分析，同时支持社区互动与用户成长体系。",
+      "stars": 51,
+      "language": "Python",
+      "url": "https://github.com/Harvey-cream/accountings",
+      "createdAt": "2026-09-13T16:38:58Z"
     }
   ]
 }

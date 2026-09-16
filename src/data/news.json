@@ -1,6 +1,211 @@
 {
-  "generatedAt": "2026-09-15T17:13:38.545Z",
+  "generatedAt": "2026-09-16T04:43:07.394Z",
   "digests": [
+    {
+      "date": "2026-09-16",
+      "entries": [
+        {
+          "id": "https://www.ithome.com/1/003/013.htm",
+          "title": "行业首个，中国移动开源连接 VLA / WAM 模型与机器人本体的通用工程底座 Open-RAIL",
+          "link": "https://www.ithome.com/1/003/013.htm",
+          "pubDate": "Wed, 16 Sep 2026 04:19:51 GMT",
+          "summary": "IT之家 9 月 16 日消息，中国移动今日宣布，面向全球开源行业内首个连接 VLA / WAM 模型与机器人本体的通用工程底座 —— Open-RAIL。机器人能做的事越来越多，它们靠 VLA / WAM 模型看懂环境、听懂手势语音，自主…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/012.htm",
+          "title": "豆包大模型 2.1 Pro 更新 0915 版本：Agent 交付更可靠，多模态 Coding 进化",
+          "link": "https://www.ithome.com/1/003/012.htm",
+          "pubDate": "Wed, 16 Sep 2026 04:17:26 GMT",
+          "summary": "IT之家 9 月 16 日消息，火山引擎官方今日宣布为豆包大模型 2.1 Pro 更新至 0915 版本，API 全量上线火山方舟。IT之家从官方获悉，豆包工作已完成升级，用户下载或升级至最新版，选取“豆包 2.1 Pro（0915 新版）…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ifanr.com/1679951",
+          "title": "我和我的 AI 手机吃了 3 顿饭",
+          "link": "https://www.ifanr.com/1679951?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Wed, 16 Sep 2026 04:04:48 +0000",
+          "summary": "把 AI 计算放在最适合计算 AI 的地方去。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/984.htm",
+          "title": "AI 让人人都能开发 App，vivo 应用商店开放个人开发者通道",
+          "link": "https://www.ithome.com/1/002/984.htm",
+          "pubDate": "Wed, 16 Sep 2026 03:51:30 GMT",
+          "summary": "IT之家 9 月 16 日消息，在今日的 2026 vivo 开发者大会上，vivo 宣布应用商店开放个人开发者通道。IT之家从大会获悉，个人开发者通道只需要个人实名认证，官方将有序开放 AI 应用、蓝河应用、IoT 应用。vivo 官方表…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/490185.html",
+          "title": "被英伟达点名的杭州团队，补上了AI for Science的「最后一公里」",
+          "link": "https://www.qbitai.com/2026/09/490185.html",
+          "pubDate": "Wed, 16 Sep 2026 03:40:35 +0000",
+          "summary": "从想法到结果，一次对话实现",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/971.htm",
+          "title": "对抗 AI 伪造图片：苹果 iPhone 18 Pro/Max 引入像素级标注功能",
+          "link": "https://www.ithome.com/1/002/971.htm",
+          "pubDate": "Wed, 16 Sep 2026 03:23:12 GMT",
+          "summary": "IT之家 9 月 16 日消息，苹果公司昨日（9 月 15 日）发布博文，详细介绍了在 iPhone 18 Pro、iPhone 18 Pro Max 等机型上引入的 Apple Reference Image 功能，支持像素级标注真实图像…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/970.htm",
+          "title": "消息称 OpenAI 拟以超 1.2 万亿美元估值进行新一轮融资",
+          "link": "https://www.ithome.com/1/002/970.htm",
+          "pubDate": "Wed, 16 Sep 2026 03:23:03 GMT",
+          "summary": "IT之家 9 月 16 日消息，综合《金融时报》《华尔街日报》两家外媒报道，OpenAI 已就以 1.2 万亿美元（IT之家注：现汇率约合 8.07 万亿元人民币）估值进行新一轮融资与投资者展开了初步谈判。知情人士透露，本轮融资谈判由投资者…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/489724.html",
+          "title": "把记忆交给CPU，大模型会变快",
+          "link": "https://www.qbitai.com/2026/09/489724.html",
+          "pubDate": "Wed, 16 Sep 2026 03:07:18 +0000",
+          "summary": "让GPU去忙生成Token",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/490109.html",
+          "title": "实时互动、实时改视频、探索空间视频，Vidu S2一次放了三个大招",
+          "link": "https://www.qbitai.com/2026/09/490109.html",
+          "pubDate": "Wed, 16 Sep 2026 02:58:34 +0000",
+          "summary": "",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/959.htm",
+          "title": "vivo OriginOS 7 升级截屏直达功能：AI 识别券码，票券进卡包",
+          "link": "https://www.ithome.com/1/002/959.htm",
+          "pubDate": "Wed, 16 Sep 2026 02:51:48 GMT",
+          "summary": "IT之家 9 月 16 日消息，在今日举行的 2026 vivo 开发者大会上，vivo 官方发布了最新一代 OriginOS 7。其中，OriginOS 7 支持截屏直达功能。该功能将截屏从保存信息扩展为直达服务入口。用户订完票后随手截屏…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/956.htm",
+          "title": "微信 Windows / macOS PC 版 4.1.15 发布：可在双人语音或视频通话时邀请更多人加入，文件和公众号文章支持问 AI",
+          "link": "https://www.ithome.com/1/002/956.htm",
+          "pubDate": "Wed, 16 Sep 2026 02:48:34 GMT",
+          "summary": "IT之家 9 月 16 日消息，微信团队昨晚发布了最新的微信 4.1.15 for Windows 和微信 4.1.15 for Mac 版本，且两个版本更新内容一致。该版本支持在双人语音或视频通话中邀请其他人加入。文件和公众号文章支持问 …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/954.htm",
+          "title": "vivo 口袋编程智能体 BlueCode 预览版发布，预研手机端侧蓝心 30B MoE 模型",
+          "link": "https://www.ithome.com/1/002/954.htm",
+          "pubDate": "Wed, 16 Sep 2026 02:43:42 GMT",
+          "summary": "IT之家 9 月 16 日消息，vivo 今日发布原生编程智能体 BlueCode 预览版，目标把 AI 生产力装进口袋，同步探索让手机成为生产力终端。同时，vivo 正在预研「蓝心 30B MoE 端侧大模型」，探索在手机上应用。在今日的…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/950.htm",
+          "title": "vivo 发布小 V Cowork，可在手机上发起和管理 PC 端的智能体任务",
+          "link": "https://www.ithome.com/1/002/950.htm",
+          "pubDate": "Wed, 16 Sep 2026 02:39:23 GMT",
+          "summary": "IT之家 9 月 16 日消息，在今日的 2026 vivo 开发者大会上，vivo 发布了小 V Cowork。据介绍，小 V Cowork 可以在手机上随时发起和管理 PC 端的智能体任务，让手机成为随身的任务入口。此外，vivo 正在…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/937.htm",
+          "title": "vivo 发布四款蓝心大模型，推出系统级蓝心 Harness",
+          "link": "https://www.ithome.com/1/002/937.htm",
+          "pubDate": "Wed, 16 Sep 2026 02:30:13 GMT",
+          "summary": "IT之家 9 月 16 日消息，在今日的 2026 vivo 开发者大会上，vivo 发布了四款新的蓝心大模型。「听得懂你的蓝心语音大模型 RealTime」全新的端到端语音理解架构，融入更多你的个人化信息。更重要的是，嘈杂环境、轻声说话、…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/490098.html",
+          "title": "华为GTS让Agent学会「看着网络排障」，双防火墙难题几乎全拿下",
+          "link": "https://www.qbitai.com/2026/09/490098.html",
+          "pubDate": "Wed, 16 Sep 2026 02:27:20 +0000",
+          "summary": "任务通过率提升24.2%，token成本最高下降45%",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/926.htm",
+          "title": "华为小艺 Work 开启内测：鸿蒙手机、平板、电脑全打通，支持办公、代码、设计多种 AI 任务",
+          "link": "https://www.ithome.com/1/002/926.htm",
+          "pubDate": "Wed, 16 Sep 2026 02:22:11 GMT",
+          "summary": "IT之家 9 月 16 日消息，华为宣布小艺 Work 开启内测。该服务定位为面向日常办公、代码开发和创意创作的 AI 工作助理，支持鸿蒙手机、平板和电脑。华为现已在官网提供 Windows 客户端下载，版本号 0.6.9。鸿蒙电脑用户可打…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/922.htm",
+          "title": "特朗普当众致电英伟达黄仁勋，调侃“能造世界最复杂芯片的人不会开免提”",
+          "link": "https://www.ithome.com/1/002/922.htm",
+          "pubDate": "Wed, 16 Sep 2026 02:18:41 GMT",
+          "summary": "IT之家 9 月 16 日消息，当地时间 9 月 14 日，英伟达 CEO 黄仁勋现身美国洛杉矶的 All-in Summit 峰会，公开驳斥了“AI 末日论”，并且意外收到来自美国总统唐纳德 · 特朗普的来电。Anthropic CEO …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/898.htm",
+          "title": "Axelera AI 正式发售 AIPU 芯片 Europa，人工智能算力 629 TOPS",
+          "link": "https://www.ithome.com/1/002/898.htm",
+          "pubDate": "Wed, 16 Sep 2026 02:05:22 GMT",
+          "summary": "IT之家 9 月 16 日消息，荷兰芯片初创企业 Axelera AI 当地时间昨日正式发售了其第二代 AIPU 芯片 Europa。该 SoC 通过 8 个 AI 处理核心提供 629 TOPS 的 AI 算力，还集成 16 个 RISC…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/877.htm",
+          "title": "惠普发布 ZBook Ultra G3a 16 移动工作站：支持本地运行 300B LLM",
+          "link": "https://www.ithome.com/1/002/877.htm",
+          "pubDate": "Wed, 16 Sep 2026 01:39:38 GMT",
+          "summary": "IT之家 9 月 16 日消息，HP (惠普) 当地时间昨日发布了移动工作站新品 ZBook Ultra G3a 16。这一型号基于 AMD 锐龙 AI Max PRO 400 \"Gorgon Halo\" 处理器，支持 192GB 统一内存…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/002/868.htm",
+          "title": "小米 18 Pro 系列手机全新“百变背屏”亮相：AI 生成应用，煮蛋定时、喝水打卡、番茄时钟等",
+          "link": "https://www.ithome.com/1/002/868.htm",
+          "pubDate": "Wed, 16 Sep 2026 01:18:57 GMT",
+          "summary": "IT之家 9 月 16 日消息，小米 18 Pro 系列手机全新“百变背屏”功能今日正式亮相，相比上一代的背屏，新机迎来百变“应用”。从官方预热视频可以看到，小米 18 Pro 系列手机全新“百变背屏”支持 AI 生成的应用，官方展示了煮蛋…",
+          "sources": [
+            "ithome"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-15",
       "entries": [
