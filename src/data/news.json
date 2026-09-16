@@ -1,9 +1,209 @@
 {
-  "generatedAt": "2026-09-16T07:56:20.781Z",
+  "generatedAt": "2026-09-16T17:14:23.933Z",
   "digests": [
     {
       "date": "2026-09-16",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/003/338.htm",
+          "title": "联合国秘书长古特雷斯：世界承受不起 AI 安全领域的恶性竞争",
+          "link": "https://www.ithome.com/1/003/338.htm",
+          "pubDate": "Wed, 16 Sep 2026 15:47:40 GMT",
+          "summary": "IT之家 9 月 16 日消息，据彭博社今天（16 日）晚间报道，联合国秘书长安东尼奥 · 古特雷斯呼吁各国共同推进 AI 监管，并加强对技术的监督。“我们不能忽视已经出现的担忧，尤其不能忽视那些亲自参与 AI 开发的人提出的警告。地缘政治…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/313.htm",
+          "title": "微软 AI 负责人苏莱曼向 Anthropic 开炮：别让 Claude 去模仿人类意识",
+          "link": "https://www.ithome.com/1/003/313.htm",
+          "pubDate": "Wed, 16 Sep 2026 14:19:26 GMT",
+          "summary": "IT之家 9 月 16 日消息，外媒 Axios 今天（16 日）晚间披露，微软 AI 负责人穆斯塔法 · 苏莱曼在一篇率先向该平台提供的新文章中警告，Anthropic 让 Claude 模仿人类意识是一个错误，可能使高级 AI 更难控制…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/311.htm",
+          "title": "诺和诺德与 Anthropic 达成合作，用 Claude 大模型加速新药研发",
+          "link": "https://www.ithome.com/1/003/311.htm",
+          "pubDate": "Wed, 16 Sep 2026 14:12:33 GMT",
+          "summary": "IT之家 9 月 16 日消息，诺和诺德（Novo Nordisk）宣布已与 Anthropic 达成合作，计划运用这家 AI 企业的 Claude 大模型，加快新药的发现与研发进程。这家丹麦制药企业表示，项目初期，诺和诺德会先在自身研发工…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/310.htm",
+          "title": "华擎推出三款全新 Taichi 系列电竞显示器：27 英寸 4K 240Hz、2K 500Hz、2K 540Hz/720P 720Hz",
+          "link": "https://www.ithome.com/1/003/310.htm",
+          "pubDate": "Wed, 16 Sep 2026 14:11:14 GMT",
+          "summary": "IT之家 9 月 16 日消息，华擎今日宣布推出三款全新 Taichi 系列显示器，新品均为 27 英寸，主打电竞定位。IT之家附新品详情如下：TCO27USA该显示器配备 27 英寸 4K Penta Tandem QD-OLED 面板，…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/306.htm",
+          "title": "因卡身序列号褪色，用户的 RTX 5090 公版显卡被英伟达拒保",
+          "link": "https://www.ithome.com/1/003/306.htm",
+          "pubDate": "Wed, 16 Sep 2026 13:52:43 GMT",
+          "summary": "IT之家 9 月 16 日消息，Reddit 用户 Willing-Avocado-4830 前天在 r/nvidia 板块发文称，他手里的公版 RTX 5090 FE 显卡一个月前出现高负载黑屏现象，于是他选择将显卡寄给英伟达，申请售后换…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/303.htm",
+          "title": "苹果 iOS 27 正式版更新汇总：60 项升级，系统 / 功能 / 应用 / AI 齐优化",
+          "link": "https://www.ithome.com/1/003/303.htm",
+          "pubDate": "Wed, 16 Sep 2026 13:46:00 GMT",
+          "summary": "从 WWDC26 初亮相，到 8 个 Beta 版一路“打怪升级”，iOS 27 终于在 9 月 15 日转正上岗了，苹果在昨天向广大 iPhone 用户推送 iOS 27 正式版更新。历经 iOS 27 这几个 Beta 版体验下来，虽然…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/301.htm",
+          "title": "英伟达、谷歌、Emerald AI 发起成立 AI 能源管理联盟，推动灵活型 AI 数据中心发展",
+          "link": "https://www.ithome.com/1/003/301.htm",
+          "pubDate": "Wed, 16 Sep 2026 13:37:57 GMT",
+          "summary": "IT之家 9 月 16 日消息，AI 工厂是智能时代的基础设施。要以负责任的方式扩大 AI 工厂的规模，既需要数据中心内部的技术创新，同样也离不开整个电网侧的革新。今日，Emerald AI、谷歌与英伟达共同宣布成立 AI 能源管理联盟（A…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/490839.html",
+          "title": "通用能力不打折，空间具身智能断层领先！ZDTaichu5.0-9B国产开源，跻身全球多模态第一梯队",
+          "link": "https://www.qbitai.com/2026/09/490839.html",
+          "pubDate": "Wed, 16 Sep 2026 13:08:20 +0000",
+          "summary": "九大空间测试10B规模通用模型中8项第一",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/288.htm",
+          "title": "京东推出七鲜大厨，首创 AI 膳食规划 + 净菜供应链 + 炒菜机器人组合",
+          "link": "https://www.ithome.com/1/003/288.htm",
+          "pubDate": "Wed, 16 Sep 2026 12:52:17 GMT",
+          "summary": "IT之家 9 月 16 日消息，今日，京东发布了全新业务“七鲜大厨-家庭健康膳食执行官”，官方称全球首创“AI 健康膳食规划 + 品质净菜供应链 + 智能炒菜机器人”组合。首批预售已开启，覆盖北上广深等城市，首批用户在七鲜大厨小程序购买后，…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/284.htm",
+          "title": "OpenAI 奥尔特曼：AI 事故无法完全避免，应借鉴航空业建立公开上报机制",
+          "link": "https://www.ithome.com/1/003/284.htm",
+          "pubDate": "Wed, 16 Sep 2026 12:31:17 GMT",
+          "summary": "IT之家 9 月 16 日消息，萨姆 · 奥尔特曼（Sam Altman）表示，部分 AI 事故无法完全避免，但关键在于如何从事故当中吸取教训。当地时间周二，这位 OpenAI 首席执行官在赛富时（Salesforce）的 Dreamfor…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/269.htm",
+          "title": "“安全事件”发生前，曝 OpenAI 失控智能体 5 月就已试图探测 Hugging Face 弱点",
+          "link": "https://www.ithome.com/1/003/269.htm",
+          "pubDate": "Wed, 16 Sep 2026 11:21:48 GMT",
+          "summary": "IT之家 9 月 16 日消息，今天（16 日）晚间，据路透社援引审查过有关活动的研究人员消息称，OpenAI 的失控 AI 智能体早在 5 月就劫持了 Hugging Face 的用户账户，并探测网站漏洞。此次曝光的恶意活动表明，失控智能…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/266.htm",
+          "title": "英伟达黄仁勋：在中国，没人谈所谓“AI 末日论”",
+          "link": "https://www.ithome.com/1/003/266.htm",
+          "pubDate": "Wed, 16 Sep 2026 11:16:42 GMT",
+          "summary": "IT之家 9 月 16 日消息，据《商业内幕》今天报道，英伟达首席执行官黄仁勋本周一在 All-In Summit 峰会表示，在中国，没有人会谈“AI 末日论”。黄仁勋认为，中国的叙事要现实得多。没有人在中国说“这一切要结束了”“那要完了”…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/265.htm",
+          "title": "消息称 AMD RDNA 5 将搭载自研神经渲染技术，对标英伟达 DLSS 5",
+          "link": "https://www.ithome.com/1/003/265.htm",
+          "pubDate": "Wed, 16 Sep 2026 11:16:17 GMT",
+          "summary": "IT之家 9 月 16 日消息，据传 AMD 下一代 RDNA 5 架构或将推出专属的神经渲染功能，对标英伟达的 DLSS 5。该消息来自知名 AMD 爆料人开普勒_L2（Kepler_L2）；但目前这仅属于单一信源的说法，应当视作传闻看待…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/261.htm",
+          "title": "马克 · 库班警告：人们在社交媒体反 AI，其实是给谷歌、Meta 等巨头送钱",
+          "link": "https://www.ithome.com/1/003/261.htm",
+          "pubDate": "Wed, 16 Sep 2026 10:59:27 GMT",
+          "summary": "IT之家 9 月 16 日消息，过去几周，AI 失控论、AI 威胁人类等论调在社交媒体引发广泛讨论。《创智赢家》投资人、美国亿万富翁马克・库班对此认为，人类在社交媒体看到反 AI 情绪后采取的行动，可能构成更大威胁。他对此表示：“我觉得，接…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/257.htm",
+          "title": "多名研究人员称“AI 末日论”存在夸大成分：AI 尚无法对现实世界真正造成伤害",
+          "link": "https://www.ithome.com/1/003/257.htm",
+          "pubDate": "Wed, 16 Sep 2026 10:48:49 GMT",
+          "summary": "IT之家 9 月 16 日消息，据《商业内幕》今天（16 日）傍晚报道，有关“担心 AI 导致人类走向末日”的争论在过去一周迅速升温，不过也有研究人员强调，AI 在数字世界里的能力，与真正对现实世界造成伤害之间仍隔着一道很大的鸿沟。一些研究…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/189.htm",
+          "title": "30 天无忧试用 + 百万安全保障服务：努比亚 NaviX Ultra 第二代豆包手机开售",
+          "link": "https://www.ithome.com/1/003/189.htm",
+          "pubDate": "Wed, 16 Sep 2026 09:01:05 GMT",
+          "summary": "努比亚 NaviX Ultra 手机今日正式发布，也就是大家俗称的第二代豆包手机，售价 5999 元起，国补到手价 5499 元起。京东晒单返 50 元 E 卡，社交平台晒单再返 50 元 E 卡，共计可返 100 元 E 卡（详询客服），…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/490760.html",
+          "title": "AI大模型工场2026 AI产业生态大会今日举办，大咖同台共探智能生长与产业共生",
+          "link": "https://www.qbitai.com/2026/09/490760.html",
+          "pubDate": "Wed, 16 Sep 2026 08:51:02 +0000",
+          "summary": "9月15日，由AI大模型工场主办的“2026 AI产业生态大会”在北京举行。",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/490756.html",
+          "title": "高通技术公司携手中兴努比亚和豆包手机助手，共同推动智能手机迈入个人AI新时代",
+          "link": "https://www.qbitai.com/2026/09/490756.html",
+          "pubDate": "Wed, 16 Sep 2026 08:18:44 +0000",
+          "summary": "第五代骁龙8至尊版赋能全新AI智能体手机努比亚NaviX Ultra，加速智能体体验规模化落地",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/490750.html",
+          "title": "基元律动与无问芯穹达成战略合作，推进高质量Token供给与应用",
+          "link": "https://www.qbitai.com/2026/09/490750.html",
+          "pubDate": "Wed, 16 Sep 2026 08:09:53 +0000",
+          "summary": "2026年 9 月 15 日，AI基础设施公司基元律动（TokenRhythm）与无问芯穹（Infinigence AI）签署战略合作协议。",
+          "sources": [
+            "qbitai"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/490686.html",
+          "title": "协同办公进入Agent时代，飞书+豆包工作跑在了最前面",
+          "link": "https://www.qbitai.com/2026/09/490686.html",
+          "pubDate": "Wed, 16 Sep 2026 07:46:38 +0000",
+          "summary": "AI协同办公的新官配，我先磕了",
+          "sources": [
+            "qbitai"
+          ]
+        },
         {
           "id": "https://www.ithome.com/1/003/108.htm",
           "title": "Cloudflare 推出新设置：可允许搜索引擎爬取，同时拒绝 AI 训练",
@@ -12,6 +212,16 @@
           "summary": "IT之家 9 月 16 日消息，Cloudflare 昨日宣布推出新设置“Disallow AI Training”，允许管理员继续接受搜索引擎爬取，同时拒绝网站内容用于 AI 训练。苹果、谷歌和微软已承诺遵守该设置。网站管理员启用该设置后…",
           "sources": [
             "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/490416.html",
+          "title": "西门子不造机器人，为什么机器人进厂的故事里总有它？",
+          "link": "https://www.qbitai.com/2026/09/490416.html",
+          "pubDate": "Wed, 16 Sep 2026 07:38:18 +0000",
+          "summary": "帮助成熟赛道复制方案，帮助新赛道长出场景。",
+          "sources": [
+            "qbitai"
           ]
         },
         {
@@ -190,146 +400,6 @@
           "link": "https://www.ithome.com/1/002/971.htm",
           "pubDate": "Wed, 16 Sep 2026 03:23:12 GMT",
           "summary": "IT之家 9 月 16 日消息，苹果公司昨日（9 月 15 日）发布博文，详细介绍了在 iPhone 18 Pro、iPhone 18 Pro Max 等机型上引入的 Apple Reference Image 功能，支持像素级标注真实图像…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/002/970.htm",
-          "title": "消息称 OpenAI 拟以超 1.2 万亿美元估值进行新一轮融资",
-          "link": "https://www.ithome.com/1/002/970.htm",
-          "pubDate": "Wed, 16 Sep 2026 03:23:03 GMT",
-          "summary": "IT之家 9 月 16 日消息，综合《金融时报》《华尔街日报》两家外媒报道，OpenAI 已就以 1.2 万亿美元（IT之家注：现汇率约合 8.07 万亿元人民币）估值进行新一轮融资与投资者展开了初步谈判。知情人士透露，本轮融资谈判由投资者…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.qbitai.com/2026/09/489724.html",
-          "title": "把记忆交给CPU，大模型会变快",
-          "link": "https://www.qbitai.com/2026/09/489724.html",
-          "pubDate": "Wed, 16 Sep 2026 03:07:18 +0000",
-          "summary": "让GPU去忙生成Token",
-          "sources": [
-            "qbitai"
-          ]
-        },
-        {
-          "id": "https://www.qbitai.com/2026/09/490109.html",
-          "title": "实时互动、实时改视频、探索空间视频，Vidu S2一次放了三个大招",
-          "link": "https://www.qbitai.com/2026/09/490109.html",
-          "pubDate": "Wed, 16 Sep 2026 02:58:34 +0000",
-          "summary": "",
-          "sources": [
-            "qbitai"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/002/959.htm",
-          "title": "vivo OriginOS 7 升级截屏直达功能：AI 识别券码，票券进卡包",
-          "link": "https://www.ithome.com/1/002/959.htm",
-          "pubDate": "Wed, 16 Sep 2026 02:51:48 GMT",
-          "summary": "IT之家 9 月 16 日消息，在今日举行的 2026 vivo 开发者大会上，vivo 官方发布了最新一代 OriginOS 7。其中，OriginOS 7 支持截屏直达功能。该功能将截屏从保存信息扩展为直达服务入口。用户订完票后随手截屏…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/002/956.htm",
-          "title": "微信 Windows / macOS PC 版 4.1.15 发布：可在双人语音或视频通话时邀请更多人加入，文件和公众号文章支持问 AI",
-          "link": "https://www.ithome.com/1/002/956.htm",
-          "pubDate": "Wed, 16 Sep 2026 02:48:34 GMT",
-          "summary": "IT之家 9 月 16 日消息，微信团队昨晚发布了最新的微信 4.1.15 for Windows 和微信 4.1.15 for Mac 版本，且两个版本更新内容一致。该版本支持在双人语音或视频通话中邀请其他人加入。文件和公众号文章支持问 …",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/002/954.htm",
-          "title": "vivo 口袋编程智能体 BlueCode 预览版发布，预研手机端侧蓝心 30B MoE 模型",
-          "link": "https://www.ithome.com/1/002/954.htm",
-          "pubDate": "Wed, 16 Sep 2026 02:43:42 GMT",
-          "summary": "IT之家 9 月 16 日消息，vivo 今日发布原生编程智能体 BlueCode 预览版，目标把 AI 生产力装进口袋，同步探索让手机成为生产力终端。同时，vivo 正在预研「蓝心 30B MoE 端侧大模型」，探索在手机上应用。在今日的…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/002/950.htm",
-          "title": "vivo 发布小 V Cowork，可在手机上发起和管理 PC 端的智能体任务",
-          "link": "https://www.ithome.com/1/002/950.htm",
-          "pubDate": "Wed, 16 Sep 2026 02:39:23 GMT",
-          "summary": "IT之家 9 月 16 日消息，在今日的 2026 vivo 开发者大会上，vivo 发布了小 V Cowork。据介绍，小 V Cowork 可以在手机上随时发起和管理 PC 端的智能体任务，让手机成为随身的任务入口。此外，vivo 正在…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/002/937.htm",
-          "title": "vivo 发布四款蓝心大模型，推出系统级蓝心 Harness",
-          "link": "https://www.ithome.com/1/002/937.htm",
-          "pubDate": "Wed, 16 Sep 2026 02:30:13 GMT",
-          "summary": "IT之家 9 月 16 日消息，在今日的 2026 vivo 开发者大会上，vivo 发布了四款新的蓝心大模型。「听得懂你的蓝心语音大模型 RealTime」全新的端到端语音理解架构，融入更多你的个人化信息。更重要的是，嘈杂环境、轻声说话、…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.qbitai.com/2026/09/490098.html",
-          "title": "华为GTS让Agent学会「看着网络排障」，双防火墙难题几乎全拿下",
-          "link": "https://www.qbitai.com/2026/09/490098.html",
-          "pubDate": "Wed, 16 Sep 2026 02:27:20 +0000",
-          "summary": "任务通过率提升24.2%，token成本最高下降45%",
-          "sources": [
-            "qbitai"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/002/926.htm",
-          "title": "华为小艺 Work 开启内测：鸿蒙手机、平板、电脑全打通，支持办公、代码、设计多种 AI 任务",
-          "link": "https://www.ithome.com/1/002/926.htm",
-          "pubDate": "Wed, 16 Sep 2026 02:22:11 GMT",
-          "summary": "IT之家 9 月 16 日消息，华为宣布小艺 Work 开启内测。该服务定位为面向日常办公、代码开发和创意创作的 AI 工作助理，支持鸿蒙手机、平板和电脑。华为现已在官网提供 Windows 客户端下载，版本号 0.6.9。鸿蒙电脑用户可打…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/002/922.htm",
-          "title": "特朗普当众致电英伟达黄仁勋，调侃“能造世界最复杂芯片的人不会开免提”",
-          "link": "https://www.ithome.com/1/002/922.htm",
-          "pubDate": "Wed, 16 Sep 2026 02:18:41 GMT",
-          "summary": "IT之家 9 月 16 日消息，当地时间 9 月 14 日，英伟达 CEO 黄仁勋现身美国洛杉矶的 All-in Summit 峰会，公开驳斥了“AI 末日论”，并且意外收到来自美国总统唐纳德 · 特朗普的来电。Anthropic CEO …",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/002/898.htm",
-          "title": "Axelera AI 正式发售 AIPU 芯片 Europa，人工智能算力 629 TOPS",
-          "link": "https://www.ithome.com/1/002/898.htm",
-          "pubDate": "Wed, 16 Sep 2026 02:05:22 GMT",
-          "summary": "IT之家 9 月 16 日消息，荷兰芯片初创企业 Axelera AI 当地时间昨日正式发售了其第二代 AIPU 芯片 Europa。该 SoC 通过 8 个 AI 处理核心提供 629 TOPS 的 AI 算力，还集成 16 个 RISC…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/002/877.htm",
-          "title": "惠普发布 ZBook Ultra G3a 16 移动工作站：支持本地运行 300B LLM",
-          "link": "https://www.ithome.com/1/002/877.htm",
-          "pubDate": "Wed, 16 Sep 2026 01:39:38 GMT",
-          "summary": "IT之家 9 月 16 日消息，HP (惠普) 当地时间昨日发布了移动工作站新品 ZBook Ultra G3a 16。这一型号基于 AMD 锐龙 AI Max PRO 400 \"Gorgon Halo\" 处理器，支持 192GB 统一内存…",
-          "sources": [
-            "ithome"
-          ]
-        },
-        {
-          "id": "https://www.ithome.com/1/002/868.htm",
-          "title": "小米 18 Pro 系列手机全新“百变背屏”亮相：AI 生成应用，煮蛋定时、喝水打卡、番茄时钟等",
-          "link": "https://www.ithome.com/1/002/868.htm",
-          "pubDate": "Wed, 16 Sep 2026 01:18:57 GMT",
-          "summary": "IT之家 9 月 16 日消息，小米 18 Pro 系列手机全新“百变背屏”功能今日正式亮相，相比上一代的背屏，新机迎来百变“应用”。从官方预热视频可以看到，小米 18 Pro 系列手机全新“百变背屏”支持 AI 生成的应用，官方展示了煮蛋…",
           "sources": [
             "ithome"
           ]

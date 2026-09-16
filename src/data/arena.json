@@ -1384,7 +1384,7 @@
           "rank": 126
         }
       ],
-      "fetchedAt": "2026-09-16T07:56:23.150Z"
+      "fetchedAt": "2026-09-16T17:14:26.906Z"
     },
     {
       "id": "webdev-fullstack",
@@ -2083,7 +2083,7 @@
           "rank": 63
         }
       ],
-      "fetchedAt": "2026-09-16T07:56:25.606Z"
+      "fetchedAt": "2026-09-16T17:14:29.546Z"
     },
     {
       "id": "webdev-frontend",
@@ -3469,7 +3469,7 @@
           "rank": 126
         }
       ],
-      "fetchedAt": "2026-09-16T07:56:28.666Z"
+      "fetchedAt": "2026-09-16T17:14:32.154Z"
     },
     {
       "id": "webdev-html",
@@ -4844,7 +4844,7 @@
           "rank": 125
         }
       ],
-      "fetchedAt": "2026-09-16T07:56:31.425Z"
+      "fetchedAt": "2026-09-16T17:14:34.677Z"
     },
     {
       "id": "webdev-react",
@@ -6066,7 +6066,7 @@
           "rank": 111
         }
       ],
-      "fetchedAt": "2026-09-16T07:56:34.213Z"
+      "fetchedAt": "2026-09-16T17:14:37.218Z"
     },
     {
       "id": "agent",
@@ -6084,7 +6084,7 @@
           "netImprovement": 13.71,
           "netImprovementCi": "±1.72%",
           "successRate": 19.83,
-          "costPerTask": "$4.33",
+          "costPerTask": "$4.30",
           "sessions": 13320
         },
         {
@@ -6114,7 +6114,7 @@
           "netImprovement": 10.25,
           "netImprovementCi": "±1.41%",
           "successRate": 9.24,
-          "costPerTask": "$2.06",
+          "costPerTask": "$2.02",
           "sessions": 24794
         },
         {
@@ -6129,7 +6129,7 @@
           "netImprovement": 10.16,
           "netImprovementCi": "±1.55%",
           "successRate": 12.41,
-          "costPerTask": "$3.53",
+          "costPerTask": "$3.46",
           "sessions": 19934
         },
         {
@@ -6144,7 +6144,7 @@
           "netImprovement": 8.81,
           "netImprovementCi": "±1.25%",
           "successRate": 5.97,
-          "costPerTask": "$1.94",
+          "costPerTask": "$1.83",
           "sessions": 38293
         },
         {
@@ -6159,7 +6159,7 @@
           "netImprovement": 8.19,
           "netImprovementCi": "±1.27%",
           "successRate": 6.28,
-          "costPerTask": "$1.28",
+          "costPerTask": "$1.25",
           "sessions": 39731
         },
         {
@@ -6174,7 +6174,7 @@
           "netImprovement": 7.1,
           "netImprovementCi": "±1.28%",
           "successRate": 3.74,
-          "costPerTask": "$1.02",
+          "costPerTask": "$0.99",
           "sessions": 32207
         },
         {
@@ -6189,7 +6189,7 @@
           "netImprovement": 6.22,
           "netImprovementCi": "±0.62%",
           "successRate": 11.91,
-          "costPerTask": "$0.74",
+          "costPerTask": "$0.72",
           "sessions": 108615
         },
         {
@@ -6204,7 +6204,7 @@
           "netImprovement": 5.97,
           "netImprovementCi": "±1.62%",
           "successRate": 2.88,
-          "costPerTask": "$0.81",
+          "costPerTask": "$0.80",
           "sessions": 30631
         },
         {
@@ -6264,7 +6264,7 @@
           "netImprovement": 4.71,
           "netImprovementCi": "±1.91%",
           "successRate": 9.3,
-          "costPerTask": "$0.40",
+          "costPerTask": "$0.39",
           "sessions": 12534
         },
         {
@@ -6294,7 +6294,7 @@
           "netImprovement": 4.2,
           "netImprovementCi": "±0.86%",
           "successRate": 10.31,
-          "costPerTask": "$0.29",
+          "costPerTask": "$0.28",
           "sessions": 31052
         },
         {
@@ -6324,7 +6324,7 @@
           "netImprovement": 3.3,
           "netImprovementCi": "±0.84%",
           "successRate": 5.83,
-          "costPerTask": "$0.47",
+          "costPerTask": "$0.46",
           "sessions": 31489
         },
         {
@@ -6384,7 +6384,7 @@
           "netImprovement": 2.01,
           "netImprovementCi": "±1.05%",
           "successRate": 2.55,
-          "costPerTask": "$0.83",
+          "costPerTask": "$0.81",
           "sessions": 22548
         },
         {
@@ -6414,7 +6414,7 @@
           "netImprovement": 1.44,
           "netImprovementCi": "±1.11%",
           "successRate": 4.44,
-          "costPerTask": "$0.38",
+          "costPerTask": "$0.36",
           "sessions": 20301
         },
         {
@@ -6429,7 +6429,7 @@
           "netImprovement": 1.26,
           "netImprovementCi": "±0.80%",
           "successRate": 1.63,
-          "costPerTask": "$0.55",
+          "costPerTask": "$0.54",
           "sessions": 80406
         },
         {
@@ -6534,7 +6534,7 @@
           "netImprovement": 1.52,
           "netImprovementCi": "±1.12%",
           "successRate": 5.78,
-          "costPerTask": "$0.59",
+          "costPerTask": "$0.58",
           "sessions": 39452
         },
         {
@@ -6579,7 +6579,7 @@
           "netImprovement": 3.63,
           "netImprovementCi": "±0.84%",
           "successRate": 6.41,
-          "costPerTask": "$0.21",
+          "costPerTask": "$0.20",
           "sessions": 38392
         },
         {
@@ -6763,7 +6763,7 @@
           "sessions": 8897
         }
       ],
-      "fetchedAt": "2026-09-16T07:56:36.932Z"
+      "fetchedAt": "2026-09-16T17:14:39.871Z"
     }
   ]
 }
