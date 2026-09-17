@@ -1,9 +1,169 @@
 {
-  "generatedAt": "2026-09-17T04:46:15.719Z",
+  "generatedAt": "2026-09-17T08:00:02.112Z",
   "digests": [
     {
       "date": "2026-09-17",
       "entries": [
+        {
+          "id": "https://www.ithome.com/1/003/610.htm",
+          "title": "研究显示：印度外包行业几乎没被 AI 挤占市场",
+          "link": "https://www.ithome.com/1/003/610.htm",
+          "pubDate": "Thu, 17 Sep 2026 07:51:49 GMT",
+          "summary": "IT之家 9 月 17 日消息，荷兰国际集团（ING Bank NV）表示，随着印度向价值链上游攀升，逐步拓展更难被自动化替代的服务业务，该国外包行业几乎没有显现出被人工智能挤占市场的迹象。荷兰国际集团经济学家迪帕利 · 巴加瓦（Deepa…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/607.htm",
+          "title": "夏普与富士康合作推出 AI 服务器，英伟达 RTX PRO 6000 Blackwell GPU",
+          "link": "https://www.ithome.com/1/003/607.htm",
+          "pubDate": "Thu, 17 Sep 2026 07:46:21 GMT",
+          "summary": "IT之家 9 月 17 日消息，夏普公司前天宣布进军 AI 服务器领域，新品计划 2027 年开始销售，面向企业、日本政府、研究机构和数据中心等客户。IT之家了解到，夏普本次选择与富士康合作，推出两款 AI 服务器产品。第一款产品面向企业 …",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/593.htm",
+          "title": "马斯克住进孟菲斯房车，亲自监工 xAI 新数据中心建设",
+          "link": "https://www.ithome.com/1/003/593.htm",
+          "pubDate": "Thu, 17 Sep 2026 07:09:11 GMT",
+          "summary": "IT之家 9 月 17 日消息，据《财富》杂志前天报道，全球首富埃隆 · 马斯克已住进一辆停在孟菲斯的 Airstream 房车，以便亲自监督 xAI 孟菲斯数据中心建设。彭博亿万富翁指数显示，马斯克目前身家 9,170 亿美元（现汇率约合…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/590.htm",
+          "title": "微软发布 1.138 版 VS Code：优化 AI 智能体协作、扩展 Codex harness",
+          "link": "https://www.ithome.com/1/003/590.htm",
+          "pubDate": "Thu, 17 Sep 2026 07:06:35 GMT",
+          "summary": "IT之家 9 月 17 日消息，微软今天（9 月 17 日）发布公告，宣布推出 1.138 版 Visual Studio Code 更新，新增开发容器中的智能体会话、扩展 Codex harness，并预览会话清理功能。在开发容器的智能体…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/584.htm",
+          "title": "ChatGPT 背后功臣：Almeida 推出 AI 模型 Jev，不生成文本、输出免费",
+          "link": "https://www.ithome.com/1/003/584.htm",
+          "pubDate": "Thu, 17 Sep 2026 06:49:46 GMT",
+          "summary": "IT之家 9 月 17 日消息，TypeSafe AI 昨日（9 月 16 日）发布公告，宣布推出 Jev，该 AI 模型定位为“System One Model”（系统一模型），不生成文本，直接返回结构化决策，其成本和延迟远低于大型语言模…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ifanr.com/1680580",
+          "title": "用 Seedance 2.5 拍《沙丘 3》，我们替你把 AI 短片的坑全都踩过了",
+          "link": "https://www.ifanr.com/1680580?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Thu, 17 Sep 2026 06:45:13 +0000",
+          "summary": "看到这条视频，你会不会以为《沙丘 3》提前泄露了。 这其实是一部由我们团队的两位同事，花 12 天时间，结 [&#8230;]#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/577.htm",
+          "title": "抖音宣布上线声音侵权举报入口，应对 AI 合成、仿冒音色等侵权行为",
+          "link": "https://www.ithome.com/1/003/577.htm",
+          "pubDate": "Thu, 17 Sep 2026 06:34:48 GMT",
+          "summary": "IT之家 9 月 17 日消息，抖音宣布上线声音侵权举报入口，并升级相关维权机制。抖音表示，随着 AI 合成、仿冒音色等技术门槛降低，克隆明星或配音演员声音等侵权行为更易发生。据抖音介绍，近一个月来，侵权投诉中提及声音侵权的举报量同比翻倍，…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/575.htm",
+          "title": "AI 推理 MLPerf 6.1 发布：AMD 以 512 个 MI355X 刷新纪录、英伟达 Vera Rubin 首次现身",
+          "link": "https://www.ithome.com/1/003/575.htm",
+          "pubDate": "Thu, 17 Sep 2026 06:31:25 GMT",
+          "summary": "IT之家 9 月 17 日消息，科技媒体 Wccftech 昨日（9 月 16 日）发布博文，报道称在 MLPerf Inference v6.1 发布后，AMD、NVIDIA 等厂商同步提交结果。IT之家注：MLPerf Inferenc…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/574.htm",
+          "title": "莱迪思推出 FPGA 开发 AI 辅助工具 Prompt、安全控制 FPGA 新品 Mach-N2",
+          "link": "https://www.ithome.com/1/003/574.htm",
+          "pubDate": "Thu, 17 Sep 2026 06:12:16 GMT",
+          "summary": "IT之家 9 月 17 日消息，低功耗 FPGA 企业 Lattice（莱迪思）当地时间昨日宣布推出 FPGA 开发 AI 辅助工具 Radiant、安全控制 FPGA 新品系列 Mach-N2。Prompt 以 Lattice 经过验证的…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ifanr.com/1680321",
+          "title": "对话 vivo 高管：端侧大模型、Harness 与「个人化 AI」的下一步",
+          "link": "https://www.ifanr.com/1680321?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "pubDate": "Thu, 17 Sep 2026 06:06:44 +0000",
+          "summary": "「个人化」智能#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "sources": [
+            "ifanr"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/572.htm",
+          "title": "格里费：英伟达驱动支持是 Valve 首要任务之一，SteamOS 已能点亮部分 GPU",
+          "link": "https://www.ithome.com/1/003/572.htm",
+          "pubDate": "Thu, 17 Sep 2026 06:06:02 GMT",
+          "summary": "IT之家 9 月 17 日消息，在接受游戏媒体 IGN 采访时，Valve 软件开发人员皮埃尔-卢普 · 格里费（Pierre-Loup Griffais）表示已在 SteamOS 主开发树中启用英伟达驱动程序，部分 GPU 型号可初始化并…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/566.htm",
+          "title": "网友 AI 开发工具：让笔记本 RTX 5090 显卡冲上 250W，最高功耗增幅 42.9%",
+          "link": "https://www.ithome.com/1/003/566.htm",
+          "pubDate": "Thu, 17 Sep 2026 05:44:03 GMT",
+          "summary": "IT之家 9 月 17 日消息，网友 u/Ecstatic_Hamster2208 昨日（9 月 16 日）在 Reddit 社区发帖，分享了 1.8.0 版 NvpwrControl 工具，可以将笔记本 RTX 5090 最高调校到 25…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/565.htm",
+          "title": "字节火山引擎发布豆包座舱助手：联动 App 实现“手车互联”，上汽荣威家越 07 首发",
+          "link": "https://www.ithome.com/1/003/565.htm",
+          "pubDate": "Thu, 17 Sep 2026 05:36:19 GMT",
+          "summary": "IT之家 9 月 17 日消息，字节旗下火山引擎今日宣布车载 AI 助手“豆包座舱助手”正式发布，车主在豆包 App 中即可远程控车、查询车况、将对话中的行程推送到车机上。IT之家从官方介绍获悉，作为汽车统一的“大脑”，豆包座舱助手真正参与…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/563.htm",
+          "title": "微星 MEG X 电竞显示器上架：AI 加持第五代 QD-OLED 面板，9599 元",
+          "link": "https://www.ithome.com/1/003/563.htm",
+          "pubDate": "Thu, 17 Sep 2026 05:34:58 GMT",
+          "summary": "IT之家 9 月 17 日消息，微星 (MSI) 现已在电商平台上架 MEG X 电竞显示器。这一型号采用三星显示的 RGB 子像素条纹排列 QD-OLED Penta Tandem 显示面板，支持多项 AI 技术，标价 9599 元。ME…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.ithome.com/1/003/557.htm",
+          "title": "英伟达展示 DSX MaxLPS 技术，AI 工厂每兆瓦 token 吞吐量最高提升 40%",
+          "link": "https://www.ithome.com/1/003/557.htm",
+          "pubDate": "Thu, 17 Sep 2026 05:04:39 GMT",
+          "summary": "IT之家 9 月 17 日消息，科技媒体 Wccftech 昨日（9 月 16 日）发布博文，报道称在 AI 基础设施峰会上，英伟达展示了面向 AI 工厂的 DSX MaxLPS 功耗调度系统，每兆瓦 token 吞吐量最高提升 40%。I…",
+          "sources": [
+            "ithome"
+          ]
+        },
+        {
+          "id": "https://www.qbitai.com/2026/09/491280.html",
+          "title": "马斯克睡进工地！为AI基建拼了",
+          "link": "https://www.qbitai.com/2026/09/491280.html",
+          "pubDate": "Thu, 17 Sep 2026 04:37:26 +0000",
+          "summary": "AI正火嘛，老马的待遇也算提升了一点：这回至少有房车了（doge）",
+          "sources": [
+            "qbitai"
+          ]
+        },
         {
           "id": "https://www.qbitai.com/2026/09/491147.html",
           "title": "首购积分加赠70%：SkyProduction天工工作台联合火山引擎推出中秋国庆三重福利",
